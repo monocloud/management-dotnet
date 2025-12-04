@@ -4,5 +4,8 @@
   "initialVersions": {
     "@monocloud/monocloud-management-dotnet": "0.1.0"
   },
-  "changesets": []
+  "changesets": [
+    "gold-lilies-agree",
+    "silly-rivers-check"
+  ]
 }
