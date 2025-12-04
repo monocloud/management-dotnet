@@ -20,7 +20,7 @@ jobs:
     runs-on: ubuntu-latest
 
     outputs:
-      was_published: ${{ steps.changesets.outputs.published }}
+      was_published: ${{ steps.version_bumped.outputs.bumped }}
 
     permissions:
       contents: write
@@ -52,8 +52,23 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Detect version bump
+        id: version_bumped
+        run: |
+          CURRENT_VERSION=$(jq -r .version package.json)
+          PREVIOUS_VERSION=$(git show HEAD^:package.json | jq -r .version)
+
+          echo "Current version:  $CURRENT_VERSION"
+          echo "Previous version: $PREVIOUS_VERSION"
+
+          if [ "$CURRENT_VERSION" != "$PREVIOUS_VERSION" ]; then
+            echo "bumped=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "bumped=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Create and Push Git Tags
-        if: steps.changesets.outputs.published == 'true'
+        if: steps.version_bumped.outputs.bumped == 'true'
         run: pnpm changeset tag
 
   build:
