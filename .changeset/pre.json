@@ -5,6 +5,7 @@
     "@monocloud/monocloud-management-dotnet": "0.1.0"
   },
   "changesets": [
+    "cyan-waves-create",
     "gold-lilies-agree",
     "silly-rivers-check"
   ]
