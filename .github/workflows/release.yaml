@@ -9,17 +9,25 @@ concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
+env:
+  DOTNET_SKIP_FIRST_TIME_EXPERIENCE: 1
+  DOTNET_NOLOGO: true
+  NuGetDirectory: ${{ github.workspace }}/nuget
+
 jobs:
   release:
     name: Release
     runs-on: ubuntu-latest
+
+    outputs:
+      was_published: ${{ steps.changesets.outputs.published }}
 
     permissions:
       contents: write
       pull-requests: write
 
     steps:
-      - name: Checkout Repo
+      - name: Checkout
         uses: actions/checkout@v5
         with:
           fetch-depth: 0
@@ -44,22 +52,109 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+  build:
+    name: Build Projects
+    if: needs.release.outputs.was_published == 'true'
+    runs-on: ubuntu-latest
+    needs: [release]
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
       - name: Setup .NET Core SDK
-        if: steps.changesets.outputs.published == 'true'
         uses: actions/setup-dotnet@v5
         with:
           dotnet-version: 10.x.x
 
-      # - name: Pack and Push to NuGet
-      #   if: steps.changesets.outputs.published == 'true'
-      #   run: |
-      #     # bridges Node.js version to .NET
-      #     PACKAGE_VERSION=$(jq -r .version package.json)
+      - name: Restore Packages
+        run: dotnet restore --nologo
 
-      #     # Pack to a directory
-      #     dotnet pack --configuration Release --output nuget /p:Version=$PACKAGE_VERSION
+      - name: Build
+        run: dotnet build --no-restore --nologo --configuration Release
 
-      #     # Push to PUBLIC NuGet.org
-      #     dotnet nuget push "nuget/*.nupkg" \
-      #       --api-key ${{ secrets.NUGET_TOKEN }} \
-      #       --source https://api.nuget.org/v3/index.json
+      - name: Cache Build
+        uses: actions/cache/save@v4
+        with:
+          path: .
+          key: build-${{ github.run_id }}-${{ github.run_attempt }}
+
+  pack:
+    name: Pack Core SDK
+    if: needs.release.outputs.was_published == 'true'
+    runs-on: ubuntu-latest
+    needs: [release, build]
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Setup .NET SDK
+        uses: actions/setup-dotnet@v5
+        with:
+          dotnet-version: 10.x.x
+
+      - name: Load Cache
+        uses: actions/cache/restore@v4
+        with:
+          path: .
+          key: build-${{ github.run_id }}-${{ github.run_attempt }}
+
+      - name: Pack Core SDK
+        run: |
+          dotnet pack --configuration Release --output ${{ env.NuGetDirectory }} /p:ContinuousIntegrationBuild=true
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: nuget
+          if-no-files-found: error
+          retention-days: 7
+          path: ${{ env.NuGetDirectory }}/*.nupkg
+
+  validate_nuget:
+    name: Validate NuGet Packages
+    if: needs.release.outputs.was_published == 'true'
+    runs-on: ubuntu-latest
+    needs: [ release, pack ]
+    defaults:
+      run:
+        shell: pwsh
+    steps:
+      - name: Setup .NET SDK
+        uses: actions/setup-dotnet@v5
+        with:
+          dotnet-version: 10.x.x
+
+      - uses: actions/download-artifact@v4
+        with:
+          name: nuget
+          path: ${{ env.NuGetDirectory }}
+
+      - name: Install nuget validator
+        run: dotnet tool update Meziantou.Framework.NuGetPackageValidation.Tool --global
+
+      - name: Validate package
+        run: meziantou.validate-nuget-package (Get-ChildItem "${{ env.NuGetDirectory }}/*.nupkg")
+
+  publish_nuget:
+    name: Publish NuGet Packages
+    if: needs.release.outputs.was_published == 'true'
+    runs-on: ubuntu-latest
+    needs: [ release, validate_nuget ]
+    steps:
+    - uses: actions/download-artifact@v4
+      with:
+        name: nuget
+        path: ${{ env.NuGetDirectory }}
+
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v5
+      with:
+        dotnet-version: 10.x.x
+
+    - name: Publish NuGet packages
+      run: |
+        dotnet nuget push "${{ env.NuGetDirectory }}/*.nupkg" \
+            --api-key "${{ secrets.NUGET_API_KEY }}" \
+            --source "https://api.nuget.org/v3/index.json" \
+            --skip-duplicate
