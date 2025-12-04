@@ -39,10 +39,11 @@ jobs:
         id: changesets
         uses: changesets/action@v1
         with:
-          version: >
-            pnpm changeset version &&
-            PACKAGE_VERSION=$(jq -r '.version' package.json) &&
-            sed -i 's|<Version>.*</Version>|<Version>'$PACKAGE_VERSION'</Version>|g' src/Directory.Packages.props &&
+          version: |
+            set -e
+            pnpm changeset version
+            PACKAGE_VERSION=$(jq -r .version package.json)
+            sed -i "s|<Version>.*</Version>|<Version>$PACKAGE_VERSION</Version>|g" src/Directory.Packages.props
             git add src/Directory.Packages.props
 
           publish: pnpm changeset tag
