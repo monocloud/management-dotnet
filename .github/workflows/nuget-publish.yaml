@@ -19,7 +19,7 @@ jobs:
   release:
     name: Release
     runs-on: ubuntu-latest
-    if: github.event.pull_request.merged == true && github.event.pull_request.head.ref == 'changeset/main'
+    if: github.event.pull_request.merged == true && github.event.pull_request.head.ref == 'changeset-release/main'
     outputs:
       was_published: ${{ steps.version_bumped.outputs.bumped }}
       version: ${{ steps.version_bumped.outputs.version }}
@@ -66,7 +66,7 @@ jobs:
 
   pack:
     name: Pack Core SDK
-    if: github.event.pull_request.merged == true && github.event.pull_request.head.ref == 'changeset/main' && needs.release.outputs.was_published == 'true'
+    if: github.event.pull_request.merged == true && github.event.pull_request.head.ref == 'changeset-release/main' && needs.release.outputs.was_published == 'true'
     runs-on: ubuntu-latest
     needs: [release]
 
@@ -93,7 +93,7 @@ jobs:
 
   validate_nuget:
     name: Validate NuGet Packages
-    if: github.event.pull_request.merged == true && github.event.pull_request.head.ref == 'changeset/main' && needs.release.outputs.was_published == 'true'
+    if: github.event.pull_request.merged == true && github.event.pull_request.head.ref == 'changeset-release/main' && needs.release.outputs.was_published == 'true'
     runs-on: ubuntu-latest
     needs: [ release, pack ]
     defaults:
@@ -119,7 +119,7 @@ jobs:
 
   publish_nuget:
     name: Publish NuGet Packages
-    if: github.event.pull_request.merged == true && github.event.pull_request.head.ref == 'changeset/main' && needs.release.outputs.was_published == 'true'
+    if: github.event.pull_request.merged == true && github.event.pull_request.head.ref == 'changeset-release/main' && needs.release.outputs.was_published == 'true'
     runs-on: ubuntu-latest
     needs: [ release, validate_nuget ]
     steps:
