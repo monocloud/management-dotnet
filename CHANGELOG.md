@@ -1,5 +1,11 @@
 # @monocloud/monocloud-management-dotnet
 
+## 0.1.1-beta.4
+
+### Patch Changes
+
+- 19380ba: testing
+
 ## 0.1.1-beta.3
 
 ### Patch Changes
