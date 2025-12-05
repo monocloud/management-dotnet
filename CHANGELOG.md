@@ -1,5 +1,12 @@
 # @monocloud/monocloud-management-dotnet
 
+## 0.1.1-beta.7
+
+### Patch Changes
+
+- b335fd9: This is the second commit
+- b335fd9: This is the first commit
+
 ## 0.1.1-beta.6
 
 ### Patch Changes
