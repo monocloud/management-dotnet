@@ -1,5 +1,12 @@
 # @monocloud/monocloud-management-dotnet
 
+## 0.1.1-beta.8
+
+### Patch Changes
+
+- 729ea8c: version 1
+- 729ea8c: version 2
+
 ## 0.1.1-beta.7
 
 ### Patch Changes
