@@ -1,4 +1,4 @@
-![MonoCloud Logo](https://raw.githubusercontent.com/monocld/monocloud-management-dotnet/refs/heads/main/MonoCloud.png)
+![MonoCloud Logo](https://raw.githubusercontent.com/monocld/management-dotnet/refs/heads/main/MonoCloud.png)
 
 ## Introduction
 
@@ -10,15 +10,15 @@ This SDK provides a full-featured, typed .NET client for interacting with the **
 
 ## 📘 Documentation
 
-- **Documentation:** https://www.monocloud.com/docs  
+- **Documentation:** https://www.monocloud.com/docs
 
 ## Supported Platforms
 
 This SDK supports applications targeting:
 
-- **.NET Standard 2.0** (recommended for maximum compatibility)  
-- **.NET Framework 4.6.1+**  
-- **.NET 6.0+** and later  
+- **.NET Standard 2.0** (recommended for maximum compatibility)
+- **.NET Framework 4.6.1+**
+- **.NET 6.0+** and later
 
 ## 🚀 Getting Started
 
@@ -44,7 +44,8 @@ dotnet add package MonoCloud.Management.Identity
 ```csharp
 var identityClient = new MonoCloudIdentityClient(new MonoCloudConfig("https://<your-tenant-domain>", "<your-api-key>"));
 ```
-⚠️ **Security Note:** Do not hardcode your API key. It is recommended to load it from an environment variable or a secure configuration manager like appsettings.json. For modern .NET applications, it is best practice to use Dependency Injection to manage the client lifecycle and configuration securely via the [`AddMonoCloudIdentityClient`](https://github.com/monocld/monocloud-management-dotnet/blob/main/src/identity/src/MonoCloudIdentityServiceExtensions.cs) service extension.
+
+⚠️ **Security Note:** Do not hardcode your API key. It is recommended to load it from an environment variable or a secure configuration manager like appsettings.json. For modern .NET applications, it is best practice to use Dependency Injection to manage the client lifecycle and configuration securely via the [`AddMonoCloudIdentityClient`](https://github.com/monocld/management-dotnet/blob/main/src/identity/src/MonoCloudIdentityServiceExtensions.cs) service extension.
 
 ### ✨ Usage Examples
 
@@ -71,8 +72,9 @@ Explore further operations at https://www.monocloud.com/docs
 - For tenant or account-specific help, contact MonoCloud Support through your dashboard.
 
 ### Security
-Do **not** report security issues publicly.  Please follow the contact instructions at:  https://www.monocloud.com/contact
+
+Do **not** report security issues publicly. Please follow the contact instructions at: https://www.monocloud.com/contact
 
 ## 📄 License
 
-Licensed under the **MIT License**. See the included [`LICENSE`](https://github.com/monocld/monocloud-management-dotnet/blob/main/LICENSE) file.
+Licensed under the **MIT License**. See the included [`LICENSE`](https://github.com/monocld/management-dotnet/blob/main/LICENSE) file.

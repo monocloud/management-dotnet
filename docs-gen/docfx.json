@@ -7,6 +7,11 @@
           "src": "../src",
           "files": [
             "**/*.csproj"
+          ],
+          "exclude": [
+            "**/bin/**",
+            "**/obj/**",
+            "**/*Tests.csproj"
           ]
         }
       ],

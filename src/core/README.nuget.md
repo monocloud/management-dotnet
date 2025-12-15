@@ -1,4 +1,4 @@
-![MonoCloud Logo](https://raw.githubusercontent.com/monocld/monocloud-management-dotnet/refs/heads/main/MonoCloud.png)
+![MonoCloud Logo](https://raw.githubusercontent.com/monocld/management-dotnet/refs/heads/main/MonoCloud.png)
 
 ## Introduction
 
@@ -10,15 +10,15 @@ This SDK provides a full-featured, typed .NET client for interacting with the **
 
 ## 📘 Documentation
 
-- **Documentation:** https://www.monocloud.com/docs  
+- **Documentation:** https://www.monocloud.com/docs
 
 ## Supported Platforms
 
 This SDK supports applications targeting:
 
-- **.NET Standard 2.0** (recommended for maximum compatibility)  
-- **.NET Framework 4.6.1+**  
-- **.NET 6.0+** and later  
+- **.NET Standard 2.0** (recommended for maximum compatibility)
+- **.NET Framework 4.6.1+**
+- **.NET 6.0+** and later
 
 ## 🤝 Contributing & Support
 
@@ -28,8 +28,9 @@ This SDK supports applications targeting:
 - For tenant or account-specific help, contact MonoCloud Support through your dashboard.
 
 ### Security
-Do **not** report security issues publicly.  Please follow the contact instructions at:  https://www.monocloud.com/contact
+
+Do **not** report security issues publicly. Please follow the contact instructions at: https://www.monocloud.com/contact
 
 ## 📄 License
 
-Licensed under the **MIT License**. See the included [`LICENSE`](https://github.com/monocld/monocloud-management-dotnet/blob/main/LICENSE) file.
+Licensed under the **MIT License**. See the included [`LICENSE`](https://github.com/monocld/management-dotnet/blob/main/LICENSE) file.
