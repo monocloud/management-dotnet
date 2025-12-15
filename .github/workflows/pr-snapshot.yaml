@@ -58,7 +58,7 @@ jobs:
 
           cat <<EOF > .changeset/temp-snapshot.md
           ---
-          '@monocloud/monocloud-management-dotnet': patch
+          '@monocloud/management-dotnet': patch
           ---
 
           Snapshot release.

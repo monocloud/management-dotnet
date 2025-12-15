@@ -1,9 +1,10 @@
 {
-  "name": "@monocloud/monocloud-management-dotnet",
+  "name": "@monocloud/management-dotnet",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "changeset": "changeset"
+    "changeset": "changeset",
+    "gen:docs": "docfx docs-gen/docfx.json"
   },
   "devDependencies": {
     "@changesets/cli": "2.29.8"

@@ -13,7 +13,7 @@
     <Copyright>MonoCloud</Copyright>
 
     <PackageProjectUrl>https://www.monocloud.com</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/monocld/monocloud-management-dotnet</RepositoryUrl>
+    <RepositoryUrl>https://github.com/monocld/management-dotnet</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
 
     <PackageTags>monocloud</PackageTags>
