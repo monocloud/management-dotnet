@@ -1,4 +1,4 @@
-![MonoCloud Logo](https://raw.githubusercontent.com/monocld/management-dotnet/refs/heads/main/MonoCloud.png)
+![MonoCloud Logo](https://raw.githubusercontent.com/monocloud/management-dotnet/refs/heads/main/MonoCloud.png)
 
 ## Introduction
 
@@ -33,4 +33,4 @@ Do **not** report security issues publicly. Please follow the contact instructio
 
 ## 📄 License
 
-Licensed under the **MIT License**. See the included [`LICENSE`](https://github.com/monocld/management-dotnet/blob/main/LICENSE) file.
+Licensed under the **MIT License**. See the included [`LICENSE`](https://github.com/monocloud/management-dotnet/blob/main/LICENSE) file.

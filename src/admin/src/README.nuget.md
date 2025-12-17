@@ -1,4 +1,4 @@
-![MonoCloud Logo](https://raw.githubusercontent.com/monocld/management-dotnet/refs/heads/main/MonoCloud.png)
+![MonoCloud Logo](https://raw.githubusercontent.com/monocloud/management-dotnet/refs/heads/main/MonoCloud.png)
 
 ## Introduction
 
@@ -45,7 +45,7 @@ dotnet add package MonoCloud.Management.Admin
 var adminClient = new MonoCloudAdminClient(new MonoCloudConfig("https://<your-tenant-domain>", "<your-api-key>"));
 ```
 
-⚠️ **Security Note:** Do not hardcode your API key. It is recommended to load it from an environment variable or a secure configuration manager like appsettings.json. For modern .NET applications, it is best practice to use Dependency Injection to manage the client lifecycle and configuration securely via the [`AddMonoCloudAdminClient`](https://github.com/monocld/management-dotnet/blob/main/src/admin/src/MonoCloudAdminServiceExtensions.cs) service extension.
+⚠️ **Security Note:** Do not hardcode your API key. It is recommended to load it from an environment variable or a secure configuration manager like appsettings.json. For modern .NET applications, it is best practice to use Dependency Injection to manage the client lifecycle and configuration securely via the [`AddMonoCloudAdminClient`](https://github.com/monocloud/management-dotnet/blob/main/src/admin/src/MonoCloudAdminServiceExtensions.cs) service extension.
 
 ### ✨ Usage Examples
 
@@ -78,4 +78,4 @@ Do **not** report security issues publicly. Please follow the contact instructio
 
 ## 📄 License
 
-Licensed under the **MIT License**. See the included [`LICENSE`](https://github.com/monocld/management-dotnet/blob/main/LICENSE) file.
+Licensed under the **MIT License**. See the included [`LICENSE`](https://github.com/monocloud/management-dotnet/blob/main/LICENSE) file.

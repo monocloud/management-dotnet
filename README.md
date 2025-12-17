@@ -1,7 +1,7 @@
 <div align="center">
   <a href="https://www.monocloud.com?utm_source=github&utm_medium=monocloud_dotnet" target="_blank" rel="noopener noreferrer">
     <picture>
-      <img src="https://raw.githubusercontent.com/monocld/management-dotnet/refs/heads/main/MonoCloud.png" height="100" alt="MonoCloud Logo">
+      <img src="https://raw.githubusercontent.com/monocloud/management-dotnet/refs/heads/main/MonoCloud.png" height="100" alt="MonoCloud Logo">
     </picture>
   </a>
   <p>Secure, simple auth for everything</p>
@@ -9,8 +9,8 @@
   <a href="https://opensource.org/licenses/MIT">
     <img src="https://img.shields.io/:license-MIT-blue.svg?style=flat" alt="License: MIT" />
   </a>
-  <a href="https://github.com/monocld/management-dotnet/actions/workflows/build.yaml">
-    <img src="https://github.com/monocld/management-dotnet/actions/workflows/build.yaml/badge.svg" alt="Build Status" />
+  <a href="https://github.com/monocloud/management-dotnet/actions/workflows/build.yaml">
+    <img src="https://github.com/monocloud/management-dotnet/actions/workflows/build.yaml/badge.svg" alt="Build Status" />
   </a>
 </div>
 
@@ -61,7 +61,7 @@ dotnet add package MonoCloud.Management.Admin
 var adminClient = new MonoCloudAdminClient(new MonoCloudConfig("https://<your-tenant-domain>", "<your-api-key>"));
 ```
 
-⚠️ **Security Note:** Do not hardcode your API key. It is recommended to load it from an environment variable or a secure configuration manager like appsettings.json. For modern .NET applications, it is best practice to use Dependency Injection to manage the client lifecycle and configuration securely via the [`AddMonoCloudAdminClient`](https://github.com/monocld/management-dotnet/blob/main/src/admin/src/MonoCloudAdminServiceExtensions.cs) service extension.
+⚠️ **Security Note:** Do not hardcode your API key. It is recommended to load it from an environment variable or a secure configuration manager like appsettings.json. For modern .NET applications, it is best practice to use Dependency Injection to manage the client lifecycle and configuration securely via the [`AddMonoCloudAdminClient`](https://github.com/monocloud/management-dotnet/blob/main/src/admin/src/MonoCloudAdminServiceExtensions.cs) service extension.
 
 ### ✨ Usage Examples
 
@@ -99,7 +99,7 @@ dotnet add package MonoCloud.Management.Identity
 var identityClient = new MonoCloudIdentityClient(new MonoCloudConfig("https://<your-tenant-domain>", "<your-api-key>"));
 ```
 
-⚠️ **Security Note:** Do not hardcode your API key. It is recommended to load it from an environment variable or a secure configuration manager like appsettings.json. For modern .NET applications, it is best practice to use Dependency Injection to manage the client lifecycle and configuration securely via the [`AddMonoCloudIdentityClient`](https://github.com/monocld/management-dotnet/blob/main/src/identity/src/MonoCloudIdentityServiceExtensions.cs) service extension.
+⚠️ **Security Note:** Do not hardcode your API key. It is recommended to load it from an environment variable or a secure configuration manager like appsettings.json. For modern .NET applications, it is best practice to use Dependency Injection to manage the client lifecycle and configuration securely via the [`AddMonoCloudIdentityClient`](https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/MonoCloudIdentityServiceExtensions.cs) service extension.
 
 ### ✨ Usage Examples
 
@@ -131,4 +131,4 @@ Do **not** report security issues publicly. Please follow the contact instructio
 
 ## 📄 License
 
-Licensed under the **MIT License**. See the included [`LICENSE`](https://github.com/monocld/management-dotnet/blob/main/LICENSE) file.
+Licensed under the **MIT License**. See the included [`LICENSE`](https://github.com/monocloud/management-dotnet/blob/main/LICENSE) file.
