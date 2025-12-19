@@ -196,6 +196,11 @@ public class CreateClientRequest
   public bool? UpdateAccessTokenClaimsOnRefresh { get; set; }
 
   /// <summary>
+  /// Specifies whether the access token scopes should include the offline_access scope when the client requests it.
+  /// </summary>
+  public bool? EmitOfflineAccessScopeInAccessToken { get; set; }
+
+  /// <summary>
   /// Specifies how the refresh token expires
   /// </summary>
   public RefreshTokenExpirationTypes? RefreshTokenExpiration { get; set; }

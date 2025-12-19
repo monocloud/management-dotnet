@@ -381,7 +381,7 @@ public class ClientsClient : MonoCloudClientBase
       throw new ArgumentNullException(nameof(clientId));
     }
 
-    if (groupId == null)
+    if (groupId == Guid.Empty)
     {
       throw new ArgumentNullException(nameof(groupId));
     }
@@ -423,7 +423,7 @@ public class ClientsClient : MonoCloudClientBase
       throw new ArgumentNullException(nameof(clientId));
     }
 
-    if (groupId == null)
+    if (groupId == Guid.Empty)
     {
       throw new ArgumentNullException(nameof(groupId));
     }
@@ -461,7 +461,7 @@ public class ClientsClient : MonoCloudClientBase
       throw new ArgumentNullException(nameof(clientId));
     }
 
-    if (groupId == null)
+    if (groupId == Guid.Empty)
     {
       throw new ArgumentNullException(nameof(groupId));
     }
@@ -549,7 +549,7 @@ public class ClientsClient : MonoCloudClientBase
   /// <exception cref="MonoCloudException">A server side error occurred.</exception>
   public Task<MonoCloudResponse<List<Client>, PageModel>> GetAllGroupAssignedClientsAsync(Guid groupId, int? page = 1, int? size = 10, string? filter = default, string? sort = default, CancellationToken cancellationToken = default)
   {
-    if (groupId == null)
+    if (groupId == Guid.Empty)
     {
       throw new ArgumentNullException(nameof(groupId));
     }

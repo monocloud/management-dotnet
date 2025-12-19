@@ -58,7 +58,9 @@ public enum TechTypes
 
   Espressif,
 
-  Arduino
+  Arduino,
+
+  Astro
 }
 
 

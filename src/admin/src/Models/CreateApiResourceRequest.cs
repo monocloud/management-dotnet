@@ -31,6 +31,11 @@ public class CreateApiResourceRequest
   public bool? RequireExclusiveToken { get; set; }
 
   /// <summary>
+  /// Specifies whether the access token for the resource can be used at the userinfo endpoint.
+  /// </summary>
+  public bool? EnableIdentityAccess { get; set; }
+
+  /// <summary>
   /// List of associated user claim types that should be included in the Access token.
   /// </summary>
   public List<string> UserClaims { get; set; }
