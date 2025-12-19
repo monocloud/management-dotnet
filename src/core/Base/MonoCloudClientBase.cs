@@ -9,7 +9,7 @@ public class MonoCloudClientBase
   {
     Converters =
     {
-      new JsonStringEnumMemberConverter(new SnakeCaseNamingPolicy(), false),
+      new JsonStringEnumConverter(new SnakeCaseNamingPolicy(), false),
       new EpochDateTimeNullableConverter(),
       new EpochDateTimeConverter()
     },
