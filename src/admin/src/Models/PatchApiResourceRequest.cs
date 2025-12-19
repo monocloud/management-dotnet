@@ -32,6 +32,11 @@ public class PatchApiResourceRequest
   public Optional<bool> RequireExclusiveToken { get; set; }
 
   /// <summary>
+  /// Specifies whether the access token for the resource can be used at the userinfo endpoint.
+  /// </summary>
+  public Optional<bool> EnableIdentityAccess { get; set; }
+
+  /// <summary>
   /// List of associated user claim types that should be included in the Access token.
   /// </summary>
   public Optional<List<string>> UserClaims { get; set; }

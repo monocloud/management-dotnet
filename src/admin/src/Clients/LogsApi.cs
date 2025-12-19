@@ -82,7 +82,7 @@ public class LogsClient : MonoCloudClientBase
   /// <exception cref="MonoCloudException">A server side error occurred.</exception>
   public Task<MonoCloudResponse<Log>> FindLogByIdAsync(Guid logId, CancellationToken cancellationToken = default)
   {
-    if (logId == null)
+    if (logId == Guid.Empty)
     {
       throw new ArgumentNullException(nameof(logId));
     }

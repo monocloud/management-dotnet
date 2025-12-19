@@ -197,6 +197,11 @@ public class PatchClientRequest
   public Optional<bool> UpdateAccessTokenClaimsOnRefresh { get; set; }
 
   /// <summary>
+  /// Specifies whether the access token scopes should include the offline_access scope when the client requests it.
+  /// </summary>
+  public Optional<bool> EmitOfflineAccessScopeInAccessToken { get; set; }
+
+  /// <summary>
   /// Specifies how the refresh token expires
   /// </summary>
   public Optional<RefreshTokenExpirationTypes> RefreshTokenExpiration { get; set; }
