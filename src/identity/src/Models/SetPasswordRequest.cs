@@ -6,32 +6,32 @@ namespace MonoCloud.Management.Identity.Models;
 public class SetPasswordRequest
 {
   /// <summary>
-  /// The password for the user, which will be used for authentication.
+  /// Plaintext password to assign to the user.
   /// </summary>
   public string? Password { get; set; }
 
   /// <summary>
-  /// The password hash for the user, which will be used for authentication.
+  /// A pre-hashed password value. Useful during migrations to avoid forcing a password reset.
   /// </summary>
   public string? PasswordHash { get; set; }
 
   /// <summary>
-  /// The algorithm used the hash the password for the user.
+  /// The hashing algorithm used for the provided password hash.
   /// </summary>
   public PasswordAlgorithms? PasswordHashAlgorithm { get; set; }
 
   /// <summary>
-  /// Specifies whether the specified password is temporary and will require the user to reset their password on the next sign-in.
+  /// Indicates whether the provided password is temporary. If true, the user must reset their password at their next sign-in.
   /// </summary>
   public bool? IsTemporaryPassword { get; set; }
 
   /// <summary>
-  /// Specifies whether the password policy check should be skipped.
+  /// Determines whether configured password policy rules should be bypassed.
   /// </summary>
   public bool? SkipPasswordPolicyChecks { get; set; }
 
   /// <summary>
-  /// Indicates whether to revoke all sessions associated with the user when updating the password.
+  /// Determines whether active sessions should be revoked after updating the password.
   /// </summary>
   public bool? RevokeSessions { get; set; }
 }

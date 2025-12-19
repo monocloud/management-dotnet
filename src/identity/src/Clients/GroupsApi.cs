@@ -24,12 +24,12 @@ public class GroupsClient : MonoCloudClientBase
   }
 
   /// <summary>
-  /// Get all groups
+  /// List all groups
   /// </summary>
   /// <param name="page">The page number to retrieve.</param>
-  /// <param name="size">The number of items per page.</param>
-  /// <param name="filter">A query filter to apply when searching for groups.</param>
-  /// <param name="sort">Specifies the sort criteria in the &#39;sort_key:sort_order&#39; format. The sort order value can be &#39;1&#39; for ascending and &#39;-1&#39; for descending.  Acceptable sort key values are &#39;name&#39;, &#39;type&#39;, &#39;clients_assigned&#39;, &#39;users_assigned&#39;, &#39;last_assigned&#39;, &#39;creation_time&#39;, and &#39;last_updated&#39;.</param>
+  /// <param name="size">The number of groups to return per page. The maximum allowed value is 50.</param>
+  /// <param name="filter">Optional Lucene-style filter expression used to search by attributes.</param>
+  /// <param name="sort">Sort expression in the format &#x60;field:direction&#x60;, where direction is &#x60;1&#x60; for ascending or &#x60;-1&#x60; for descending.  Supported fields include - name, type, clients_assigned, users_assigned, last_assigned, creation_time, last_updated.</param>
   /// <param name="cancellationToken">The <see cref="CancellationToken"/> used to propagate notifications that the operation should be canceled.</param>
   /// <returns>List&lt;Group&gt;</returns>
   /// <exception cref="MonoCloudException">A server side error occurred.</exception>
@@ -76,7 +76,7 @@ public class GroupsClient : MonoCloudClientBase
   /// <summary>
   /// Create a group
   /// </summary>
-  /// <param name="createGroupRequest">The create group request.</param>
+  /// <param name="createGroupRequest">The create group request</param>
   /// <param name="cancellationToken">The <see cref="CancellationToken"/> used to propagate notifications that the operation should be canceled.</param>
   /// <returns>Group</returns>
   /// <exception cref="MonoCloudException">A server side error occurred.</exception>
@@ -107,15 +107,15 @@ public class GroupsClient : MonoCloudClientBase
   }
 
   /// <summary>
-  /// Get a group
+  /// Retrieve a group
   /// </summary>
-  /// <param name="groupId">The ID of the group to retrieve.</param>
+  /// <param name="groupId">The unique identifier of the group</param>
   /// <param name="cancellationToken">The <see cref="CancellationToken"/> used to propagate notifications that the operation should be canceled.</param>
   /// <returns>Group</returns>
   /// <exception cref="MonoCloudException">A server side error occurred.</exception>
   public Task<MonoCloudResponse<Group>> FindGroupByIdAsync(Guid groupId, CancellationToken cancellationToken = default)
   {
-    if (groupId == null)
+    if (groupId == Guid.Empty)
     {
       throw new ArgumentNullException(nameof(groupId));
     }
@@ -143,13 +143,13 @@ public class GroupsClient : MonoCloudClientBase
   /// <summary>
   /// Delete a group
   /// </summary>
-  /// <param name="groupId">The ID of the group to be deleted.</param>
+  /// <param name="groupId">The unique identifier of the group to delete</param>
   /// <param name="cancellationToken">The <see cref="CancellationToken"/> used to propagate notifications that the operation should be canceled.</param>
   /// <returns></returns>
   /// <exception cref="MonoCloudException">A server side error occurred.</exception>
   public Task<MonoCloudResponse> DeleteGroupAsync(Guid groupId, CancellationToken cancellationToken = default)
   {
-    if (groupId == null)
+    if (groupId == Guid.Empty)
     {
       throw new ArgumentNullException(nameof(groupId));
     }
@@ -173,14 +173,14 @@ public class GroupsClient : MonoCloudClientBase
   /// <summary>
   /// Update a group
   /// </summary>
-  /// <param name="groupId">The ID of the group to be updated.</param>
+  /// <param name="groupId">The unique identifier of the group</param>
   /// <param name="patchGroupRequest">The update group request.</param>
   /// <param name="cancellationToken">The <see cref="CancellationToken"/> used to propagate notifications that the operation should be canceled.</param>
   /// <returns>Group</returns>
   /// <exception cref="MonoCloudException">A server side error occurred.</exception>
   public Task<MonoCloudResponse<Group>> PatchGroupAsync(Guid groupId, PatchGroupRequest patchGroupRequest, CancellationToken cancellationToken = default)
   {
-    if (groupId == null)
+    if (groupId == Guid.Empty)
     {
       throw new ArgumentNullException(nameof(groupId));
     }

@@ -7,7 +7,7 @@ namespace MonoCloud.Management.Identity.Models;
 public class UpdateClaimsRequest
 {
   /// <summary>
-  /// The user&#39;s full name.
+  /// Full name of the user.
   /// </summary>
   public Optional<string?> Name { get; set; }
 
@@ -17,7 +17,7 @@ public class UpdateClaimsRequest
   public Optional<string?> GivenName { get; set; }
 
   /// <summary>
-  /// The user&#39;s middle name or initial.
+  /// The user&#39;s middle name or initial, if applicable.
   /// </summary>
   public Optional<string?> MiddleName { get; set; }
 
@@ -32,7 +32,7 @@ public class UpdateClaimsRequest
   public Optional<string?> Nickname { get; set; }
 
   /// <summary>
-  /// The URI pointing to the user&#39;s profile picture.
+  /// URL of the user’s profile image
   /// </summary>
   public Optional<string?> Picture { get; set; }
 }

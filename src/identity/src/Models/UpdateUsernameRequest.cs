@@ -6,7 +6,7 @@ namespace MonoCloud.Management.Identity.Models;
 public class UpdateUsernameRequest
 {
   /// <summary>
-  /// The new username to be set.
+  /// The username to assign to the user. Must comply with the configured username policy, including format and uniqueness requirements.
   /// </summary>
   public string Username { get; set; }
 }

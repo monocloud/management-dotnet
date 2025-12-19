@@ -6,7 +6,7 @@ namespace MonoCloud.Management.Identity.Models;
 public class UpdatePrivateDataRequest
 {
   /// <summary>
-  /// An object containing fields to update within the user&#39;s private data. Only the data provided in the object will be updated. Field values can be strings, booleans, numbers, arrays, or objects. To unset a key, pass a null value for that key.
+  /// A structured payload for updating private data. Supports strings, numbers, booleans, arrays, and nested objects.  Fields omitted remain unchanged; fields set to &#x60;null&#x60; are removed.
   /// </summary>
   public Dictionary<string, object> PrivateData { get; set; }
 }

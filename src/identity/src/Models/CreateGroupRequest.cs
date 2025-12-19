@@ -6,17 +6,17 @@ namespace MonoCloud.Management.Identity.Models;
 public class CreateGroupRequest
 {
   /// <summary>
-  /// The name of the group.
+  /// The display name of the group.
   /// </summary>
   public string Name { get; set; }
 
   /// <summary>
-  /// The description of the group.
+  /// Optional description that indicates the purpose or role of the group.
   /// </summary>
   public string? Description { get; set; }
 
   /// <summary>
-  /// Specifies whether the group should be assigned to new users by default.
+  /// Indicates whether new users are automatically assigned to this group upon sign-up.
   /// </summary>
   public bool? IsAutoAssigned { get; set; }
 }
