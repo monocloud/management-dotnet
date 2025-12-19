@@ -6,12 +6,12 @@ namespace MonoCloud.Management.Identity.Models;
 public class ResetPasswordRequest
 {
   /// <summary>
-  /// Specifies whether to send the password reset email to the user.
+  /// Specifies whether the reset link should be automatically delivered to the user via email.
   /// </summary>
   public bool? SendEmail { get; set; }
 
   /// <summary>
-  /// Specifies the expiry time for the password reset link (in seconds).
+  /// Lifetime of the reset link in seconds; defaults to system configuration if omitted.
   /// </summary>
   public int? Expiry { get; set; }
 }

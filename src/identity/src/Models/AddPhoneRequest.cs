@@ -6,17 +6,17 @@ namespace MonoCloud.Management.Identity.Models;
 public class AddPhoneRequest
 {
   /// <summary>
-  /// The phone number to add, starting with a &#x60;+&#x60; followed by the country code.
+  /// The phone number to add to the user’s account, provided in E.164 format (e.g., +14085551234).
   /// </summary>
   public string PhoneNumber { get; set; }
 
   /// <summary>
-  /// Indicates whether the phone number is verified.
+  /// Indicates whether the phone number should be marked as verified when added. If false, verification may be required before the number can be used in login or recovery flows.
   /// </summary>
   public bool? IsVerified { get; set; }
 
   /// <summary>
-  /// Specifies whether the phone restriction checks should be skipped.
+  /// Skips blacklist validation for the provided number.
   /// </summary>
   public bool? SkipRestrictionChecks { get; set; }
 }

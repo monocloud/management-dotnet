@@ -6,7 +6,7 @@ namespace MonoCloud.Management.Identity.Models;
 public class DisableUserRequest
 {
   /// <summary>
-  /// Indicates whether to revoke all sessions associated with the user when disabling the account.
+  /// Determines whether active sessions should be revoked when disabling the user.
   /// </summary>
   public bool? RevokeSessions { get; set; }
 }

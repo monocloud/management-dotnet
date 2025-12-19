@@ -24,12 +24,12 @@ public class UsersClient : MonoCloudClientBase
   }
 
   /// <summary>
-  /// Get all users
+  /// List all users
   /// </summary>
   /// <param name="page">The page number to retrieve.</param>
-  /// <param name="size">The number of items per page.</param>
-  /// <param name="filter">A query filter to apply when searching for users.</param>
-  /// <param name="sort">Specifies the sort criteria in the &#39;sort_key:sort_order&#39; format. The sort order value can be &#39;1&#39; for ascending and &#39;-1&#39; for descending.  Acceptable sort key values are &#39;creation_time&#39;, and &#39;last_updated&#39;.</param>
+  /// <param name="size">The number of users to return per page. The maximum allowed value is 50.</param>
+  /// <param name="filter">Optional Lucene-style filter expression used to search by attributes.</param>
+  /// <param name="sort">Sort expression in the format &#x60;field:direction&#x60;, where direction is &#x60;1&#x60; for ascending or &#x60;-1&#x60; for descending.  Supported fields include - failure_count, last_sign_in_attempt, sign_in_attempts_count, last_sign_in_success, sign_in_success_count, last_activity, block_until, creation_time, last_updated.</param>
   /// <param name="cancellationToken">The <see cref="CancellationToken"/> used to propagate notifications that the operation should be canceled.</param>
   /// <returns>List&lt;UserSummary&gt;</returns>
   /// <exception cref="MonoCloudException">A server side error occurred.</exception>
@@ -76,7 +76,7 @@ public class UsersClient : MonoCloudClientBase
   /// <summary>
   /// Create a user
   /// </summary>
-  /// <param name="createUserRequest">The create user request.</param>
+  /// <param name="createUserRequest">The create user request</param>
   /// <param name="cancellationToken">The <see cref="CancellationToken"/> used to propagate notifications that the operation should be canceled.</param>
   /// <returns>User</returns>
   /// <exception cref="MonoCloudException">A server side error occurred.</exception>
@@ -107,9 +107,9 @@ public class UsersClient : MonoCloudClientBase
   }
 
   /// <summary>
-  /// Get a user
+  /// Retrieve a user
   /// </summary>
-  /// <param name="userId">The ID of the user whose profile information should be retrieved.</param>
+  /// <param name="userId">The unique identifier of the user.</param>
   /// <param name="cancellationToken">The <see cref="CancellationToken"/> used to propagate notifications that the operation should be canceled.</param>
   /// <returns>User</returns>
   /// <exception cref="MonoCloudException">A server side error occurred.</exception>
@@ -143,7 +143,7 @@ public class UsersClient : MonoCloudClientBase
   /// <summary>
   /// Delete a user
   /// </summary>
-  /// <param name="userId">The ID of the user to be deleted.</param>
+  /// <param name="userId">The unique identifier of the user</param>
   /// <param name="cancellationToken">The <see cref="CancellationToken"/> used to propagate notifications that the operation should be canceled.</param>
   /// <returns></returns>
   /// <exception cref="MonoCloudException">A server side error occurred.</exception>
@@ -173,7 +173,7 @@ public class UsersClient : MonoCloudClientBase
   /// <summary>
   /// Enable a user
   /// </summary>
-  /// <param name="userId">The ID of the user to be enabled.</param>
+  /// <param name="userId">The unique identifier of the user</param>
   /// <param name="cancellationToken">The <see cref="CancellationToken"/> used to propagate notifications that the operation should be canceled.</param>
   /// <returns>User</returns>
   /// <exception cref="MonoCloudException">A server side error occurred.</exception>
@@ -207,8 +207,8 @@ public class UsersClient : MonoCloudClientBase
   /// <summary>
   /// Disable a user
   /// </summary>
-  /// <param name="userId">The ID of the user to be disabled.</param>
-  /// <param name="disableUserRequest">The disable user request.</param>
+  /// <param name="userId">The unique identifier of the user</param>
+  /// <param name="disableUserRequest">The disable user request</param>
   /// <param name="cancellationToken">The <see cref="CancellationToken"/> used to propagate notifications that the operation should be canceled.</param>
   /// <returns>User</returns>
   /// <exception cref="MonoCloudException">A server side error occurred.</exception>
@@ -246,9 +246,9 @@ public class UsersClient : MonoCloudClientBase
   }
 
   /// <summary>
-  /// Unblock a user
+  /// Reset user lockout
   /// </summary>
-  /// <param name="userId">The ID of the user whose account should be unblocked.</param>
+  /// <param name="userId">The unique identifier of the user</param>
   /// <param name="cancellationToken">The <see cref="CancellationToken"/> used to propagate notifications that the operation should be canceled.</param>
   /// <returns>User</returns>
   /// <exception cref="MonoCloudException">A server side error occurred.</exception>
@@ -282,7 +282,7 @@ public class UsersClient : MonoCloudClientBase
   /// <summary>
   /// Add or update username
   /// </summary>
-  /// <param name="userId">The ID of the user whose username should be set.</param>
+  /// <param name="userId">The unique identifier of the user</param>
   /// <param name="updateUsernameRequest">The request body.</param>
   /// <param name="cancellationToken">The <see cref="CancellationToken"/> used to propagate notifications that the operation should be canceled.</param>
   /// <returns>User</returns>
@@ -321,9 +321,9 @@ public class UsersClient : MonoCloudClientBase
   }
 
   /// <summary>
-  /// Remove username
+  /// Remove a username
   /// </summary>
-  /// <param name="userId">The ID of the user whose username should be removed.</param>
+  /// <param name="userId">The unique identifier of the user</param>
   /// <param name="cancellationToken">The <see cref="CancellationToken"/> used to propagate notifications that the operation should be canceled.</param>
   /// <returns>User</returns>
   /// <exception cref="MonoCloudException">A server side error occurred.</exception>
@@ -355,9 +355,9 @@ public class UsersClient : MonoCloudClientBase
   }
 
   /// <summary>
-  /// Add an email
+  /// Add an email address
   /// </summary>
-  /// <param name="userId">The ID of the user for whom the email should be added.</param>
+  /// <param name="userId">The unique identifier of the user</param>
   /// <param name="addEmailRequest">The request body</param>
   /// <param name="cancellationToken">The <see cref="CancellationToken"/> used to propagate notifications that the operation should be canceled.</param>
   /// <returns>User</returns>
@@ -396,10 +396,10 @@ public class UsersClient : MonoCloudClientBase
   }
 
   /// <summary>
-  /// Remove an email
+  /// Remove an email address
   /// </summary>
-  /// <param name="userId">The ID of the user whose email should be removed.</param>
-  /// <param name="identifierId">The ID of the email to be removed.</param>
+  /// <param name="userId">The unique identifier of the user</param>
+  /// <param name="identifierId">The unique identifier of the email</param>
   /// <param name="cancellationToken">The <see cref="CancellationToken"/> used to propagate notifications that the operation should be canceled.</param>
   /// <returns>User</returns>
   /// <exception cref="MonoCloudException">A server side error occurred.</exception>
@@ -410,7 +410,7 @@ public class UsersClient : MonoCloudClientBase
       throw new ArgumentNullException(nameof(userId));
     }
 
-    if (identifierId == null)
+    if (identifierId == Guid.Empty)
     {
       throw new ArgumentNullException(nameof(identifierId));
     }
@@ -438,10 +438,10 @@ public class UsersClient : MonoCloudClientBase
   }
 
   /// <summary>
-  /// Set email as primary
+  /// Set an email as primary
   /// </summary>
-  /// <param name="userId">The ID of the user whose email should be set as primary.</param>
-  /// <param name="identifierId">The ID of the email to be set as primary.</param>
+  /// <param name="userId">The unique identifier of the user</param>
+  /// <param name="identifierId">The unique identifier of the email</param>
   /// <param name="cancellationToken">The <see cref="CancellationToken"/> used to propagate notifications that the operation should be canceled.</param>
   /// <returns>User</returns>
   /// <exception cref="MonoCloudException">A server side error occurred.</exception>
@@ -452,7 +452,7 @@ public class UsersClient : MonoCloudClientBase
       throw new ArgumentNullException(nameof(userId));
     }
 
-    if (identifierId == null)
+    if (identifierId == Guid.Empty)
     {
       throw new ArgumentNullException(nameof(identifierId));
     }
@@ -480,10 +480,10 @@ public class UsersClient : MonoCloudClientBase
   }
 
   /// <summary>
-  /// Mark email as verified
+  /// Mark an email as verified
   /// </summary>
-  /// <param name="userId">The ID of the user whose email is to be marked as verified.</param>
-  /// <param name="identifierId">The ID of the email to be marked as verified.</param>
+  /// <param name="userId">The unique identifier of the user</param>
+  /// <param name="identifierId">The unique identifier of the email</param>
   /// <param name="cancellationToken">The <see cref="CancellationToken"/> used to propagate notifications that the operation should be canceled.</param>
   /// <returns>User</returns>
   /// <exception cref="MonoCloudException">A server side error occurred.</exception>
@@ -494,7 +494,7 @@ public class UsersClient : MonoCloudClientBase
       throw new ArgumentNullException(nameof(userId));
     }
 
-    if (identifierId == null)
+    if (identifierId == Guid.Empty)
     {
       throw new ArgumentNullException(nameof(identifierId));
     }
@@ -522,10 +522,10 @@ public class UsersClient : MonoCloudClientBase
   }
 
   /// <summary>
-  /// Mark email as unverified
+  /// Mark an email as unverified
   /// </summary>
-  /// <param name="userId">The ID of the user whose email is to be marked as unverified.</param>
-  /// <param name="identifierId">The ID of the email to be marked as unverified.</param>
+  /// <param name="userId">The unique identifier of the user</param>
+  /// <param name="identifierId">The unique identifier of the email</param>
   /// <param name="cancellationToken">The <see cref="CancellationToken"/> used to propagate notifications that the operation should be canceled.</param>
   /// <returns>User</returns>
   /// <exception cref="MonoCloudException">A server side error occurred.</exception>
@@ -536,7 +536,7 @@ public class UsersClient : MonoCloudClientBase
       throw new ArgumentNullException(nameof(userId));
     }
 
-    if (identifierId == null)
+    if (identifierId == Guid.Empty)
     {
       throw new ArgumentNullException(nameof(identifierId));
     }
@@ -564,10 +564,10 @@ public class UsersClient : MonoCloudClientBase
   }
 
   /// <summary>
-  /// Verify Email
+  /// Initiates email verification
   /// </summary>
-  /// <param name="userId">The ID of the user whose email verification link is requested.</param>
-  /// <param name="identifierId">The ID of the email to be verified.</param>
+  /// <param name="userId">The unique identifier of the user</param>
+  /// <param name="identifierId">The unique identifier of the email</param>
   /// <param name="verifyEmailRequest"></param>
   /// <param name="cancellationToken">The <see cref="CancellationToken"/> used to propagate notifications that the operation should be canceled.</param>
   /// <returns>VerifyEmailResponse</returns>
@@ -579,7 +579,7 @@ public class UsersClient : MonoCloudClientBase
       throw new ArgumentNullException(nameof(userId));
     }
 
-    if (identifierId == null)
+    if (identifierId == Guid.Empty)
     {
       throw new ArgumentNullException(nameof(identifierId));
     }
@@ -615,7 +615,7 @@ public class UsersClient : MonoCloudClientBase
   /// <summary>
   /// Add a phone number
   /// </summary>
-  /// <param name="userId">The ID of the user for whom the phone number should be added.</param>
+  /// <param name="userId">The unique identifier of the user</param>
   /// <param name="addPhoneRequest">The request body</param>
   /// <param name="cancellationToken">The <see cref="CancellationToken"/> used to propagate notifications that the operation should be canceled.</param>
   /// <returns>User</returns>
@@ -656,8 +656,8 @@ public class UsersClient : MonoCloudClientBase
   /// <summary>
   /// Remove a phone number
   /// </summary>
-  /// <param name="userId">The ID of the user whose phone number should be removed.</param>
-  /// <param name="identifierId">The ID of the phone number to be removed.</param>
+  /// <param name="userId">The unique identifier of the user</param>
+  /// <param name="identifierId">The unique identifier of the phone number</param>
   /// <param name="cancellationToken">The <see cref="CancellationToken"/> used to propagate notifications that the operation should be canceled.</param>
   /// <returns>User</returns>
   /// <exception cref="MonoCloudException">A server side error occurred.</exception>
@@ -668,7 +668,7 @@ public class UsersClient : MonoCloudClientBase
       throw new ArgumentNullException(nameof(userId));
     }
 
-    if (identifierId == null)
+    if (identifierId == Guid.Empty)
     {
       throw new ArgumentNullException(nameof(identifierId));
     }
@@ -696,10 +696,10 @@ public class UsersClient : MonoCloudClientBase
   }
 
   /// <summary>
-  /// Set phone as primary
+  /// Set a phone as primary
   /// </summary>
-  /// <param name="userId">The ID of the user whose phone should be set as primary.</param>
-  /// <param name="identifierId">The ID of the phone to be set as primary.</param>
+  /// <param name="userId">The unique identifier of the user</param>
+  /// <param name="identifierId">The unique identifier of the phone number</param>
   /// <param name="cancellationToken">The <see cref="CancellationToken"/> used to propagate notifications that the operation should be canceled.</param>
   /// <returns>User</returns>
   /// <exception cref="MonoCloudException">A server side error occurred.</exception>
@@ -710,7 +710,7 @@ public class UsersClient : MonoCloudClientBase
       throw new ArgumentNullException(nameof(userId));
     }
 
-    if (identifierId == null)
+    if (identifierId == Guid.Empty)
     {
       throw new ArgumentNullException(nameof(identifierId));
     }
@@ -738,10 +738,10 @@ public class UsersClient : MonoCloudClientBase
   }
 
   /// <summary>
-  /// Mark phone as verified
+  /// Mark a phone as verified
   /// </summary>
-  /// <param name="userId">The ID of the user whose phone is to be marked as verified.</param>
-  /// <param name="identifierId">The ID of the phone to be marked as verified.</param>
+  /// <param name="userId">The unique identifier of the user</param>
+  /// <param name="identifierId">The unique identifier of the phone number</param>
   /// <param name="cancellationToken">The <see cref="CancellationToken"/> used to propagate notifications that the operation should be canceled.</param>
   /// <returns>User</returns>
   /// <exception cref="MonoCloudException">A server side error occurred.</exception>
@@ -752,7 +752,7 @@ public class UsersClient : MonoCloudClientBase
       throw new ArgumentNullException(nameof(userId));
     }
 
-    if (identifierId == null)
+    if (identifierId == Guid.Empty)
     {
       throw new ArgumentNullException(nameof(identifierId));
     }
@@ -780,10 +780,10 @@ public class UsersClient : MonoCloudClientBase
   }
 
   /// <summary>
-  /// Mark phone as unverified
+  /// Mark a phone as unverified
   /// </summary>
-  /// <param name="userId">The ID of the user whose phone is to be marked as unverified.</param>
-  /// <param name="identifierId">The ID of the phone to be marked as unverified.</param>
+  /// <param name="userId">The unique identifier of the user</param>
+  /// <param name="identifierId">The unique identifier of the phone number</param>
   /// <param name="cancellationToken">The <see cref="CancellationToken"/> used to propagate notifications that the operation should be canceled.</param>
   /// <returns>User</returns>
   /// <exception cref="MonoCloudException">A server side error occurred.</exception>
@@ -794,7 +794,7 @@ public class UsersClient : MonoCloudClientBase
       throw new ArgumentNullException(nameof(userId));
     }
 
-    if (identifierId == null)
+    if (identifierId == Guid.Empty)
     {
       throw new ArgumentNullException(nameof(identifierId));
     }
@@ -822,10 +822,10 @@ public class UsersClient : MonoCloudClientBase
   }
 
   /// <summary>
-  /// Remove passkey
+  /// Remove a passkey
   /// </summary>
-  /// <param name="userId">The ID of the user from whose account the passkey should be removed.</param>
-  /// <param name="passkeyId">The ID of the passkey to remove.</param>
+  /// <param name="userId">The unique identifier of the user</param>
+  /// <param name="passkeyId">The unique identifier of the passkey</param>
   /// <param name="cancellationToken">The <see cref="CancellationToken"/> used to propagate notifications that the operation should be canceled.</param>
   /// <returns></returns>
   /// <exception cref="MonoCloudException">A server side error occurred.</exception>
@@ -860,9 +860,9 @@ public class UsersClient : MonoCloudClientBase
   }
 
   /// <summary>
-  /// Set password
+  /// Set a password
   /// </summary>
-  /// <param name="userId">The ID of the user whose password should be set.</param>
+  /// <param name="userId">The unique identifier of the user</param>
   /// <param name="setPasswordRequest">The set password request.</param>
   /// <param name="cancellationToken">The <see cref="CancellationToken"/> used to propagate notifications that the operation should be canceled.</param>
   /// <returns>User</returns>
@@ -901,9 +901,9 @@ public class UsersClient : MonoCloudClientBase
   }
 
   /// <summary>
-  /// Remove password
+  /// Remove the user&#39;s password
   /// </summary>
-  /// <param name="userId">The ID of the user whose password should be removed.</param>
+  /// <param name="userId">The unique identifier of the user</param>
   /// <param name="cancellationToken">The <see cref="CancellationToken"/> used to propagate notifications that the operation should be canceled.</param>
   /// <returns></returns>
   /// <exception cref="MonoCloudException">A server side error occurred.</exception>
@@ -931,9 +931,9 @@ public class UsersClient : MonoCloudClientBase
   }
 
   /// <summary>
-  /// Require user password reset
+  /// Require password reset
   /// </summary>
-  /// <param name="userId">The ID of the user.</param>
+  /// <param name="userId">The unique identifier of the user</param>
   /// <param name="cancellationToken">The <see cref="CancellationToken"/> used to propagate notifications that the operation should be canceled.</param>
   /// <returns>User</returns>
   /// <exception cref="MonoCloudException">A server side error occurred.</exception>
@@ -965,9 +965,9 @@ public class UsersClient : MonoCloudClientBase
   }
 
   /// <summary>
-  /// Remove user password reset requirement
+  /// Clear a password reset requirement
   /// </summary>
-  /// <param name="userId">The ID of the user.</param>
+  /// <param name="userId">The unique identifier of the user</param>
   /// <param name="cancellationToken">The <see cref="CancellationToken"/> used to propagate notifications that the operation should be canceled.</param>
   /// <returns>User</returns>
   /// <exception cref="MonoCloudException">A server side error occurred.</exception>
@@ -999,9 +999,9 @@ public class UsersClient : MonoCloudClientBase
   }
 
   /// <summary>
-  /// Password Reset
+  /// Reset Password
   /// </summary>
-  /// <param name="userId">The ID of the user whose password reset link is requested.</param>
+  /// <param name="userId">The unique identifier of the user</param>
   /// <param name="resetPasswordRequest"></param>
   /// <param name="cancellationToken">The <see cref="CancellationToken"/> used to propagate notifications that the operation should be canceled.</param>
   /// <returns>ResetPasswordResponse</returns>
@@ -1042,8 +1042,8 @@ public class UsersClient : MonoCloudClientBase
   /// <summary>
   /// Update user claims
   /// </summary>
-  /// <param name="userId">The ID of the user whose claims should be updated.</param>
-  /// <param name="updateClaimsRequest">The update claims request.</param>
+  /// <param name="userId">The unique identifier of the user</param>
+  /// <param name="updateClaimsRequest">The update claims request</param>
   /// <param name="cancellationToken">The <see cref="CancellationToken"/> used to propagate notifications that the operation should be canceled.</param>
   /// <returns>User</returns>
   /// <exception cref="MonoCloudException">A server side error occurred.</exception>
@@ -1081,9 +1081,9 @@ public class UsersClient : MonoCloudClientBase
   }
 
   /// <summary>
-  /// Get user private data
+  /// Retrieve user private data
   /// </summary>
-  /// <param name="userId">The ID of the user whose private data should be retrieved.</param>
+  /// <param name="userId">The unique identifier of the user</param>
   /// <param name="cancellationToken">The <see cref="CancellationToken"/> used to propagate notifications that the operation should be canceled.</param>
   /// <returns>UserPrivateData</returns>
   /// <exception cref="MonoCloudException">A server side error occurred.</exception>
@@ -1117,8 +1117,8 @@ public class UsersClient : MonoCloudClientBase
   /// <summary>
   /// Update user private data
   /// </summary>
-  /// <param name="userId">The ID of the user whose private data should be updated.</param>
-  /// <param name="updatePrivateDataRequest">The update private data request.</param>
+  /// <param name="userId">The unique identifier of the user</param>
+  /// <param name="updatePrivateDataRequest">The update private data request</param>
   /// <param name="cancellationToken">The <see cref="CancellationToken"/> used to propagate notifications that the operation should be canceled.</param>
   /// <returns>UserPrivateData</returns>
   /// <exception cref="MonoCloudException">A server side error occurred.</exception>
@@ -1156,9 +1156,9 @@ public class UsersClient : MonoCloudClientBase
   }
 
   /// <summary>
-  /// Get user public data
+  /// Retrieve user public data
   /// </summary>
-  /// <param name="userId">The ID of the user whose public data should be retrieved.</param>
+  /// <param name="userId">The unique identifier of the user</param>
   /// <param name="cancellationToken">The <see cref="CancellationToken"/> used to propagate notifications that the operation should be canceled.</param>
   /// <returns>UserPublicData</returns>
   /// <exception cref="MonoCloudException">A server side error occurred.</exception>
@@ -1192,8 +1192,8 @@ public class UsersClient : MonoCloudClientBase
   /// <summary>
   /// Update user public data
   /// </summary>
-  /// <param name="userId">The ID of the user whose public data should be updated.</param>
-  /// <param name="updatePublicDataRequest">The update public data request.</param>
+  /// <param name="userId">The unique identifier of the user</param>
+  /// <param name="updatePublicDataRequest">The update public data request</param>
   /// <param name="cancellationToken">The <see cref="CancellationToken"/> used to propagate notifications that the operation should be canceled.</param>
   /// <returns>UserPublicData</returns>
   /// <exception cref="MonoCloudException">A server side error occurred.</exception>
@@ -1231,13 +1231,13 @@ public class UsersClient : MonoCloudClientBase
   }
 
   /// <summary>
-  /// Get all blocked IPs
+  /// List blocked IP addresses
   /// </summary>
-  /// <param name="userId">The ID of the user whose blocked IP addresses should be retrieved.</param>
+  /// <param name="userId">The unique identifier of the user</param>
   /// <param name="page">The page number to retrieve.</param>
-  /// <param name="size">The number of items per page.</param>
-  /// <param name="filter">A query filter to apply when searching for blocked IPs.</param>
-  /// <param name="sort">The sort criteria in &#39;sort_key:sort_order&#39; format. Sort order can be &#39;1&#39; for ascending and &#39;-1&#39; for descending.  Acceptable sort key values are &#39;block_until&#39; and &#39;last_sign_in_attempt&#39;.</param>
+  /// <param name="size">The number of blocked IPs to return per page. The maximum allowed value is 50.</param>
+  /// <param name="filter">Optional Lucene-style filter expression used to search by attributes.</param>
+  /// <param name="sort">Sort expression in the format &#x60;field:direction&#x60;, where direction is &#x60;1&#x60; for ascending or &#x60;-1&#x60; for descending.  Supported fields include - block_until, last_sign_in_attempt, last_sign_in_success.</param>
   /// <param name="cancellationToken">The <see cref="CancellationToken"/> used to propagate notifications that the operation should be canceled.</param>
   /// <returns>List&lt;UserIpAccessDetails&gt;</returns>
   /// <exception cref="MonoCloudException">A server side error occurred.</exception>
@@ -1289,9 +1289,9 @@ public class UsersClient : MonoCloudClientBase
   }
 
   /// <summary>
-  /// Unblock an IP address
+  /// Reset IP lockout
   /// </summary>
-  /// <param name="userId">The ID of the user whose IP address should be unblocked.</param>
+  /// <param name="userId">The unique identifier of the user whose IP address should be unblocked.</param>
   /// <param name="unblockIpRequest">The unblock IP request</param>
   /// <param name="cancellationToken">The <see cref="CancellationToken"/> used to propagate notifications that the operation should be canceled.</param>
   /// <returns>User</returns>
@@ -1330,13 +1330,13 @@ public class UsersClient : MonoCloudClientBase
   }
 
   /// <summary>
-  /// Get all sessions
+  /// List user sessions
   /// </summary>
-  /// <param name="userId">The ID of the user whose sessions should be retrieved.</param>
+  /// <param name="userId">The unique identifier of the user</param>
   /// <param name="page">The page number to retrieve.</param>
-  /// <param name="size">The number of items per page.</param>
-  /// <param name="clientId">The client ID by which the user sessions should be filtered.</param>
-  /// <param name="sort">Specifies the sort criteria in the &#39;sort_key:sort_order&#39; format. The sort order value can be &#39;1&#39; for ascending and &#39;-1&#39; for descending.  Acceptable sort key values are &#39;session_id&#39;, &#39;initiated_at&#39;, &#39;expires_at&#39;, and &#39;last_updated&#39;.</param>
+  /// <param name="size">The number of sessions to return per page. The maximum allowed value is 50.</param>
+  /// <param name="clientId">Filters results to sessions associated with the specified client.</param>
+  /// <param name="sort">Sort expression in the format &#x60;field:direction&#x60;, where direction is &#x60;1&#x60; for ascending or &#x60;-1&#x60; for descending.  Supported fields include - session_id, initiated_at, expires_at, last_updated.</param>
   /// <param name="cancellationToken">The <see cref="CancellationToken"/> used to propagate notifications that the operation should be canceled.</param>
   /// <returns>List&lt;UserSession&gt;</returns>
   /// <exception cref="MonoCloudException">A server side error occurred.</exception>
@@ -1388,10 +1388,10 @@ public class UsersClient : MonoCloudClientBase
   }
 
   /// <summary>
-  /// Get a user session
+  /// Retrieve a user session
   /// </summary>
-  /// <param name="userId">The ID of the user whose session should be retrieved.</param>
-  /// <param name="sessionId">The ID of the user session to be retrieved</param>
+  /// <param name="userId">The unique identifier of the user</param>
+  /// <param name="sessionId">The unique identifier of the user session</param>
   /// <param name="cancellationToken">The <see cref="CancellationToken"/> used to propagate notifications that the operation should be canceled.</param>
   /// <returns>UserSession</returns>
   /// <exception cref="MonoCloudException">A server side error occurred.</exception>
@@ -1432,8 +1432,8 @@ public class UsersClient : MonoCloudClientBase
   /// <summary>
   /// Revoke a session
   /// </summary>
-  /// <param name="userId">The ID of the user whose session should be revoked.</param>
-  /// <param name="sessionId">The ID of the session to revoke.</param>
+  /// <param name="userId">The unique identifier of the user</param>
+  /// <param name="sessionId">The unique identifier of the session</param>
   /// <param name="cancellationToken">The <see cref="CancellationToken"/> used to propagate notifications that the operation should be canceled.</param>
   /// <returns></returns>
   /// <exception cref="MonoCloudException">A server side error occurred.</exception>
@@ -1468,10 +1468,10 @@ public class UsersClient : MonoCloudClientBase
   }
 
   /// <summary>
-  /// Disconnect external authenticator
+  /// Disconnect an external authenticator
   /// </summary>
-  /// <param name="userId">The ID of the user from whom the external authenticator should be disconnected.</param>
-  /// <param name="externalAuthenticatorDisconnectRequest">The disconnected external authenticator request.</param>
+  /// <param name="userId">The unique identifier of the user</param>
+  /// <param name="externalAuthenticatorDisconnectRequest">The disconnected external authenticator request</param>
   /// <param name="cancellationToken">The <see cref="CancellationToken"/> used to propagate notifications that the operation should be canceled.</param>
   /// <returns>User</returns>
   /// <exception cref="MonoCloudException">A server side error occurred.</exception>
@@ -1509,12 +1509,12 @@ public class UsersClient : MonoCloudClientBase
   }
 
   /// <summary>
-  /// Get all user&#39;s groups
+  /// List user&#39;s groups
   /// </summary>
-  /// <param name="userId">The ID of the user whose group assignments should be retrieved.</param>
+  /// <param name="userId">The unique identifier of the user</param>
   /// <param name="page">The page number to retrieve.</param>
-  /// <param name="size">The number of items per page.</param>
-  /// <param name="sort">Specifies the sort criteria in the &#39;sort_key:sort_order&#39; format. The sort order value can be &#39;1&#39; for ascending and &#39;-1&#39; for descending.  The acceptable sort key is &#39;creation_time&#39;.</param>
+  /// <param name="size">The number of groups to return per page. The maximum allowed value is 50.</param>
+  /// <param name="sort">Sort expression in the format &#x60;field:direction&#x60;, where direction is &#x60;1&#x60; for ascending or &#x60;-1&#x60; for descending.  Supported fields include - creation_time.</param>
   /// <param name="cancellationToken">The <see cref="CancellationToken"/> used to propagate notifications that the operation should be canceled.</param>
   /// <returns>List&lt;UserGroup&gt;</returns>
   /// <exception cref="MonoCloudException">A server side error occurred.</exception>
@@ -1561,10 +1561,10 @@ public class UsersClient : MonoCloudClientBase
   }
 
   /// <summary>
-  /// Get a user group
+  /// Retrieve a user group
   /// </summary>
-  /// <param name="userId">The ID of the user whose group association should be retrieved.</param>
-  /// <param name="groupId">The ID of the group to which the user is assigned.</param>
+  /// <param name="userId">The unique identifier of the user</param>
+  /// <param name="groupId">The unique identifier of the group</param>
   /// <param name="cancellationToken">The <see cref="CancellationToken"/> used to propagate notifications that the operation should be canceled.</param>
   /// <returns>UserGroup</returns>
   /// <exception cref="MonoCloudException">A server side error occurred.</exception>
@@ -1575,7 +1575,7 @@ public class UsersClient : MonoCloudClientBase
       throw new ArgumentNullException(nameof(userId));
     }
 
-    if (groupId == null)
+    if (groupId == Guid.Empty)
     {
       throw new ArgumentNullException(nameof(groupId));
     }
@@ -1603,10 +1603,10 @@ public class UsersClient : MonoCloudClientBase
   }
 
   /// <summary>
-  /// Assign user to group
+  /// Assign a user to a group
   /// </summary>
-  /// <param name="userId">The ID of the user to be assigned to the group.</param>
-  /// <param name="groupId">The ID of the group to which the user will be assigned.</param>
+  /// <param name="userId">The unique identifier of the user</param>
+  /// <param name="groupId">The unique identifier of the group</param>
   /// <param name="cancellationToken">The <see cref="CancellationToken"/> used to propagate notifications that the operation should be canceled.</param>
   /// <returns>UserGroup</returns>
   /// <exception cref="MonoCloudException">A server side error occurred.</exception>
@@ -1617,7 +1617,7 @@ public class UsersClient : MonoCloudClientBase
       throw new ArgumentNullException(nameof(userId));
     }
 
-    if (groupId == null)
+    if (groupId == Guid.Empty)
     {
       throw new ArgumentNullException(nameof(groupId));
     }
@@ -1645,10 +1645,10 @@ public class UsersClient : MonoCloudClientBase
   }
 
   /// <summary>
-  /// Remove user from group
+  /// Remove a user from a group
   /// </summary>
-  /// <param name="userId">The ID of the user to be removed from the group.</param>
-  /// <param name="groupId">The ID of the group from which the user should be removed.</param>
+  /// <param name="userId">The unique identifier of the user</param>
+  /// <param name="groupId">The unique identifier of the group</param>
   /// <param name="cancellationToken">The <see cref="CancellationToken"/> used to propagate notifications that the operation should be canceled.</param>
   /// <returns></returns>
   /// <exception cref="MonoCloudException">A server side error occurred.</exception>
@@ -1659,7 +1659,7 @@ public class UsersClient : MonoCloudClientBase
       throw new ArgumentNullException(nameof(userId));
     }
 
-    if (groupId == null)
+    if (groupId == Guid.Empty)
     {
       throw new ArgumentNullException(nameof(groupId));
     }
@@ -1683,19 +1683,19 @@ public class UsersClient : MonoCloudClientBase
   }
 
   /// <summary>
-  /// Get all users in group
+  /// List users in group
   /// </summary>
-  /// <param name="groupId">The ID of the group whose users should be retrieved.</param>
+  /// <param name="groupId">The unique identifier of the group</param>
   /// <param name="page">The page number to retrieve.</param>
-  /// <param name="size">The number of items per page.</param>
-  /// <param name="filter">A query filter to apply when searching for users.</param>
-  /// <param name="sort">Specifies the sort criteria in the &#39;sort_key:sort_order&#39; format. The sort order value can be &#39;1&#39; for ascending and &#39;-1&#39; for descending.  Acceptable sort key values are &#39;creation_time&#39;, and &#39;last_updated&#39;.</param>
+  /// <param name="size">The number of users to return per page. The maximum allowed value is 50.</param>
+  /// <param name="filter">Optional Lucene-style filter expression used to search by attributes.</param>
+  /// <param name="sort">Sort expression in the format &#x60;field:direction&#x60;, where direction is &#x60;1&#x60; for ascending or &#x60;-1&#x60; for descending.  Supported fields include - failure_count, last_sign_in_attempt, sign_in_attempts_count, last_sign_in_success, sign_in_success_count, last_activity, block_until, creation_time, last_updated.</param>
   /// <param name="cancellationToken">The <see cref="CancellationToken"/> used to propagate notifications that the operation should be canceled.</param>
   /// <returns>List&lt;UserSummary&gt;</returns>
   /// <exception cref="MonoCloudException">A server side error occurred.</exception>
   public Task<MonoCloudResponse<List<UserSummary>, PageModel>> GetAllGroupAssignedUsersAsync(Guid groupId, int? page = 1, int? size = 10, string? filter = default, string? sort = default, CancellationToken cancellationToken = default)
   {
-    if (groupId == null)
+    if (groupId == Guid.Empty)
     {
       throw new ArgumentNullException(nameof(groupId));
     }
@@ -1741,11 +1741,11 @@ public class UsersClient : MonoCloudClientBase
   }
 
   /// <summary>
-  /// Get all client grants
+  /// List client grants
   /// </summary>
-  /// <param name="userId">The ID of the user whose grants should be retrieved.</param>
+  /// <param name="userId">The unique identifier of the user</param>
   /// <param name="page">The page number to retrieve.</param>
-  /// <param name="size">The number of items per page.</param>
+  /// <param name="size">The number of grants to return per page. The maximum allowed value is 50.</param>
   /// <param name="cancellationToken">The <see cref="CancellationToken"/> used to propagate notifications that the operation should be canceled.</param>
   /// <returns>List&lt;UserClientGrants&gt;</returns>
   /// <exception cref="MonoCloudException">A server side error occurred.</exception>
@@ -1787,13 +1787,13 @@ public class UsersClient : MonoCloudClientBase
   }
 
   /// <summary>
-  /// Get all consents
+  /// List user consents
   /// </summary>
-  /// <param name="userId">The ID of the user whose consents should be retrieved.</param>
+  /// <param name="userId">The unique identifier of the user</param>
   /// <param name="page">The page number to retrieve.</param>
-  /// <param name="size">The number of items per page.</param>
-  /// <param name="clientId">The client ID by which the grants should be filtered.</param>
-  /// <param name="sort">Specifies the sort criteria in the &#39;sort_key:sort_order&#39; format. The sort order value can be &#39;1&#39; for ascending and &#39;-1&#39; for descending.  Acceptable sort key values are &#39;creation_time&#39; and &#39;expiration&#39;.</param>
+  /// <param name="size">The number of consents to return per page. The maximum allowed value is 50.</param>
+  /// <param name="clientId">Filters results to consents issued to the specified client.</param>
+  /// <param name="sort">Sort expression in the format &#x60;field:direction&#x60;, where direction is &#x60;1&#x60; for ascending or &#x60;-1&#x60; for descending.  Supported fields include - creation_time.</param>
   /// <param name="cancellationToken">The <see cref="CancellationToken"/> used to propagate notifications that the operation should be canceled.</param>
   /// <returns>List&lt;UserConsent&gt;</returns>
   /// <exception cref="MonoCloudException">A server side error occurred.</exception>
@@ -1845,14 +1845,14 @@ public class UsersClient : MonoCloudClientBase
   }
 
   /// <summary>
-  /// Get all reference tokens
+  /// List reference tokens
   /// </summary>
-  /// <param name="userId">The ID of the user whose tokens should be retrieved.</param>
+  /// <param name="userId">The unique identifier of the user</param>
   /// <param name="page">The page number to retrieve.</param>
-  /// <param name="size">The number of items per page.</param>
-  /// <param name="clientId">The client ID by which the grants should be filtered.</param>
-  /// <param name="sessionId">The session ID by which the grants should be filtered.</param>
-  /// <param name="sort">Specifies the sort criteria in the &#39;sort_key:sort_order&#39; format. The sort order value can be &#39;1&#39; for ascending and &#39;-1&#39; for descending.  Acceptable sort key values are &#39;creation_time&#39; and &#39;expiration&#39;.</param>
+  /// <param name="size">The number of grants to return per page. The maximum allowed value is 50.</param>
+  /// <param name="clientId">Filters results to grants issued to the specified client.</param>
+  /// <param name="sessionId">Filters results to grants issued within the specified session.</param>
+  /// <param name="sort">Sort expression in the format &#x60;field:direction&#x60;, where direction is &#x60;1&#x60; for ascending or &#x60;-1&#x60; for descending.  Supported fields include - creation_time.</param>
   /// <param name="cancellationToken">The <see cref="CancellationToken"/> used to propagate notifications that the operation should be canceled.</param>
   /// <returns>List&lt;ReferenceToken&gt;</returns>
   /// <exception cref="MonoCloudException">A server side error occurred.</exception>
@@ -1909,14 +1909,14 @@ public class UsersClient : MonoCloudClientBase
   }
 
   /// <summary>
-  /// Get all refresh tokens
+  /// List refresh tokens
   /// </summary>
-  /// <param name="userId">The ID of the user whose tokens should be retrieved.</param>
+  /// <param name="userId">The unique identifier of the user</param>
   /// <param name="page">The page number to retrieve.</param>
-  /// <param name="size">The number of items per page.</param>
-  /// <param name="clientId">The client ID by which the grants should be filtered.</param>
-  /// <param name="sessionId">The session ID by which the grants should be filtered.</param>
-  /// <param name="sort">Specifies the sort criteria in the &#39;sort_key:sort_order&#39; format. The sort order value can be &#39;1&#39; for ascending and &#39;-1&#39; for descending.  Acceptable sort key values are &#39;creation_time&#39; and &#39;expiration&#39;.</param>
+  /// <param name="size">The number of grants to return per page. The maximum allowed value is 50.</param>
+  /// <param name="clientId">Filters results to grants issued to the specified client.</param>
+  /// <param name="sessionId">Filters results to grants issued within the specified session.</param>
+  /// <param name="sort">Sort expression in the format &#x60;field:direction&#x60;, where direction is &#x60;1&#x60; for ascending or &#x60;-1&#x60; for descending.  Supported fields include - creation_time.</param>
   /// <param name="cancellationToken">The <see cref="CancellationToken"/> used to propagate notifications that the operation should be canceled.</param>
   /// <returns>List&lt;RefreshToken&gt;</returns>
   /// <exception cref="MonoCloudException">A server side error occurred.</exception>
@@ -1973,14 +1973,14 @@ public class UsersClient : MonoCloudClientBase
   }
 
   /// <summary>
-  /// Get all authorization codes
+  /// List authorization codes
   /// </summary>
-  /// <param name="userId">The ID of the user whose authorization codes should be retrieved.</param>
+  /// <param name="userId">The unique identifier of the user</param>
   /// <param name="page">The page number to retrieve.</param>
-  /// <param name="size">The number of items per page.</param>
-  /// <param name="clientId">The client ID by which the grants should be filtered.</param>
-  /// <param name="sessionId">The session ID by which the grants should be filtered.</param>
-  /// <param name="sort">Specifies the sort criteria in the &#39;sort_key:sort_order&#39; format. The sort order value can be &#39;1&#39; for ascending and &#39;-1&#39; for descending.  Acceptable sort key values are &#39;creation_time&#39; and &#39;expiration&#39;.</param>
+  /// <param name="size">The number of grants to return per page. The maximum allowed value is 50.</param>
+  /// <param name="clientId">Filters results to grants issued to the specified client.</param>
+  /// <param name="sessionId">Filters results to grants issued within the specified session.</param>
+  /// <param name="sort">Sort expression in the format &#x60;field:direction&#x60;, where direction is &#x60;1&#x60; for ascending or &#x60;-1&#x60; for descending.  Supported fields include - creation_time.</param>
   /// <param name="cancellationToken">The <see cref="CancellationToken"/> used to propagate notifications that the operation should be canceled.</param>
   /// <returns>List&lt;AuthorizationCode&gt;</returns>
   /// <exception cref="MonoCloudException">A server side error occurred.</exception>
@@ -2039,8 +2039,8 @@ public class UsersClient : MonoCloudClientBase
   /// <summary>
   /// Revoke client grants
   /// </summary>
-  /// <param name="userId">The ID of the user whose token should be revoked.</param>
-  /// <param name="clientId">The ID of the client whose grants should be revoked.</param>
+  /// <param name="userId">The unique identifier of the user</param>
+  /// <param name="clientId">The unique identifier of the application</param>
   /// <param name="cancellationToken">The <see cref="CancellationToken"/> used to propagate notifications that the operation should be canceled.</param>
   /// <returns></returns>
   /// <exception cref="MonoCloudException">A server side error occurred.</exception>
@@ -2077,8 +2077,8 @@ public class UsersClient : MonoCloudClientBase
   /// <summary>
   /// Revoke a consent
   /// </summary>
-  /// <param name="userId">The ID of the user whose consent should be revoked.</param>
-  /// <param name="consentId">The ID of the consent to be revoked.</param>
+  /// <param name="userId">The unique identifier of the user</param>
+  /// <param name="consentId">The unique identifier of the consent</param>
   /// <param name="cancellationToken">The <see cref="CancellationToken"/> used to propagate notifications that the operation should be canceled.</param>
   /// <returns></returns>
   /// <exception cref="MonoCloudException">A server side error occurred.</exception>
@@ -2115,8 +2115,8 @@ public class UsersClient : MonoCloudClientBase
   /// <summary>
   /// Revoke a reference token
   /// </summary>
-  /// <param name="userId">The ID of the user whose token should be revoked.</param>
-  /// <param name="tokenId">The ID of the token to be revoked.</param>
+  /// <param name="userId">The unique identifier of the user</param>
+  /// <param name="tokenId">The unique identifier of the reference token</param>
   /// <param name="cancellationToken">The <see cref="CancellationToken"/> used to propagate notifications that the operation should be canceled.</param>
   /// <returns></returns>
   /// <exception cref="MonoCloudException">A server side error occurred.</exception>
@@ -2153,8 +2153,8 @@ public class UsersClient : MonoCloudClientBase
   /// <summary>
   /// Revoke a refresh token
   /// </summary>
-  /// <param name="userId">The ID of the user whose token should be revoked.</param>
-  /// <param name="tokenId">The ID of the token to be revoked.</param>
+  /// <param name="userId">The unique identifier of the user</param>
+  /// <param name="tokenId">The unique identifier of the token</param>
   /// <param name="cancellationToken">The <see cref="CancellationToken"/> used to propagate notifications that the operation should be canceled.</param>
   /// <returns></returns>
   /// <exception cref="MonoCloudException">A server side error occurred.</exception>
@@ -2191,8 +2191,8 @@ public class UsersClient : MonoCloudClientBase
   /// <summary>
   /// Revoke an authorization code
   /// </summary>
-  /// <param name="userId">The ID of the user whose authorization code should be revoked.</param>
-  /// <param name="codeId">The ID of the authorization code to be revoked.</param>
+  /// <param name="userId">The unique identifier of the user</param>
+  /// <param name="codeId">The unique identifier of the authorization code</param>
   /// <param name="cancellationToken">The <see cref="CancellationToken"/> used to propagate notifications that the operation should be canceled.</param>
   /// <returns></returns>
   /// <exception cref="MonoCloudException">A server side error occurred.</exception>

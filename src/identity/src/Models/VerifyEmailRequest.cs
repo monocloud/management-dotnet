@@ -6,7 +6,7 @@ namespace MonoCloud.Management.Identity.Models;
 public class VerifyEmailRequest
 {
   /// <summary>
-  /// Specifies the expiry time for the verification link (in seconds).
+  /// Lifetime of the verification link in seconds; defaults to system configuration if omitted.
   /// </summary>
   public int? Expiry { get; set; }
 }
