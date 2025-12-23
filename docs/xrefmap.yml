@@ -1624,6 +1624,19 @@ references:
   isSpec: "True"
   fullName: MonoCloud.Management.Admin.Models.ApiResource.DisplayName
   nameWithType: ApiResource.DisplayName
+- uid: MonoCloud.Management.Admin.Models.ApiResource.EnableIdentityAccess
+  name: EnableIdentityAccess
+  href: api/MonoCloud.Management.Admin.Models.ApiResource.html#MonoCloud_Management_Admin_Models_ApiResource_EnableIdentityAccess
+  commentId: P:MonoCloud.Management.Admin.Models.ApiResource.EnableIdentityAccess
+  fullName: MonoCloud.Management.Admin.Models.ApiResource.EnableIdentityAccess
+  nameWithType: ApiResource.EnableIdentityAccess
+- uid: MonoCloud.Management.Admin.Models.ApiResource.EnableIdentityAccess*
+  name: EnableIdentityAccess
+  href: api/MonoCloud.Management.Admin.Models.ApiResource.html#MonoCloud_Management_Admin_Models_ApiResource_EnableIdentityAccess_
+  commentId: Overload:MonoCloud.Management.Admin.Models.ApiResource.EnableIdentityAccess
+  isSpec: "True"
+  fullName: MonoCloud.Management.Admin.Models.ApiResource.EnableIdentityAccess
+  nameWithType: ApiResource.EnableIdentityAccess
 - uid: MonoCloud.Management.Admin.Models.ApiResource.Enabled
   name: Enabled
   href: api/MonoCloud.Management.Admin.Models.ApiResource.html#MonoCloud_Management_Admin_Models_ApiResource_Enabled
@@ -6595,6 +6608,19 @@ references:
   isSpec: "True"
   fullName: MonoCloud.Management.Admin.Models.Client.DeviceCodeLifetime
   nameWithType: Client.DeviceCodeLifetime
+- uid: MonoCloud.Management.Admin.Models.Client.EmitOfflineAccessScopeInAccessToken
+  name: EmitOfflineAccessScopeInAccessToken
+  href: api/MonoCloud.Management.Admin.Models.Client.html#MonoCloud_Management_Admin_Models_Client_EmitOfflineAccessScopeInAccessToken
+  commentId: P:MonoCloud.Management.Admin.Models.Client.EmitOfflineAccessScopeInAccessToken
+  fullName: MonoCloud.Management.Admin.Models.Client.EmitOfflineAccessScopeInAccessToken
+  nameWithType: Client.EmitOfflineAccessScopeInAccessToken
+- uid: MonoCloud.Management.Admin.Models.Client.EmitOfflineAccessScopeInAccessToken*
+  name: EmitOfflineAccessScopeInAccessToken
+  href: api/MonoCloud.Management.Admin.Models.Client.html#MonoCloud_Management_Admin_Models_Client_EmitOfflineAccessScopeInAccessToken_
+  commentId: Overload:MonoCloud.Management.Admin.Models.Client.EmitOfflineAccessScopeInAccessToken
+  isSpec: "True"
+  fullName: MonoCloud.Management.Admin.Models.Client.EmitOfflineAccessScopeInAccessToken
+  nameWithType: Client.EmitOfflineAccessScopeInAccessToken
 - uid: MonoCloud.Management.Admin.Models.Client.Enabled
   name: Enabled
   href: api/MonoCloud.Management.Admin.Models.Client.html#MonoCloud_Management_Admin_Models_Client_Enabled
@@ -7254,6 +7280,19 @@ references:
   isSpec: "True"
   fullName: MonoCloud.Management.Admin.Models.CreateApiResourceRequest.DisplayName
   nameWithType: CreateApiResourceRequest.DisplayName
+- uid: MonoCloud.Management.Admin.Models.CreateApiResourceRequest.EnableIdentityAccess
+  name: EnableIdentityAccess
+  href: api/MonoCloud.Management.Admin.Models.CreateApiResourceRequest.html#MonoCloud_Management_Admin_Models_CreateApiResourceRequest_EnableIdentityAccess
+  commentId: P:MonoCloud.Management.Admin.Models.CreateApiResourceRequest.EnableIdentityAccess
+  fullName: MonoCloud.Management.Admin.Models.CreateApiResourceRequest.EnableIdentityAccess
+  nameWithType: CreateApiResourceRequest.EnableIdentityAccess
+- uid: MonoCloud.Management.Admin.Models.CreateApiResourceRequest.EnableIdentityAccess*
+  name: EnableIdentityAccess
+  href: api/MonoCloud.Management.Admin.Models.CreateApiResourceRequest.html#MonoCloud_Management_Admin_Models_CreateApiResourceRequest_EnableIdentityAccess_
+  commentId: Overload:MonoCloud.Management.Admin.Models.CreateApiResourceRequest.EnableIdentityAccess
+  isSpec: "True"
+  fullName: MonoCloud.Management.Admin.Models.CreateApiResourceRequest.EnableIdentityAccess
+  nameWithType: CreateApiResourceRequest.EnableIdentityAccess
 - uid: MonoCloud.Management.Admin.Models.CreateApiResourceRequest.Enabled
   name: Enabled
   href: api/MonoCloud.Management.Admin.Models.CreateApiResourceRequest.html#MonoCloud_Management_Admin_Models_CreateApiResourceRequest_Enabled
@@ -7857,6 +7896,19 @@ references:
   isSpec: "True"
   fullName: MonoCloud.Management.Admin.Models.CreateClientRequest.DeviceCodeLifetime
   nameWithType: CreateClientRequest.DeviceCodeLifetime
+- uid: MonoCloud.Management.Admin.Models.CreateClientRequest.EmitOfflineAccessScopeInAccessToken
+  name: EmitOfflineAccessScopeInAccessToken
+  href: api/MonoCloud.Management.Admin.Models.CreateClientRequest.html#MonoCloud_Management_Admin_Models_CreateClientRequest_EmitOfflineAccessScopeInAccessToken
+  commentId: P:MonoCloud.Management.Admin.Models.CreateClientRequest.EmitOfflineAccessScopeInAccessToken
+  fullName: MonoCloud.Management.Admin.Models.CreateClientRequest.EmitOfflineAccessScopeInAccessToken
+  nameWithType: CreateClientRequest.EmitOfflineAccessScopeInAccessToken
+- uid: MonoCloud.Management.Admin.Models.CreateClientRequest.EmitOfflineAccessScopeInAccessToken*
+  name: EmitOfflineAccessScopeInAccessToken
+  href: api/MonoCloud.Management.Admin.Models.CreateClientRequest.html#MonoCloud_Management_Admin_Models_CreateClientRequest_EmitOfflineAccessScopeInAccessToken_
+  commentId: Overload:MonoCloud.Management.Admin.Models.CreateClientRequest.EmitOfflineAccessScopeInAccessToken
+  isSpec: "True"
+  fullName: MonoCloud.Management.Admin.Models.CreateClientRequest.EmitOfflineAccessScopeInAccessToken
+  nameWithType: CreateClientRequest.EmitOfflineAccessScopeInAccessToken
 - uid: MonoCloud.Management.Admin.Models.CreateClientRequest.Enabled
   name: Enabled
   href: api/MonoCloud.Management.Admin.Models.CreateClientRequest.html#MonoCloud_Management_Admin_Models_CreateClientRequest_Enabled
@@ -11092,6 +11144,19 @@ references:
   isSpec: "True"
   fullName: MonoCloud.Management.Admin.Models.PatchApiResourceRequest.DisplayName
   nameWithType: PatchApiResourceRequest.DisplayName
+- uid: MonoCloud.Management.Admin.Models.PatchApiResourceRequest.EnableIdentityAccess
+  name: EnableIdentityAccess
+  href: api/MonoCloud.Management.Admin.Models.PatchApiResourceRequest.html#MonoCloud_Management_Admin_Models_PatchApiResourceRequest_EnableIdentityAccess
+  commentId: P:MonoCloud.Management.Admin.Models.PatchApiResourceRequest.EnableIdentityAccess
+  fullName: MonoCloud.Management.Admin.Models.PatchApiResourceRequest.EnableIdentityAccess
+  nameWithType: PatchApiResourceRequest.EnableIdentityAccess
+- uid: MonoCloud.Management.Admin.Models.PatchApiResourceRequest.EnableIdentityAccess*
+  name: EnableIdentityAccess
+  href: api/MonoCloud.Management.Admin.Models.PatchApiResourceRequest.html#MonoCloud_Management_Admin_Models_PatchApiResourceRequest_EnableIdentityAccess_
+  commentId: Overload:MonoCloud.Management.Admin.Models.PatchApiResourceRequest.EnableIdentityAccess
+  isSpec: "True"
+  fullName: MonoCloud.Management.Admin.Models.PatchApiResourceRequest.EnableIdentityAccess
+  nameWithType: PatchApiResourceRequest.EnableIdentityAccess
 - uid: MonoCloud.Management.Admin.Models.PatchApiResourceRequest.Enabled
   name: Enabled
   href: api/MonoCloud.Management.Admin.Models.PatchApiResourceRequest.html#MonoCloud_Management_Admin_Models_PatchApiResourceRequest_Enabled
@@ -15480,6 +15545,19 @@ references:
   isSpec: "True"
   fullName: MonoCloud.Management.Admin.Models.PatchClientRequest.DeviceCodeLifetime
   nameWithType: PatchClientRequest.DeviceCodeLifetime
+- uid: MonoCloud.Management.Admin.Models.PatchClientRequest.EmitOfflineAccessScopeInAccessToken
+  name: EmitOfflineAccessScopeInAccessToken
+  href: api/MonoCloud.Management.Admin.Models.PatchClientRequest.html#MonoCloud_Management_Admin_Models_PatchClientRequest_EmitOfflineAccessScopeInAccessToken
+  commentId: P:MonoCloud.Management.Admin.Models.PatchClientRequest.EmitOfflineAccessScopeInAccessToken
+  fullName: MonoCloud.Management.Admin.Models.PatchClientRequest.EmitOfflineAccessScopeInAccessToken
+  nameWithType: PatchClientRequest.EmitOfflineAccessScopeInAccessToken
+- uid: MonoCloud.Management.Admin.Models.PatchClientRequest.EmitOfflineAccessScopeInAccessToken*
+  name: EmitOfflineAccessScopeInAccessToken
+  href: api/MonoCloud.Management.Admin.Models.PatchClientRequest.html#MonoCloud_Management_Admin_Models_PatchClientRequest_EmitOfflineAccessScopeInAccessToken_
+  commentId: Overload:MonoCloud.Management.Admin.Models.PatchClientRequest.EmitOfflineAccessScopeInAccessToken
+  isSpec: "True"
+  fullName: MonoCloud.Management.Admin.Models.PatchClientRequest.EmitOfflineAccessScopeInAccessToken
+  nameWithType: PatchClientRequest.EmitOfflineAccessScopeInAccessToken
 - uid: MonoCloud.Management.Admin.Models.PatchClientRequest.Enabled
   name: Enabled
   href: api/MonoCloud.Management.Admin.Models.PatchClientRequest.html#MonoCloud_Management_Admin_Models_PatchClientRequest_Enabled
@@ -18303,6 +18381,12 @@ references:
   commentId: F:MonoCloud.Management.Admin.Models.TechTypes.Arduino
   fullName: MonoCloud.Management.Admin.Models.TechTypes.Arduino
   nameWithType: TechTypes.Arduino
+- uid: MonoCloud.Management.Admin.Models.TechTypes.Astro
+  name: Astro
+  href: api/MonoCloud.Management.Admin.Models.TechTypes.html#MonoCloud_Management_Admin_Models_TechTypes_Astro
+  commentId: F:MonoCloud.Management.Admin.Models.TechTypes.Astro
+  fullName: MonoCloud.Management.Admin.Models.TechTypes.Astro
+  nameWithType: TechTypes.Astro
 - uid: MonoCloud.Management.Admin.Models.TechTypes.AwsLambda
   name: AwsLambda
   href: api/MonoCloud.Management.Admin.Models.TechTypes.html#MonoCloud_Management_Admin_Models_TechTypes_AwsLambda
@@ -19137,219 +19221,6 @@ references:
   isSpec: "True"
   fullName: MonoCloud.Management.Admin.MonoCloudAdminServiceExtensions.AddMonoCloudAdminClient
   nameWithType: MonoCloudAdminServiceExtensions.AddMonoCloudAdminClient
-- uid: MonoCloud.Management.Admin.UnitTests
-  name: MonoCloud.Management.Admin.UnitTests
-  href: api/MonoCloud.Management.Admin.UnitTests.html
-  commentId: N:MonoCloud.Management.Admin.UnitTests
-  fullName: MonoCloud.Management.Admin.UnitTests
-  nameWithType: MonoCloud.Management.Admin.UnitTests
-- uid: MonoCloud.Management.Admin.UnitTests.SDKTests
-  name: SDKTests
-  href: api/MonoCloud.Management.Admin.UnitTests.SDKTests.html
-  commentId: T:MonoCloud.Management.Admin.UnitTests.SDKTests
-  fullName: MonoCloud.Management.Admin.UnitTests.SDKTests
-  nameWithType: SDKTests
-- uid: MonoCloud.Management.Admin.UnitTests.SDKTests.#ctor
-  name: SDKTests()
-  href: api/MonoCloud.Management.Admin.UnitTests.SDKTests.html#MonoCloud_Management_Admin_UnitTests_SDKTests__ctor
-  commentId: M:MonoCloud.Management.Admin.UnitTests.SDKTests.#ctor
-  name.vb: New()
-  fullName: MonoCloud.Management.Admin.UnitTests.SDKTests.SDKTests()
-  fullName.vb: MonoCloud.Management.Admin.UnitTests.SDKTests.New()
-  nameWithType: SDKTests.SDKTests()
-  nameWithType.vb: SDKTests.New()
-- uid: MonoCloud.Management.Admin.UnitTests.SDKTests.#ctor*
-  name: SDKTests
-  href: api/MonoCloud.Management.Admin.UnitTests.SDKTests.html#MonoCloud_Management_Admin_UnitTests_SDKTests__ctor_
-  commentId: Overload:MonoCloud.Management.Admin.UnitTests.SDKTests.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: MonoCloud.Management.Admin.UnitTests.SDKTests.SDKTests
-  fullName.vb: MonoCloud.Management.Admin.UnitTests.SDKTests.New
-  nameWithType: SDKTests.SDKTests
-  nameWithType.vb: SDKTests.New
-- uid: MonoCloud.Management.Admin.UnitTests.SDKTests.Bad_request_error_should_handle_correctly
-  name: Bad_request_error_should_handle_correctly()
-  href: api/MonoCloud.Management.Admin.UnitTests.SDKTests.html#MonoCloud_Management_Admin_UnitTests_SDKTests_Bad_request_error_should_handle_correctly
-  commentId: M:MonoCloud.Management.Admin.UnitTests.SDKTests.Bad_request_error_should_handle_correctly
-  fullName: MonoCloud.Management.Admin.UnitTests.SDKTests.Bad_request_error_should_handle_correctly()
-  nameWithType: SDKTests.Bad_request_error_should_handle_correctly()
-- uid: MonoCloud.Management.Admin.UnitTests.SDKTests.Bad_request_error_should_handle_correctly*
-  name: Bad_request_error_should_handle_correctly
-  href: api/MonoCloud.Management.Admin.UnitTests.SDKTests.html#MonoCloud_Management_Admin_UnitTests_SDKTests_Bad_request_error_should_handle_correctly_
-  commentId: Overload:MonoCloud.Management.Admin.UnitTests.SDKTests.Bad_request_error_should_handle_correctly
-  isSpec: "True"
-  fullName: MonoCloud.Management.Admin.UnitTests.SDKTests.Bad_request_error_should_handle_correctly
-  nameWithType: SDKTests.Bad_request_error_should_handle_correctly
-- uid: MonoCloud.Management.Admin.UnitTests.SDKTests.Create_should_only_send_set_fields
-  name: Create_should_only_send_set_fields()
-  href: api/MonoCloud.Management.Admin.UnitTests.SDKTests.html#MonoCloud_Management_Admin_UnitTests_SDKTests_Create_should_only_send_set_fields
-  commentId: M:MonoCloud.Management.Admin.UnitTests.SDKTests.Create_should_only_send_set_fields
-  fullName: MonoCloud.Management.Admin.UnitTests.SDKTests.Create_should_only_send_set_fields()
-  nameWithType: SDKTests.Create_should_only_send_set_fields()
-- uid: MonoCloud.Management.Admin.UnitTests.SDKTests.Create_should_only_send_set_fields*
-  name: Create_should_only_send_set_fields
-  href: api/MonoCloud.Management.Admin.UnitTests.SDKTests.html#MonoCloud_Management_Admin_UnitTests_SDKTests_Create_should_only_send_set_fields_
-  commentId: Overload:MonoCloud.Management.Admin.UnitTests.SDKTests.Create_should_only_send_set_fields
-  isSpec: "True"
-  fullName: MonoCloud.Management.Admin.UnitTests.SDKTests.Create_should_only_send_set_fields
-  nameWithType: SDKTests.Create_should_only_send_set_fields
-- uid: MonoCloud.Management.Admin.UnitTests.SDKTests.Create_should_send_correct_datetime
-  name: Create_should_send_correct_datetime()
-  href: api/MonoCloud.Management.Admin.UnitTests.SDKTests.html#MonoCloud_Management_Admin_UnitTests_SDKTests_Create_should_send_correct_datetime
-  commentId: M:MonoCloud.Management.Admin.UnitTests.SDKTests.Create_should_send_correct_datetime
-  fullName: MonoCloud.Management.Admin.UnitTests.SDKTests.Create_should_send_correct_datetime()
-  nameWithType: SDKTests.Create_should_send_correct_datetime()
-- uid: MonoCloud.Management.Admin.UnitTests.SDKTests.Create_should_send_correct_datetime*
-  name: Create_should_send_correct_datetime
-  href: api/MonoCloud.Management.Admin.UnitTests.SDKTests.html#MonoCloud_Management_Admin_UnitTests_SDKTests_Create_should_send_correct_datetime_
-  commentId: Overload:MonoCloud.Management.Admin.UnitTests.SDKTests.Create_should_send_correct_datetime
-  isSpec: "True"
-  fullName: MonoCloud.Management.Admin.UnitTests.SDKTests.Create_should_send_correct_datetime
-  nameWithType: SDKTests.Create_should_send_correct_datetime
-- uid: MonoCloud.Management.Admin.UnitTests.SDKTests.Create_should_send_correct_enum
-  name: Create_should_send_correct_enum()
-  href: api/MonoCloud.Management.Admin.UnitTests.SDKTests.html#MonoCloud_Management_Admin_UnitTests_SDKTests_Create_should_send_correct_enum
-  commentId: M:MonoCloud.Management.Admin.UnitTests.SDKTests.Create_should_send_correct_enum
-  fullName: MonoCloud.Management.Admin.UnitTests.SDKTests.Create_should_send_correct_enum()
-  nameWithType: SDKTests.Create_should_send_correct_enum()
-- uid: MonoCloud.Management.Admin.UnitTests.SDKTests.Create_should_send_correct_enum*
-  name: Create_should_send_correct_enum
-  href: api/MonoCloud.Management.Admin.UnitTests.SDKTests.html#MonoCloud_Management_Admin_UnitTests_SDKTests_Create_should_send_correct_enum_
-  commentId: Overload:MonoCloud.Management.Admin.UnitTests.SDKTests.Create_should_send_correct_enum
-  isSpec: "True"
-  fullName: MonoCloud.Management.Admin.UnitTests.SDKTests.Create_should_send_correct_enum
-  nameWithType: SDKTests.Create_should_send_correct_enum
-- uid: MonoCloud.Management.Admin.UnitTests.SDKTests.Create_should_send_correct_list
-  name: Create_should_send_correct_list()
-  href: api/MonoCloud.Management.Admin.UnitTests.SDKTests.html#MonoCloud_Management_Admin_UnitTests_SDKTests_Create_should_send_correct_list
-  commentId: M:MonoCloud.Management.Admin.UnitTests.SDKTests.Create_should_send_correct_list
-  fullName: MonoCloud.Management.Admin.UnitTests.SDKTests.Create_should_send_correct_list()
-  nameWithType: SDKTests.Create_should_send_correct_list()
-- uid: MonoCloud.Management.Admin.UnitTests.SDKTests.Create_should_send_correct_list*
-  name: Create_should_send_correct_list
-  href: api/MonoCloud.Management.Admin.UnitTests.SDKTests.html#MonoCloud_Management_Admin_UnitTests_SDKTests_Create_should_send_correct_list_
-  commentId: Overload:MonoCloud.Management.Admin.UnitTests.SDKTests.Create_should_send_correct_list
-  isSpec: "True"
-  fullName: MonoCloud.Management.Admin.UnitTests.SDKTests.Create_should_send_correct_list
-  nameWithType: SDKTests.Create_should_send_correct_list
-- uid: MonoCloud.Management.Admin.UnitTests.SDKTests.Get_should_receive_correct_datetime
-  name: Get_should_receive_correct_datetime()
-  href: api/MonoCloud.Management.Admin.UnitTests.SDKTests.html#MonoCloud_Management_Admin_UnitTests_SDKTests_Get_should_receive_correct_datetime
-  commentId: M:MonoCloud.Management.Admin.UnitTests.SDKTests.Get_should_receive_correct_datetime
-  fullName: MonoCloud.Management.Admin.UnitTests.SDKTests.Get_should_receive_correct_datetime()
-  nameWithType: SDKTests.Get_should_receive_correct_datetime()
-- uid: MonoCloud.Management.Admin.UnitTests.SDKTests.Get_should_receive_correct_datetime*
-  name: Get_should_receive_correct_datetime
-  href: api/MonoCloud.Management.Admin.UnitTests.SDKTests.html#MonoCloud_Management_Admin_UnitTests_SDKTests_Get_should_receive_correct_datetime_
-  commentId: Overload:MonoCloud.Management.Admin.UnitTests.SDKTests.Get_should_receive_correct_datetime
-  isSpec: "True"
-  fullName: MonoCloud.Management.Admin.UnitTests.SDKTests.Get_should_receive_correct_datetime
-  nameWithType: SDKTests.Get_should_receive_correct_datetime
-- uid: MonoCloud.Management.Admin.UnitTests.SDKTests.Get_should_receive_correct_nullable_datetime
-  name: Get_should_receive_correct_nullable_datetime()
-  href: api/MonoCloud.Management.Admin.UnitTests.SDKTests.html#MonoCloud_Management_Admin_UnitTests_SDKTests_Get_should_receive_correct_nullable_datetime
-  commentId: M:MonoCloud.Management.Admin.UnitTests.SDKTests.Get_should_receive_correct_nullable_datetime
-  fullName: MonoCloud.Management.Admin.UnitTests.SDKTests.Get_should_receive_correct_nullable_datetime()
-  nameWithType: SDKTests.Get_should_receive_correct_nullable_datetime()
-- uid: MonoCloud.Management.Admin.UnitTests.SDKTests.Get_should_receive_correct_nullable_datetime*
-  name: Get_should_receive_correct_nullable_datetime
-  href: api/MonoCloud.Management.Admin.UnitTests.SDKTests.html#MonoCloud_Management_Admin_UnitTests_SDKTests_Get_should_receive_correct_nullable_datetime_
-  commentId: Overload:MonoCloud.Management.Admin.UnitTests.SDKTests.Get_should_receive_correct_nullable_datetime
-  isSpec: "True"
-  fullName: MonoCloud.Management.Admin.UnitTests.SDKTests.Get_should_receive_correct_nullable_datetime
-  nameWithType: SDKTests.Get_should_receive_correct_nullable_datetime
-- uid: MonoCloud.Management.Admin.UnitTests.SDKTests.Get_with_paging_should_handle_no_pagination_header
-  name: Get_with_paging_should_handle_no_pagination_header()
-  href: api/MonoCloud.Management.Admin.UnitTests.SDKTests.html#MonoCloud_Management_Admin_UnitTests_SDKTests_Get_with_paging_should_handle_no_pagination_header
-  commentId: M:MonoCloud.Management.Admin.UnitTests.SDKTests.Get_with_paging_should_handle_no_pagination_header
-  fullName: MonoCloud.Management.Admin.UnitTests.SDKTests.Get_with_paging_should_handle_no_pagination_header()
-  nameWithType: SDKTests.Get_with_paging_should_handle_no_pagination_header()
-- uid: MonoCloud.Management.Admin.UnitTests.SDKTests.Get_with_paging_should_handle_no_pagination_header*
-  name: Get_with_paging_should_handle_no_pagination_header
-  href: api/MonoCloud.Management.Admin.UnitTests.SDKTests.html#MonoCloud_Management_Admin_UnitTests_SDKTests_Get_with_paging_should_handle_no_pagination_header_
-  commentId: Overload:MonoCloud.Management.Admin.UnitTests.SDKTests.Get_with_paging_should_handle_no_pagination_header
-  isSpec: "True"
-  fullName: MonoCloud.Management.Admin.UnitTests.SDKTests.Get_with_paging_should_handle_no_pagination_header
-  nameWithType: SDKTests.Get_with_paging_should_handle_no_pagination_header
-- uid: MonoCloud.Management.Admin.UnitTests.SDKTests.Get_with_paging_should_receive_correct_result
-  name: Get_with_paging_should_receive_correct_result()
-  href: api/MonoCloud.Management.Admin.UnitTests.SDKTests.html#MonoCloud_Management_Admin_UnitTests_SDKTests_Get_with_paging_should_receive_correct_result
-  commentId: M:MonoCloud.Management.Admin.UnitTests.SDKTests.Get_with_paging_should_receive_correct_result
-  fullName: MonoCloud.Management.Admin.UnitTests.SDKTests.Get_with_paging_should_receive_correct_result()
-  nameWithType: SDKTests.Get_with_paging_should_receive_correct_result()
-- uid: MonoCloud.Management.Admin.UnitTests.SDKTests.Get_with_paging_should_receive_correct_result*
-  name: Get_with_paging_should_receive_correct_result
-  href: api/MonoCloud.Management.Admin.UnitTests.SDKTests.html#MonoCloud_Management_Admin_UnitTests_SDKTests_Get_with_paging_should_receive_correct_result_
-  commentId: Overload:MonoCloud.Management.Admin.UnitTests.SDKTests.Get_with_paging_should_receive_correct_result
-  isSpec: "True"
-  fullName: MonoCloud.Management.Admin.UnitTests.SDKTests.Get_with_paging_should_receive_correct_result
-  nameWithType: SDKTests.Get_with_paging_should_receive_correct_result
-- uid: MonoCloud.Management.Admin.UnitTests.SDKTests.Identity_error_should_handle_correctly
-  name: Identity_error_should_handle_correctly()
-  href: api/MonoCloud.Management.Admin.UnitTests.SDKTests.html#MonoCloud_Management_Admin_UnitTests_SDKTests_Identity_error_should_handle_correctly
-  commentId: M:MonoCloud.Management.Admin.UnitTests.SDKTests.Identity_error_should_handle_correctly
-  fullName: MonoCloud.Management.Admin.UnitTests.SDKTests.Identity_error_should_handle_correctly()
-  nameWithType: SDKTests.Identity_error_should_handle_correctly()
-- uid: MonoCloud.Management.Admin.UnitTests.SDKTests.Identity_error_should_handle_correctly*
-  name: Identity_error_should_handle_correctly
-  href: api/MonoCloud.Management.Admin.UnitTests.SDKTests.html#MonoCloud_Management_Admin_UnitTests_SDKTests_Identity_error_should_handle_correctly_
-  commentId: Overload:MonoCloud.Management.Admin.UnitTests.SDKTests.Identity_error_should_handle_correctly
-  isSpec: "True"
-  fullName: MonoCloud.Management.Admin.UnitTests.SDKTests.Identity_error_should_handle_correctly
-  nameWithType: SDKTests.Identity_error_should_handle_correctly
-- uid: MonoCloud.Management.Admin.UnitTests.SDKTests.Internal_server_error_should_handle_correctly
-  name: Internal_server_error_should_handle_correctly()
-  href: api/MonoCloud.Management.Admin.UnitTests.SDKTests.html#MonoCloud_Management_Admin_UnitTests_SDKTests_Internal_server_error_should_handle_correctly
-  commentId: M:MonoCloud.Management.Admin.UnitTests.SDKTests.Internal_server_error_should_handle_correctly
-  fullName: MonoCloud.Management.Admin.UnitTests.SDKTests.Internal_server_error_should_handle_correctly()
-  nameWithType: SDKTests.Internal_server_error_should_handle_correctly()
-- uid: MonoCloud.Management.Admin.UnitTests.SDKTests.Internal_server_error_should_handle_correctly*
-  name: Internal_server_error_should_handle_correctly
-  href: api/MonoCloud.Management.Admin.UnitTests.SDKTests.html#MonoCloud_Management_Admin_UnitTests_SDKTests_Internal_server_error_should_handle_correctly_
-  commentId: Overload:MonoCloud.Management.Admin.UnitTests.SDKTests.Internal_server_error_should_handle_correctly
-  isSpec: "True"
-  fullName: MonoCloud.Management.Admin.UnitTests.SDKTests.Internal_server_error_should_handle_correctly
-  nameWithType: SDKTests.Internal_server_error_should_handle_correctly
-- uid: MonoCloud.Management.Admin.UnitTests.SDKTests.Key_validation_error_should_handle_correctly
-  name: Key_validation_error_should_handle_correctly()
-  href: api/MonoCloud.Management.Admin.UnitTests.SDKTests.html#MonoCloud_Management_Admin_UnitTests_SDKTests_Key_validation_error_should_handle_correctly
-  commentId: M:MonoCloud.Management.Admin.UnitTests.SDKTests.Key_validation_error_should_handle_correctly
-  fullName: MonoCloud.Management.Admin.UnitTests.SDKTests.Key_validation_error_should_handle_correctly()
-  nameWithType: SDKTests.Key_validation_error_should_handle_correctly()
-- uid: MonoCloud.Management.Admin.UnitTests.SDKTests.Key_validation_error_should_handle_correctly*
-  name: Key_validation_error_should_handle_correctly
-  href: api/MonoCloud.Management.Admin.UnitTests.SDKTests.html#MonoCloud_Management_Admin_UnitTests_SDKTests_Key_validation_error_should_handle_correctly_
-  commentId: Overload:MonoCloud.Management.Admin.UnitTests.SDKTests.Key_validation_error_should_handle_correctly
-  isSpec: "True"
-  fullName: MonoCloud.Management.Admin.UnitTests.SDKTests.Key_validation_error_should_handle_correctly
-  nameWithType: SDKTests.Key_validation_error_should_handle_correctly
-- uid: MonoCloud.Management.Admin.UnitTests.SDKTests.Patch_should_only_send_set_fields
-  name: Patch_should_only_send_set_fields()
-  href: api/MonoCloud.Management.Admin.UnitTests.SDKTests.html#MonoCloud_Management_Admin_UnitTests_SDKTests_Patch_should_only_send_set_fields
-  commentId: M:MonoCloud.Management.Admin.UnitTests.SDKTests.Patch_should_only_send_set_fields
-  fullName: MonoCloud.Management.Admin.UnitTests.SDKTests.Patch_should_only_send_set_fields()
-  nameWithType: SDKTests.Patch_should_only_send_set_fields()
-- uid: MonoCloud.Management.Admin.UnitTests.SDKTests.Patch_should_only_send_set_fields*
-  name: Patch_should_only_send_set_fields
-  href: api/MonoCloud.Management.Admin.UnitTests.SDKTests.html#MonoCloud_Management_Admin_UnitTests_SDKTests_Patch_should_only_send_set_fields_
-  commentId: Overload:MonoCloud.Management.Admin.UnitTests.SDKTests.Patch_should_only_send_set_fields
-  isSpec: "True"
-  fullName: MonoCloud.Management.Admin.UnitTests.SDKTests.Patch_should_only_send_set_fields
-  nameWithType: SDKTests.Patch_should_only_send_set_fields
-- uid: MonoCloud.Management.Admin.UnitTests.SDKTests.Patch_should_send_null_fields_when_set
-  name: Patch_should_send_null_fields_when_set()
-  href: api/MonoCloud.Management.Admin.UnitTests.SDKTests.html#MonoCloud_Management_Admin_UnitTests_SDKTests_Patch_should_send_null_fields_when_set
-  commentId: M:MonoCloud.Management.Admin.UnitTests.SDKTests.Patch_should_send_null_fields_when_set
-  fullName: MonoCloud.Management.Admin.UnitTests.SDKTests.Patch_should_send_null_fields_when_set()
-  nameWithType: SDKTests.Patch_should_send_null_fields_when_set()
-- uid: MonoCloud.Management.Admin.UnitTests.SDKTests.Patch_should_send_null_fields_when_set*
-  name: Patch_should_send_null_fields_when_set
-  href: api/MonoCloud.Management.Admin.UnitTests.SDKTests.html#MonoCloud_Management_Admin_UnitTests_SDKTests_Patch_should_send_null_fields_when_set_
-  commentId: Overload:MonoCloud.Management.Admin.UnitTests.SDKTests.Patch_should_send_null_fields_when_set
-  isSpec: "True"
-  fullName: MonoCloud.Management.Admin.UnitTests.SDKTests.Patch_should_send_null_fields_when_set
-  nameWithType: SDKTests.Patch_should_send_null_fields_when_set
 - uid: MonoCloud.Management.Core.Base
   name: MonoCloud.Management.Core.Base
   href: api/MonoCloud.Management.Core.Base.html
@@ -22740,12 +22611,12 @@ references:
   commentId: T:MonoCloud.Management.Identity.Models.PasswordAlgorithms
   fullName: MonoCloud.Management.Identity.Models.PasswordAlgorithms
   nameWithType: PasswordAlgorithms
-- uid: MonoCloud.Management.Identity.Models.PasswordAlgorithms.BCrypt
-  name: BCrypt
-  href: api/MonoCloud.Management.Identity.Models.PasswordAlgorithms.html#MonoCloud_Management_Identity_Models_PasswordAlgorithms_BCrypt
-  commentId: F:MonoCloud.Management.Identity.Models.PasswordAlgorithms.BCrypt
-  fullName: MonoCloud.Management.Identity.Models.PasswordAlgorithms.BCrypt
-  nameWithType: PasswordAlgorithms.BCrypt
+- uid: MonoCloud.Management.Identity.Models.PasswordAlgorithms.Bcrypt
+  name: Bcrypt
+  href: api/MonoCloud.Management.Identity.Models.PasswordAlgorithms.html#MonoCloud_Management_Identity_Models_PasswordAlgorithms_Bcrypt
+  commentId: F:MonoCloud.Management.Identity.Models.PasswordAlgorithms.Bcrypt
+  fullName: MonoCloud.Management.Identity.Models.PasswordAlgorithms.Bcrypt
+  nameWithType: PasswordAlgorithms.Bcrypt
 - uid: MonoCloud.Management.Identity.Models.PatchGroupRequest
   name: PatchGroupRequest
   href: api/MonoCloud.Management.Identity.Models.PatchGroupRequest.html
@@ -25326,177 +25197,3 @@ references:
   isSpec: "True"
   fullName: MonoCloud.Management.Identity.MonoCloudIdentityServiceExtensions.AddMonoCloudIdentityClient
   nameWithType: MonoCloudIdentityServiceExtensions.AddMonoCloudIdentityClient
-- uid: MonoCloud.Management.Identity.UnitTests
-  name: MonoCloud.Management.Identity.UnitTests
-  href: api/MonoCloud.Management.Identity.UnitTests.html
-  commentId: N:MonoCloud.Management.Identity.UnitTests
-  fullName: MonoCloud.Management.Identity.UnitTests
-  nameWithType: MonoCloud.Management.Identity.UnitTests
-- uid: MonoCloud.Management.Identity.UnitTests.SDKTests
-  name: SDKTests
-  href: api/MonoCloud.Management.Identity.UnitTests.SDKTests.html
-  commentId: T:MonoCloud.Management.Identity.UnitTests.SDKTests
-  fullName: MonoCloud.Management.Identity.UnitTests.SDKTests
-  nameWithType: SDKTests
-- uid: MonoCloud.Management.Identity.UnitTests.SDKTests.#ctor
-  name: SDKTests()
-  href: api/MonoCloud.Management.Identity.UnitTests.SDKTests.html#MonoCloud_Management_Identity_UnitTests_SDKTests__ctor
-  commentId: M:MonoCloud.Management.Identity.UnitTests.SDKTests.#ctor
-  name.vb: New()
-  fullName: MonoCloud.Management.Identity.UnitTests.SDKTests.SDKTests()
-  fullName.vb: MonoCloud.Management.Identity.UnitTests.SDKTests.New()
-  nameWithType: SDKTests.SDKTests()
-  nameWithType.vb: SDKTests.New()
-- uid: MonoCloud.Management.Identity.UnitTests.SDKTests.#ctor*
-  name: SDKTests
-  href: api/MonoCloud.Management.Identity.UnitTests.SDKTests.html#MonoCloud_Management_Identity_UnitTests_SDKTests__ctor_
-  commentId: Overload:MonoCloud.Management.Identity.UnitTests.SDKTests.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: MonoCloud.Management.Identity.UnitTests.SDKTests.SDKTests
-  fullName.vb: MonoCloud.Management.Identity.UnitTests.SDKTests.New
-  nameWithType: SDKTests.SDKTests
-  nameWithType.vb: SDKTests.New
-- uid: MonoCloud.Management.Identity.UnitTests.SDKTests.Bad_request_error_should_handle_correctly
-  name: Bad_request_error_should_handle_correctly()
-  href: api/MonoCloud.Management.Identity.UnitTests.SDKTests.html#MonoCloud_Management_Identity_UnitTests_SDKTests_Bad_request_error_should_handle_correctly
-  commentId: M:MonoCloud.Management.Identity.UnitTests.SDKTests.Bad_request_error_should_handle_correctly
-  fullName: MonoCloud.Management.Identity.UnitTests.SDKTests.Bad_request_error_should_handle_correctly()
-  nameWithType: SDKTests.Bad_request_error_should_handle_correctly()
-- uid: MonoCloud.Management.Identity.UnitTests.SDKTests.Bad_request_error_should_handle_correctly*
-  name: Bad_request_error_should_handle_correctly
-  href: api/MonoCloud.Management.Identity.UnitTests.SDKTests.html#MonoCloud_Management_Identity_UnitTests_SDKTests_Bad_request_error_should_handle_correctly_
-  commentId: Overload:MonoCloud.Management.Identity.UnitTests.SDKTests.Bad_request_error_should_handle_correctly
-  isSpec: "True"
-  fullName: MonoCloud.Management.Identity.UnitTests.SDKTests.Bad_request_error_should_handle_correctly
-  nameWithType: SDKTests.Bad_request_error_should_handle_correctly
-- uid: MonoCloud.Management.Identity.UnitTests.SDKTests.Create_should_only_send_set_fields
-  name: Create_should_only_send_set_fields()
-  href: api/MonoCloud.Management.Identity.UnitTests.SDKTests.html#MonoCloud_Management_Identity_UnitTests_SDKTests_Create_should_only_send_set_fields
-  commentId: M:MonoCloud.Management.Identity.UnitTests.SDKTests.Create_should_only_send_set_fields
-  fullName: MonoCloud.Management.Identity.UnitTests.SDKTests.Create_should_only_send_set_fields()
-  nameWithType: SDKTests.Create_should_only_send_set_fields()
-- uid: MonoCloud.Management.Identity.UnitTests.SDKTests.Create_should_only_send_set_fields*
-  name: Create_should_only_send_set_fields
-  href: api/MonoCloud.Management.Identity.UnitTests.SDKTests.html#MonoCloud_Management_Identity_UnitTests_SDKTests_Create_should_only_send_set_fields_
-  commentId: Overload:MonoCloud.Management.Identity.UnitTests.SDKTests.Create_should_only_send_set_fields
-  isSpec: "True"
-  fullName: MonoCloud.Management.Identity.UnitTests.SDKTests.Create_should_only_send_set_fields
-  nameWithType: SDKTests.Create_should_only_send_set_fields
-- uid: MonoCloud.Management.Identity.UnitTests.SDKTests.Create_should_send_correct_enum
-  name: Create_should_send_correct_enum()
-  href: api/MonoCloud.Management.Identity.UnitTests.SDKTests.html#MonoCloud_Management_Identity_UnitTests_SDKTests_Create_should_send_correct_enum
-  commentId: M:MonoCloud.Management.Identity.UnitTests.SDKTests.Create_should_send_correct_enum
-  fullName: MonoCloud.Management.Identity.UnitTests.SDKTests.Create_should_send_correct_enum()
-  nameWithType: SDKTests.Create_should_send_correct_enum()
-- uid: MonoCloud.Management.Identity.UnitTests.SDKTests.Create_should_send_correct_enum*
-  name: Create_should_send_correct_enum
-  href: api/MonoCloud.Management.Identity.UnitTests.SDKTests.html#MonoCloud_Management_Identity_UnitTests_SDKTests_Create_should_send_correct_enum_
-  commentId: Overload:MonoCloud.Management.Identity.UnitTests.SDKTests.Create_should_send_correct_enum
-  isSpec: "True"
-  fullName: MonoCloud.Management.Identity.UnitTests.SDKTests.Create_should_send_correct_enum
-  nameWithType: SDKTests.Create_should_send_correct_enum
-- uid: MonoCloud.Management.Identity.UnitTests.SDKTests.Get_should_receive_correct_datetime
-  name: Get_should_receive_correct_datetime()
-  href: api/MonoCloud.Management.Identity.UnitTests.SDKTests.html#MonoCloud_Management_Identity_UnitTests_SDKTests_Get_should_receive_correct_datetime
-  commentId: M:MonoCloud.Management.Identity.UnitTests.SDKTests.Get_should_receive_correct_datetime
-  fullName: MonoCloud.Management.Identity.UnitTests.SDKTests.Get_should_receive_correct_datetime()
-  nameWithType: SDKTests.Get_should_receive_correct_datetime()
-- uid: MonoCloud.Management.Identity.UnitTests.SDKTests.Get_should_receive_correct_datetime*
-  name: Get_should_receive_correct_datetime
-  href: api/MonoCloud.Management.Identity.UnitTests.SDKTests.html#MonoCloud_Management_Identity_UnitTests_SDKTests_Get_should_receive_correct_datetime_
-  commentId: Overload:MonoCloud.Management.Identity.UnitTests.SDKTests.Get_should_receive_correct_datetime
-  isSpec: "True"
-  fullName: MonoCloud.Management.Identity.UnitTests.SDKTests.Get_should_receive_correct_datetime
-  nameWithType: SDKTests.Get_should_receive_correct_datetime
-- uid: MonoCloud.Management.Identity.UnitTests.SDKTests.Get_should_receive_correct_nullable_datetime
-  name: Get_should_receive_correct_nullable_datetime()
-  href: api/MonoCloud.Management.Identity.UnitTests.SDKTests.html#MonoCloud_Management_Identity_UnitTests_SDKTests_Get_should_receive_correct_nullable_datetime
-  commentId: M:MonoCloud.Management.Identity.UnitTests.SDKTests.Get_should_receive_correct_nullable_datetime
-  fullName: MonoCloud.Management.Identity.UnitTests.SDKTests.Get_should_receive_correct_nullable_datetime()
-  nameWithType: SDKTests.Get_should_receive_correct_nullable_datetime()
-- uid: MonoCloud.Management.Identity.UnitTests.SDKTests.Get_should_receive_correct_nullable_datetime*
-  name: Get_should_receive_correct_nullable_datetime
-  href: api/MonoCloud.Management.Identity.UnitTests.SDKTests.html#MonoCloud_Management_Identity_UnitTests_SDKTests_Get_should_receive_correct_nullable_datetime_
-  commentId: Overload:MonoCloud.Management.Identity.UnitTests.SDKTests.Get_should_receive_correct_nullable_datetime
-  isSpec: "True"
-  fullName: MonoCloud.Management.Identity.UnitTests.SDKTests.Get_should_receive_correct_nullable_datetime
-  nameWithType: SDKTests.Get_should_receive_correct_nullable_datetime
-- uid: MonoCloud.Management.Identity.UnitTests.SDKTests.Get_with_paging_should_handle_no_pagination_header
-  name: Get_with_paging_should_handle_no_pagination_header()
-  href: api/MonoCloud.Management.Identity.UnitTests.SDKTests.html#MonoCloud_Management_Identity_UnitTests_SDKTests_Get_with_paging_should_handle_no_pagination_header
-  commentId: M:MonoCloud.Management.Identity.UnitTests.SDKTests.Get_with_paging_should_handle_no_pagination_header
-  fullName: MonoCloud.Management.Identity.UnitTests.SDKTests.Get_with_paging_should_handle_no_pagination_header()
-  nameWithType: SDKTests.Get_with_paging_should_handle_no_pagination_header()
-- uid: MonoCloud.Management.Identity.UnitTests.SDKTests.Get_with_paging_should_handle_no_pagination_header*
-  name: Get_with_paging_should_handle_no_pagination_header
-  href: api/MonoCloud.Management.Identity.UnitTests.SDKTests.html#MonoCloud_Management_Identity_UnitTests_SDKTests_Get_with_paging_should_handle_no_pagination_header_
-  commentId: Overload:MonoCloud.Management.Identity.UnitTests.SDKTests.Get_with_paging_should_handle_no_pagination_header
-  isSpec: "True"
-  fullName: MonoCloud.Management.Identity.UnitTests.SDKTests.Get_with_paging_should_handle_no_pagination_header
-  nameWithType: SDKTests.Get_with_paging_should_handle_no_pagination_header
-- uid: MonoCloud.Management.Identity.UnitTests.SDKTests.Get_with_paging_should_receive_correct_result
-  name: Get_with_paging_should_receive_correct_result()
-  href: api/MonoCloud.Management.Identity.UnitTests.SDKTests.html#MonoCloud_Management_Identity_UnitTests_SDKTests_Get_with_paging_should_receive_correct_result
-  commentId: M:MonoCloud.Management.Identity.UnitTests.SDKTests.Get_with_paging_should_receive_correct_result
-  fullName: MonoCloud.Management.Identity.UnitTests.SDKTests.Get_with_paging_should_receive_correct_result()
-  nameWithType: SDKTests.Get_with_paging_should_receive_correct_result()
-- uid: MonoCloud.Management.Identity.UnitTests.SDKTests.Get_with_paging_should_receive_correct_result*
-  name: Get_with_paging_should_receive_correct_result
-  href: api/MonoCloud.Management.Identity.UnitTests.SDKTests.html#MonoCloud_Management_Identity_UnitTests_SDKTests_Get_with_paging_should_receive_correct_result_
-  commentId: Overload:MonoCloud.Management.Identity.UnitTests.SDKTests.Get_with_paging_should_receive_correct_result
-  isSpec: "True"
-  fullName: MonoCloud.Management.Identity.UnitTests.SDKTests.Get_with_paging_should_receive_correct_result
-  nameWithType: SDKTests.Get_with_paging_should_receive_correct_result
-- uid: MonoCloud.Management.Identity.UnitTests.SDKTests.Identity_error_should_handle_correctly
-  name: Identity_error_should_handle_correctly()
-  href: api/MonoCloud.Management.Identity.UnitTests.SDKTests.html#MonoCloud_Management_Identity_UnitTests_SDKTests_Identity_error_should_handle_correctly
-  commentId: M:MonoCloud.Management.Identity.UnitTests.SDKTests.Identity_error_should_handle_correctly
-  fullName: MonoCloud.Management.Identity.UnitTests.SDKTests.Identity_error_should_handle_correctly()
-  nameWithType: SDKTests.Identity_error_should_handle_correctly()
-- uid: MonoCloud.Management.Identity.UnitTests.SDKTests.Identity_error_should_handle_correctly*
-  name: Identity_error_should_handle_correctly
-  href: api/MonoCloud.Management.Identity.UnitTests.SDKTests.html#MonoCloud_Management_Identity_UnitTests_SDKTests_Identity_error_should_handle_correctly_
-  commentId: Overload:MonoCloud.Management.Identity.UnitTests.SDKTests.Identity_error_should_handle_correctly
-  isSpec: "True"
-  fullName: MonoCloud.Management.Identity.UnitTests.SDKTests.Identity_error_should_handle_correctly
-  nameWithType: SDKTests.Identity_error_should_handle_correctly
-- uid: MonoCloud.Management.Identity.UnitTests.SDKTests.Internal_server_error_should_handle_correctly
-  name: Internal_server_error_should_handle_correctly()
-  href: api/MonoCloud.Management.Identity.UnitTests.SDKTests.html#MonoCloud_Management_Identity_UnitTests_SDKTests_Internal_server_error_should_handle_correctly
-  commentId: M:MonoCloud.Management.Identity.UnitTests.SDKTests.Internal_server_error_should_handle_correctly
-  fullName: MonoCloud.Management.Identity.UnitTests.SDKTests.Internal_server_error_should_handle_correctly()
-  nameWithType: SDKTests.Internal_server_error_should_handle_correctly()
-- uid: MonoCloud.Management.Identity.UnitTests.SDKTests.Internal_server_error_should_handle_correctly*
-  name: Internal_server_error_should_handle_correctly
-  href: api/MonoCloud.Management.Identity.UnitTests.SDKTests.html#MonoCloud_Management_Identity_UnitTests_SDKTests_Internal_server_error_should_handle_correctly_
-  commentId: Overload:MonoCloud.Management.Identity.UnitTests.SDKTests.Internal_server_error_should_handle_correctly
-  isSpec: "True"
-  fullName: MonoCloud.Management.Identity.UnitTests.SDKTests.Internal_server_error_should_handle_correctly
-  nameWithType: SDKTests.Internal_server_error_should_handle_correctly
-- uid: MonoCloud.Management.Identity.UnitTests.SDKTests.Key_validation_error_should_handle_correctly
-  name: Key_validation_error_should_handle_correctly()
-  href: api/MonoCloud.Management.Identity.UnitTests.SDKTests.html#MonoCloud_Management_Identity_UnitTests_SDKTests_Key_validation_error_should_handle_correctly
-  commentId: M:MonoCloud.Management.Identity.UnitTests.SDKTests.Key_validation_error_should_handle_correctly
-  fullName: MonoCloud.Management.Identity.UnitTests.SDKTests.Key_validation_error_should_handle_correctly()
-  nameWithType: SDKTests.Key_validation_error_should_handle_correctly()
-- uid: MonoCloud.Management.Identity.UnitTests.SDKTests.Key_validation_error_should_handle_correctly*
-  name: Key_validation_error_should_handle_correctly
-  href: api/MonoCloud.Management.Identity.UnitTests.SDKTests.html#MonoCloud_Management_Identity_UnitTests_SDKTests_Key_validation_error_should_handle_correctly_
-  commentId: Overload:MonoCloud.Management.Identity.UnitTests.SDKTests.Key_validation_error_should_handle_correctly
-  isSpec: "True"
-  fullName: MonoCloud.Management.Identity.UnitTests.SDKTests.Key_validation_error_should_handle_correctly
-  nameWithType: SDKTests.Key_validation_error_should_handle_correctly
-- uid: MonoCloud.Management.Identity.UnitTests.SDKTests.Patch_should_send_null_fields_when_set
-  name: Patch_should_send_null_fields_when_set()
-  href: api/MonoCloud.Management.Identity.UnitTests.SDKTests.html#MonoCloud_Management_Identity_UnitTests_SDKTests_Patch_should_send_null_fields_when_set
-  commentId: M:MonoCloud.Management.Identity.UnitTests.SDKTests.Patch_should_send_null_fields_when_set
-  fullName: MonoCloud.Management.Identity.UnitTests.SDKTests.Patch_should_send_null_fields_when_set()
-  nameWithType: SDKTests.Patch_should_send_null_fields_when_set()
-- uid: MonoCloud.Management.Identity.UnitTests.SDKTests.Patch_should_send_null_fields_when_set*
-  name: Patch_should_send_null_fields_when_set
-  href: api/MonoCloud.Management.Identity.UnitTests.SDKTests.html#MonoCloud_Management_Identity_UnitTests_SDKTests_Patch_should_send_null_fields_when_set_
-  commentId: Overload:MonoCloud.Management.Identity.UnitTests.SDKTests.Patch_should_send_null_fields_when_set
-  isSpec: "True"
-  fullName: MonoCloud.Management.Identity.UnitTests.SDKTests.Patch_should_send_null_fields_when_set
-  nameWithType: SDKTests.Patch_should_send_null_fields_when_set

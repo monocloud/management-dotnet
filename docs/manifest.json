@@ -1,5 +1,5 @@
 {
-  "source_base_path": "/Users/sathyajith/Workspace/dotnet-management/monocloud-management-dotnet/docs-gen",
+  "source_base_path": "/Users/vishal/Sources/MonoCloud/management-dotnet/docs-gen",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -2930,34 +2930,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/MonoCloud.Management.Admin.UnitTests.SDKTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MonoCloud.Management.Admin.UnitTests.SDKTests.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "MonoCloud.Management.Admin.UnitTests.SDKTests",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MonoCloud.Management.Admin.UnitTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MonoCloud.Management.Admin.UnitTests.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "MonoCloud.Management.Admin.UnitTests",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/MonoCloud.Management.Admin.yml",
       "output": {
         ".html": {
@@ -4256,34 +4228,6 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "MonoCloud.Management.Identity.MonoCloudIdentityServiceExtensions",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MonoCloud.Management.Identity.UnitTests.SDKTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MonoCloud.Management.Identity.UnitTests.SDKTests.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "MonoCloud.Management.Identity.UnitTests.SDKTests",
-      "Summary": null
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/MonoCloud.Management.Identity.UnitTests.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MonoCloud.Management.Identity.UnitTests.html"
-        }
-      },
-      "version": "",
-      "Uid": null,
-      "IsMRef": true,
-      "Title": "MonoCloud.Management.Identity.UnitTests",
       "Summary": null
     },
     {

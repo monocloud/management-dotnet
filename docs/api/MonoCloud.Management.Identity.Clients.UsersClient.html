@@ -5,17 +5,17 @@
       <title>Class UsersClient </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="title" content="Class UsersClient ">
-
+      
       <meta name="description" content="Represents a collection of functions to interact with the Users Api endpoints">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
       <meta name="docfx:navrel" content="../toc.html">
       <meta name="docfx:tocrel" content="toc.html">
-
-
-
-
+      
+      
+      
+      
       <meta name="docfx:docurl" content="https://github.com/monocloud/management-dotnet/new/main/apiSpec/new?filename=MonoCloud_Management_Identity_Clients_UsersClient.md&amp;value=---%0Auid%3A%20MonoCloud.Management.Identity.Clients.UsersClient%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
@@ -45,7 +45,7 @@
         <div class="container-xxl flex-nowrap">
           <a class="navbar-brand" href="../index.html">
             <img id="logo" class="svg" src="../logo.svg" alt="">
-
+            
           </a>
           <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
             <i class="bi bi-three-dots"></i>
@@ -85,7 +85,7 @@
 
 
   <h1 id="MonoCloud_Management_Identity_Clients_UsersClient" data-uid="MonoCloud.Management.Identity.Clients.UsersClient" class="text-break">
-Class UsersClient  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L8"><i class="bi bi-code-slash"></i></a>
+Class UsersClient  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L6"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -166,7 +166,7 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="MonoCloud_Management_Identity_Clients_UsersClient__ctor_MonoCloud_Management_Core_Base_MonoCloudConfig_" data-uid="MonoCloud.Management.Identity.Clients.UsersClient.#ctor(MonoCloud.Management.Core.Base.MonoCloudConfig)">
   UsersClient(MonoCloudConfig)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L13"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="MonoCloud.Management.Identity.Clients.UsersClient.html">UsersClient</a> class.</p>
@@ -199,7 +199,7 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="MonoCloud_Management_Identity_Clients_UsersClient__ctor_System_Net_Http_HttpClient_" data-uid="MonoCloud.Management.Identity.Clients.UsersClient.#ctor(System.Net.Http.HttpClient)">
   UsersClient(HttpClient)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L24"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L22"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="MonoCloud.Management.Identity.Clients.UsersClient.html">UsersClient</a> class.</p>
@@ -236,10 +236,10 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="MonoCloud_Management_Identity_Clients_UsersClient_AddEmailAsync_System_String_MonoCloud_Management_Identity_Models_AddEmailRequest_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Identity.Clients.UsersClient.AddEmailAsync(System.String,MonoCloud.Management.Identity.Models.AddEmailRequest,System.Threading.CancellationToken)">
   AddEmailAsync(string, AddEmailRequest, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L367"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L365"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Add an email</p>
+  <div class="markdown level1 summary"><p>Add an email address</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -250,7 +250,7 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The ID of the user for whom the email should be added.</p>
+    <dd><p>The unique identifier of the user</p>
 </dd>
     <dt><code>addEmailRequest</code> <a class="xref" href="MonoCloud.Management.Identity.Models.AddEmailRequest.html">AddEmailRequest</a></dt>
     <dd><p>The request body</p>
@@ -287,7 +287,7 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="MonoCloud_Management_Identity_Clients_UsersClient_AddPhoneAsync_System_String_MonoCloud_Management_Identity_Models_AddPhoneRequest_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Identity.Clients.UsersClient.AddPhoneAsync(System.String,MonoCloud.Management.Identity.Models.AddPhoneRequest,System.Threading.CancellationToken)">
   AddPhoneAsync(string, AddPhoneRequest, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L625"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L623"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Add a phone number</p>
@@ -301,7 +301,7 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The ID of the user for whom the phone number should be added.</p>
+    <dd><p>The unique identifier of the user</p>
 </dd>
     <dt><code>addPhoneRequest</code> <a class="xref" href="MonoCloud.Management.Identity.Models.AddPhoneRequest.html">AddPhoneRequest</a></dt>
     <dd><p>The request body</p>
@@ -338,10 +338,10 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="MonoCloud_Management_Identity_Clients_UsersClient_AssignUserToGroupAsync_System_String_System_Guid_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Identity.Clients.UsersClient.AssignUserToGroupAsync(System.String,System.Guid,System.Threading.CancellationToken)">
   AssignUserToGroupAsync(string, Guid, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L1615"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L1613"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Assign user to group</p>
+  <div class="markdown level1 summary"><p>Assign a user to a group</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -352,10 +352,10 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The ID of the user to be assigned to the group.</p>
+    <dd><p>The unique identifier of the user</p>
 </dd>
     <dt><code>groupId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
-    <dd><p>The ID of the group to which the user will be assigned.</p>
+    <dd><p>The unique identifier of the group</p>
 </dd>
     <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
     <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
@@ -389,7 +389,7 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="MonoCloud_Management_Identity_Clients_UsersClient_CreateUserAsync_MonoCloud_Management_Identity_Models_CreateUserRequest_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Identity.Clients.UsersClient.CreateUserAsync(MonoCloud.Management.Identity.Models.CreateUserRequest,System.Threading.CancellationToken)">
   CreateUserAsync(CreateUserRequest, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L85"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L83"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Create a user</p>
@@ -403,7 +403,7 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>createUserRequest</code> <a class="xref" href="MonoCloud.Management.Identity.Models.CreateUserRequest.html">CreateUserRequest</a></dt>
-    <dd><p>The create user request.</p>
+    <dd><p>The create user request</p>
 </dd>
     <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
     <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
@@ -437,7 +437,7 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="MonoCloud_Management_Identity_Clients_UsersClient_DeleteUserAsync_System_String_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Identity.Clients.UsersClient.DeleteUserAsync(System.String,System.Threading.CancellationToken)">
   DeleteUserAsync(string, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L152"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L150"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Delete a user</p>
@@ -451,7 +451,7 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The ID of the user to be deleted.</p>
+    <dd><p>The unique identifier of the user</p>
 </dd>
     <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
     <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
@@ -484,7 +484,7 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="MonoCloud_Management_Identity_Clients_UsersClient_DisableUserAsync_System_String_MonoCloud_Management_Identity_Models_DisableUserRequest_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Identity.Clients.UsersClient.DisableUserAsync(System.String,MonoCloud.Management.Identity.Models.DisableUserRequest,System.Threading.CancellationToken)">
   DisableUserAsync(string, DisableUserRequest, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L217"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L215"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Disable a user</p>
@@ -498,10 +498,10 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The ID of the user to be disabled.</p>
+    <dd><p>The unique identifier of the user</p>
 </dd>
     <dt><code>disableUserRequest</code> <a class="xref" href="MonoCloud.Management.Identity.Models.DisableUserRequest.html">DisableUserRequest</a></dt>
-    <dd><p>The disable user request.</p>
+    <dd><p>The disable user request</p>
 </dd>
     <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
     <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
@@ -535,7 +535,7 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="MonoCloud_Management_Identity_Clients_UsersClient_EnableUserAsync_System_String_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Identity.Clients.UsersClient.EnableUserAsync(System.String,System.Threading.CancellationToken)">
   EnableUserAsync(string, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L182"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L180"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Enable a user</p>
@@ -549,7 +549,7 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The ID of the user to be enabled.</p>
+    <dd><p>The unique identifier of the user</p>
 </dd>
     <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
     <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
@@ -583,10 +583,10 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="MonoCloud_Management_Identity_Clients_UsersClient_ExternalAuthenticatorDisconnectAsync_System_String_MonoCloud_Management_Identity_Models_ExternalAuthenticatorDisconnectRequest_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Identity.Clients.UsersClient.ExternalAuthenticatorDisconnectAsync(System.String,MonoCloud.Management.Identity.Models.ExternalAuthenticatorDisconnectRequest,System.Threading.CancellationToken)">
   ExternalAuthenticatorDisconnectAsync(string, ExternalAuthenticatorDisconnectRequest, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L1480"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L1478"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Disconnect external authenticator</p>
+  <div class="markdown level1 summary"><p>Disconnect an external authenticator</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -597,10 +597,10 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The ID of the user from whom the external authenticator should be disconnected.</p>
+    <dd><p>The unique identifier of the user</p>
 </dd>
     <dt><code>externalAuthenticatorDisconnectRequest</code> <a class="xref" href="MonoCloud.Management.Identity.Models.ExternalAuthenticatorDisconnectRequest.html">ExternalAuthenticatorDisconnectRequest</a></dt>
-    <dd><p>The disconnected external authenticator request.</p>
+    <dd><p>The disconnected external authenticator request</p>
 </dd>
     <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
     <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
@@ -634,10 +634,10 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="MonoCloud_Management_Identity_Clients_UsersClient_FindUserByIdAsync_System_String_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Identity.Clients.UsersClient.FindUserByIdAsync(System.String,System.Threading.CancellationToken)">
   FindUserByIdAsync(string, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L118"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L116"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Get a user</p>
+  <div class="markdown level1 summary"><p>Retrieve a user</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -648,7 +648,7 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The ID of the user whose profile information should be retrieved.</p>
+    <dd><p>The unique identifier of the user.</p>
 </dd>
     <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
     <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
@@ -682,10 +682,10 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="MonoCloud_Management_Identity_Clients_UsersClient_FindUserGroupAsync_System_String_System_Guid_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Identity.Clients.UsersClient.FindUserGroupAsync(System.String,System.Guid,System.Threading.CancellationToken)">
   FindUserGroupAsync(string, Guid, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L1573"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L1571"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Get a user group</p>
+  <div class="markdown level1 summary"><p>Retrieve a user group</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -696,10 +696,10 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The ID of the user whose group association should be retrieved.</p>
+    <dd><p>The unique identifier of the user</p>
 </dd>
     <dt><code>groupId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
-    <dd><p>The ID of the group to which the user is assigned.</p>
+    <dd><p>The unique identifier of the group</p>
 </dd>
     <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
     <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
@@ -733,10 +733,10 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="MonoCloud_Management_Identity_Clients_UsersClient_FindUserSessionAsync_System_String_System_String_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Identity.Clients.UsersClient.FindUserSessionAsync(System.String,System.String,System.Threading.CancellationToken)">
   FindUserSessionAsync(string, string, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L1400"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L1398"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Get a user session</p>
+  <div class="markdown level1 summary"><p>Retrieve a user session</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -747,10 +747,10 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The ID of the user whose session should be retrieved.</p>
+    <dd><p>The unique identifier of the user</p>
 </dd>
     <dt><code>sessionId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The ID of the user session to be retrieved</p>
+    <dd><p>The unique identifier of the user session</p>
 </dd>
     <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
     <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
@@ -784,10 +784,10 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="MonoCloud_Management_Identity_Clients_UsersClient_GetAllAuthorizationCodesAsync_System_String_System_Nullable_System_Int32__System_Nullable_System_Int32__System_String_System_String_System_String_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Identity.Clients.UsersClient.GetAllAuthorizationCodesAsync(System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.String,System.String,System.String,System.Threading.CancellationToken)">
   GetAllAuthorizationCodesAsync(string, int?, int?, string?, string?, string?, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L1989"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L1987"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Get all authorization codes</p>
+  <div class="markdown level1 summary"><p>List authorization codes</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -798,22 +798,22 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The ID of the user whose authorization codes should be retrieved.</p>
+    <dd><p>The unique identifier of the user</p>
 </dd>
     <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
     <dd><p>The page number to retrieve.</p>
 </dd>
     <dt><code>size</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
-    <dd><p>The number of items per page.</p>
+    <dd><p>The number of grants to return per page. The maximum allowed value is 50.</p>
 </dd>
     <dt><code>clientId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The client ID by which the grants should be filtered.</p>
+    <dd><p>Filters results to grants issued to the specified client.</p>
 </dd>
     <dt><code>sessionId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The session ID by which the grants should be filtered.</p>
+    <dd><p>Filters results to grants issued within the specified session.</p>
 </dd>
     <dt><code>sort</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>Specifies the sort criteria in the 'sort_key:sort_order' format. The sort order value can be '1' for ascending and '-1' for descending.  Acceptable sort key values are 'creation_time' and 'expiration'.</p>
+    <dd><p>Sort expression in the format <code>field:direction</code>, where direction is <code>1</code> for ascending or <code>-1</code> for descending.  Supported fields include - creation_time.</p>
 </dd>
     <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
     <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
@@ -847,10 +847,10 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="MonoCloud_Management_Identity_Clients_UsersClient_GetAllBlockedIpsAsync_System_String_System_Nullable_System_Int32__System_Nullable_System_Int32__System_String_System_String_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Identity.Clients.UsersClient.GetAllBlockedIpsAsync(System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.String,System.String,System.Threading.CancellationToken)">
   GetAllBlockedIpsAsync(string, int?, int?, string?, string?, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L1246"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L1244"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Get all blocked IPs</p>
+  <div class="markdown level1 summary"><p>List blocked IP addresses</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -861,19 +861,19 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The ID of the user whose blocked IP addresses should be retrieved.</p>
+    <dd><p>The unique identifier of the user</p>
 </dd>
     <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
     <dd><p>The page number to retrieve.</p>
 </dd>
     <dt><code>size</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
-    <dd><p>The number of items per page.</p>
+    <dd><p>The number of blocked IPs to return per page. The maximum allowed value is 50.</p>
 </dd>
     <dt><code>filter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>A query filter to apply when searching for blocked IPs.</p>
+    <dd><p>Optional Lucene-style filter expression used to search by attributes.</p>
 </dd>
     <dt><code>sort</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The sort criteria in 'sort_key:sort_order' format. Sort order can be '1' for ascending and '-1' for descending.  Acceptable sort key values are 'block_until' and 'last_sign_in_attempt'.</p>
+    <dd><p>Sort expression in the format <code>field:direction</code>, where direction is <code>1</code> for ascending or <code>-1</code> for descending.  Supported fields include - block_until, last_sign_in_attempt, last_sign_in_success.</p>
 </dd>
     <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
     <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
@@ -907,10 +907,10 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="MonoCloud_Management_Identity_Clients_UsersClient_GetAllGroupAssignedUsersAsync_System_Guid_System_Nullable_System_Int32__System_Nullable_System_Int32__System_String_System_String_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Identity.Clients.UsersClient.GetAllGroupAssignedUsersAsync(System.Guid,System.Nullable{System.Int32},System.Nullable{System.Int32},System.String,System.String,System.Threading.CancellationToken)">
   GetAllGroupAssignedUsersAsync(Guid, int?, int?, string?, string?, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L1698"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L1696"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Get all users in group</p>
+  <div class="markdown level1 summary"><p>List users in group</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -921,19 +921,19 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>groupId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
-    <dd><p>The ID of the group whose users should be retrieved.</p>
+    <dd><p>The unique identifier of the group</p>
 </dd>
     <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
     <dd><p>The page number to retrieve.</p>
 </dd>
     <dt><code>size</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
-    <dd><p>The number of items per page.</p>
+    <dd><p>The number of users to return per page. The maximum allowed value is 50.</p>
 </dd>
     <dt><code>filter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>A query filter to apply when searching for users.</p>
+    <dd><p>Optional Lucene-style filter expression used to search by attributes.</p>
 </dd>
     <dt><code>sort</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>Specifies the sort criteria in the 'sort_key:sort_order' format. The sort order value can be '1' for ascending and '-1' for descending.  Acceptable sort key values are 'creation_time', and 'last_updated'.</p>
+    <dd><p>Sort expression in the format <code>field:direction</code>, where direction is <code>1</code> for ascending or <code>-1</code> for descending.  Supported fields include - failure_count, last_sign_in_attempt, sign_in_attempts_count, last_sign_in_success, sign_in_success_count, last_activity, block_until, creation_time, last_updated.</p>
 </dd>
     <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
     <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
@@ -967,10 +967,10 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="MonoCloud_Management_Identity_Clients_UsersClient_GetAllReferenceTokensAsync_System_String_System_Nullable_System_Int32__System_Nullable_System_Int32__System_String_System_String_System_String_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Identity.Clients.UsersClient.GetAllReferenceTokensAsync(System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.String,System.String,System.String,System.Threading.CancellationToken)">
   GetAllReferenceTokensAsync(string, int?, int?, string?, string?, string?, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L1861"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L1859"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Get all reference tokens</p>
+  <div class="markdown level1 summary"><p>List reference tokens</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -981,22 +981,22 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The ID of the user whose tokens should be retrieved.</p>
+    <dd><p>The unique identifier of the user</p>
 </dd>
     <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
     <dd><p>The page number to retrieve.</p>
 </dd>
     <dt><code>size</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
-    <dd><p>The number of items per page.</p>
+    <dd><p>The number of grants to return per page. The maximum allowed value is 50.</p>
 </dd>
     <dt><code>clientId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The client ID by which the grants should be filtered.</p>
+    <dd><p>Filters results to grants issued to the specified client.</p>
 </dd>
     <dt><code>sessionId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The session ID by which the grants should be filtered.</p>
+    <dd><p>Filters results to grants issued within the specified session.</p>
 </dd>
     <dt><code>sort</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>Specifies the sort criteria in the 'sort_key:sort_order' format. The sort order value can be '1' for ascending and '-1' for descending.  Acceptable sort key values are 'creation_time' and 'expiration'.</p>
+    <dd><p>Sort expression in the format <code>field:direction</code>, where direction is <code>1</code> for ascending or <code>-1</code> for descending.  Supported fields include - creation_time.</p>
 </dd>
     <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
     <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
@@ -1030,10 +1030,10 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="MonoCloud_Management_Identity_Clients_UsersClient_GetAllRefreshTokensAsync_System_String_System_Nullable_System_Int32__System_Nullable_System_Int32__System_String_System_String_System_String_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Identity.Clients.UsersClient.GetAllRefreshTokensAsync(System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.String,System.String,System.String,System.Threading.CancellationToken)">
   GetAllRefreshTokensAsync(string, int?, int?, string?, string?, string?, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L1925"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L1923"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Get all refresh tokens</p>
+  <div class="markdown level1 summary"><p>List refresh tokens</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1044,22 +1044,22 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The ID of the user whose tokens should be retrieved.</p>
+    <dd><p>The unique identifier of the user</p>
 </dd>
     <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
     <dd><p>The page number to retrieve.</p>
 </dd>
     <dt><code>size</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
-    <dd><p>The number of items per page.</p>
+    <dd><p>The number of grants to return per page. The maximum allowed value is 50.</p>
 </dd>
     <dt><code>clientId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The client ID by which the grants should be filtered.</p>
+    <dd><p>Filters results to grants issued to the specified client.</p>
 </dd>
     <dt><code>sessionId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The session ID by which the grants should be filtered.</p>
+    <dd><p>Filters results to grants issued within the specified session.</p>
 </dd>
     <dt><code>sort</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>Specifies the sort criteria in the 'sort_key:sort_order' format. The sort order value can be '1' for ascending and '-1' for descending.  Acceptable sort key values are 'creation_time' and 'expiration'.</p>
+    <dd><p>Sort expression in the format <code>field:direction</code>, where direction is <code>1</code> for ascending or <code>-1</code> for descending.  Supported fields include - creation_time.</p>
 </dd>
     <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
     <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
@@ -1093,10 +1093,10 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="MonoCloud_Management_Identity_Clients_UsersClient_GetAllUserClientGrantsAsync_System_String_System_Nullable_System_Int32__System_Nullable_System_Int32__System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Identity.Clients.UsersClient.GetAllUserClientGrantsAsync(System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.Threading.CancellationToken)">
   GetAllUserClientGrantsAsync(string, int?, int?, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L1754"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L1752"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Get all client grants</p>
+  <div class="markdown level1 summary"><p>List client grants</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1107,13 +1107,13 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The ID of the user whose grants should be retrieved.</p>
+    <dd><p>The unique identifier of the user</p>
 </dd>
     <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
     <dd><p>The page number to retrieve.</p>
 </dd>
     <dt><code>size</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
-    <dd><p>The number of items per page.</p>
+    <dd><p>The number of grants to return per page. The maximum allowed value is 50.</p>
 </dd>
     <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
     <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
@@ -1147,10 +1147,10 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="MonoCloud_Management_Identity_Clients_UsersClient_GetAllUserConsentsAsync_System_String_System_Nullable_System_Int32__System_Nullable_System_Int32__System_String_System_String_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Identity.Clients.UsersClient.GetAllUserConsentsAsync(System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.String,System.String,System.Threading.CancellationToken)">
   GetAllUserConsentsAsync(string, int?, int?, string?, string?, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L1802"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L1800"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Get all consents</p>
+  <div class="markdown level1 summary"><p>List user consents</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1161,19 +1161,19 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The ID of the user whose consents should be retrieved.</p>
+    <dd><p>The unique identifier of the user</p>
 </dd>
     <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
     <dd><p>The page number to retrieve.</p>
 </dd>
     <dt><code>size</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
-    <dd><p>The number of items per page.</p>
+    <dd><p>The number of consents to return per page. The maximum allowed value is 50.</p>
 </dd>
     <dt><code>clientId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The client ID by which the grants should be filtered.</p>
+    <dd><p>Filters results to consents issued to the specified client.</p>
 </dd>
     <dt><code>sort</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>Specifies the sort criteria in the 'sort_key:sort_order' format. The sort order value can be '1' for ascending and '-1' for descending.  Acceptable sort key values are 'creation_time' and 'expiration'.</p>
+    <dd><p>Sort expression in the format <code>field:direction</code>, where direction is <code>1</code> for ascending or <code>-1</code> for descending.  Supported fields include - creation_time.</p>
 </dd>
     <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
     <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
@@ -1207,10 +1207,10 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="MonoCloud_Management_Identity_Clients_UsersClient_GetAllUserGroupsAsync_System_String_System_Nullable_System_Int32__System_Nullable_System_Int32__System_String_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Identity.Clients.UsersClient.GetAllUserGroupsAsync(System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.String,System.Threading.CancellationToken)">
   GetAllUserGroupsAsync(string, int?, int?, string?, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L1523"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L1521"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Get all user's groups</p>
+  <div class="markdown level1 summary"><p>List user's groups</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1221,16 +1221,16 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The ID of the user whose group assignments should be retrieved.</p>
+    <dd><p>The unique identifier of the user</p>
 </dd>
     <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
     <dd><p>The page number to retrieve.</p>
 </dd>
     <dt><code>size</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
-    <dd><p>The number of items per page.</p>
+    <dd><p>The number of groups to return per page. The maximum allowed value is 50.</p>
 </dd>
     <dt><code>sort</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>Specifies the sort criteria in the 'sort_key:sort_order' format. The sort order value can be '1' for ascending and '-1' for descending.  The acceptable sort key is 'creation_time'.</p>
+    <dd><p>Sort expression in the format <code>field:direction</code>, where direction is <code>1</code> for ascending or <code>-1</code> for descending.  Supported fields include - creation_time.</p>
 </dd>
     <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
     <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
@@ -1264,10 +1264,10 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="MonoCloud_Management_Identity_Clients_UsersClient_GetAllUserSessionsAsync_System_String_System_Nullable_System_Int32__System_Nullable_System_Int32__System_String_System_String_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Identity.Clients.UsersClient.GetAllUserSessionsAsync(System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.String,System.String,System.Threading.CancellationToken)">
   GetAllUserSessionsAsync(string, int?, int?, string?, string?, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L1345"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L1343"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Get all sessions</p>
+  <div class="markdown level1 summary"><p>List user sessions</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1278,19 +1278,19 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The ID of the user whose sessions should be retrieved.</p>
+    <dd><p>The unique identifier of the user</p>
 </dd>
     <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
     <dd><p>The page number to retrieve.</p>
 </dd>
     <dt><code>size</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
-    <dd><p>The number of items per page.</p>
+    <dd><p>The number of sessions to return per page. The maximum allowed value is 50.</p>
 </dd>
     <dt><code>clientId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The client ID by which the user sessions should be filtered.</p>
+    <dd><p>Filters results to sessions associated with the specified client.</p>
 </dd>
     <dt><code>sort</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>Specifies the sort criteria in the 'sort_key:sort_order' format. The sort order value can be '1' for ascending and '-1' for descending.  Acceptable sort key values are 'session_id', 'initiated_at', 'expires_at', and 'last_updated'.</p>
+    <dd><p>Sort expression in the format <code>field:direction</code>, where direction is <code>1</code> for ascending or <code>-1</code> for descending.  Supported fields include - session_id, initiated_at, expires_at, last_updated.</p>
 </dd>
     <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
     <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
@@ -1324,10 +1324,10 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="MonoCloud_Management_Identity_Clients_UsersClient_GetAllUsersAsync_System_Nullable_System_Int32__System_Nullable_System_Int32__System_String_System_String_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Identity.Clients.UsersClient.GetAllUsersAsync(System.Nullable{System.Int32},System.Nullable{System.Int32},System.String,System.String,System.Threading.CancellationToken)">
   GetAllUsersAsync(int?, int?, string?, string?, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L38"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L36"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Get all users</p>
+  <div class="markdown level1 summary"><p>List all users</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1341,13 +1341,13 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
     <dd><p>The page number to retrieve.</p>
 </dd>
     <dt><code>size</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
-    <dd><p>The number of items per page.</p>
+    <dd><p>The number of users to return per page. The maximum allowed value is 50.</p>
 </dd>
     <dt><code>filter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>A query filter to apply when searching for users.</p>
+    <dd><p>Optional Lucene-style filter expression used to search by attributes.</p>
 </dd>
     <dt><code>sort</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>Specifies the sort criteria in the 'sort_key:sort_order' format. The sort order value can be '1' for ascending and '-1' for descending.  Acceptable sort key values are 'creation_time', and 'last_updated'.</p>
+    <dd><p>Sort expression in the format <code>field:direction</code>, where direction is <code>1</code> for ascending or <code>-1</code> for descending.  Supported fields include - failure_count, last_sign_in_attempt, sign_in_attempts_count, last_sign_in_success, sign_in_success_count, last_activity, block_until, creation_time, last_updated.</p>
 </dd>
     <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
     <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
@@ -1381,10 +1381,10 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="MonoCloud_Management_Identity_Clients_UsersClient_GetPrivateDataAsync_System_String_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Identity.Clients.UsersClient.GetPrivateDataAsync(System.String,System.Threading.CancellationToken)">
   GetPrivateDataAsync(string, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L1092"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L1090"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Get user private data</p>
+  <div class="markdown level1 summary"><p>Retrieve user private data</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1395,7 +1395,7 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The ID of the user whose private data should be retrieved.</p>
+    <dd><p>The unique identifier of the user</p>
 </dd>
     <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
     <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
@@ -1429,10 +1429,10 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="MonoCloud_Management_Identity_Clients_UsersClient_GetPublicDataAsync_System_String_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Identity.Clients.UsersClient.GetPublicDataAsync(System.String,System.Threading.CancellationToken)">
   GetPublicDataAsync(string, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L1167"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L1165"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Get user public data</p>
+  <div class="markdown level1 summary"><p>Retrieve user public data</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1443,7 +1443,7 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The ID of the user whose public data should be retrieved.</p>
+    <dd><p>The unique identifier of the user</p>
 </dd>
     <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
     <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
@@ -1477,7 +1477,7 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="MonoCloud_Management_Identity_Clients_UsersClient_PatchClaimsAsync_System_String_MonoCloud_Management_Identity_Models_UpdateClaimsRequest_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Identity.Clients.UsersClient.PatchClaimsAsync(System.String,MonoCloud.Management.Identity.Models.UpdateClaimsRequest,System.Threading.CancellationToken)">
   PatchClaimsAsync(string, UpdateClaimsRequest, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L1052"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L1050"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Update user claims</p>
@@ -1491,10 +1491,10 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The ID of the user whose claims should be updated.</p>
+    <dd><p>The unique identifier of the user</p>
 </dd>
     <dt><code>updateClaimsRequest</code> <a class="xref" href="MonoCloud.Management.Identity.Models.UpdateClaimsRequest.html">UpdateClaimsRequest</a></dt>
-    <dd><p>The update claims request.</p>
+    <dd><p>The update claims request</p>
 </dd>
     <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
     <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
@@ -1528,7 +1528,7 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="MonoCloud_Management_Identity_Clients_UsersClient_PatchPrivateDataAsync_System_String_MonoCloud_Management_Identity_Models_UpdatePrivateDataRequest_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Identity.Clients.UsersClient.PatchPrivateDataAsync(System.String,MonoCloud.Management.Identity.Models.UpdatePrivateDataRequest,System.Threading.CancellationToken)">
   PatchPrivateDataAsync(string, UpdatePrivateDataRequest, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L1127"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L1125"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Update user private data</p>
@@ -1542,10 +1542,10 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The ID of the user whose private data should be updated.</p>
+    <dd><p>The unique identifier of the user</p>
 </dd>
     <dt><code>updatePrivateDataRequest</code> <a class="xref" href="MonoCloud.Management.Identity.Models.UpdatePrivateDataRequest.html">UpdatePrivateDataRequest</a></dt>
-    <dd><p>The update private data request.</p>
+    <dd><p>The update private data request</p>
 </dd>
     <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
     <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
@@ -1579,7 +1579,7 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="MonoCloud_Management_Identity_Clients_UsersClient_PatchPublicDataAsync_System_String_MonoCloud_Management_Identity_Models_UpdatePublicDataRequest_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Identity.Clients.UsersClient.PatchPublicDataAsync(System.String,MonoCloud.Management.Identity.Models.UpdatePublicDataRequest,System.Threading.CancellationToken)">
   PatchPublicDataAsync(string, UpdatePublicDataRequest, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L1202"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L1200"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Update user public data</p>
@@ -1593,10 +1593,10 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The ID of the user whose public data should be updated.</p>
+    <dd><p>The unique identifier of the user</p>
 </dd>
     <dt><code>updatePublicDataRequest</code> <a class="xref" href="MonoCloud.Management.Identity.Models.UpdatePublicDataRequest.html">UpdatePublicDataRequest</a></dt>
-    <dd><p>The update public data request.</p>
+    <dd><p>The update public data request</p>
 </dd>
     <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
     <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
@@ -1630,10 +1630,10 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="MonoCloud_Management_Identity_Clients_UsersClient_RemoveEmailAsync_System_String_System_Guid_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Identity.Clients.UsersClient.RemoveEmailAsync(System.String,System.Guid,System.Threading.CancellationToken)">
   RemoveEmailAsync(string, Guid, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L408"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L406"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Remove an email</p>
+  <div class="markdown level1 summary"><p>Remove an email address</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1644,10 +1644,10 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The ID of the user whose email should be removed.</p>
+    <dd><p>The unique identifier of the user</p>
 </dd>
     <dt><code>identifierId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
-    <dd><p>The ID of the email to be removed.</p>
+    <dd><p>The unique identifier of the email</p>
 </dd>
     <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
     <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
@@ -1681,10 +1681,10 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="MonoCloud_Management_Identity_Clients_UsersClient_RemovePasskeyAsync_System_String_System_String_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Identity.Clients.UsersClient.RemovePasskeyAsync(System.String,System.String,System.Threading.CancellationToken)">
   RemovePasskeyAsync(string, string, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L834"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L832"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Remove passkey</p>
+  <div class="markdown level1 summary"><p>Remove a passkey</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1695,10 +1695,10 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The ID of the user from whose account the passkey should be removed.</p>
+    <dd><p>The unique identifier of the user</p>
 </dd>
     <dt><code>passkeyId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The ID of the passkey to remove.</p>
+    <dd><p>The unique identifier of the passkey</p>
 </dd>
     <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
     <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
@@ -1731,10 +1731,10 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="MonoCloud_Management_Identity_Clients_UsersClient_RemovePasswordAsync_System_String_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Identity.Clients.UsersClient.RemovePasswordAsync(System.String,System.Threading.CancellationToken)">
   RemovePasswordAsync(string, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L912"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L910"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Remove password</p>
+  <div class="markdown level1 summary"><p>Remove the user's password</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1745,7 +1745,7 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The ID of the user whose password should be removed.</p>
+    <dd><p>The unique identifier of the user</p>
 </dd>
     <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
     <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
@@ -1778,10 +1778,10 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="MonoCloud_Management_Identity_Clients_UsersClient_RemovePasswordResetRequiredAsync_System_String_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Identity.Clients.UsersClient.RemovePasswordResetRequiredAsync(System.String,System.Threading.CancellationToken)">
   RemovePasswordResetRequiredAsync(string, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L976"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L974"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Remove user password reset requirement</p>
+  <div class="markdown level1 summary"><p>Clear a password reset requirement</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1792,7 +1792,7 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The ID of the user.</p>
+    <dd><p>The unique identifier of the user</p>
 </dd>
     <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
     <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
@@ -1826,7 +1826,7 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="MonoCloud_Management_Identity_Clients_UsersClient_RemovePhoneAsync_System_String_System_Guid_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Identity.Clients.UsersClient.RemovePhoneAsync(System.String,System.Guid,System.Threading.CancellationToken)">
   RemovePhoneAsync(string, Guid, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L666"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L664"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Remove a phone number</p>
@@ -1840,10 +1840,10 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The ID of the user whose phone number should be removed.</p>
+    <dd><p>The unique identifier of the user</p>
 </dd>
     <dt><code>identifierId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
-    <dd><p>The ID of the phone number to be removed.</p>
+    <dd><p>The unique identifier of the phone number</p>
 </dd>
     <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
     <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
@@ -1877,10 +1877,10 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="MonoCloud_Management_Identity_Clients_UsersClient_RemoveUserFromGroupAsync_System_String_System_Guid_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Identity.Clients.UsersClient.RemoveUserFromGroupAsync(System.String,System.Guid,System.Threading.CancellationToken)">
   RemoveUserFromGroupAsync(string, Guid, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L1657"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L1655"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Remove user from group</p>
+  <div class="markdown level1 summary"><p>Remove a user from a group</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1891,10 +1891,10 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The ID of the user to be removed from the group.</p>
+    <dd><p>The unique identifier of the user</p>
 </dd>
     <dt><code>groupId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
-    <dd><p>The ID of the group from which the user should be removed.</p>
+    <dd><p>The unique identifier of the group</p>
 </dd>
     <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
     <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
@@ -1927,10 +1927,10 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="MonoCloud_Management_Identity_Clients_UsersClient_RemoveUsernameAsync_System_String_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Identity.Clients.UsersClient.RemoveUsernameAsync(System.String,System.Threading.CancellationToken)">
   RemoveUsernameAsync(string, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L332"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L330"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Remove username</p>
+  <div class="markdown level1 summary"><p>Remove a username</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1941,7 +1941,7 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The ID of the user whose username should be removed.</p>
+    <dd><p>The unique identifier of the user</p>
 </dd>
     <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
     <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
@@ -1975,10 +1975,10 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="MonoCloud_Management_Identity_Clients_UsersClient_ResetPasswordAsync_System_String_MonoCloud_Management_Identity_Models_ResetPasswordRequest_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Identity.Clients.UsersClient.ResetPasswordAsync(System.String,MonoCloud.Management.Identity.Models.ResetPasswordRequest,System.Threading.CancellationToken)">
   ResetPasswordAsync(string, ResetPasswordRequest, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L1011"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L1009"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Password Reset</p>
+  <div class="markdown level1 summary"><p>Reset Password</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -1989,7 +1989,7 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The ID of the user whose password reset link is requested.</p>
+    <dd><p>The unique identifier of the user</p>
 </dd>
     <dt><code>resetPasswordRequest</code> <a class="xref" href="MonoCloud.Management.Identity.Models.ResetPasswordRequest.html">ResetPasswordRequest</a></dt>
     <dd></dd>
@@ -2025,7 +2025,7 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="MonoCloud_Management_Identity_Clients_UsersClient_RevokeAuthorizationCodeAsync_System_String_System_String_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Identity.Clients.UsersClient.RevokeAuthorizationCodeAsync(System.String,System.String,System.Threading.CancellationToken)">
   RevokeAuthorizationCodeAsync(string, string, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L2201"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L2199"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Revoke an authorization code</p>
@@ -2039,10 +2039,10 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The ID of the user whose authorization code should be revoked.</p>
+    <dd><p>The unique identifier of the user</p>
 </dd>
     <dt><code>codeId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The ID of the authorization code to be revoked.</p>
+    <dd><p>The unique identifier of the authorization code</p>
 </dd>
     <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
     <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
@@ -2075,7 +2075,7 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="MonoCloud_Management_Identity_Clients_UsersClient_RevokeReferenceTokenAsync_System_String_System_String_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Identity.Clients.UsersClient.RevokeReferenceTokenAsync(System.String,System.String,System.Threading.CancellationToken)">
   RevokeReferenceTokenAsync(string, string, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L2125"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L2123"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Revoke a reference token</p>
@@ -2089,10 +2089,10 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The ID of the user whose token should be revoked.</p>
+    <dd><p>The unique identifier of the user</p>
 </dd>
     <dt><code>tokenId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The ID of the token to be revoked.</p>
+    <dd><p>The unique identifier of the reference token</p>
 </dd>
     <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
     <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
@@ -2125,7 +2125,7 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="MonoCloud_Management_Identity_Clients_UsersClient_RevokeRefreshTokenAsync_System_String_System_String_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Identity.Clients.UsersClient.RevokeRefreshTokenAsync(System.String,System.String,System.Threading.CancellationToken)">
   RevokeRefreshTokenAsync(string, string, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L2163"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L2161"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Revoke a refresh token</p>
@@ -2139,10 +2139,10 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The ID of the user whose token should be revoked.</p>
+    <dd><p>The unique identifier of the user</p>
 </dd>
     <dt><code>tokenId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The ID of the token to be revoked.</p>
+    <dd><p>The unique identifier of the token</p>
 </dd>
     <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
     <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
@@ -2175,7 +2175,7 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="MonoCloud_Management_Identity_Clients_UsersClient_RevokeUserClientGrantsAsync_System_String_System_String_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Identity.Clients.UsersClient.RevokeUserClientGrantsAsync(System.String,System.String,System.Threading.CancellationToken)">
   RevokeUserClientGrantsAsync(string, string, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L2049"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L2047"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Revoke client grants</p>
@@ -2189,10 +2189,10 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The ID of the user whose token should be revoked.</p>
+    <dd><p>The unique identifier of the user</p>
 </dd>
     <dt><code>clientId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The ID of the client whose grants should be revoked.</p>
+    <dd><p>The unique identifier of the application</p>
 </dd>
     <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
     <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
@@ -2225,7 +2225,7 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="MonoCloud_Management_Identity_Clients_UsersClient_RevokeUserConsentAsync_System_String_System_String_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Identity.Clients.UsersClient.RevokeUserConsentAsync(System.String,System.String,System.Threading.CancellationToken)">
   RevokeUserConsentAsync(string, string, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L2087"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L2085"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Revoke a consent</p>
@@ -2239,10 +2239,10 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The ID of the user whose consent should be revoked.</p>
+    <dd><p>The unique identifier of the user</p>
 </dd>
     <dt><code>consentId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The ID of the consent to be revoked.</p>
+    <dd><p>The unique identifier of the consent</p>
 </dd>
     <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
     <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
@@ -2275,7 +2275,7 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="MonoCloud_Management_Identity_Clients_UsersClient_RevokeUserSessionAsync_System_String_System_String_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Identity.Clients.UsersClient.RevokeUserSessionAsync(System.String,System.String,System.Threading.CancellationToken)">
   RevokeUserSessionAsync(string, string, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L1442"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L1440"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Revoke a session</p>
@@ -2289,10 +2289,10 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The ID of the user whose session should be revoked.</p>
+    <dd><p>The unique identifier of the user</p>
 </dd>
     <dt><code>sessionId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The ID of the session to revoke.</p>
+    <dd><p>The unique identifier of the session</p>
 </dd>
     <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
     <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
@@ -2325,10 +2325,10 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="MonoCloud_Management_Identity_Clients_UsersClient_SetEmailUnverifiedAsync_System_String_System_Guid_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Identity.Clients.UsersClient.SetEmailUnverifiedAsync(System.String,System.Guid,System.Threading.CancellationToken)">
   SetEmailUnverifiedAsync(string, Guid, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L534"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L532"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Mark email as unverified</p>
+  <div class="markdown level1 summary"><p>Mark an email as unverified</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -2339,10 +2339,10 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The ID of the user whose email is to be marked as unverified.</p>
+    <dd><p>The unique identifier of the user</p>
 </dd>
     <dt><code>identifierId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
-    <dd><p>The ID of the email to be marked as unverified.</p>
+    <dd><p>The unique identifier of the email</p>
 </dd>
     <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
     <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
@@ -2376,10 +2376,10 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="MonoCloud_Management_Identity_Clients_UsersClient_SetEmailVerifiedAsync_System_String_System_Guid_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Identity.Clients.UsersClient.SetEmailVerifiedAsync(System.String,System.Guid,System.Threading.CancellationToken)">
   SetEmailVerifiedAsync(string, Guid, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L492"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L490"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Mark email as verified</p>
+  <div class="markdown level1 summary"><p>Mark an email as verified</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -2390,10 +2390,10 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The ID of the user whose email is to be marked as verified.</p>
+    <dd><p>The unique identifier of the user</p>
 </dd>
     <dt><code>identifierId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
-    <dd><p>The ID of the email to be marked as verified.</p>
+    <dd><p>The unique identifier of the email</p>
 </dd>
     <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
     <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
@@ -2427,10 +2427,10 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="MonoCloud_Management_Identity_Clients_UsersClient_SetPasswordAsync_System_String_MonoCloud_Management_Identity_Models_SetPasswordRequest_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Identity.Clients.UsersClient.SetPasswordAsync(System.String,MonoCloud.Management.Identity.Models.SetPasswordRequest,System.Threading.CancellationToken)">
   SetPasswordAsync(string, SetPasswordRequest, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L872"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L870"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Set password</p>
+  <div class="markdown level1 summary"><p>Set a password</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -2441,7 +2441,7 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The ID of the user whose password should be set.</p>
+    <dd><p>The unique identifier of the user</p>
 </dd>
     <dt><code>setPasswordRequest</code> <a class="xref" href="MonoCloud.Management.Identity.Models.SetPasswordRequest.html">SetPasswordRequest</a></dt>
     <dd><p>The set password request.</p>
@@ -2478,10 +2478,10 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="MonoCloud_Management_Identity_Clients_UsersClient_SetPasswordResetRequiredAsync_System_String_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Identity.Clients.UsersClient.SetPasswordResetRequiredAsync(System.String,System.Threading.CancellationToken)">
   SetPasswordResetRequiredAsync(string, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L942"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L940"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Require user password reset</p>
+  <div class="markdown level1 summary"><p>Require password reset</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -2492,7 +2492,7 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The ID of the user.</p>
+    <dd><p>The unique identifier of the user</p>
 </dd>
     <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
     <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
@@ -2526,10 +2526,10 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="MonoCloud_Management_Identity_Clients_UsersClient_SetPhoneUnverifiedAsync_System_String_System_Guid_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Identity.Clients.UsersClient.SetPhoneUnverifiedAsync(System.String,System.Guid,System.Threading.CancellationToken)">
   SetPhoneUnverifiedAsync(string, Guid, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L792"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L790"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Mark phone as unverified</p>
+  <div class="markdown level1 summary"><p>Mark a phone as unverified</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -2540,10 +2540,10 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The ID of the user whose phone is to be marked as unverified.</p>
+    <dd><p>The unique identifier of the user</p>
 </dd>
     <dt><code>identifierId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
-    <dd><p>The ID of the phone to be marked as unverified.</p>
+    <dd><p>The unique identifier of the phone number</p>
 </dd>
     <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
     <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
@@ -2577,10 +2577,10 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="MonoCloud_Management_Identity_Clients_UsersClient_SetPhoneVerifiedAsync_System_String_System_Guid_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Identity.Clients.UsersClient.SetPhoneVerifiedAsync(System.String,System.Guid,System.Threading.CancellationToken)">
   SetPhoneVerifiedAsync(string, Guid, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L750"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L748"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Mark phone as verified</p>
+  <div class="markdown level1 summary"><p>Mark a phone as verified</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -2591,10 +2591,10 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The ID of the user whose phone is to be marked as verified.</p>
+    <dd><p>The unique identifier of the user</p>
 </dd>
     <dt><code>identifierId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
-    <dd><p>The ID of the phone to be marked as verified.</p>
+    <dd><p>The unique identifier of the phone number</p>
 </dd>
     <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
     <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
@@ -2628,10 +2628,10 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="MonoCloud_Management_Identity_Clients_UsersClient_SetPrimaryEmailAsync_System_String_System_Guid_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Identity.Clients.UsersClient.SetPrimaryEmailAsync(System.String,System.Guid,System.Threading.CancellationToken)">
   SetPrimaryEmailAsync(string, Guid, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L450"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L448"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Set email as primary</p>
+  <div class="markdown level1 summary"><p>Set an email as primary</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -2642,10 +2642,10 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The ID of the user whose email should be set as primary.</p>
+    <dd><p>The unique identifier of the user</p>
 </dd>
     <dt><code>identifierId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
-    <dd><p>The ID of the email to be set as primary.</p>
+    <dd><p>The unique identifier of the email</p>
 </dd>
     <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
     <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
@@ -2679,10 +2679,10 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="MonoCloud_Management_Identity_Clients_UsersClient_SetPrimaryPhoneAsync_System_String_System_Guid_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Identity.Clients.UsersClient.SetPrimaryPhoneAsync(System.String,System.Guid,System.Threading.CancellationToken)">
   SetPrimaryPhoneAsync(string, Guid, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L708"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L706"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Set phone as primary</p>
+  <div class="markdown level1 summary"><p>Set a phone as primary</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -2693,10 +2693,10 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The ID of the user whose phone should be set as primary.</p>
+    <dd><p>The unique identifier of the user</p>
 </dd>
     <dt><code>identifierId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
-    <dd><p>The ID of the phone to be set as primary.</p>
+    <dd><p>The unique identifier of the phone number</p>
 </dd>
     <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
     <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
@@ -2730,10 +2730,10 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="MonoCloud_Management_Identity_Clients_UsersClient_UnblockIpAsync_System_String_MonoCloud_Management_Identity_Models_UnblockIpRequest_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Identity.Clients.UsersClient.UnblockIpAsync(System.String,MonoCloud.Management.Identity.Models.UnblockIpRequest,System.Threading.CancellationToken)">
   UnblockIpAsync(string, UnblockIpRequest, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L1301"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L1299"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Unblock an IP address</p>
+  <div class="markdown level1 summary"><p>Reset IP lockout</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -2744,7 +2744,7 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The ID of the user whose IP address should be unblocked.</p>
+    <dd><p>The unique identifier of the user whose IP address should be unblocked.</p>
 </dd>
     <dt><code>unblockIpRequest</code> <a class="xref" href="MonoCloud.Management.Identity.Models.UnblockIpRequest.html">UnblockIpRequest</a></dt>
     <dd><p>The unblock IP request</p>
@@ -2781,10 +2781,10 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="MonoCloud_Management_Identity_Clients_UsersClient_UnblockUserAsync_System_String_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Identity.Clients.UsersClient.UnblockUserAsync(System.String,System.Threading.CancellationToken)">
   UnblockUserAsync(string, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L257"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L255"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Unblock a user</p>
+  <div class="markdown level1 summary"><p>Reset user lockout</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -2795,7 +2795,7 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The ID of the user whose account should be unblocked.</p>
+    <dd><p>The unique identifier of the user</p>
 </dd>
     <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
     <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
@@ -2829,7 +2829,7 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="MonoCloud_Management_Identity_Clients_UsersClient_UpdateUsernameAsync_System_String_MonoCloud_Management_Identity_Models_UpdateUsernameRequest_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Identity.Clients.UsersClient.UpdateUsernameAsync(System.String,MonoCloud.Management.Identity.Models.UpdateUsernameRequest,System.Threading.CancellationToken)">
   UpdateUsernameAsync(string, UpdateUsernameRequest, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L292"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L290"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Add or update username</p>
@@ -2843,7 +2843,7 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The ID of the user whose username should be set.</p>
+    <dd><p>The unique identifier of the user</p>
 </dd>
     <dt><code>updateUsernameRequest</code> <a class="xref" href="MonoCloud.Management.Identity.Models.UpdateUsernameRequest.html">UpdateUsernameRequest</a></dt>
     <dd><p>The request body.</p>
@@ -2880,10 +2880,10 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
 
   <h3 id="MonoCloud_Management_Identity_Clients_UsersClient_VerifyEmailAsync_System_String_System_Guid_MonoCloud_Management_Identity_Models_VerifyEmailRequest_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Identity.Clients.UsersClient.VerifyEmailAsync(System.String,System.Guid,MonoCloud.Management.Identity.Models.VerifyEmailRequest,System.Threading.CancellationToken)">
   VerifyEmailAsync(string, Guid, VerifyEmailRequest, CancellationToken)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L577"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/Clients/UsersApi.cs/#L575"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Verify Email</p>
+  <div class="markdown level1 summary"><p>Initiates email verification</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
@@ -2894,10 +2894,10 @@ Class UsersClient  <a class="header-action link-secondary" title="View source" h
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The ID of the user whose email verification link is requested.</p>
+    <dd><p>The unique identifier of the user</p>
 </dd>
     <dt><code>identifierId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
-    <dd><p>The ID of the email to be verified.</p>
+    <dd><p>The unique identifier of the email</p>
 </dd>
     <dt><code>verifyEmailRequest</code> <a class="xref" href="MonoCloud.Management.Identity.Models.VerifyEmailRequest.html">VerifyEmailRequest</a></dt>
     <dd></dd>
