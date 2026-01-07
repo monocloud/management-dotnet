@@ -14,5 +14,8 @@ public class MonoCloudKeyValidationException : MonoCloudRequestException
     Errors = response.Errors;
   }
 
+  /// <summary>
+  /// A list of errors corresponding to the model properties, if any.
+  /// </summary>
   public IDictionary<string, string[]> Errors { get; set; }
 }

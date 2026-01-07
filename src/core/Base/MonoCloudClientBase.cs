@@ -191,7 +191,7 @@ public class MonoCloudClientBase
 
       result = result.Type switch
       {
-        ValidationExceptionTypes.IdentityValidationError => await JsonSerializer.DeserializeAsync<ErrorCodeValidationProblemDetails>(new MemoryStream(responseBytes), Settings, cancellationToken),
+        ValidationExceptionTypes.IdentityValidationError => await JsonSerializer.DeserializeAsync<IdentityValidationProblemDetails>(new MemoryStream(responseBytes), Settings, cancellationToken),
         ValidationExceptionTypes.ValidationError => await JsonSerializer.DeserializeAsync<KeyValidationProblemDetails>(new MemoryStream(responseBytes), Settings, cancellationToken),
         _ => result
       };
