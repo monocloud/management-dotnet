@@ -11,6 +11,8 @@ This SDK provides a full-featured, typed .NET client for interacting with the **
 ## 📘 Documentation
 
 - **Documentation:** [https://www.monocloud.com/docs](https://www.monocloud.com/docs?utm_source=github&utm_medium=management_dotnet)
+- **SDK Docs:** [https://www.monocloud.com/docs/apis/identity](https://www.monocloud.com/docs/apis/identity?utm_source=github&utm_medium=management_dotnet)
+- **API Reference:** [https://monocloud.github.io/management-dotnet](https://monocloud.github.io/management-dotnet?utm_source=github&utm_medium=management_dotnet)
 
 ## Supported Platforms
 
