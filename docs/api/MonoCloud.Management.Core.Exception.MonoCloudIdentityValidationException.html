@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Class MonoCloudModelStateException </title>
+      <title>Class MonoCloudIdentityValidationException </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Class MonoCloudModelStateException ">
+      <meta name="title" content="Class MonoCloudIdentityValidationException ">
       
-      <meta name="description" content="The MonoCloud Model State Exception">
+      <meta name="description" content="The MonoCloud Identity Validation Exception">
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -16,7 +16,7 @@
       
       
       
-      <meta name="docfx:docurl" content="https://github.com/monocloud/management-dotnet/new/refactor/problem_details/apiSpec/new?filename=MonoCloud_Management_Core_Exception_MonoCloudModelStateException.md&amp;value=---%0Auid%3A%20MonoCloud.Management.Core.Exception.MonoCloudModelStateException%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/monocloud/management-dotnet/new/refactor/problem_details/apiSpec/new?filename=MonoCloud_Management_Core_Exception_MonoCloudIdentityValidationException.md&amp;value=---%0Auid%3A%20MonoCloud.Management.Core.Exception.MonoCloudIdentityValidationException%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -80,12 +80,12 @@
           <nav id="breadcrumb"></nav>
         </div>
 
-        <article data-uid="MonoCloud.Management.Core.Exception.MonoCloudModelStateException">
+        <article data-uid="MonoCloud.Management.Core.Exception.MonoCloudIdentityValidationException">
 
 
 
-  <h1 id="MonoCloud_Management_Core_Exception_MonoCloudModelStateException" data-uid="MonoCloud.Management.Core.Exception.MonoCloudModelStateException" class="text-break">
-Class MonoCloudModelStateException  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/refactor/problem_details/src/core/Exception/MonoCloudModelStateException.cs/#L6"><i class="bi bi-code-slash"></i></a>
+  <h1 id="MonoCloud_Management_Core_Exception_MonoCloudIdentityValidationException" data-uid="MonoCloud.Management.Core.Exception.MonoCloudIdentityValidationException" class="text-break">
+Class MonoCloudIdentityValidationException  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/refactor/problem_details/src/core/Exception/MonoCloudIdentityValidationException.cs/#L6"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -93,12 +93,12 @@ Class MonoCloudModelStateException  <a class="header-action link-secondary" titl
   <dl><dt>Assembly</dt><dd>MonoCloud.Management.Core.dll</dd></dl>
   </div>
 
-  <div class="markdown summary"><p>The MonoCloud Model State Exception</p>
+  <div class="markdown summary"><p>The MonoCloud Identity Validation Exception</p>
 </div>
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class MonoCloudModelStateException : MonoCloudRequestException, ISerializable, _Exception</code></pre>
+    <pre><code class="lang-csharp hljs">public class MonoCloudIdentityValidationException : MonoCloudRequestException, ISerializable, _Exception</code></pre>
   </div>
 
 
@@ -111,7 +111,7 @@ Class MonoCloudModelStateException  <a class="header-action link-secondary" titl
       <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.exception">Exception</a></div>
       <div><a class="xref" href="MonoCloud.Management.Core.Exception.MonoCloudException.html">MonoCloudException</a></div>
       <div><a class="xref" href="MonoCloud.Management.Core.Exception.MonoCloudRequestException.html">MonoCloudRequestException</a></div>
-      <div><span class="xref">MonoCloudModelStateException</span></div>
+      <div><span class="xref">MonoCloudIdentityValidationException</span></div>
     </dd>
   </dl>
 
@@ -201,31 +201,67 @@ Class MonoCloudModelStateException  <a class="header-action link-secondary" titl
 </h2>
 
 
-  <a id="MonoCloud_Management_Core_Exception_MonoCloudModelStateException__ctor_" data-uid="MonoCloud.Management.Core.Exception.MonoCloudModelStateException.#ctor*"></a>
+  <a id="MonoCloud_Management_Core_Exception_MonoCloudIdentityValidationException__ctor_" data-uid="MonoCloud.Management.Core.Exception.MonoCloudIdentityValidationException.#ctor*"></a>
 
-  <h3 id="MonoCloud_Management_Core_Exception_MonoCloudModelStateException__ctor_System_String_" data-uid="MonoCloud.Management.Core.Exception.MonoCloudModelStateException.#ctor(System.String)">
-  MonoCloudModelStateException(string)
-  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/refactor/problem_details/src/core/Exception/MonoCloudModelStateException.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  <h3 id="MonoCloud_Management_Core_Exception_MonoCloudIdentityValidationException__ctor_MonoCloud_Management_Core_Models_IdentityValidationProblemDetails_" data-uid="MonoCloud.Management.Core.Exception.MonoCloudIdentityValidationException.#ctor(MonoCloud.Management.Core.Models.IdentityValidationProblemDetails)">
+  MonoCloudIdentityValidationException(IdentityValidationProblemDetails)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/refactor/problem_details/src/core/Exception/MonoCloudIdentityValidationException.cs/#L12"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"><p>Initializes the MonoCloudModelStateException Class</p>
+  <div class="markdown level1 summary"><p>Initializes the MonoCloudIdentityValidationException Class</p>
 </div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public MonoCloudModelStateException(string message)</code></pre>
+    <pre><code class="lang-csharp hljs">public MonoCloudIdentityValidationException(IdentityValidationProblemDetails response)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
-    <dt><code>message</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
-    <dd><p>The error message returned from the server.</p>
+    <dt><code>response</code> <a class="xref" href="MonoCloud.Management.Core.Models.IdentityValidationProblemDetails.html">IdentityValidationProblemDetails</a></dt>
+    <dd><p>The problem details returned from the server.</p>
 </dd>
   </dl>
 
 
 
 
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="MonoCloud_Management_Core_Exception_MonoCloudIdentityValidationException_Errors_" data-uid="MonoCloud.Management.Core.Exception.MonoCloudIdentityValidationException.Errors*"></a>
+
+  <h3 id="MonoCloud_Management_Core_Exception_MonoCloudIdentityValidationException_Errors" data-uid="MonoCloud.Management.Core.Exception.MonoCloudIdentityValidationException.Errors">
+  Errors
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/refactor/problem_details/src/core/Exception/MonoCloudIdentityValidationException.cs/#L20"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>A list of errors corresponding to the model properties, if any.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;IdentityError&gt; Errors { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="MonoCloud.Management.Core.Models.IdentityError.html">IdentityError</a>&gt;</dt>
+    <dd></dd>
+  </dl>
 
 
 

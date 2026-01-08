@@ -1,5 +1,5 @@
 {
-  "source_base_path": "/Users/vishal/Sources/MonoCloud/management-dotnet/docs-gen",
+  "source_base_path": "/Users/sathyajith/Workspace/management-dotnet/docs-gen",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -3098,6 +3098,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/MonoCloud.Management.Core.Exception.MonoCloudIdentityValidationException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MonoCloud.Management.Core.Exception.MonoCloudIdentityValidationException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Core.Exception.MonoCloudIdentityValidationException",
+      "Summary": "<p sourcefile=\"api/MonoCloud.Management.Core.Exception.MonoCloudIdentityValidationException.yml\" sourcestartlinenumber=\"1\">The MonoCloud Identity Validation Exception</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/MonoCloud.Management.Core.Exception.MonoCloudKeyValidationException.yml",
       "output": {
         ".html": {
@@ -3416,6 +3430,34 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "MonoCloud.Management.Core.Models.ErrorCodeValidationProblemDetails",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MonoCloud.Management.Core.Models.IdentityError.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MonoCloud.Management.Core.Models.IdentityError.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Core.Models.IdentityError",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MonoCloud.Management.Core.Models.IdentityValidationProblemDetails.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MonoCloud.Management.Core.Models.IdentityValidationProblemDetails.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Core.Models.IdentityValidationProblemDetails",
       "Summary": null
     },
     {
@@ -4263,6 +4305,4261 @@
       "output": {
         ".html": {
           "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Clients.BrandingClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Clients.BrandingClient.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Clients.BrandingClient",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Clients.BrandingClient.yml\" sourcestartlinenumber=\"1\">Represents a collection of functions to interact with the Branding Api endpoints</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Clients.ClientsClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Clients.ClientsClient.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Clients.ClientsClient",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Clients.ClientsClient.yml\" sourcestartlinenumber=\"1\">Represents a collection of functions to interact with the Clients Api endpoints</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Clients.KeysClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Clients.KeysClient.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Clients.KeysClient",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Clients.KeysClient.yml\" sourcestartlinenumber=\"1\">Represents a collection of functions to interact with the Keys Api endpoints</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Clients.LogsClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Clients.LogsClient.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Clients.LogsClient",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Clients.LogsClient.yml\" sourcestartlinenumber=\"1\">Represents a collection of functions to interact with the Logs Api endpoints</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Clients.OptionsClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Clients.OptionsClient.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Clients.OptionsClient",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Clients.OptionsClient.yml\" sourcestartlinenumber=\"1\">Represents a collection of functions to interact with the Options Api endpoints</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Clients.ResourcesClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Clients.ResourcesClient.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Clients.ResourcesClient",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Clients.ResourcesClient.yml\" sourcestartlinenumber=\"1\">Represents a collection of functions to interact with the Resources Api endpoints</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Clients.TrustStoresClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Clients.TrustStoresClient.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Clients.TrustStoresClient",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Clients.TrustStoresClient.yml\" sourcestartlinenumber=\"1\">Represents a collection of functions to interact with the TrustStores Api endpoints</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Clients.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Clients.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Clients",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.AccessTokenTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.AccessTokenTypes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.AccessTokenTypes",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.AccountProtectionOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.AccountProtectionOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.AccountProtectionOptions",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.AccountProtectionOptions.yml\" sourcestartlinenumber=\"1\">The Account Protection response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.AccountProtectionUserLockoutOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.AccountProtectionUserLockoutOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.AccountProtectionUserLockoutOptions",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.AccountProtectionUserLockoutOptions.yml\" sourcestartlinenumber=\"1\">The Account Protection UserLockout response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.AccountProtectionUserUnblockEmailOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.AccountProtectionUserUnblockEmailOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.AccountProtectionUserUnblockEmailOptions",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.AccountProtectionUserUnblockEmailOptions.yml\" sourcestartlinenumber=\"1\">The Account Protection User Unblock Email response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.AccountProtectionUserUnblockOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.AccountProtectionUserUnblockOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.AccountProtectionUserUnblockOptions",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.AccountProtectionUserUnblockOptions.yml\" sourcestartlinenumber=\"1\">The Account Protection User Unblock response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.ActorTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.ActorTypes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.ActorTypes",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.ActorTypes.yml\" sourcestartlinenumber=\"1\">Indicates the type of actor who performed an action.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.AddCertificateRevocationRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.AddCertificateRevocationRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.AddCertificateRevocationRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.AddCertificateRevocationRequest.yml\" sourcestartlinenumber=\"1\">Add Certificate Revocation Request.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.ApiResource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.ApiResource.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.ApiResource",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.ApiResource.yml\" sourcestartlinenumber=\"1\">The Api Resource response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.ApiResourceClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.ApiResourceClient.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.ApiResourceClient",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.ApiResourceClient.yml\" sourcestartlinenumber=\"1\">The Api Resource Client response</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.ApiScope.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.ApiScope.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.ApiScope",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.ApiScope.yml\" sourcestartlinenumber=\"1\">The Api Scope Resource response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.ApplicationTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.ApplicationTypes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.ApplicationTypes",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.AuthenticationOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.AuthenticationOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.AuthenticationOptions",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.AuthenticationOptions.yml\" sourcestartlinenumber=\"1\">The Authentication Options response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.Authenticators.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.Authenticators.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.Authenticators",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.AuthenticatorsAppleOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.AuthenticatorsAppleOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.AuthenticatorsAppleOptions",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.AuthenticatorsAppleOptions.yml\" sourcestartlinenumber=\"1\">The Apple Authenticator Options Response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.AuthenticatorsDiscordOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.AuthenticatorsDiscordOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.AuthenticatorsDiscordOptions",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.AuthenticatorsDiscordOptions.yml\" sourcestartlinenumber=\"1\">The Discord Authenticator Options response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.AuthenticatorsEmailOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.AuthenticatorsEmailOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.AuthenticatorsEmailOptions",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.AuthenticatorsEmailOptions.yml\" sourcestartlinenumber=\"1\">The Email Authenticator Options response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.AuthenticatorsFacebookOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.AuthenticatorsFacebookOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.AuthenticatorsFacebookOptions",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.AuthenticatorsFacebookOptions.yml\" sourcestartlinenumber=\"1\">The Facebook Authenticator Options response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.AuthenticatorsGitHubOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.AuthenticatorsGitHubOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.AuthenticatorsGitHubOptions",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.AuthenticatorsGitHubOptions.yml\" sourcestartlinenumber=\"1\">The GitHub Authenticator Options response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.AuthenticatorsGitLabOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.AuthenticatorsGitLabOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.AuthenticatorsGitLabOptions",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.AuthenticatorsGitLabOptions.yml\" sourcestartlinenumber=\"1\">The GitLab Authenticator Options response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.AuthenticatorsGoogleOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.AuthenticatorsGoogleOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.AuthenticatorsGoogleOptions",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.AuthenticatorsGoogleOptions.yml\" sourcestartlinenumber=\"1\">The Google Authenticator Options response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.AuthenticatorsLinkedInOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.AuthenticatorsLinkedInOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.AuthenticatorsLinkedInOptions",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.AuthenticatorsLinkedInOptions.yml\" sourcestartlinenumber=\"1\">The LinkedIn Authenticator Options response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.AuthenticatorsMicrosoftOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.AuthenticatorsMicrosoftOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.AuthenticatorsMicrosoftOptions",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.AuthenticatorsMicrosoftOptions.yml\" sourcestartlinenumber=\"1\">The Microsoft Authenticator Options response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.AuthenticatorsOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.AuthenticatorsOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.AuthenticatorsOptions",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.AuthenticatorsOptions.yml\" sourcestartlinenumber=\"1\">The Authenticators Options response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.AuthenticatorsPasskeyOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.AuthenticatorsPasskeyOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.AuthenticatorsPasskeyOptions",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.AuthenticatorsPasskeyOptions.yml\" sourcestartlinenumber=\"1\">The Passkey Authenticator Options response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.AuthenticatorsPasswordOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.AuthenticatorsPasswordOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.AuthenticatorsPasswordOptions",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.AuthenticatorsPasswordOptions.yml\" sourcestartlinenumber=\"1\">The Password Authenticator Options response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.AuthenticatorsPasswordReuseOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.AuthenticatorsPasswordReuseOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.AuthenticatorsPasswordReuseOptions",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.AuthenticatorsPasswordReuseOptions.yml\" sourcestartlinenumber=\"1\">The Password Authenticator Reuse Options response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.AuthenticatorsPasswordStrengthOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.AuthenticatorsPasswordStrengthOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.AuthenticatorsPasswordStrengthOptions",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.AuthenticatorsPasswordStrengthOptions.yml\" sourcestartlinenumber=\"1\">The Password Authenticator Strength Options response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.AuthenticatorsPhoneOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.AuthenticatorsPhoneOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.AuthenticatorsPhoneOptions",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.AuthenticatorsPhoneOptions.yml\" sourcestartlinenumber=\"1\">The Phone Authenticator Options response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.AuthenticatorsTwitterOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.AuthenticatorsTwitterOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.AuthenticatorsTwitterOptions",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.AuthenticatorsTwitterOptions.yml\" sourcestartlinenumber=\"1\">The Twitter Authenticator Options response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.AuthenticatorsXeroOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.AuthenticatorsXeroOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.AuthenticatorsXeroOptions",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.AuthenticatorsXeroOptions.yml\" sourcestartlinenumber=\"1\">The Xero Authenticator Options response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.BanTrustStoreCertificateRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.BanTrustStoreCertificateRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.BanTrustStoreCertificateRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.BanTrustStoreCertificateRequest.yml\" sourcestartlinenumber=\"1\">Ban Certificate Request.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.BannedCertificate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.BannedCertificate.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.BannedCertificate",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.BannedCertificate.yml\" sourcestartlinenumber=\"1\">Banned Certificate Response</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.BannedCertificateType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.BannedCertificateType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.BannedCertificateType",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.BrandingEmailOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.BrandingEmailOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.BrandingEmailOptions",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.BrandingEmailOptions.yml\" sourcestartlinenumber=\"1\">The Branding Email Options response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.BrandingGenericEmailTemplateOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.BrandingGenericEmailTemplateOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.BrandingGenericEmailTemplateOptions",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.BrandingGenericEmailTemplateOptions.yml\" sourcestartlinenumber=\"1\">The Branding Email Generic Template Options response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.BrandingGenericPageBackgroundOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.BrandingGenericPageBackgroundOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.BrandingGenericPageBackgroundOptions",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.BrandingGenericPageBackgroundOptions.yml\" sourcestartlinenumber=\"1\">The Branding Generic Page Background Options response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.BrandingGenericPageShadowOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.BrandingGenericPageShadowOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.BrandingGenericPageShadowOptions",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.BrandingGenericPageShadowOptions.yml\" sourcestartlinenumber=\"1\">The Branding Generic Page Shadow Options response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.BrandingGenericSmsTemplateOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.BrandingGenericSmsTemplateOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.BrandingGenericSmsTemplateOptions",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.BrandingGenericSmsTemplateOptions.yml\" sourcestartlinenumber=\"1\">The Branding Generic Sms Template Options response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.BrandingOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.BrandingOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.BrandingOptions",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.BrandingOptions.yml\" sourcestartlinenumber=\"1\">The Branding Options response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.BrandingPageButtonOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.BrandingPageButtonOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.BrandingPageButtonOptions",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.BrandingPageButtonOptions.yml\" sourcestartlinenumber=\"1\">The Branding Page Button Options response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.BrandingPageCheckboxOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.BrandingPageCheckboxOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.BrandingPageCheckboxOptions",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.BrandingPageCheckboxOptions.yml\" sourcestartlinenumber=\"1\">The Branding Page Checkbox Options response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.BrandingPageCodeOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.BrandingPageCodeOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.BrandingPageCodeOptions",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.BrandingPageCodeOptions.yml\" sourcestartlinenumber=\"1\">The Branding Page Code Options response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.BrandingPageInputOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.BrandingPageInputOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.BrandingPageInputOptions",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.BrandingPageInputOptions.yml\" sourcestartlinenumber=\"1\">The Branding Page Input Options response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.BrandingPageLayoutOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.BrandingPageLayoutOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.BrandingPageLayoutOptions",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.BrandingPageLayoutOptions.yml\" sourcestartlinenumber=\"1\">The Branding Page Layout Options response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.BrandingPageLinkOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.BrandingPageLinkOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.BrandingPageLinkOptions",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.BrandingPageLinkOptions.yml\" sourcestartlinenumber=\"1\">The Branding Page Link Options response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.BrandingPageLogoOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.BrandingPageLogoOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.BrandingPageLogoOptions",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.BrandingPageLogoOptions.yml\" sourcestartlinenumber=\"1\">The Branding Page Logo Options response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.BrandingPageOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.BrandingPageOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.BrandingPageOptions",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.BrandingPageOptions.yml\" sourcestartlinenumber=\"1\">The Branding Page Options response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.BrandingPageProviderButtonOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.BrandingPageProviderButtonOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.BrandingPageProviderButtonOptions",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.BrandingPageProviderButtonOptions.yml\" sourcestartlinenumber=\"1\">The Branding Page Provider Button Options response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.BrandingPageTextOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.BrandingPageTextOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.BrandingPageTextOptions",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.BrandingPageTextOptions.yml\" sourcestartlinenumber=\"1\">The Branding Page Text Options response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.BrandingSmsOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.BrandingSmsOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.BrandingSmsOptions",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.BrandingSmsOptions.yml\" sourcestartlinenumber=\"1\">The Branding Sms Options response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.CertificateRevocation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.CertificateRevocation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.CertificateRevocation",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.CertificateRevocation.yml\" sourcestartlinenumber=\"1\">Certificate Revocation Response</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.ClaimResource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.ClaimResource.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.ClaimResource",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.ClaimResource.yml\" sourcestartlinenumber=\"1\">The Claim Resource response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.Client.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.Client.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.Client",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.Client.yml\" sourcestartlinenumber=\"1\">The Client response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.ClientGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.ClientGroup.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.ClientGroup",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.ClientGroup.yml\" sourcestartlinenumber=\"1\">The Client Group response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.CommunicationEmailOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.CommunicationEmailOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.CommunicationEmailOptions",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.CommunicationEmailOptions.yml\" sourcestartlinenumber=\"1\">The Communication Email Options response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.CommunicationEmailSendGridOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.CommunicationEmailSendGridOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.CommunicationEmailSendGridOptions",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.CommunicationEmailSendGridOptions.yml\" sourcestartlinenumber=\"1\">The Communicaiton Email SendGrid Options response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.CommunicationOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.CommunicationOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.CommunicationOptions",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.CommunicationOptions.yml\" sourcestartlinenumber=\"1\">The Communication Options response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.CommunicationSmsOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.CommunicationSmsOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.CommunicationSmsOptions",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.CommunicationSmsOptions.yml\" sourcestartlinenumber=\"1\">The Communication Sms Options response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.CommunicationSmsTwilioOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.CommunicationSmsTwilioOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.CommunicationSmsTwilioOptions",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.CommunicationSmsTwilioOptions.yml\" sourcestartlinenumber=\"1\">The Communication Sms Twilio Options response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.CreateApiResourceClientRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.CreateApiResourceClientRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.CreateApiResourceClientRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.CreateApiResourceClientRequest.yml\" sourcestartlinenumber=\"1\">The Create Api Resource Client Request</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.CreateApiResourceRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.CreateApiResourceRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.CreateApiResourceRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.CreateApiResourceRequest.yml\" sourcestartlinenumber=\"1\">The Create Api Resource class models an OpenID Connect or OAuth 2.0 api resource</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.CreateApiScopeRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.CreateApiScopeRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.CreateApiScopeRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.CreateApiScopeRequest.yml\" sourcestartlinenumber=\"1\">The Create Api Scope Resource class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.CreateClaimResourceRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.CreateClaimResourceRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.CreateClaimResourceRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.CreateClaimResourceRequest.yml\" sourcestartlinenumber=\"1\">The Create Claim Resource class models an OpenID Connect or OAuth 2.0 claim resource</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.CreateClientRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.CreateClientRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.CreateClientRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.CreateClientRequest.yml\" sourcestartlinenumber=\"1\">The Create Client class models an OpenID Connect or OAuth 2.0 client - e.g. a native application, a web application or a JS-based application.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.CreateScopeClaimRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.CreateScopeClaimRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.CreateScopeClaimRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.CreateScopeClaimRequest.yml\" sourcestartlinenumber=\"1\">The Create Scope Claim Request class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.CreateScopeRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.CreateScopeRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.CreateScopeRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.CreateScopeRequest.yml\" sourcestartlinenumber=\"1\">The Create Scope Resource class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.CreateSecretRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.CreateSecretRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.CreateSecretRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.CreateSecretRequest.yml\" sourcestartlinenumber=\"1\">The Create Client Secret class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.CreateTrustStoreOptionsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.CreateTrustStoreOptionsRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.CreateTrustStoreOptionsRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.CreateTrustStoreOptionsRequest.yml\" sourcestartlinenumber=\"1\">Create Trust Store Options Request.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.CreateTrustStoreRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.CreateTrustStoreRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.CreateTrustStoreRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.CreateTrustStoreRequest.yml\" sourcestartlinenumber=\"1\">Create Trust Store Request.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.DeltaRevocation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.DeltaRevocation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.DeltaRevocation",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.DeltaRevocation.yml\" sourcestartlinenumber=\"1\">The Delta Revocation response</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.DeviceFlowCodeTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.DeviceFlowCodeTypes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.DeviceFlowCodeTypes",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.EmailProviders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.EmailProviders.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.EmailProviders",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.EventCodes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.EventCodes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.EventCodes",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.EventTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.EventTypes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.EventTypes",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.EventTypes.yml\" sourcestartlinenumber=\"1\">Indicates if the event is a success or fail event.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.ExpirationTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.ExpirationTypes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.ExpirationTypes",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.ExternalAuthenticators.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.ExternalAuthenticators.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.ExternalAuthenticators",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.GrantTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.GrantTypes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.GrantTypes",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.IdentifiersEmailOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.IdentifiersEmailOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.IdentifiersEmailOptions",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.IdentifiersEmailOptions.yml\" sourcestartlinenumber=\"1\">The Email Identifier Options response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.IdentifiersEmailVerificationOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.IdentifiersEmailVerificationOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.IdentifiersEmailVerificationOptions",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.IdentifiersEmailVerificationOptions.yml\" sourcestartlinenumber=\"1\">The Email Identifier Verification Options response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.IdentifiersOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.IdentifiersOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.IdentifiersOptions",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.IdentifiersOptions.yml\" sourcestartlinenumber=\"1\">The Identifiers Options response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.IdentifiersPhoneOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.IdentifiersPhoneOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.IdentifiersPhoneOptions",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.IdentifiersPhoneOptions.yml\" sourcestartlinenumber=\"1\">The Phone Identifier Options response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.IdentifiersPhoneVerificationOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.IdentifiersPhoneVerificationOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.IdentifiersPhoneVerificationOptions",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.IdentifiersPhoneVerificationOptions.yml\" sourcestartlinenumber=\"1\">The Phone Identifier Verification Options response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.IdentifiersUsernameOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.IdentifiersUsernameOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.IdentifiersUsernameOptions",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.IdentifiersUsernameOptions.yml\" sourcestartlinenumber=\"1\">The Username Identifier Options response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.KeyMaterial.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.KeyMaterial.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.KeyMaterial",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.KeyMaterial.yml\" sourcestartlinenumber=\"1\">The KeyMaterial Response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.KeyMaterialTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.KeyMaterialTypes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.KeyMaterialTypes",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.KeyMaterialTypes.yml\" sourcestartlinenumber=\"1\">Specifies the type of the key</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.KeyMaterialUses.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.KeyMaterialUses.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.KeyMaterialUses",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.KeyMaterialUses.yml\" sourcestartlinenumber=\"1\">Specifies the purpose / use of the key</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.Languages.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.Languages.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.Languages",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.Log.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.Log.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.Log",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.Log.yml\" sourcestartlinenumber=\"1\">The Log response</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.LogActor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.LogActor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.LogActor",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.LogActor.yml\" sourcestartlinenumber=\"1\">The Log Actor response</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.LogCategories.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.LogCategories.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.LogCategories",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.LogCategories.yml\" sourcestartlinenumber=\"1\">Categories for events</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.LogClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.LogClient.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.LogClient",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.LogClient.yml\" sourcestartlinenumber=\"1\">The Log Client response</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.LogIpDetails.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.LogIpDetails.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.LogIpDetails",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.LogIpDetails.yml\" sourcestartlinenumber=\"1\">The Log Ip Details response</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.LogLocation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.LogLocation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.LogLocation",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.LogLocation.yml\" sourcestartlinenumber=\"1\">The Log Location response</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.LogRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.LogRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.LogRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.LogRequest.yml\" sourcestartlinenumber=\"1\">The Log Request response</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.LogSummary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.LogSummary.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.LogSummary",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.LogSummary.yml\" sourcestartlinenumber=\"1\">The Log Summary response</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.LogSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.LogSystem.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.LogSystem",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.LogSystem.yml\" sourcestartlinenumber=\"1\">The Log System response</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.LogTarget.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.LogTarget.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.LogTarget",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.LogTarget.yml\" sourcestartlinenumber=\"1\">The Log Target response</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.LogoutOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.LogoutOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.LogoutOptions",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.LogoutOptions.yml\" sourcestartlinenumber=\"1\">The Logout Options response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PaginationHeader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PaginationHeader.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PaginationHeader",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PaginationHeader.yml\" sourcestartlinenumber=\"1\">The Pagination Header response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PasswordRestrictionModes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PasswordRestrictionModes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PasswordRestrictionModes",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchAccountProtectionOptionsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchAccountProtectionOptionsRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PatchAccountProtectionOptionsRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PatchAccountProtectionOptionsRequest.yml\" sourcestartlinenumber=\"1\">The Patch Account Protection Options Request class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchAccountProtectionUserLockoutOptionsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchAccountProtectionUserLockoutOptionsRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PatchAccountProtectionUserLockoutOptionsRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PatchAccountProtectionUserLockoutOptionsRequest.yml\" sourcestartlinenumber=\"1\">The Patch Account Protection User Lockout Options Request class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchAccountProtectionUserUnblockEmailOptionsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchAccountProtectionUserUnblockEmailOptionsRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PatchAccountProtectionUserUnblockEmailOptionsRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PatchAccountProtectionUserUnblockEmailOptionsRequest.yml\" sourcestartlinenumber=\"1\">The Patch account protection user unblock email options request class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchAccountProtectionUserUnblockOptionsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchAccountProtectionUserUnblockOptionsRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PatchAccountProtectionUserUnblockOptionsRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PatchAccountProtectionUserUnblockOptionsRequest.yml\" sourcestartlinenumber=\"1\">The Patch account protection user unblock options request class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchApiResourceClientRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchApiResourceClientRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PatchApiResourceClientRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PatchApiResourceClientRequest.yml\" sourcestartlinenumber=\"1\">The Patch Api Resource Client class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchApiResourceRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchApiResourceRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PatchApiResourceRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PatchApiResourceRequest.yml\" sourcestartlinenumber=\"1\">The Patch Api Resource class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchApiScopeRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchApiScopeRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PatchApiScopeRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PatchApiScopeRequest.yml\" sourcestartlinenumber=\"1\">The Patch Api Scope Resource class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchAuthenticationOptionsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchAuthenticationOptionsRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PatchAuthenticationOptionsRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PatchAuthenticationOptionsRequest.yml\" sourcestartlinenumber=\"1\">The Patch Authentication Options Request class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchAuthenticatorsAppleOptionsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchAuthenticatorsAppleOptionsRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PatchAuthenticatorsAppleOptionsRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PatchAuthenticatorsAppleOptionsRequest.yml\" sourcestartlinenumber=\"1\">The Patch Apple Authenticator Options Request class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchAuthenticatorsDiscordOptionsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchAuthenticatorsDiscordOptionsRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PatchAuthenticatorsDiscordOptionsRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PatchAuthenticatorsDiscordOptionsRequest.yml\" sourcestartlinenumber=\"1\">The Patch Discord Authenticator Options Request class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchAuthenticatorsEmailOptionsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchAuthenticatorsEmailOptionsRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PatchAuthenticatorsEmailOptionsRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PatchAuthenticatorsEmailOptionsRequest.yml\" sourcestartlinenumber=\"1\">The Patch Email Authenticator Options Request class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchAuthenticatorsFacebookOptionsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchAuthenticatorsFacebookOptionsRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PatchAuthenticatorsFacebookOptionsRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PatchAuthenticatorsFacebookOptionsRequest.yml\" sourcestartlinenumber=\"1\">The Patch Facebook Authenticator Options Request class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchAuthenticatorsGitHubOptionsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchAuthenticatorsGitHubOptionsRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PatchAuthenticatorsGitHubOptionsRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PatchAuthenticatorsGitHubOptionsRequest.yml\" sourcestartlinenumber=\"1\">The Patch GitHub Authenticator Options Request class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchAuthenticatorsGitLabOptionsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchAuthenticatorsGitLabOptionsRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PatchAuthenticatorsGitLabOptionsRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PatchAuthenticatorsGitLabOptionsRequest.yml\" sourcestartlinenumber=\"1\">The Patch GitLab Authenticator Options Request class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchAuthenticatorsGoogleOptionsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchAuthenticatorsGoogleOptionsRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PatchAuthenticatorsGoogleOptionsRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PatchAuthenticatorsGoogleOptionsRequest.yml\" sourcestartlinenumber=\"1\">The Patch Google Authenticator Options Request class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchAuthenticatorsLinkedInOptionsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchAuthenticatorsLinkedInOptionsRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PatchAuthenticatorsLinkedInOptionsRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PatchAuthenticatorsLinkedInOptionsRequest.yml\" sourcestartlinenumber=\"1\">The Patch LinkedIn Authenticator Options Request class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchAuthenticatorsMicrosoftOptionsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchAuthenticatorsMicrosoftOptionsRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PatchAuthenticatorsMicrosoftOptionsRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PatchAuthenticatorsMicrosoftOptionsRequest.yml\" sourcestartlinenumber=\"1\">The Patch Microsoft Authenticator Options Request class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchAuthenticatorsOptionsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchAuthenticatorsOptionsRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PatchAuthenticatorsOptionsRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PatchAuthenticatorsOptionsRequest.yml\" sourcestartlinenumber=\"1\">The Patch Authenticators Options Request class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchAuthenticatorsPasskeyOptionsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchAuthenticatorsPasskeyOptionsRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PatchAuthenticatorsPasskeyOptionsRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PatchAuthenticatorsPasskeyOptionsRequest.yml\" sourcestartlinenumber=\"1\">The Patch Passkey Authenticator Options Request class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchAuthenticatorsPasswordOptionsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchAuthenticatorsPasswordOptionsRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PatchAuthenticatorsPasswordOptionsRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PatchAuthenticatorsPasswordOptionsRequest.yml\" sourcestartlinenumber=\"1\">The Patch Password Authenticator Options Request class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchAuthenticatorsPasswordReuseOptionsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchAuthenticatorsPasswordReuseOptionsRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PatchAuthenticatorsPasswordReuseOptionsRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PatchAuthenticatorsPasswordReuseOptionsRequest.yml\" sourcestartlinenumber=\"1\">The Patch Password Authenticator Reuse Options Request class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchAuthenticatorsPasswordStrengthOptionsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchAuthenticatorsPasswordStrengthOptionsRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PatchAuthenticatorsPasswordStrengthOptionsRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PatchAuthenticatorsPasswordStrengthOptionsRequest.yml\" sourcestartlinenumber=\"1\">The Patch Password Authenticator Strength Options Request class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchAuthenticatorsPhoneOptionsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchAuthenticatorsPhoneOptionsRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PatchAuthenticatorsPhoneOptionsRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PatchAuthenticatorsPhoneOptionsRequest.yml\" sourcestartlinenumber=\"1\">The Patch Phone Authenticator Options Request class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchAuthenticatorsTwitterOptionsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchAuthenticatorsTwitterOptionsRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PatchAuthenticatorsTwitterOptionsRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PatchAuthenticatorsTwitterOptionsRequest.yml\" sourcestartlinenumber=\"1\">The Patch Twitter Authenticator Options Request class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchAuthenticatorsXeroOptionsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchAuthenticatorsXeroOptionsRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PatchAuthenticatorsXeroOptionsRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PatchAuthenticatorsXeroOptionsRequest.yml\" sourcestartlinenumber=\"1\">The Patch Xero Authenticator Options Request class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchBrandingEmailOptionsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchBrandingEmailOptionsRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PatchBrandingEmailOptionsRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PatchBrandingEmailOptionsRequest.yml\" sourcestartlinenumber=\"1\">The Patch Branding Email Options Request class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchBrandingGenericCustomEmailOptionsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchBrandingGenericCustomEmailOptionsRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PatchBrandingGenericCustomEmailOptionsRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PatchBrandingGenericCustomEmailOptionsRequest.yml\" sourcestartlinenumber=\"1\">The Patch Generic Branding Custom Email Options Request class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchBrandingGenericCustomSmsOptionsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchBrandingGenericCustomSmsOptionsRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PatchBrandingGenericCustomSmsOptionsRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PatchBrandingGenericCustomSmsOptionsRequest.yml\" sourcestartlinenumber=\"1\">The Patch Generic Branding Custom Sms Options Request class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchBrandingGenericPageBackgroundOptionsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchBrandingGenericPageBackgroundOptionsRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PatchBrandingGenericPageBackgroundOptionsRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PatchBrandingGenericPageBackgroundOptionsRequest.yml\" sourcestartlinenumber=\"1\">The Patch Branding Generic Page Background Options Request class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchBrandingGenericPageShadowOptionsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchBrandingGenericPageShadowOptionsRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PatchBrandingGenericPageShadowOptionsRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PatchBrandingGenericPageShadowOptionsRequest.yml\" sourcestartlinenumber=\"1\">The Patch Branding Generic Page Shadow Options Request class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchBrandingOptionsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchBrandingOptionsRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PatchBrandingOptionsRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PatchBrandingOptionsRequest.yml\" sourcestartlinenumber=\"1\">The Patch Branding Options Request class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchBrandingPageButtonOptionsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchBrandingPageButtonOptionsRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PatchBrandingPageButtonOptionsRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PatchBrandingPageButtonOptionsRequest.yml\" sourcestartlinenumber=\"1\">The Patch Branding Page Button Options Request class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchBrandingPageCheckboxOptionsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchBrandingPageCheckboxOptionsRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PatchBrandingPageCheckboxOptionsRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PatchBrandingPageCheckboxOptionsRequest.yml\" sourcestartlinenumber=\"1\">The Patch Branding Page Checkbox Options Request class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchBrandingPageCodeOptionsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchBrandingPageCodeOptionsRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PatchBrandingPageCodeOptionsRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PatchBrandingPageCodeOptionsRequest.yml\" sourcestartlinenumber=\"1\">The Patch Branding Page Code Options Request class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchBrandingPageInputOptionsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchBrandingPageInputOptionsRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PatchBrandingPageInputOptionsRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PatchBrandingPageInputOptionsRequest.yml\" sourcestartlinenumber=\"1\">The Patch Branding Page Input Options Request class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchBrandingPageLayoutOptionsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchBrandingPageLayoutOptionsRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PatchBrandingPageLayoutOptionsRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PatchBrandingPageLayoutOptionsRequest.yml\" sourcestartlinenumber=\"1\">The Patch Branding Page Layout Options Request class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchBrandingPageLinkOptionsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchBrandingPageLinkOptionsRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PatchBrandingPageLinkOptionsRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PatchBrandingPageLinkOptionsRequest.yml\" sourcestartlinenumber=\"1\">The Patch Branding Page Link Options Request class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchBrandingPageLogoOptionsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchBrandingPageLogoOptionsRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PatchBrandingPageLogoOptionsRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PatchBrandingPageLogoOptionsRequest.yml\" sourcestartlinenumber=\"1\">The Patch Branding Page Logo Options Request class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchBrandingPageOptionsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchBrandingPageOptionsRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PatchBrandingPageOptionsRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PatchBrandingPageOptionsRequest.yml\" sourcestartlinenumber=\"1\">The Patch Branding Page Options Request class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchBrandingPageProviderButtonOptionsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchBrandingPageProviderButtonOptionsRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PatchBrandingPageProviderButtonOptionsRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PatchBrandingPageProviderButtonOptionsRequest.yml\" sourcestartlinenumber=\"1\">The Patch Branding Page Provider Button Options Request class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchBrandingPageTextOptionsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchBrandingPageTextOptionsRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PatchBrandingPageTextOptionsRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PatchBrandingPageTextOptionsRequest.yml\" sourcestartlinenumber=\"1\">The Patch Branding Page Text Options Request class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchBrandingSmsOptionsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchBrandingSmsOptionsRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PatchBrandingSmsOptionsRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PatchBrandingSmsOptionsRequest.yml\" sourcestartlinenumber=\"1\">The Patch Branding Sms Options Request class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchClaimResourceRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchClaimResourceRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PatchClaimResourceRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PatchClaimResourceRequest.yml\" sourcestartlinenumber=\"1\">The Patch Claim Resource class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchClientRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchClientRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PatchClientRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PatchClientRequest.yml\" sourcestartlinenumber=\"1\">The Patch Client class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchCommunicationEmailOptionsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchCommunicationEmailOptionsRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PatchCommunicationEmailOptionsRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PatchCommunicationEmailOptionsRequest.yml\" sourcestartlinenumber=\"1\">The Patch Communication Email Options Request class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchCommunicationEmailSendGridOptionsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchCommunicationEmailSendGridOptionsRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PatchCommunicationEmailSendGridOptionsRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PatchCommunicationEmailSendGridOptionsRequest.yml\" sourcestartlinenumber=\"1\">The Patch Communication Email SendGrid Options Request class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchCommunicationOptionsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchCommunicationOptionsRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PatchCommunicationOptionsRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PatchCommunicationOptionsRequest.yml\" sourcestartlinenumber=\"1\">The Patch Communication Options Request class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchCommunicationSmsOptionsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchCommunicationSmsOptionsRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PatchCommunicationSmsOptionsRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PatchCommunicationSmsOptionsRequest.yml\" sourcestartlinenumber=\"1\">The Patch Communication Sms Options Request class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchCommunicationSmsTwilioOptionsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchCommunicationSmsTwilioOptionsRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PatchCommunicationSmsTwilioOptionsRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PatchCommunicationSmsTwilioOptionsRequest.yml\" sourcestartlinenumber=\"1\">The Patch Communication Sms Twilio Options Request class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchIdentifiersEmailOptionsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchIdentifiersEmailOptionsRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PatchIdentifiersEmailOptionsRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PatchIdentifiersEmailOptionsRequest.yml\" sourcestartlinenumber=\"1\">The Patch Email Identifier Options Request class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchIdentifiersEmailVerificationOptionsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchIdentifiersEmailVerificationOptionsRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PatchIdentifiersEmailVerificationOptionsRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PatchIdentifiersEmailVerificationOptionsRequest.yml\" sourcestartlinenumber=\"1\">The Patch Email Identifier Verification Options Request class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchIdentifiersOptionsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchIdentifiersOptionsRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PatchIdentifiersOptionsRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PatchIdentifiersOptionsRequest.yml\" sourcestartlinenumber=\"1\">The Patch Identifiers Options Request class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchIdentifiersPhoneOptionsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchIdentifiersPhoneOptionsRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PatchIdentifiersPhoneOptionsRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PatchIdentifiersPhoneOptionsRequest.yml\" sourcestartlinenumber=\"1\">The Patch Phone Identifier Options Request class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchIdentifiersPhoneVerificationOptionsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchIdentifiersPhoneVerificationOptionsRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PatchIdentifiersPhoneVerificationOptionsRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PatchIdentifiersPhoneVerificationOptionsRequest.yml\" sourcestartlinenumber=\"1\">The Patch Phone Identifier Verification Options Request class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchIdentifiersUsernameOptionsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchIdentifiersUsernameOptionsRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PatchIdentifiersUsernameOptionsRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PatchIdentifiersUsernameOptionsRequest.yml\" sourcestartlinenumber=\"1\">The Patch Username Identifier Options Request class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchLogoutOptionsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchLogoutOptionsRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PatchLogoutOptionsRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PatchLogoutOptionsRequest.yml\" sourcestartlinenumber=\"1\">The Patch Logout Options Request class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchPushedAuthorizationOptionsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchPushedAuthorizationOptionsRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PatchPushedAuthorizationOptionsRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PatchPushedAuthorizationOptionsRequest.yml\" sourcestartlinenumber=\"1\">The Patch Pushed Authorization Options Request class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchRecoveryMethodsEmailOptionsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchRecoveryMethodsEmailOptionsRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PatchRecoveryMethodsEmailOptionsRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PatchRecoveryMethodsEmailOptionsRequest.yml\" sourcestartlinenumber=\"1\">The Patch Email Recovery Method Options Request class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchRecoveryMethodsOptionsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchRecoveryMethodsOptionsRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PatchRecoveryMethodsOptionsRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PatchRecoveryMethodsOptionsRequest.yml\" sourcestartlinenumber=\"1\">The Patch Recovery Methods Options Request class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchRecoveryMethodsPhoneOptionsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchRecoveryMethodsPhoneOptionsRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PatchRecoveryMethodsPhoneOptionsRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PatchRecoveryMethodsPhoneOptionsRequest.yml\" sourcestartlinenumber=\"1\">The Patch Phone Recovery Method Options Request class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchScopeRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchScopeRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PatchScopeRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PatchScopeRequest.yml\" sourcestartlinenumber=\"1\">The Patch Scope Resource class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchSessionOptionsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchSessionOptionsRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PatchSessionOptionsRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PatchSessionOptionsRequest.yml\" sourcestartlinenumber=\"1\">The Patch Session Options Request class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchSignUpOptionsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchSignUpOptionsRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PatchSignUpOptionsRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PatchSignUpOptionsRequest.yml\" sourcestartlinenumber=\"1\">The Patch SignUp Options Request class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchSignUpRestrictionsOptionsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchSignUpRestrictionsOptionsRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PatchSignUpRestrictionsOptionsRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PatchSignUpRestrictionsOptionsRequest.yml\" sourcestartlinenumber=\"1\">The Patch SignUp Generic Restrictions Options Request class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchTrustStoreOptionsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchTrustStoreOptionsRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PatchTrustStoreOptionsRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PatchTrustStoreOptionsRequest.yml\" sourcestartlinenumber=\"1\">The Patch trust store options request</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchTrustStoreRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PatchTrustStoreRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PatchTrustStoreRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PatchTrustStoreRequest.yml\" sourcestartlinenumber=\"1\">The Patch trust store request class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.ProblemDetails.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.ProblemDetails.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.ProblemDetails",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.ProblemDetails.yml\" sourcestartlinenumber=\"1\">Problem Details class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.PushedAuthorizationOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.PushedAuthorizationOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.PushedAuthorizationOptions",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.PushedAuthorizationOptions.yml\" sourcestartlinenumber=\"1\">The Pushed Authorization Options response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.RecoveryMethodsEmailOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.RecoveryMethodsEmailOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.RecoveryMethodsEmailOptions",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.RecoveryMethodsEmailOptions.yml\" sourcestartlinenumber=\"1\">The Email Recovery Method Options response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.RecoveryMethodsOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.RecoveryMethodsOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.RecoveryMethodsOptions",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.RecoveryMethodsOptions.yml\" sourcestartlinenumber=\"1\">The Recovery Methods Options response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.RecoveryMethodsPhoneOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.RecoveryMethodsPhoneOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.RecoveryMethodsPhoneOptions",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.RecoveryMethodsPhoneOptions.yml\" sourcestartlinenumber=\"1\">The Phone Recovery Method Options response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.RefreshTokenExpirationTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.RefreshTokenExpirationTypes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.RefreshTokenExpirationTypes",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.RefreshTokenUsageTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.RefreshTokenUsageTypes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.RefreshTokenUsageTypes",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.RememberConsentTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.RememberConsentTypes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.RememberConsentTypes",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.RevocationCheckDepth.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.RevocationCheckDepth.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.RevocationCheckDepth",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.RevocationGrouped.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.RevocationGrouped.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.RevocationGrouped",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.RevocationGrouped.yml\" sourcestartlinenumber=\"1\">The Revocation Grouped response</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.Scope.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.Scope.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.Scope",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.Scope.yml\" sourcestartlinenumber=\"1\">The Scope Resource response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.ScopeClaim.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.ScopeClaim.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.ScopeClaim",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.ScopeClaim.yml\" sourcestartlinenumber=\"1\">The Scope Claim response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.Secret.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.Secret.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.Secret",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.Secret.yml\" sourcestartlinenumber=\"1\">The Secret response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.SecretTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.SecretTypes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.SecretTypes",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.SessionOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.SessionOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.SessionOptions",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.SessionOptions.yml\" sourcestartlinenumber=\"1\">The Session Options response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.SessionPersistenceModes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.SessionPersistenceModes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.SessionPersistenceModes",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.SignUpCustomFieldOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.SignUpCustomFieldOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.SignUpCustomFieldOptions",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.SignUpCustomFieldOptions.yml\" sourcestartlinenumber=\"1\">The SignUp Custom Field Options response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.SignUpGenericRestrictionsOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.SignUpGenericRestrictionsOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.SignUpGenericRestrictionsOptions",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.SignUpGenericRestrictionsOptions.yml\" sourcestartlinenumber=\"1\">The SignUp Generic Restrictions Options response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.SignUpOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.SignUpOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.SignUpOptions",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.SignUpOptions.yml\" sourcestartlinenumber=\"1\">The SignUp Options response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.SigningAlgorithms.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.SigningAlgorithms.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.SigningAlgorithms",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.SmsProviders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.SmsProviders.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.SmsProviders",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.TargetTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.TargetTypes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.TargetTypes",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.TargetTypes.yml\" sourcestartlinenumber=\"1\">Indicates the type of target on which an action was performed.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.TechTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.TechTypes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.TechTypes",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.ThemeNames.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.ThemeNames.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.ThemeNames",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.TrustStore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.TrustStore.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.TrustStore",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.TrustStore.yml\" sourcestartlinenumber=\"1\">Trust Store Response</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.TrustStoreOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.TrustStoreOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.TrustStoreOptions",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.TrustStoreOptions.yml\" sourcestartlinenumber=\"1\">Trust Store Options Response</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.TrustStoreSummary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.TrustStoreSummary.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.TrustStoreSummary",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.Models.TrustStoreSummary.yml\" sourcestartlinenumber=\"1\">Trust Store Summary Response</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.UserLockoutTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.UserLockoutTypes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.UserLockoutTypes",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.ValueTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.ValueTypes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.ValueTypes",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.VerificationTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.VerificationTypes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.VerificationTypes",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.X509RevocationMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.X509RevocationMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models.X509RevocationMode",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.Models.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.Models",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.MonoCloudAdminClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.MonoCloudAdminClient.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.MonoCloudAdminClient",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Admin.MonoCloudAdminClient.yml\" sourcestartlinenumber=\"1\">The MonoCloud Admin Client Class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.MonoCloudAdminOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.MonoCloudAdminOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.MonoCloudAdminOptions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.MonoCloudAdminServiceExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.MonoCloudAdminServiceExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin.MonoCloudAdminServiceExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Admin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Admin.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Admin",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Core.Base.MonoCloudClientBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Core.Base.MonoCloudClientBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Core.Base.MonoCloudClientBase",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Core.Base.MonoCloudClientBase.yml\" sourcestartlinenumber=\"1\">The MonoCloud Client Base Class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Core.Base.MonoCloudConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Core.Base.MonoCloudConfig.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Core.Base.MonoCloudConfig",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Core.Base.MonoCloudConfig.yml\" sourcestartlinenumber=\"1\">The MonoCloud Configuration</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Core.Base.MonoCloudResponse-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Core.Base.MonoCloudResponse-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Core.Base.MonoCloudResponse<TResult>",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Core.Base.MonoCloudResponse-1.yml\" sourcestartlinenumber=\"1\">The MonoCloud Response</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Core.Base.MonoCloudResponse-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Core.Base.MonoCloudResponse-2.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Core.Base.MonoCloudResponse<TResult, TPage>",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Core.Base.MonoCloudResponse-2.yml\" sourcestartlinenumber=\"1\">The MonoCloud Response</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Core.Base.MonoCloudResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Core.Base.MonoCloudResponse.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Core.Base.MonoCloudResponse",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Core.Base.MonoCloudResponse.yml\" sourcestartlinenumber=\"1\">The MonoCloud Response</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Core.Base.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Core.Base.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Core.Base",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Core.Exception.MonoCloudBadRequestException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Core.Exception.MonoCloudBadRequestException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Core.Exception.MonoCloudBadRequestException",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Core.Exception.MonoCloudBadRequestException.yml\" sourcestartlinenumber=\"1\">The MonoCloud Bad Request Exception</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Core.Exception.MonoCloudConflictException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Core.Exception.MonoCloudConflictException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Core.Exception.MonoCloudConflictException",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Core.Exception.MonoCloudConflictException.yml\" sourcestartlinenumber=\"1\">The MonoCloud Conflict Exception</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Core.Exception.MonoCloudErrorCodeValidationException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Core.Exception.MonoCloudErrorCodeValidationException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Core.Exception.MonoCloudErrorCodeValidationException",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Core.Exception.MonoCloudErrorCodeValidationException.yml\" sourcestartlinenumber=\"1\">The MonoCloud Error Code Validation Exception</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Core.Exception.MonoCloudException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Core.Exception.MonoCloudException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Core.Exception.MonoCloudException",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Core.Exception.MonoCloudException.yml\" sourcestartlinenumber=\"1\">The MonoCloud Exception</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Core.Exception.MonoCloudForbiddenException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Core.Exception.MonoCloudForbiddenException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Core.Exception.MonoCloudForbiddenException",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Core.Exception.MonoCloudForbiddenException.yml\" sourcestartlinenumber=\"1\">The MonoCloud Forbidden Exception</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Core.Exception.MonoCloudKeyValidationException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Core.Exception.MonoCloudKeyValidationException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Core.Exception.MonoCloudKeyValidationException",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Core.Exception.MonoCloudKeyValidationException.yml\" sourcestartlinenumber=\"1\">The MonoCloud Key Validation Exception Exception</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Core.Exception.MonoCloudModelStateException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Core.Exception.MonoCloudModelStateException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Core.Exception.MonoCloudModelStateException",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Core.Exception.MonoCloudModelStateException.yml\" sourcestartlinenumber=\"1\">The MonoCloud Model State Exception</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Core.Exception.MonoCloudNotFoundException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Core.Exception.MonoCloudNotFoundException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Core.Exception.MonoCloudNotFoundException",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Core.Exception.MonoCloudNotFoundException.yml\" sourcestartlinenumber=\"1\">The MonoCloud Not Found Exception</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Core.Exception.MonoCloudRequestException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Core.Exception.MonoCloudRequestException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Core.Exception.MonoCloudRequestException",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Core.Exception.MonoCloudRequestException.yml\" sourcestartlinenumber=\"1\">The MonoCloud Request Exception</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Core.Exception.MonoCloudResourceExhaustedException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Core.Exception.MonoCloudResourceExhaustedException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Core.Exception.MonoCloudResourceExhaustedException",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Core.Exception.MonoCloudResourceExhaustedException.yml\" sourcestartlinenumber=\"1\">The MonoCloud Resource Exhausted Exception</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Core.Exception.MonoCloudServerException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Core.Exception.MonoCloudServerException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Core.Exception.MonoCloudServerException",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Core.Exception.MonoCloudServerException.yml\" sourcestartlinenumber=\"1\">The MonoCloud Server Exception</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Core.Exception.MonoCloudUnauthorizedException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Core.Exception.MonoCloudUnauthorizedException.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Core.Exception.MonoCloudUnauthorizedException",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Core.Exception.MonoCloudUnauthorizedException.yml\" sourcestartlinenumber=\"1\">The MonoCloud Unauthorized Exception</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Core.Exception.ValidationExceptionTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Core.Exception.ValidationExceptionTypes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Core.Exception.ValidationExceptionTypes",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Core.Exception.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Core.Exception.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Core.Exception",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Core.Helpers.EpochDateTimeConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Core.Helpers.EpochDateTimeConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Core.Helpers.EpochDateTimeConverter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Core.Helpers.EpochDateTimeNullableConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Core.Helpers.EpochDateTimeNullableConverter.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Core.Helpers.EpochDateTimeNullableConverter",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Core.Helpers.ExpressionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Core.Helpers.ExpressionExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Core.Helpers.ExpressionExtensions",
+      "Summary": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Core.Helpers.IOptional.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Core.Helpers.IOptional.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Core.Helpers.IOptional",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Core.Helpers.IOptional.yml\" sourcestartlinenumber=\"1\">The IOptional Class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Core.Helpers.JsonObjectContractFactory-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Core.Helpers.JsonObjectContractFactory-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Core.Helpers.JsonObjectContractFactory<TBase>",
+      "Summary": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Core.Helpers.JsonPropertyContract-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Core.Helpers.JsonPropertyContract-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Core.Helpers.JsonPropertyContract<TBase>",
+      "Summary": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Core.Helpers.Optional-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Core.Helpers.Optional-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Core.Helpers.Optional<T>",
+      "Summary": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Core.Helpers.PageModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Core.Helpers.PageModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Core.Helpers.PageModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Core.Helpers.PatchConverter-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Core.Helpers.PatchConverter-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Core.Helpers.PatchConverter<T>",
+      "Summary": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Core.Helpers.SnakeCaseNamingPolicy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Core.Helpers.SnakeCaseNamingPolicy.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Core.Helpers.SnakeCaseNamingPolicy",
+      "Summary": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Core.Helpers.StringExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Core.Helpers.StringExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Core.Helpers.StringExtensions",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Core.Helpers.StringExtensions.yml\" sourcestartlinenumber=\"1\">The String Extensions</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Core.Helpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Core.Helpers.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Core.Helpers",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Core.Models.ErrorCodeValidationError.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Core.Models.ErrorCodeValidationError.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Core.Models.ErrorCodeValidationError",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Core.Models.ErrorCodeValidationProblemDetails.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Core.Models.ErrorCodeValidationProblemDetails.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Core.Models.ErrorCodeValidationProblemDetails",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Core.Models.KeyValidationProblemDetails.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Core.Models.KeyValidationProblemDetails.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Core.Models.KeyValidationProblemDetails",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Core.Models.ProblemDetails.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Core.Models.ProblemDetails.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Core.Models.ProblemDetails",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Core.Models.ProblemDetails.yml\" sourcestartlinenumber=\"1\">The Problem Details</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Core.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Core.Models.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Core.Models",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Identity.Clients.GroupsClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Identity.Clients.GroupsClient.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Identity.Clients.GroupsClient",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Identity.Clients.GroupsClient.yml\" sourcestartlinenumber=\"1\">Represents a collection of functions to interact with the Groups Api endpoints</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Identity.Clients.UsersClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Identity.Clients.UsersClient.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Identity.Clients.UsersClient",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Identity.Clients.UsersClient.yml\" sourcestartlinenumber=\"1\">Represents a collection of functions to interact with the Users Api endpoints</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Identity.Clients.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Identity.Clients.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Identity.Clients",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Identity.Models.AddEmailRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Identity.Models.AddEmailRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Identity.Models.AddEmailRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Identity.Models.AddEmailRequest.yml\" sourcestartlinenumber=\"1\">The Add Email Request.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Identity.Models.AddPhoneRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Identity.Models.AddPhoneRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Identity.Models.AddPhoneRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Identity.Models.AddPhoneRequest.yml\" sourcestartlinenumber=\"1\">The Add Phone Request.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Identity.Models.AuthorizationCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Identity.Models.AuthorizationCode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Identity.Models.AuthorizationCode",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Identity.Models.AuthorizationCode.yml\" sourcestartlinenumber=\"1\">The Authorization Code response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Identity.Models.CreateGroupRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Identity.Models.CreateGroupRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Identity.Models.CreateGroupRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Identity.Models.CreateGroupRequest.yml\" sourcestartlinenumber=\"1\">The Create Group Request class.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Identity.Models.CreateUserRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Identity.Models.CreateUserRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Identity.Models.CreateUserRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Identity.Models.CreateUserRequest.yml\" sourcestartlinenumber=\"1\">The Create User Request class.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Identity.Models.DisableUserRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Identity.Models.DisableUserRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Identity.Models.DisableUserRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Identity.Models.DisableUserRequest.yml\" sourcestartlinenumber=\"1\">The Disable User Request class.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Identity.Models.ExternalAuthenticatorDisconnectRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Identity.Models.ExternalAuthenticatorDisconnectRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Identity.Models.ExternalAuthenticatorDisconnectRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Identity.Models.ExternalAuthenticatorDisconnectRequest.yml\" sourcestartlinenumber=\"1\">The External Authenticator Disconnect Request class.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Identity.Models.ExternalAuthenticators.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Identity.Models.ExternalAuthenticators.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Identity.Models.ExternalAuthenticators",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Identity.Models.Group.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Identity.Models.Group.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Identity.Models.Group",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Identity.Models.Group.yml\" sourcestartlinenumber=\"1\">The Group response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Identity.Models.GroupTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Identity.Models.GroupTypes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Identity.Models.GroupTypes",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Identity.Models.IdPs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Identity.Models.IdPs.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Identity.Models.IdPs",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Identity.Models.Languages.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Identity.Models.Languages.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Identity.Models.Languages",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Identity.Models.PaginationHeader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Identity.Models.PaginationHeader.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Identity.Models.PaginationHeader",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Identity.Models.PaginationHeader.yml\" sourcestartlinenumber=\"1\">The Pagination Header response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Identity.Models.PasswordAlgorithms.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Identity.Models.PasswordAlgorithms.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Identity.Models.PasswordAlgorithms",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Identity.Models.PatchGroupRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Identity.Models.PatchGroupRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Identity.Models.PatchGroupRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Identity.Models.PatchGroupRequest.yml\" sourcestartlinenumber=\"1\">The Patch Group class.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Identity.Models.ProblemDetails.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Identity.Models.ProblemDetails.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Identity.Models.ProblemDetails",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Identity.Models.ProblemDetails.yml\" sourcestartlinenumber=\"1\">Problem Details class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Identity.Models.ReferenceToken.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Identity.Models.ReferenceToken.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Identity.Models.ReferenceToken",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Identity.Models.ReferenceToken.yml\" sourcestartlinenumber=\"1\">The Reference Token response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Identity.Models.RefreshToken.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Identity.Models.RefreshToken.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Identity.Models.RefreshToken",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Identity.Models.RefreshToken.yml\" sourcestartlinenumber=\"1\">The Refresh Token response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Identity.Models.ResetPasswordRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Identity.Models.ResetPasswordRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Identity.Models.ResetPasswordRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Identity.Models.ResetPasswordRequest.yml\" sourcestartlinenumber=\"1\">The Reset Password Request.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Identity.Models.ResetPasswordResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Identity.Models.ResetPasswordResponse.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Identity.Models.ResetPasswordResponse",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Identity.Models.ResetPasswordResponse.yml\" sourcestartlinenumber=\"1\">The Reset Password Response</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Identity.Models.SetPasswordRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Identity.Models.SetPasswordRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Identity.Models.SetPasswordRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Identity.Models.SetPasswordRequest.yml\" sourcestartlinenumber=\"1\">The Set Password Request class.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Identity.Models.ThemeNames.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Identity.Models.ThemeNames.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Identity.Models.ThemeNames",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Identity.Models.UnblockIpRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Identity.Models.UnblockIpRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Identity.Models.UnblockIpRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Identity.Models.UnblockIpRequest.yml\" sourcestartlinenumber=\"1\">The Unblock IP Request class.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Identity.Models.UpdateClaimsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Identity.Models.UpdateClaimsRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Identity.Models.UpdateClaimsRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Identity.Models.UpdateClaimsRequest.yml\" sourcestartlinenumber=\"1\">The Update Claims Request.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Identity.Models.UpdatePrivateDataRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Identity.Models.UpdatePrivateDataRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Identity.Models.UpdatePrivateDataRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Identity.Models.UpdatePrivateDataRequest.yml\" sourcestartlinenumber=\"1\">The Update Private Data Request class.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Identity.Models.UpdatePublicDataRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Identity.Models.UpdatePublicDataRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Identity.Models.UpdatePublicDataRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Identity.Models.UpdatePublicDataRequest.yml\" sourcestartlinenumber=\"1\">The Update Public Data Request class.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Identity.Models.UpdateUsernameRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Identity.Models.UpdateUsernameRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Identity.Models.UpdateUsernameRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Identity.Models.UpdateUsernameRequest.yml\" sourcestartlinenumber=\"1\">The Update Username Request.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Identity.Models.User.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Identity.Models.User.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Identity.Models.User",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Identity.Models.User.yml\" sourcestartlinenumber=\"1\">The User Response</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Identity.Models.UserClientGrants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Identity.Models.UserClientGrants.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Identity.Models.UserClientGrants",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Identity.Models.UserClientGrants.yml\" sourcestartlinenumber=\"1\">The User Client Grants response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Identity.Models.UserConnection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Identity.Models.UserConnection.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Identity.Models.UserConnection",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Identity.Models.UserConnection.yml\" sourcestartlinenumber=\"1\">The User Connection response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Identity.Models.UserConsent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Identity.Models.UserConsent.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Identity.Models.UserConsent",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Identity.Models.UserConsent.yml\" sourcestartlinenumber=\"1\">The User Consent response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Identity.Models.UserConsentScope.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Identity.Models.UserConsentScope.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Identity.Models.UserConsentScope",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Identity.Models.UserConsentScope.yml\" sourcestartlinenumber=\"1\">The User Consent Scope response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Identity.Models.UserEmail.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Identity.Models.UserEmail.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Identity.Models.UserEmail",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Identity.Models.UserEmail.yml\" sourcestartlinenumber=\"1\">The User Email response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Identity.Models.UserExternalProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Identity.Models.UserExternalProvider.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Identity.Models.UserExternalProvider",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Identity.Models.UserExternalProvider.yml\" sourcestartlinenumber=\"1\">The User External Provider response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Identity.Models.UserExternalProviderSummary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Identity.Models.UserExternalProviderSummary.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Identity.Models.UserExternalProviderSummary",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Identity.Models.UserExternalProviderSummary.yml\" sourcestartlinenumber=\"1\">The User External Provider summary response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Identity.Models.UserGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Identity.Models.UserGroup.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Identity.Models.UserGroup",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Identity.Models.UserGroup.yml\" sourcestartlinenumber=\"1\">The User Group response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Identity.Models.UserIpAccessDetails.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Identity.Models.UserIpAccessDetails.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Identity.Models.UserIpAccessDetails",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Identity.Models.UserIpAccessDetails.yml\" sourcestartlinenumber=\"1\">The User Ip Access Details response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Identity.Models.UserPasskey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Identity.Models.UserPasskey.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Identity.Models.UserPasskey",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Identity.Models.UserPasskey.yml\" sourcestartlinenumber=\"1\">The User Passkey response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Identity.Models.UserPhone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Identity.Models.UserPhone.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Identity.Models.UserPhone",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Identity.Models.UserPhone.yml\" sourcestartlinenumber=\"1\">The User Phone response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Identity.Models.UserPrivateData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Identity.Models.UserPrivateData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Identity.Models.UserPrivateData",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Identity.Models.UserPrivateData.yml\" sourcestartlinenumber=\"1\">The User Private Data response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Identity.Models.UserPublicData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Identity.Models.UserPublicData.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Identity.Models.UserPublicData",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Identity.Models.UserPublicData.yml\" sourcestartlinenumber=\"1\">The User Public Data response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Identity.Models.UserSession.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Identity.Models.UserSession.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Identity.Models.UserSession",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Identity.Models.UserSession.yml\" sourcestartlinenumber=\"1\">The User Session response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Identity.Models.UserSessionMetadata.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Identity.Models.UserSessionMetadata.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Identity.Models.UserSessionMetadata",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Identity.Models.UserSessionMetadata.yml\" sourcestartlinenumber=\"1\">The User Session Metadata response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Identity.Models.UserSummary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Identity.Models.UserSummary.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Identity.Models.UserSummary",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Identity.Models.UserSummary.yml\" sourcestartlinenumber=\"1\">The User Summary response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Identity.Models.UserUsername.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Identity.Models.UserUsername.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Identity.Models.UserUsername",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Identity.Models.UserUsername.yml\" sourcestartlinenumber=\"1\">The User Username response class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Identity.Models.ValueTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Identity.Models.ValueTypes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Identity.Models.ValueTypes",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Identity.Models.VerifyEmailRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Identity.Models.VerifyEmailRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Identity.Models.VerifyEmailRequest",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Identity.Models.VerifyEmailRequest.yml\" sourcestartlinenumber=\"1\">The Verify Email Request.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Identity.Models.VerifyEmailResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Identity.Models.VerifyEmailResponse.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Identity.Models.VerifyEmailResponse",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Identity.Models.VerifyEmailResponse.yml\" sourcestartlinenumber=\"1\">The Verify Email Response</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Identity.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Identity.Models.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Identity.Models",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Identity.MonoCloudIdentityClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Identity.MonoCloudIdentityClient.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Identity.MonoCloudIdentityClient",
+      "Summary": "<p sourcefile=\"obj/api/MonoCloud.Management.Identity.MonoCloudIdentityClient.yml\" sourcestartlinenumber=\"1\">The MonoCloud Identity Client Class</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Identity.MonoCloudIdentityOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Identity.MonoCloudIdentityOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Identity.MonoCloudIdentityOptions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Identity.MonoCloudIdentityServiceExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Identity.MonoCloudIdentityServiceExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Identity.MonoCloudIdentityServiceExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/MonoCloud.Management.Identity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/MonoCloud.Management.Identity.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Identity",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "obj/api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "obj/api/toc.html"
+        },
+        ".json": {
+          "relative_path": "obj/api/toc.json"
         }
       },
       "version": ""
