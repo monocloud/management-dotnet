@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>This is the HOMEPAGE. </title>
+      <title> </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="This is the HOMEPAGE. ">
+      <meta name="title" content=" ">
       
       
       <link rel="icon" href="favicon.ico">
@@ -16,7 +16,7 @@
       
       
       
-      <meta name="docfx:docurl" content="https://github.com/monocloud/management-dotnet/blob/main/docs-gen/index.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/monocloud/management-dotnet/blob/refactor/problem_details/docs-gen/index.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -39,7 +39,7 @@
 
   </head>
 
-  <body class="tex2jax_ignore" data-layout="landing" data-yaml-mime="">
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
     <header class="bg-body border-bottom">
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
@@ -67,13 +67,104 @@
         </div>
 
         <article data-uid="">
-<h1 id="this-is-the-homepage">This is the <strong>HOMEPAGE</strong>.</h1>
 
-<p>Refer to <a href="http://daringfireball.net/projects/markdown/">Markdown</a> for how to write markdown files.</p>
-<h2 id="quick-start-notes">Quick Start Notes:</h2>
-<ol>
-<li>Add images to the <em>images</em> folder if the file is referencing an image.</li>
-</ol>
+<div align="center">
+  <a href="https://www.monocloud.com?utm_source=github&utm_medium=management_dotnet" target="_blank" rel="noopener noreferrer">
+    <picture>
+      <img src="https://raw.githubusercontent.com/monocloud/management-dotnet/refs/heads/main/MonoCloud.png" height="100" alt="MonoCloud Logo">
+    </picture>
+  </a>
+  <p>Secure, simple auth for everything</p>
+  <img src="https://img.shields.io/nuget/v/MonoCloud.Management.Core" alt="NuGet">
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/:license-MIT-blue.svg?style=flat" alt="License: MIT">
+  </a>
+  <a href="https://github.com/monocloud/management-dotnet/actions/workflows/build.yaml">
+    <img src="https://github.com/monocloud/management-dotnet/actions/workflows/build.yaml/badge.svg" alt="Build Status">
+  </a>
+</div>
+<p><br><br></p>
+<h2 id="introduction">Introduction</h2>
+<p><strong>MonoCloud Management SDK for .NET – programmatically manage apps, policies, configurations, and users via the MonoCloud Management APIs.</strong></p>
+<p><a href="https://www.monocloud.com?utm_source=github&amp;utm_medium=management_dotnet">MonoCloud</a> is a modern, developer-friendly Identity &amp; Access Management platform.</p>
+<p>This SDK provides a full-featured, typed .NET client for interacting with the <strong>MonoCloud Management APIs</strong>, allowing you to automate tenant administration programmatically.</p>
+<h2 id="-documentation">📘 Documentation</h2>
+<ul>
+<li><strong>Documentation:</strong> <a href="https://www.monocloud.com/docs?utm_source=github&amp;utm_medium=management_dotnet">https://www.monocloud.com/docs</a></li>
+<li><strong>Management API SDK Docs:</strong> <a href="https://www.monocloud.com/docs/apis/management?utm_source=github&amp;utm_medium=management_dotnet">https://www.monocloud.com/docs/apis/management</a></li>
+<li><strong>Identity API SDK Docs:</strong> <a href="https://www.monocloud.com/docs/apis/identity?utm_source=github&amp;utm_medium=management_dotnet">https://www.monocloud.com/docs/apis/identity</a></li>
+<li><strong>API Reference:</strong> <a href="https://monocloud.github.io/management-dotnet?utm_source=github&amp;utm_medium=management_dotnet">https://monocloud.github.io/management-dotnet</a></li>
+</ul>
+<h2 id="supported-platforms">Supported Platforms</h2>
+<p>This SDK supports applications targeting:</p>
+<ul>
+<li><strong>.NET Standard 2.0</strong> (recommended for maximum compatibility)</li>
+<li><strong>.NET Framework 4.6.1+</strong></li>
+<li><strong>.NET 6.0+</strong> and later</li>
+</ul>
+<h2 id="-getting-started">🚀 Getting Started</h2>
+<h3 id="requirements">Requirements</h3>
+<ul>
+<li>A <strong>MonoCloud tenant</strong></li>
+<li>A <strong>Management API key</strong> with appropriate permissions</li>
+</ul>
+<h2 id="admin-api">Admin API</h2>
+<h3 id="-installation">📦 Installation</h3>
+<pre><code class="lang-powershell">Install-Package MonoCloud.Management.Admin
+
+# or
+
+dotnet add package MonoCloud.Management.Admin
+</code></pre>
+<h3 id="usage">Usage</h3>
+<pre><code class="lang-csharp">var adminClient = new MonoCloudAdminClient(new MonoCloudConfig(&quot;https://&lt;your-tenant-domain&gt;&quot;, &quot;&lt;your-api-key&gt;&quot;));
+</code></pre>
+<p>⚠️ <strong>Security Note:</strong> Do not hardcode your API key. It is recommended to load it from an environment variable or a secure configuration manager like appsettings.json. For modern .NET applications, it is best practice to use Dependency Injection to manage the client lifecycle and configuration securely via the <a href="https://github.com/monocloud/management-dotnet/blob/main/src/admin/src/MonoCloudAdminServiceExtensions.cs"><code>AddMonoCloudAdminClient</code></a> service extension.</p>
+<h3 id="-usage-examples">✨ Usage Examples</h3>
+<p>The SDK closely mirrors the REST API structure — clients are organized by resource areas (clients, resources, etc.).</p>
+<h4 id="-get-all-clients">🔍 Get all clients</h4>
+<pre><code class="lang-csharp">var result = await adminClient.Clients.GetAllClientsAsync(
+    page: 1,
+    size: 10,
+    filter: &quot;dashboard&quot;,
+    sort: &quot;name:1&quot;
+);
+</code></pre>
+<p>Explore further operations (clients, options, trust stores, etc.) using the same patterns.
+See: <a href="https://www.monocloud.com/docs?utm_source=github&amp;utm_medium=management_dotnet">https://www.monocloud.com/docs</a></p>
+<h2 id="identity-api">Identity API</h2>
+<h3 id="-installation-1">📦 Installation</h3>
+<pre><code class="lang-powershell">Install-Package MonoCloud.Management.Identity
+
+# or
+
+dotnet add package MonoCloud.Management.Identity
+</code></pre>
+<h3 id="usage-1">Usage</h3>
+<pre><code class="lang-csharp">var identityClient = new MonoCloudIdentityClient(new MonoCloudConfig(&quot;https://&lt;your-tenant-domain&gt;&quot;, &quot;&lt;your-api-key&gt;&quot;));
+</code></pre>
+<p>⚠️ <strong>Security Note:</strong> Do not hardcode your API key. It is recommended to load it from an environment variable or a secure configuration manager like appsettings.json. For modern .NET applications, it is best practice to use Dependency Injection to manage the client lifecycle and configuration securely via the <a href="https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/MonoCloudIdentityServiceExtensions.cs"><code>AddMonoCloudIdentityClient</code></a> service extension.</p>
+<h3 id="-usage-examples-1">✨ Usage Examples</h3>
+<p>The SDK closely mirrors the REST API structure — clients are organized by users and groups.</p>
+<h4 id="-get-all-users">🔍 Get all users</h4>
+<pre><code class="lang-csharp">var result = await identityClient.Users.GetAllUsersAsync(
+    page: 1,
+    size: 10,
+    filter: &quot;bob&quot;,
+    sort: &quot;given_name:1&quot;
+);
+</code></pre>
+<p>Explore further operations at <a href="https://www.monocloud.com/docs?utm_source=github&amp;utm_medium=management_dotnet">https://www.monocloud.com/docs</a></p>
+<h2 id="-contributing--support">🤝 Contributing &amp; Support</h2>
+<h3 id="issues--feedback">Issues &amp; Feedback</h3>
+<ul>
+<li>Use <strong>GitHub Issues</strong> for bug reports and feature requests.</li>
+<li>For tenant or account-specific help, contact MonoCloud Support through your dashboard.</li>
+</ul>
+<h3 id="security">Security</h3>
+<p>Do <strong>not</strong> report security issues publicly. Please follow the contact instructions at: <a href="https://www.monocloud.com/contact?utm_source=github&amp;utm_medium=management_dotnet">https://www.monocloud.com/contact</a></p>
+<h2 id="-license">📄 License</h2>
+<p>Licensed under the <strong>MIT License</strong>. See the included <a href="https://github.com/monocloud/management-dotnet/blob/main/LICENSE"><code>LICENSE</code></a> file.</p>
 
 </article>
 

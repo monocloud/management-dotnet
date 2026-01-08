@@ -26,7 +26,7 @@ public class MonoCloudException : System.Exception
       403 => new MonoCloudForbiddenException(problemDetails),
       404 => new MonoCloudNotFoundException(problemDetails),
       409 => new MonoCloudConflictException(problemDetails),
-      422 when problemDetails is ErrorCodeValidationProblemDetails v => new MonoCloudErrorCodeValidationException(v),
+      422 when problemDetails is IdentityValidationProblemDetails v => new MonoCloudIdentityValidationException(v),
       422 when problemDetails is KeyValidationProblemDetails v => new MonoCloudKeyValidationException(v),
       429 => new MonoCloudResourceExhaustedException(problemDetails),
       >= 500 => new MonoCloudServerException(problemDetails),
