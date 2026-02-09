@@ -5,7 +5,7 @@
     </picture>
   </a>
   <p>Secure, simple auth for everything</p>
-  <img src="https://img.shields.io/nuget/v/MonoCloud.Management.Core" alt="NuGet" />
+  <img src="https://img.shields.io/nuget/v/MonoCloud.Management" alt="NuGet" />
   <a href="https://opensource.org/licenses/MIT">
     <img src="https://img.shields.io/:license-MIT-blue.svg?style=flat" alt="License: MIT" />
   </a>
@@ -28,7 +28,6 @@ This SDK provides a full-featured, typed .NET client for interacting with the **
 
 - **Documentation:** [https://www.monocloud.com/docs](https://www.monocloud.com/docs?utm_source=github&utm_medium=management_dotnet)
 - **Management API SDK Docs:** [https://www.monocloud.com/docs/apis/management](https://www.monocloud.com/docs/apis/management?utm_source=github&utm_medium=management_dotnet)
-- **Identity API SDK Docs:** [https://www.monocloud.com/docs/apis/identity](https://www.monocloud.com/docs/apis/identity?utm_source=github&utm_medium=management_dotnet)
 - **API Reference:** [https://monocloud.github.io/management-dotnet](https://monocloud.github.io/management-dotnet?utm_source=github&utm_medium=management_dotnet)
 
 ## Supported Platforms
@@ -46,34 +45,32 @@ This SDK supports applications targeting:
 - A **MonoCloud tenant**
 - A **Management API key** with appropriate permissions
 
-## Admin API
-
-### 📦 Installation
+### Installation
 
 ```powershell
-Install-Package MonoCloud.Management.Admin
+Install-Package MonoCloud.Management
 
 # or
 
-dotnet add package MonoCloud.Management.Admin
+dotnet add package MonoCloud.Management
 ```
 
 ### Usage
 
 ```csharp
-var adminClient = new MonoCloudAdminClient(new MonoCloudConfig("https://<your-tenant-domain>", "<your-api-key>"));
+var managementClient = new MonoCloudManagementClient(new MonoCloudConfig("https://<your-tenant-domain>", "<your-api-key>"));
 ```
 
-⚠️ **Security Note:** Do not hardcode your API key. It is recommended to load it from an environment variable or a secure configuration manager like appsettings.json. For modern .NET applications, it is best practice to use Dependency Injection to manage the client lifecycle and configuration securely via the [`AddMonoCloudAdminClient`](https://github.com/monocloud/management-dotnet/blob/main/src/admin/src/MonoCloudAdminServiceExtensions.cs) service extension.
+⚠️ **Security Note:** Do not hardcode your API key. It is recommended to load it from an environment variable or a secure configuration manager like appsettings.json. For modern .NET applications, it is best practice to use Dependency Injection to manage the client lifecycle and configuration securely via the [`AddMonoCloudManagementClient`](https://github.com/monocloud/management-dotnet/blob/main/src/management/src/MonoCloudManagementServiceExtensions.cs) service extension.
 
-### ✨ Usage Examples
+### Usage Examples
 
-The SDK closely mirrors the REST API structure — clients are organized by resource areas (clients, resources, etc.).
+The SDK closely mirrors the REST API structure — clients are organized by resource areas (clients, resources, users, groups, etc.).
 
 #### 🔍 Get all clients
 
 ```csharp
-var result = await adminClient.Clients.GetAllClientsAsync(
+var result = await managementClient.Clients.GetAllClientsAsync(
     page: 1,
     size: 10,
     filter: "dashboard",
@@ -81,37 +78,10 @@ var result = await adminClient.Clients.GetAllClientsAsync(
 );
 ```
 
-Explore further operations (clients, options, trust stores, etc.) using the same patterns.
-See: [https://www.monocloud.com/docs](https://www.monocloud.com/docs?utm_source=github&utm_medium=management_dotnet)
-
-## Identity API
-
-### 📦 Installation
-
-```powershell
-Install-Package MonoCloud.Management.Identity
-
-# or
-
-dotnet add package MonoCloud.Management.Identity
-```
-
-### Usage
+#### Get all users
 
 ```csharp
-var identityClient = new MonoCloudIdentityClient(new MonoCloudConfig("https://<your-tenant-domain>", "<your-api-key>"));
-```
-
-⚠️ **Security Note:** Do not hardcode your API key. It is recommended to load it from an environment variable or a secure configuration manager like appsettings.json. For modern .NET applications, it is best practice to use Dependency Injection to manage the client lifecycle and configuration securely via the [`AddMonoCloudIdentityClient`](https://github.com/monocloud/management-dotnet/blob/main/src/identity/src/MonoCloudIdentityServiceExtensions.cs) service extension.
-
-### ✨ Usage Examples
-
-The SDK closely mirrors the REST API structure — clients are organized by users and groups.
-
-#### 🔍 Get all users
-
-```csharp
-var result = await identityClient.Users.GetAllUsersAsync(
+var result = await managementClient.Users.GetAllUsersAsync(
     page: 1,
     size: 10,
     filter: "bob",

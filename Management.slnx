@@ -1,9 +1,7 @@
 <Solution>
   <Folder Name="/Tests/">
-    <Project Path="src/admin/tests/MonoCloud.Management.Admin.UnitTests/MonoCloud.Management.Admin.UnitTests.csproj" />
-    <Project Path="src/identity/tests/MonoCloud.Management.Identity.UnitTests/MonoCloud.Management.Identity.UnitTests.csproj" />
+    <Project Path="src/management/tests/MonoCloud.Management.UnitTests/MonoCloud.Management.UnitTests.csproj" />
   </Folder>
-  <Project Path="src/admin/src/MonoCloud.Management.Admin.csproj" />
   <Project Path="src/core/MonoCloud.Management.Core.csproj" />
-  <Project Path="src/identity/src/MonoCloud.Management.Identity.csproj" />
+  <Project Path="src/management/src/MonoCloud.Management.csproj" />
 </Solution>

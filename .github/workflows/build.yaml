@@ -63,8 +63,8 @@ jobs:
         run: |
           dotnet format --verify-no-changes
 
-  admin_test:
-    name: Admin SDK Unit Tests
+  test:
+    name: Management SDK Unit Tests
     runs-on: ubuntu-latest
     needs: build
     steps:
@@ -82,15 +82,15 @@ jobs:
           path: .
           key: build-${{ github.run_id }}-${{ github.run_attempt }}
 
-      - name: Test Core
-        run: dotnet test src/admin/tests/MonoCloud.Management.Admin.UnitTests/MonoCloud.Management.Admin.UnitTests.csproj --no-build --nologo --configuration Release --logger "trx;LogFileName=MonoCloud.Management.Admin.UnitTests.trx"
+      - name: Test
+        run: dotnet test src/management/tests/MonoCloud.Management.UnitTests/MonoCloud.Management.UnitTests.csproj --no-build --nologo --configuration Release --logger "trx;LogFileName=MonoCloud.Management.UnitTests.trx"
 
       - name: Upload test results
         id: upload_artifact
         if: success() || failure()
         uses: actions/upload-artifact@v4
         with:
-          name: MonoCloud.Management.Admin.UnitTests
+          name: MonoCloud.Management.UnitTests
           path: "**/*.trx"
           overwrite: true
 
@@ -98,49 +98,8 @@ jobs:
         if: success() || failure()
         uses: dorny/test-reporter@v1
         with:
-          artifact: MonoCloud.Management.Admin.UnitTests
-          name: "Admin SDK Unit Tests"
-          path: "**/*.trx"
-          reporter: dotnet-trx
-          fail-on-error: false
-
-  identity_test:
-    name: Identity SDK Unit Tests
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v5
-
-      - name: Setup .NET Core SDK
-        uses: actions/setup-dotnet@v5
-        with:
-          dotnet-version: 10.x.x
-
-      - name: Load Cache
-        uses: actions/cache/restore@v4
-        with:
-          path: .
-          key: build-${{ github.run_id }}-${{ github.run_attempt }}
-
-      - name: Test Core
-        run: dotnet test src/identity/tests/MonoCloud.Management.Identity.UnitTests/MonoCloud.Management.Identity.UnitTests.csproj --no-build --nologo --configuration Release --logger "trx;LogFileName=MonoCloud.Management.Identity.UnitTests.trx"
-
-      - name: Upload test results
-        id: upload_artifact
-        if: success() || failure()
-        uses: actions/upload-artifact@v4
-        with:
-          name: MonoCloud.Management.Identity.UnitTests
-          path: "**/*.trx"
-          overwrite: true
-
-      - name: Report Unit Test Results
-        if: success() || failure()
-        uses: dorny/test-reporter@v1
-        with:
-          artifact: MonoCloud.Management.Identity.UnitTests
-          name: "Identity SDK Unit Tests"
+          artifact: MonoCloud.Management.UnitTests
+          name: "Management SDK Unit Tests"
           path: "**/*.trx"
           reporter: dotnet-trx
           fail-on-error: false
