@@ -1,16 +1,35 @@
-![MonoCloud Logo](https://raw.githubusercontent.com/monocloud/management-dotnet/refs/heads/main/MonoCloud.png)
+<div align="center">
+  <a href="https://www.monocloud.com?utm_source=github&utm_medium=management_dotnet" target="_blank" rel="noopener noreferrer">
+    <picture>
+      <img src="https://raw.githubusercontent.com/monocloud/management-dotnet/refs/heads/main/banner.svg" alt="MonoCloud Banner">
+    </picture>
+  </a>
+  <div align="right">
+    <img src="https://img.shields.io/nuget/v/MonoCloud.Management" alt="NuGet" />
+    <a href="https://opensource.org/licenses/MIT">
+      <img src="https://img.shields.io/:license-MIT-blue.svg?style=flat" alt="License: MIT" />
+    </a>
+    <a href="https://github.com/monocloud/management-dotnet/actions/workflows/build.yaml">
+      <img src="https://github.com/monocloud/management-dotnet/actions/workflows/build.yaml/badge.svg" alt="Build Status" />
+    </a>
+  </div>
+</div>
 
 ## Introduction
 
-**MonoCloud Management Core SDK for .NET – shared library for programmatically managing apps, policies, configurations, and users via the MonoCloud Management APIs.**
+**MonoCloud Management SDK for .NET – programmatically manage apps, policies, configurations, users, and groups via the MonoCloud Management APIs.**
 
 [MonoCloud](https://www.monocloud.com?utm_source=github&utm_medium=management_dotnet) is a modern, developer-friendly Identity & Access Management platform.
 
 This SDK provides a full-featured, typed .NET client for interacting with the **MonoCloud Management APIs**, allowing you to automate tenant administration programmatically.
 
+> [!WARNING]
+> This is a supporting library for [MonoCloud.Management](https://www.nuget.org/packages/MonoCloud.Management).
+
 ## 📘 Documentation
 
 - **Documentation:** [https://www.monocloud.com/docs](https://www.monocloud.com/docs?utm_source=github&utm_medium=management_dotnet)
+- **Management API SDK Docs:** [https://www.monocloud.com/docs/apis/management](https://www.monocloud.com/docs/apis/management?utm_source=github&utm_medium=management_dotnet)
 - **API Reference:** [https://monocloud.github.io/management-dotnet](https://monocloud.github.io/management-dotnet?utm_source=github&utm_medium=management_dotnet)
 
 ## Supported Platforms

@@ -23,10 +23,11 @@ public class MonoCloudException : System.Exception
     {
       400 => new MonoCloudBadRequestException(problemDetails),
       401 => new MonoCloudUnauthorizedException(problemDetails),
+      402 => new MonoCloudPaymentRequiredException(problemDetails),
       403 => new MonoCloudForbiddenException(problemDetails),
       404 => new MonoCloudNotFoundException(problemDetails),
       409 => new MonoCloudConflictException(problemDetails),
-      422 when problemDetails is ErrorCodeValidationProblemDetails v => new MonoCloudErrorCodeValidationException(v),
+      422 when problemDetails is IdentityValidationProblemDetails v => new MonoCloudIdentityValidationException(v),
       422 when problemDetails is KeyValidationProblemDetails v => new MonoCloudKeyValidationException(v),
       429 => new MonoCloudResourceExhaustedException(problemDetails),
       >= 500 => new MonoCloudServerException(problemDetails),
@@ -44,6 +45,7 @@ public class MonoCloudException : System.Exception
     {
       400 => new MonoCloudBadRequestException(message ?? "Bad Request"),
       401 => new MonoCloudUnauthorizedException(message ?? "Unauthorized"),
+      402 => new MonoCloudPaymentRequiredException(message ?? "Payment Required"),
       403 => new MonoCloudForbiddenException(message ?? "Forbidden"),
       404 => new MonoCloudNotFoundException(message ?? "Not Found"),
       409 => new MonoCloudConflictException(message ?? "Conflict"),

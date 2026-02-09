@@ -16,7 +16,7 @@
       
       
       
-      <meta name="docfx:docurl" content="https://github.com/monocloud/management-dotnet/blob/main/docs-gen/index.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/monocloud/management-dotnet/blob/feat/rename/docs-gen/index.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -71,21 +71,21 @@
 <div align="center">
   <a href="https://www.monocloud.com?utm_source=github&utm_medium=management_dotnet" target="_blank" rel="noopener noreferrer">
     <picture>
-      <img src="https://raw.githubusercontent.com/monocloud/management-dotnet/refs/heads/main/MonoCloud.png" height="100" alt="MonoCloud Logo">
+      <img src="https://raw.githubusercontent.com/monocloud/management-dotnet/refs/heads/main/banner.svg" alt="MonoCloud Banner">
     </picture>
   </a>
-  <p>Secure, simple auth for everything</p>
-  <img src="https://img.shields.io/nuget/v/MonoCloud.Management" alt="NuGet">
-  <a href="https://opensource.org/licenses/MIT">
-    <img src="https://img.shields.io/:license-MIT-blue.svg?style=flat" alt="License: MIT">
-  </a>
-  <a href="https://github.com/monocloud/management-dotnet/actions/workflows/build.yaml">
-    <img src="https://github.com/monocloud/management-dotnet/actions/workflows/build.yaml/badge.svg" alt="Build Status">
-  </a>
+  <div align="right">
+    <img src="https://img.shields.io/nuget/v/MonoCloud.Management" alt="NuGet">
+    <a href="https://opensource.org/licenses/MIT">
+      <img src="https://img.shields.io/:license-MIT-blue.svg?style=flat" alt="License: MIT">
+    </a>
+    <a href="https://github.com/monocloud/management-dotnet/actions/workflows/build.yaml">
+      <img src="https://github.com/monocloud/management-dotnet/actions/workflows/build.yaml/badge.svg" alt="Build Status">
+    </a>
+  </div>
 </div>
-<p><br><br></p>
 <h2 id="introduction">Introduction</h2>
-<p><strong>MonoCloud Management SDK for .NET – programmatically manage apps, policies, configurations, and users via the MonoCloud Management APIs.</strong></p>
+<p><strong>MonoCloud Management SDK for .NET – programmatically manage apps, policies, configurations, users, and groups via the MonoCloud Management APIs.</strong></p>
 <p><a href="https://www.monocloud.com?utm_source=github&amp;utm_medium=management_dotnet">MonoCloud</a> is a modern, developer-friendly Identity &amp; Access Management platform.</p>
 <p>This SDK provides a full-featured, typed .NET client for interacting with the <strong>MonoCloud Management APIs</strong>, allowing you to automate tenant administration programmatically.</p>
 <h2 id="-documentation">📘 Documentation</h2>
@@ -115,25 +115,19 @@
 dotnet add package MonoCloud.Management
 </code></pre>
 <h3 id="usage">Usage</h3>
+<p>The SDK closely mirrors the REST API structure — clients are organized by resource areas (clients, resources, users, groups, etc.).</p>
 <pre><code class="lang-csharp">var managementClient = new MonoCloudManagementClient(new MonoCloudConfig(&quot;https://&lt;your-tenant-domain&gt;&quot;, &quot;&lt;your-api-key&gt;&quot;));
 </code></pre>
-<p>⚠️ <strong>Security Note:</strong> Do not hardcode your API key. It is recommended to load it from an environment variable or a secure configuration manager like appsettings.json. For modern .NET applications, it is best practice to use Dependency Injection to manage the client lifecycle and configuration securely via the <a href="https://github.com/monocloud/management-dotnet/blob/main/src/management/src/MonoCloudManagementServiceExtensions.cs"><code>AddMonoCloudManagementClient</code></a> service extension.</p>
-<h3 id="usage-examples">Usage Examples</h3>
-<p>The SDK closely mirrors the REST API structure — clients are organized by resource areas (clients, resources, users, groups, etc.).</p>
-<h4 id="-get-all-clients">🔍 Get all clients</h4>
+<div class="CAUTION">
+<h5>Caution</h5>
+<p>Do not hardcode your API key. It is recommended to load it from an environment variable or a secure configuration manager like appsettings.json. For modern .NET applications, it is best practice to use Dependency Injection to manage the client lifecycle and configuration securely via the <a href="https://github.com/monocloud/management-dotnet/blob/main/src/management/src/MonoCloudManagementServiceExtensions.cs"><code>AddMonoCloudManagementClient</code></a> service extension.</p>
+</div>
+<h4 id="example---get-all-clients">Example - Get all clients</h4>
 <pre><code class="lang-csharp">var result = await managementClient.Clients.GetAllClientsAsync(
     page: 1,
     size: 10,
     filter: &quot;dashboard&quot;,
     sort: &quot;name:1&quot;
-);
-</code></pre>
-<h4 id="get-all-users">Get all users</h4>
-<pre><code class="lang-csharp">var result = await managementClient.Users.GetAllUsersAsync(
-    page: 1,
-    size: 10,
-    filter: &quot;bob&quot;,
-    sort: &quot;given_name:1&quot;
 );
 </code></pre>
 <p>Explore further operations at <a href="https://www.monocloud.com/docs?utm_source=github&amp;utm_medium=management_dotnet">https://www.monocloud.com/docs</a></p>

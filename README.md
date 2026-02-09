@@ -1,24 +1,23 @@
 <div align="center">
   <a href="https://www.monocloud.com?utm_source=github&utm_medium=management_dotnet" target="_blank" rel="noopener noreferrer">
     <picture>
-      <img src="https://raw.githubusercontent.com/monocloud/management-dotnet/refs/heads/main/MonoCloud.png" height="100" alt="MonoCloud Logo">
+      <img src="https://raw.githubusercontent.com/monocloud/management-dotnet/refs/heads/main/banner.svg" alt="MonoCloud Banner">
     </picture>
   </a>
-  <p>Secure, simple auth for everything</p>
-  <img src="https://img.shields.io/nuget/v/MonoCloud.Management" alt="NuGet" />
-  <a href="https://opensource.org/licenses/MIT">
-    <img src="https://img.shields.io/:license-MIT-blue.svg?style=flat" alt="License: MIT" />
-  </a>
-  <a href="https://github.com/monocloud/management-dotnet/actions/workflows/build.yaml">
-    <img src="https://github.com/monocloud/management-dotnet/actions/workflows/build.yaml/badge.svg" alt="Build Status" />
-  </a>
+  <div align="right">
+    <img src="https://img.shields.io/nuget/v/MonoCloud.Management" alt="NuGet" />
+    <a href="https://opensource.org/licenses/MIT">
+      <img src="https://img.shields.io/:license-MIT-blue.svg?style=flat" alt="License: MIT" />
+    </a>
+    <a href="https://github.com/monocloud/management-dotnet/actions/workflows/build.yaml">
+      <img src="https://github.com/monocloud/management-dotnet/actions/workflows/build.yaml/badge.svg" alt="Build Status" />
+    </a>
+  </div>
 </div>
-
-<br /><br />
 
 ## Introduction
 
-**MonoCloud Management SDK for .NET – programmatically manage apps, policies, configurations, and users via the MonoCloud Management APIs.**
+**MonoCloud Management SDK for .NET – programmatically manage apps, policies, configurations, users, and groups via the MonoCloud Management APIs.**
 
 [MonoCloud](https://www.monocloud.com?utm_source=github&utm_medium=management_dotnet) is a modern, developer-friendly Identity & Access Management platform.
 
@@ -57,17 +56,16 @@ dotnet add package MonoCloud.Management
 
 ### Usage
 
+The SDK closely mirrors the REST API structure — clients are organized by resource areas (clients, resources, users, groups, etc.).
+
 ```csharp
 var managementClient = new MonoCloudManagementClient(new MonoCloudConfig("https://<your-tenant-domain>", "<your-api-key>"));
 ```
 
-⚠️ **Security Note:** Do not hardcode your API key. It is recommended to load it from an environment variable or a secure configuration manager like appsettings.json. For modern .NET applications, it is best practice to use Dependency Injection to manage the client lifecycle and configuration securely via the [`AddMonoCloudManagementClient`](https://github.com/monocloud/management-dotnet/blob/main/src/management/src/MonoCloudManagementServiceExtensions.cs) service extension.
+> [!CAUTION]
+> Do not hardcode your API key. It is recommended to load it from an environment variable or a secure configuration manager like appsettings.json. For modern .NET applications, it is best practice to use Dependency Injection to manage the client lifecycle and configuration securely via the [`AddMonoCloudManagementClient`](https://github.com/monocloud/management-dotnet/blob/main/src/management/src/MonoCloudManagementServiceExtensions.cs) service extension.
 
-### Usage Examples
-
-The SDK closely mirrors the REST API structure — clients are organized by resource areas (clients, resources, users, groups, etc.).
-
-#### 🔍 Get all clients
+#### Example - Get all clients
 
 ```csharp
 var result = await managementClient.Clients.GetAllClientsAsync(
@@ -75,17 +73,6 @@ var result = await managementClient.Clients.GetAllClientsAsync(
     size: 10,
     filter: "dashboard",
     sort: "name:1"
-);
-```
-
-#### Get all users
-
-```csharp
-var result = await managementClient.Users.GetAllUsersAsync(
-    page: 1,
-    size: 10,
-    filter: "bob",
-    sort: "given_name:1"
 );
 ```
 

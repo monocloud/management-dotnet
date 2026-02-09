@@ -2879,6 +2879,44 @@ references:
   fullName.vb: MonoCloud.Management.Core.Exception.MonoCloudForbiddenException.New
   nameWithType: MonoCloudForbiddenException.MonoCloudForbiddenException
   nameWithType.vb: MonoCloudForbiddenException.New
+- uid: MonoCloud.Management.Core.Exception.MonoCloudIdentityValidationException
+  name: MonoCloudIdentityValidationException
+  href: api/MonoCloud.Management.Core.Exception.MonoCloudIdentityValidationException.html
+  commentId: T:MonoCloud.Management.Core.Exception.MonoCloudIdentityValidationException
+  fullName: MonoCloud.Management.Core.Exception.MonoCloudIdentityValidationException
+  nameWithType: MonoCloudIdentityValidationException
+- uid: MonoCloud.Management.Core.Exception.MonoCloudIdentityValidationException.#ctor(MonoCloud.Management.Core.Models.IdentityValidationProblemDetails)
+  name: MonoCloudIdentityValidationException(IdentityValidationProblemDetails)
+  href: api/MonoCloud.Management.Core.Exception.MonoCloudIdentityValidationException.html#MonoCloud_Management_Core_Exception_MonoCloudIdentityValidationException__ctor_MonoCloud_Management_Core_Models_IdentityValidationProblemDetails_
+  commentId: M:MonoCloud.Management.Core.Exception.MonoCloudIdentityValidationException.#ctor(MonoCloud.Management.Core.Models.IdentityValidationProblemDetails)
+  name.vb: New(IdentityValidationProblemDetails)
+  fullName: MonoCloud.Management.Core.Exception.MonoCloudIdentityValidationException.MonoCloudIdentityValidationException(MonoCloud.Management.Core.Models.IdentityValidationProblemDetails)
+  fullName.vb: MonoCloud.Management.Core.Exception.MonoCloudIdentityValidationException.New(MonoCloud.Management.Core.Models.IdentityValidationProblemDetails)
+  nameWithType: MonoCloudIdentityValidationException.MonoCloudIdentityValidationException(IdentityValidationProblemDetails)
+  nameWithType.vb: MonoCloudIdentityValidationException.New(IdentityValidationProblemDetails)
+- uid: MonoCloud.Management.Core.Exception.MonoCloudIdentityValidationException.#ctor*
+  name: MonoCloudIdentityValidationException
+  href: api/MonoCloud.Management.Core.Exception.MonoCloudIdentityValidationException.html#MonoCloud_Management_Core_Exception_MonoCloudIdentityValidationException__ctor_
+  commentId: Overload:MonoCloud.Management.Core.Exception.MonoCloudIdentityValidationException.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: MonoCloud.Management.Core.Exception.MonoCloudIdentityValidationException.MonoCloudIdentityValidationException
+  fullName.vb: MonoCloud.Management.Core.Exception.MonoCloudIdentityValidationException.New
+  nameWithType: MonoCloudIdentityValidationException.MonoCloudIdentityValidationException
+  nameWithType.vb: MonoCloudIdentityValidationException.New
+- uid: MonoCloud.Management.Core.Exception.MonoCloudIdentityValidationException.Errors
+  name: Errors
+  href: api/MonoCloud.Management.Core.Exception.MonoCloudIdentityValidationException.html#MonoCloud_Management_Core_Exception_MonoCloudIdentityValidationException_Errors
+  commentId: P:MonoCloud.Management.Core.Exception.MonoCloudIdentityValidationException.Errors
+  fullName: MonoCloud.Management.Core.Exception.MonoCloudIdentityValidationException.Errors
+  nameWithType: MonoCloudIdentityValidationException.Errors
+- uid: MonoCloud.Management.Core.Exception.MonoCloudIdentityValidationException.Errors*
+  name: Errors
+  href: api/MonoCloud.Management.Core.Exception.MonoCloudIdentityValidationException.html#MonoCloud_Management_Core_Exception_MonoCloudIdentityValidationException_Errors_
+  commentId: Overload:MonoCloud.Management.Core.Exception.MonoCloudIdentityValidationException.Errors
+  isSpec: "True"
+  fullName: MonoCloud.Management.Core.Exception.MonoCloudIdentityValidationException.Errors
+  nameWithType: MonoCloudIdentityValidationException.Errors
 - uid: MonoCloud.Management.Core.Exception.MonoCloudKeyValidationException
   name: MonoCloudKeyValidationException
   href: api/MonoCloud.Management.Core.Exception.MonoCloudKeyValidationException.html
@@ -2976,6 +3014,40 @@ references:
   fullName.vb: MonoCloud.Management.Core.Exception.MonoCloudNotFoundException.New
   nameWithType: MonoCloudNotFoundException.MonoCloudNotFoundException
   nameWithType.vb: MonoCloudNotFoundException.New
+- uid: MonoCloud.Management.Core.Exception.MonoCloudPaymentRequiredException
+  name: MonoCloudPaymentRequiredException
+  href: api/MonoCloud.Management.Core.Exception.MonoCloudPaymentRequiredException.html
+  commentId: T:MonoCloud.Management.Core.Exception.MonoCloudPaymentRequiredException
+  fullName: MonoCloud.Management.Core.Exception.MonoCloudPaymentRequiredException
+  nameWithType: MonoCloudPaymentRequiredException
+- uid: MonoCloud.Management.Core.Exception.MonoCloudPaymentRequiredException.#ctor(MonoCloud.Management.Core.Models.ProblemDetails)
+  name: MonoCloudPaymentRequiredException(ProblemDetails)
+  href: api/MonoCloud.Management.Core.Exception.MonoCloudPaymentRequiredException.html#MonoCloud_Management_Core_Exception_MonoCloudPaymentRequiredException__ctor_MonoCloud_Management_Core_Models_ProblemDetails_
+  commentId: M:MonoCloud.Management.Core.Exception.MonoCloudPaymentRequiredException.#ctor(MonoCloud.Management.Core.Models.ProblemDetails)
+  name.vb: New(ProblemDetails)
+  fullName: MonoCloud.Management.Core.Exception.MonoCloudPaymentRequiredException.MonoCloudPaymentRequiredException(MonoCloud.Management.Core.Models.ProblemDetails)
+  fullName.vb: MonoCloud.Management.Core.Exception.MonoCloudPaymentRequiredException.New(MonoCloud.Management.Core.Models.ProblemDetails)
+  nameWithType: MonoCloudPaymentRequiredException.MonoCloudPaymentRequiredException(ProblemDetails)
+  nameWithType.vb: MonoCloudPaymentRequiredException.New(ProblemDetails)
+- uid: MonoCloud.Management.Core.Exception.MonoCloudPaymentRequiredException.#ctor(System.String)
+  name: MonoCloudPaymentRequiredException(string)
+  href: api/MonoCloud.Management.Core.Exception.MonoCloudPaymentRequiredException.html#MonoCloud_Management_Core_Exception_MonoCloudPaymentRequiredException__ctor_System_String_
+  commentId: M:MonoCloud.Management.Core.Exception.MonoCloudPaymentRequiredException.#ctor(System.String)
+  name.vb: New(String)
+  fullName: MonoCloud.Management.Core.Exception.MonoCloudPaymentRequiredException.MonoCloudPaymentRequiredException(string)
+  fullName.vb: MonoCloud.Management.Core.Exception.MonoCloudPaymentRequiredException.New(String)
+  nameWithType: MonoCloudPaymentRequiredException.MonoCloudPaymentRequiredException(string)
+  nameWithType.vb: MonoCloudPaymentRequiredException.New(String)
+- uid: MonoCloud.Management.Core.Exception.MonoCloudPaymentRequiredException.#ctor*
+  name: MonoCloudPaymentRequiredException
+  href: api/MonoCloud.Management.Core.Exception.MonoCloudPaymentRequiredException.html#MonoCloud_Management_Core_Exception_MonoCloudPaymentRequiredException__ctor_
+  commentId: Overload:MonoCloud.Management.Core.Exception.MonoCloudPaymentRequiredException.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: MonoCloud.Management.Core.Exception.MonoCloudPaymentRequiredException.MonoCloudPaymentRequiredException
+  fullName.vb: MonoCloud.Management.Core.Exception.MonoCloudPaymentRequiredException.New
+  nameWithType: MonoCloudPaymentRequiredException.MonoCloudPaymentRequiredException
+  nameWithType.vb: MonoCloudPaymentRequiredException.New
 - uid: MonoCloud.Management.Core.Exception.MonoCloudRequestException
   name: MonoCloudRequestException
   href: api/MonoCloud.Management.Core.Exception.MonoCloudRequestException.html
@@ -3807,6 +3879,57 @@ references:
   isSpec: "True"
   fullName: MonoCloud.Management.Core.Models.ErrorCodeValidationProblemDetails.Errors
   nameWithType: ErrorCodeValidationProblemDetails.Errors
+- uid: MonoCloud.Management.Core.Models.IdentityError
+  name: IdentityError
+  href: api/MonoCloud.Management.Core.Models.IdentityError.html
+  commentId: T:MonoCloud.Management.Core.Models.IdentityError
+  fullName: MonoCloud.Management.Core.Models.IdentityError
+  nameWithType: IdentityError
+- uid: MonoCloud.Management.Core.Models.IdentityError.Code
+  name: Code
+  href: api/MonoCloud.Management.Core.Models.IdentityError.html#MonoCloud_Management_Core_Models_IdentityError_Code
+  commentId: P:MonoCloud.Management.Core.Models.IdentityError.Code
+  fullName: MonoCloud.Management.Core.Models.IdentityError.Code
+  nameWithType: IdentityError.Code
+- uid: MonoCloud.Management.Core.Models.IdentityError.Code*
+  name: Code
+  href: api/MonoCloud.Management.Core.Models.IdentityError.html#MonoCloud_Management_Core_Models_IdentityError_Code_
+  commentId: Overload:MonoCloud.Management.Core.Models.IdentityError.Code
+  isSpec: "True"
+  fullName: MonoCloud.Management.Core.Models.IdentityError.Code
+  nameWithType: IdentityError.Code
+- uid: MonoCloud.Management.Core.Models.IdentityError.Description
+  name: Description
+  href: api/MonoCloud.Management.Core.Models.IdentityError.html#MonoCloud_Management_Core_Models_IdentityError_Description
+  commentId: P:MonoCloud.Management.Core.Models.IdentityError.Description
+  fullName: MonoCloud.Management.Core.Models.IdentityError.Description
+  nameWithType: IdentityError.Description
+- uid: MonoCloud.Management.Core.Models.IdentityError.Description*
+  name: Description
+  href: api/MonoCloud.Management.Core.Models.IdentityError.html#MonoCloud_Management_Core_Models_IdentityError_Description_
+  commentId: Overload:MonoCloud.Management.Core.Models.IdentityError.Description
+  isSpec: "True"
+  fullName: MonoCloud.Management.Core.Models.IdentityError.Description
+  nameWithType: IdentityError.Description
+- uid: MonoCloud.Management.Core.Models.IdentityValidationProblemDetails
+  name: IdentityValidationProblemDetails
+  href: api/MonoCloud.Management.Core.Models.IdentityValidationProblemDetails.html
+  commentId: T:MonoCloud.Management.Core.Models.IdentityValidationProblemDetails
+  fullName: MonoCloud.Management.Core.Models.IdentityValidationProblemDetails
+  nameWithType: IdentityValidationProblemDetails
+- uid: MonoCloud.Management.Core.Models.IdentityValidationProblemDetails.Errors
+  name: Errors
+  href: api/MonoCloud.Management.Core.Models.IdentityValidationProblemDetails.html#MonoCloud_Management_Core_Models_IdentityValidationProblemDetails_Errors
+  commentId: P:MonoCloud.Management.Core.Models.IdentityValidationProblemDetails.Errors
+  fullName: MonoCloud.Management.Core.Models.IdentityValidationProblemDetails.Errors
+  nameWithType: IdentityValidationProblemDetails.Errors
+- uid: MonoCloud.Management.Core.Models.IdentityValidationProblemDetails.Errors*
+  name: Errors
+  href: api/MonoCloud.Management.Core.Models.IdentityValidationProblemDetails.html#MonoCloud_Management_Core_Models_IdentityValidationProblemDetails_Errors_
+  commentId: Overload:MonoCloud.Management.Core.Models.IdentityValidationProblemDetails.Errors
+  isSpec: "True"
+  fullName: MonoCloud.Management.Core.Models.IdentityValidationProblemDetails.Errors
+  nameWithType: IdentityValidationProblemDetails.Errors
 - uid: MonoCloud.Management.Core.Models.KeyValidationProblemDetails
   name: KeyValidationProblemDetails
   href: api/MonoCloud.Management.Core.Models.KeyValidationProblemDetails.html

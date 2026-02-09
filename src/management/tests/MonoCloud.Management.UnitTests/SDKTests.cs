@@ -182,8 +182,7 @@ public class SDKTests
             },
             {
                 "code": "PasswordRequiresUpper",
-                "description": "Passwords must have at least one uppercase ('A'-'Z').",
-                "field": "password"
+                "description": "Passwords must have at least one uppercase ('A'-'Z')."
             }
         ],
         "traceId": "00-cd3f24e893675e2dae242875e99e7c85-296286fe1c04c085-01"
@@ -199,20 +198,17 @@ public class SDKTests
     }
     catch (Exception e)
     {
-      Assert.True(e is MonoCloudErrorCodeValidationException);
-      var mcError = (e as MonoCloudErrorCodeValidationException)!;
+      Assert.True(e is MonoCloudIdentityValidationException);
+      var mcError = (e as MonoCloudIdentityValidationException)!;
       Assert.StartsWith("Unprocessable Entity", mcError.Message);
       Assert.NotNull(mcError.Response);
       Assert.Equal(3, mcError.Errors.Count());
       Assert.Equal("PasswordTooShort", mcError.Errors.First().Code);
       Assert.Equal("Passwords must be at least 8 characters.", mcError.Errors.First().Description);
-      Assert.Null(mcError.Errors.First().Field);
       Assert.Equal("PasswordRequiresNonAlphanumeric", mcError.Errors.Skip(1).First().Code);
       Assert.Equal("Passwords must have at least one non alphanumeric character.", mcError.Errors.Skip(1).First().Description);
-      Assert.Null(mcError.Errors.Skip(1).First().Field);
       Assert.Equal("PasswordRequiresUpper", mcError.Errors.Last().Code);
       Assert.Equal("Passwords must have at least one uppercase ('A'-'Z').", mcError.Errors.Last().Description);
-      Assert.Equal("password", mcError.Errors.Last().Field);
     }
   }
 
