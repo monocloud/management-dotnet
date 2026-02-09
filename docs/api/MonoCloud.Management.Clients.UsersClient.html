@@ -1,0 +1,3111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class UsersClient </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class UsersClient ">
+      
+      <meta name="description" content="Represents a collection of functions to interact with the Users Api endpoints">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/monocloud/management-dotnet/new/main/apiSpec/new?filename=MonoCloud_Management_Clients_UsersClient.md&amp;value=---%0Auid%3A%20MonoCloud.Management.Clients.UsersClient%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="">
+            
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="MonoCloud.Management.Clients.UsersClient">
+
+
+
+  <h1 id="MonoCloud_Management_Clients_UsersClient" data-uid="MonoCloud.Management.Clients.UsersClient" class="text-break">
+Class UsersClient  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/management/src/Clients/UsersApi.cs/#L6"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="MonoCloud.html">MonoCloud</a>.<a class="xref" href="MonoCloud.Management.html">Management</a>.<a class="xref" href="MonoCloud.Management.Clients.html">Clients</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>MonoCloud.Management.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>Represents a collection of functions to interact with the Users Api endpoints</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class UsersClient : MonoCloudClientBase</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="MonoCloud.Management.Core.Base.MonoCloudClientBase.html">MonoCloudClientBase</a></div>
+      <div><span class="xref">UsersClient</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="MonoCloud.Management.Core.Base.MonoCloudClientBase.html#MonoCloud_Management_Core_Base_MonoCloudClientBase_Serialize_System_Object_">MonoCloudClientBase.Serialize(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="MonoCloud.Management.Core.Base.MonoCloudClientBase.html#MonoCloud_Management_Core_Base_MonoCloudClientBase_ProcessRequestAsync__1_System_Net_Http_HttpRequestMessage_System_Threading_CancellationToken_">MonoCloudClientBase.ProcessRequestAsync&lt;TResult&gt;(HttpRequestMessage, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="MonoCloud.Management.Core.Base.MonoCloudClientBase.html#MonoCloud_Management_Core_Base_MonoCloudClientBase_ProcessRequestAsync__2_System_Net_Http_HttpRequestMessage_System_Threading_CancellationToken_">MonoCloudClientBase.ProcessRequestAsync&lt;TResult, TPage&gt;(HttpRequestMessage, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="MonoCloud.Management.Core.Base.MonoCloudClientBase.html#MonoCloud_Management_Core_Base_MonoCloudClientBase_ProcessRequestAsync_System_Net_Http_HttpRequestMessage_System_Threading_CancellationToken_">MonoCloudClientBase.ProcessRequestAsync(HttpRequestMessage, CancellationToken)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="constructors">Constructors
+</h2>
+
+
+  <a id="MonoCloud_Management_Clients_UsersClient__ctor_" data-uid="MonoCloud.Management.Clients.UsersClient.#ctor*"></a>
+
+  <h3 id="MonoCloud_Management_Clients_UsersClient__ctor_MonoCloud_Management_Core_Base_MonoCloudConfig_" data-uid="MonoCloud.Management.Clients.UsersClient.#ctor(MonoCloud.Management.Core.Base.MonoCloudConfig)">
+  UsersClient(MonoCloudConfig)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/management/src/Clients/UsersApi.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="MonoCloud.Management.Clients.UsersClient.html">UsersClient</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UsersClient(MonoCloudConfig configuration)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>configuration</code> <a class="xref" href="MonoCloud.Management.Core.Base.MonoCloudConfig.html">MonoCloudConfig</a></dt>
+    <dd><p>The <a class="xref" href="MonoCloud.Management.Core.Base.MonoCloudConfig.html">MonoCloud Configuration</a></p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <a id="MonoCloud_Management_Clients_UsersClient__ctor_" data-uid="MonoCloud.Management.Clients.UsersClient.#ctor*"></a>
+
+  <h3 id="MonoCloud_Management_Clients_UsersClient__ctor_System_Net_Http_HttpClient_" data-uid="MonoCloud.Management.Clients.UsersClient.#ctor(System.Net.Http.HttpClient)">
+  UsersClient(HttpClient)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/management/src/Clients/UsersApi.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="MonoCloud.Management.Clients.UsersClient.html">UsersClient</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UsersClient(HttpClient httpClient)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>httpClient</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.httpclient">HttpClient</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.net.http.httpclient">HttpClient</a> which will be used to communicate with the MonoCloud Api</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="MonoCloud_Management_Clients_UsersClient_AddEmailAsync_" data-uid="MonoCloud.Management.Clients.UsersClient.AddEmailAsync*"></a>
+
+  <h3 id="MonoCloud_Management_Clients_UsersClient_AddEmailAsync_System_String_MonoCloud_Management_Models_AddEmailRequest_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Clients.UsersClient.AddEmailAsync(System.String,MonoCloud.Management.Models.AddEmailRequest,System.Threading.CancellationToken)">
+  AddEmailAsync(string, AddEmailRequest, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/management/src/Clients/UsersApi.cs/#L397"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Add an email address</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;MonoCloudResponse&lt;User&gt;&gt; AddEmailAsync(string userId, AddEmailRequest addEmailRequest, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The unique identifier of the user.</p>
+</dd>
+    <dt><code>addEmailRequest</code> <a class="xref" href="MonoCloud.Management.Models.AddEmailRequest.html">AddEmailRequest</a></dt>
+    <dd><p>The request payload used to add an email address.</p>
+</dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="MonoCloud.Management.Core.Base.MonoCloudResponse-1.html">MonoCloudResponse</a>&lt;<a class="xref" href="MonoCloud.Management.Models.User.html">User</a>&gt;&gt;</dt>
+    <dd><p>User</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="MonoCloud_Management_Clients_UsersClient_AddEmailAsync_System_String_MonoCloud_Management_Models_AddEmailRequest_System_Threading_CancellationToken__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Adds a new email address to the user profile. Optional parameters allow specifying whether the email should be marked as verified.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MonoCloud.Management.Core.Exception.MonoCloudException.html">MonoCloudException</a></dt>
+    <dd><p>A server side error occurred.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="MonoCloud_Management_Clients_UsersClient_AddPhoneAsync_" data-uid="MonoCloud.Management.Clients.UsersClient.AddPhoneAsync*"></a>
+
+  <h3 id="MonoCloud_Management_Clients_UsersClient_AddPhoneAsync_System_String_MonoCloud_Management_Models_AddPhoneRequest_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Clients.UsersClient.AddPhoneAsync(System.String,MonoCloud.Management.Models.AddPhoneRequest,System.Threading.CancellationToken)">
+  AddPhoneAsync(string, AddPhoneRequest, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/management/src/Clients/UsersApi.cs/#L674"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Add a phone number</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;MonoCloudResponse&lt;User&gt;&gt; AddPhoneAsync(string userId, AddPhoneRequest addPhoneRequest, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The unique identifier of the user.</p>
+</dd>
+    <dt><code>addPhoneRequest</code> <a class="xref" href="MonoCloud.Management.Models.AddPhoneRequest.html">AddPhoneRequest</a></dt>
+    <dd><p>The request payload used to add a phone number.</p>
+</dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="MonoCloud.Management.Core.Base.MonoCloudResponse-1.html">MonoCloudResponse</a>&lt;<a class="xref" href="MonoCloud.Management.Models.User.html">User</a>&gt;&gt;</dt>
+    <dd><p>User</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="MonoCloud_Management_Clients_UsersClient_AddPhoneAsync_System_String_MonoCloud_Management_Models_AddPhoneRequest_System_Threading_CancellationToken__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Adds a new phone number to the user profile. Optional parameters allow specifying whether the number should be marked as verified.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MonoCloud.Management.Core.Exception.MonoCloudException.html">MonoCloudException</a></dt>
+    <dd><p>A server side error occurred.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="MonoCloud_Management_Clients_UsersClient_AssignUserToGroupAsync_" data-uid="MonoCloud.Management.Clients.UsersClient.AssignUserToGroupAsync*"></a>
+
+  <h3 id="MonoCloud_Management_Clients_UsersClient_AssignUserToGroupAsync_System_String_System_Guid_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Clients.UsersClient.AssignUserToGroupAsync(System.String,System.Guid,System.Threading.CancellationToken)">
+  AssignUserToGroupAsync(string, Guid, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/management/src/Clients/UsersApi.cs/#L1744"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Assign a user to a group</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;MonoCloudResponse&lt;UserGroup&gt;&gt; AssignUserToGroupAsync(string userId, Guid groupId, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The unique identifier of the user.</p>
+</dd>
+    <dt><code>groupId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd><p>The unique identifier of the group.</p>
+</dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="MonoCloud.Management.Core.Base.MonoCloudResponse-1.html">MonoCloudResponse</a>&lt;<a class="xref" href="MonoCloud.Management.Models.UserGroup.html">UserGroup</a>&gt;&gt;</dt>
+    <dd><p>UserGroup</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="MonoCloud_Management_Clients_UsersClient_AssignUserToGroupAsync_System_String_System_Guid_System_Threading_CancellationToken__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Adds the specified user to the group, establishing membership and enabling access configurations assigned to that group.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MonoCloud.Management.Core.Exception.MonoCloudException.html">MonoCloudException</a></dt>
+    <dd><p>A server side error occurred.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="MonoCloud_Management_Clients_UsersClient_CreateUserAsync_" data-uid="MonoCloud.Management.Clients.UsersClient.CreateUserAsync*"></a>
+
+  <h3 id="MonoCloud_Management_Clients_UsersClient_CreateUserAsync_MonoCloud_Management_Models_CreateUserRequest_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Clients.UsersClient.CreateUserAsync(MonoCloud.Management.Models.CreateUserRequest,System.Threading.CancellationToken)">
+  CreateUserAsync(CreateUserRequest, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/management/src/Clients/UsersApi.cs/#L90"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Create a user</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;MonoCloudResponse&lt;User&gt;&gt; CreateUserAsync(CreateUserRequest createUserRequest, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>createUserRequest</code> <a class="xref" href="MonoCloud.Management.Models.CreateUserRequest.html">CreateUserRequest</a></dt>
+    <dd><p>The request payload used to create a user.</p>
+</dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="MonoCloud.Management.Core.Base.MonoCloudResponse-1.html">MonoCloudResponse</a>&lt;<a class="xref" href="MonoCloud.Management.Models.User.html">User</a>&gt;&gt;</dt>
+    <dd><p>User</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="MonoCloud_Management_Clients_UsersClient_CreateUserAsync_MonoCloud_Management_Models_CreateUserRequest_System_Threading_CancellationToken__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Creates a new user using identifiers such as email, phone number, or username, with an optional password or imported password hash. This endpoint also supports migration scenarios by allowing administrators to preserve verification states and bypass password policies or identifier restrictions when required.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MonoCloud.Management.Core.Exception.MonoCloudException.html">MonoCloudException</a></dt>
+    <dd><p>A server side error occurred.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="MonoCloud_Management_Clients_UsersClient_DeleteUserAsync_" data-uid="MonoCloud.Management.Clients.UsersClient.DeleteUserAsync*"></a>
+
+  <h3 id="MonoCloud_Management_Clients_UsersClient_DeleteUserAsync_System_String_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Clients.UsersClient.DeleteUserAsync(System.String,System.Threading.CancellationToken)">
+  DeleteUserAsync(string, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/management/src/Clients/UsersApi.cs/#L164"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Delete a user</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;MonoCloudResponse&gt; DeleteUserAsync(string userId, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The unique identifier of the user.</p>
+</dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="MonoCloud.Management.Core.Base.MonoCloudResponse.html">MonoCloudResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="MonoCloud_Management_Clients_UsersClient_DeleteUserAsync_System_String_System_Threading_CancellationToken__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Permanently deletes the specified user.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MonoCloud.Management.Core.Exception.MonoCloudException.html">MonoCloudException</a></dt>
+    <dd><p>A server side error occurred.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="MonoCloud_Management_Clients_UsersClient_DisableUserAsync_" data-uid="MonoCloud.Management.Clients.UsersClient.DisableUserAsync*"></a>
+
+  <h3 id="MonoCloud_Management_Clients_UsersClient_DisableUserAsync_System_String_MonoCloud_Management_Models_DisableUserRequest_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Clients.UsersClient.DisableUserAsync(System.String,MonoCloud.Management.Models.DisableUserRequest,System.Threading.CancellationToken)">
+  DisableUserAsync(string, DisableUserRequest, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/management/src/Clients/UsersApi.cs/#L235"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Disable a user</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;MonoCloudResponse&lt;User&gt;&gt; DisableUserAsync(string userId, DisableUserRequest disableUserRequest, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The unique identifier of the user.</p>
+</dd>
+    <dt><code>disableUserRequest</code> <a class="xref" href="MonoCloud.Management.Models.DisableUserRequest.html">DisableUserRequest</a></dt>
+    <dd><p>The request payload used to disable a user.</p>
+</dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="MonoCloud.Management.Core.Base.MonoCloudResponse-1.html">MonoCloudResponse</a>&lt;<a class="xref" href="MonoCloud.Management.Models.User.html">User</a>&gt;&gt;</dt>
+    <dd><p>User</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="MonoCloud_Management_Clients_UsersClient_DisableUserAsync_System_String_MonoCloud_Management_Models_DisableUserRequest_System_Threading_CancellationToken__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Marks the user account as disabled, preventing sign-in and access to connected applications. Optionally, active sessions can be revoked and existing opaque tokens invalidated, signing the user out immediately across all devices.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MonoCloud.Management.Core.Exception.MonoCloudException.html">MonoCloudException</a></dt>
+    <dd><p>A server side error occurred.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="MonoCloud_Management_Clients_UsersClient_EnableUserAsync_" data-uid="MonoCloud.Management.Clients.UsersClient.EnableUserAsync*"></a>
+
+  <h3 id="MonoCloud_Management_Clients_UsersClient_EnableUserAsync_System_String_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Clients.UsersClient.EnableUserAsync(System.String,System.Threading.CancellationToken)">
+  EnableUserAsync(string, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/management/src/Clients/UsersApi.cs/#L197"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Enable a user</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;MonoCloudResponse&lt;User&gt;&gt; EnableUserAsync(string userId, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The unique identifier of the user.</p>
+</dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="MonoCloud.Management.Core.Base.MonoCloudResponse-1.html">MonoCloudResponse</a>&lt;<a class="xref" href="MonoCloud.Management.Models.User.html">User</a>&gt;&gt;</dt>
+    <dd><p>User</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="MonoCloud_Management_Clients_UsersClient_EnableUserAsync_System_String_System_Threading_CancellationToken__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Re-enables a disabled user, restoring their ability to sign-in and access connected applications.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MonoCloud.Management.Core.Exception.MonoCloudException.html">MonoCloudException</a></dt>
+    <dd><p>A server side error occurred.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="MonoCloud_Management_Clients_UsersClient_ExternalAuthenticatorDisconnectAsync_" data-uid="MonoCloud.Management.Clients.UsersClient.ExternalAuthenticatorDisconnectAsync*"></a>
+
+  <h3 id="MonoCloud_Management_Clients_UsersClient_ExternalAuthenticatorDisconnectAsync_System_String_MonoCloud_Management_Models_ExternalAuthenticatorDisconnectRequest_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Clients.UsersClient.ExternalAuthenticatorDisconnectAsync(System.String,MonoCloud.Management.Models.ExternalAuthenticatorDisconnectRequest,System.Threading.CancellationToken)">
+  ExternalAuthenticatorDisconnectAsync(string, ExternalAuthenticatorDisconnectRequest, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/management/src/Clients/UsersApi.cs/#L1600"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Disconnect an external authenticator</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;MonoCloudResponse&lt;User&gt;&gt; ExternalAuthenticatorDisconnectAsync(string userId, ExternalAuthenticatorDisconnectRequest externalAuthenticatorDisconnectRequest, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The unique identifier of the user.</p>
+</dd>
+    <dt><code>externalAuthenticatorDisconnectRequest</code> <a class="xref" href="MonoCloud.Management.Models.ExternalAuthenticatorDisconnectRequest.html">ExternalAuthenticatorDisconnectRequest</a></dt>
+    <dd><p>The request payload used to disconnect an external authenticator from a user's account.</p>
+</dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="MonoCloud.Management.Core.Base.MonoCloudResponse-1.html">MonoCloudResponse</a>&lt;<a class="xref" href="MonoCloud.Management.Models.User.html">User</a>&gt;&gt;</dt>
+    <dd><p>User</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="MonoCloud_Management_Clients_UsersClient_ExternalAuthenticatorDisconnectAsync_System_String_MonoCloud_Management_Models_ExternalAuthenticatorDisconnectRequest_System_Threading_CancellationToken__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Removes a linked external authentication provider (such as Google, Microsoft, GitHub, etc.) from the user’s account. After disconnection, the user will no longer be able to authenticate using that provider.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MonoCloud.Management.Core.Exception.MonoCloudException.html">MonoCloudException</a></dt>
+    <dd><p>A server side error occurred.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="MonoCloud_Management_Clients_UsersClient_FindUserByIdAsync_" data-uid="MonoCloud.Management.Clients.UsersClient.FindUserByIdAsync*"></a>
+
+  <h3 id="MonoCloud_Management_Clients_UsersClient_FindUserByIdAsync_System_String_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Clients.UsersClient.FindUserByIdAsync(System.String,System.Threading.CancellationToken)">
+  FindUserByIdAsync(string, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/management/src/Clients/UsersApi.cs/#L126"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieve a user</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;MonoCloudResponse&lt;User&gt;&gt; FindUserByIdAsync(string userId, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The unique identifier of the user.</p>
+</dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="MonoCloud.Management.Core.Base.MonoCloudResponse-1.html">MonoCloudResponse</a>&lt;<a class="xref" href="MonoCloud.Management.Models.User.html">User</a>&gt;&gt;</dt>
+    <dd><p>User</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="MonoCloud_Management_Clients_UsersClient_FindUserByIdAsync_System_String_System_Threading_CancellationToken__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Retrieves detailed information for the specified user.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MonoCloud.Management.Core.Exception.MonoCloudException.html">MonoCloudException</a></dt>
+    <dd><p>A server side error occurred.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="MonoCloud_Management_Clients_UsersClient_FindUserGroupAsync_" data-uid="MonoCloud.Management.Clients.UsersClient.FindUserGroupAsync*"></a>
+
+  <h3 id="MonoCloud_Management_Clients_UsersClient_FindUserGroupAsync_System_String_System_Guid_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Clients.UsersClient.FindUserGroupAsync(System.String,System.Guid,System.Threading.CancellationToken)">
+  FindUserGroupAsync(string, Guid, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/management/src/Clients/UsersApi.cs/#L1699"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieve a user group</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;MonoCloudResponse&lt;UserGroup&gt;&gt; FindUserGroupAsync(string userId, Guid groupId, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The unique identifier of the user.</p>
+</dd>
+    <dt><code>groupId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd><p>The unique identifier of the group.</p>
+</dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="MonoCloud.Management.Core.Base.MonoCloudResponse-1.html">MonoCloudResponse</a>&lt;<a class="xref" href="MonoCloud.Management.Models.UserGroup.html">UserGroup</a>&gt;&gt;</dt>
+    <dd><p>UserGroup</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="MonoCloud_Management_Clients_UsersClient_FindUserGroupAsync_System_String_System_Guid_System_Threading_CancellationToken__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Retrieves information about the specified group and the user’s membership in it.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MonoCloud.Management.Core.Exception.MonoCloudException.html">MonoCloudException</a></dt>
+    <dd><p>A server side error occurred.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="MonoCloud_Management_Clients_UsersClient_FindUserSessionAsync_" data-uid="MonoCloud.Management.Clients.UsersClient.FindUserSessionAsync*"></a>
+
+  <h3 id="MonoCloud_Management_Clients_UsersClient_FindUserSessionAsync_System_String_System_String_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Clients.UsersClient.FindUserSessionAsync(System.String,System.String,System.Threading.CancellationToken)">
+  FindUserSessionAsync(string, string, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/management/src/Clients/UsersApi.cs/#L1513"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieve a user session</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;MonoCloudResponse&lt;UserSession&gt;&gt; FindUserSessionAsync(string userId, string sessionId, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The unique identifier of the user.</p>
+</dd>
+    <dt><code>sessionId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The unique identifier of the user session.</p>
+</dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="MonoCloud.Management.Core.Base.MonoCloudResponse-1.html">MonoCloudResponse</a>&lt;<a class="xref" href="MonoCloud.Management.Models.UserSession.html">UserSession</a>&gt;&gt;</dt>
+    <dd><p>UserSession</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="MonoCloud_Management_Clients_UsersClient_FindUserSessionAsync_System_String_System_String_System_Threading_CancellationToken__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Retrieves detailed information about a specific session for the specified user.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MonoCloud.Management.Core.Exception.MonoCloudException.html">MonoCloudException</a></dt>
+    <dd><p>A server side error occurred.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="MonoCloud_Management_Clients_UsersClient_GetAllAuthorizationCodesAsync_" data-uid="MonoCloud.Management.Clients.UsersClient.GetAllAuthorizationCodesAsync*"></a>
+
+  <h3 id="MonoCloud_Management_Clients_UsersClient_GetAllAuthorizationCodesAsync_System_String_System_Nullable_System_Int32__System_Nullable_System_Int32__System_String_System_String_System_String_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Clients.UsersClient.GetAllAuthorizationCodesAsync(System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.String,System.String,System.String,System.Threading.CancellationToken)">
+  GetAllAuthorizationCodesAsync(string, int?, int?, string?, string?, string?, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/management/src/Clients/UsersApi.cs/#L2144"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>List authorization codes</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;MonoCloudResponse&lt;List&lt;AuthorizationCode&gt;, PageModel&gt;&gt; GetAllAuthorizationCodesAsync(string userId, int? page = 1, int? size = 10, string? clientId = null, string? sessionId = null, string? sort = null, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The unique identifier of the user.</p>
+</dd>
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd><p>The page number to retrieve.</p>
+</dd>
+    <dt><code>size</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd><p>The number of grants to return per page.</p>
+</dd>
+    <dt><code>clientId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Filters results to grants issued to the specified client.</p>
+</dd>
+    <dt><code>sessionId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Filters results to grants issued within the specified session.</p>
+</dd>
+    <dt><code>sort</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Sort expression in the format <code>field:direction</code>, where direction is <code>1</code> for ascending or <code>-1</code> for descending. Supported fields include - <code>creation_time</code>.</p>
+</dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="MonoCloud.Management.Core.Base.MonoCloudResponse-2.html">MonoCloudResponse</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="MonoCloud.Management.Models.AuthorizationCode.html">AuthorizationCode</a>&gt;, <a class="xref" href="MonoCloud.Management.Core.Helpers.PageModel.html">PageModel</a>&gt;&gt;</dt>
+    <dd><p>List&lt;AuthorizationCode&gt;</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="MonoCloud_Management_Clients_UsersClient_GetAllAuthorizationCodesAsync_System_String_System_Nullable_System_Int32__System_Nullable_System_Int32__System_String_System_String_System_String_System_Threading_CancellationToken__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Retrieves a paginated list of authorization codes issued for the specified user. Authorization codes are ephemeral credentials used in OAuth 2.0 authorization flows before token exchange. Optional query parameters allow searching, filtering, and sorting the results.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MonoCloud.Management.Core.Exception.MonoCloudException.html">MonoCloudException</a></dt>
+    <dd><p>A server side error occurred.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="MonoCloud_Management_Clients_UsersClient_GetAllBlockedIpsAsync_" data-uid="MonoCloud.Management.Clients.UsersClient.GetAllBlockedIpsAsync*"></a>
+
+  <h3 id="MonoCloud_Management_Clients_UsersClient_GetAllBlockedIpsAsync_System_String_System_Nullable_System_Int32__System_Nullable_System_Int32__System_String_System_String_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Clients.UsersClient.GetAllBlockedIpsAsync(System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.String,System.String,System.Threading.CancellationToken)">
+  GetAllBlockedIpsAsync(string, int?, int?, string?, string?, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/management/src/Clients/UsersApi.cs/#L1348"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>List blocked IP addresses</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;MonoCloudResponse&lt;List&lt;UserIpAccessDetails&gt;, PageModel&gt;&gt; GetAllBlockedIpsAsync(string userId, int? page = 1, int? size = 10, string? filter = null, string? sort = null, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The unique identifier of the user.</p>
+</dd>
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd><p>The page number to retrieve.</p>
+</dd>
+    <dt><code>size</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd><p>The number of blocked IPs to return per page.</p>
+</dd>
+    <dt><code>filter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Optional Lucene-style filter expression used to search by attributes.</p>
+</dd>
+    <dt><code>sort</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Sort expression in the format <code>field:direction</code>, where direction is <code>1</code> for ascending or <code>-1</code> for descending. Supported fields include - <code>block_until</code>, <code>last_sign_in_attempt</code>, <code>last_sign_in_success</code>.</p>
+</dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="MonoCloud.Management.Core.Base.MonoCloudResponse-2.html">MonoCloudResponse</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="MonoCloud.Management.Models.UserIpAccessDetails.html">UserIpAccessDetails</a>&gt;, <a class="xref" href="MonoCloud.Management.Core.Helpers.PageModel.html">PageModel</a>&gt;&gt;</dt>
+    <dd><p>List&lt;UserIpAccessDetails&gt;</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="MonoCloud_Management_Clients_UsersClient_GetAllBlockedIpsAsync_System_String_System_Nullable_System_Int32__System_Nullable_System_Int32__System_String_System_String_System_Threading_CancellationToken__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Retrieves a paginated list of IP addresses currently blocked for the specified user. Optional query parameters allow searching, filtering, and sorting the results.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MonoCloud.Management.Core.Exception.MonoCloudException.html">MonoCloudException</a></dt>
+    <dd><p>A server side error occurred.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="MonoCloud_Management_Clients_UsersClient_GetAllGroupAssignedUsersAsync_" data-uid="MonoCloud.Management.Clients.UsersClient.GetAllGroupAssignedUsersAsync*"></a>
+
+  <h3 id="MonoCloud_Management_Clients_UsersClient_GetAllGroupAssignedUsersAsync_System_Guid_System_Nullable_System_Int32__System_Nullable_System_Int32__System_String_System_String_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Clients.UsersClient.GetAllGroupAssignedUsersAsync(System.Guid,System.Nullable{System.Int32},System.Nullable{System.Int32},System.String,System.String,System.Threading.CancellationToken)">
+  GetAllGroupAssignedUsersAsync(Guid, int?, int?, string?, string?, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/management/src/Clients/UsersApi.cs/#L1833"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>List users in group</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;MonoCloudResponse&lt;List&lt;UserSummary&gt;, PageModel&gt;&gt; GetAllGroupAssignedUsersAsync(Guid groupId, int? page = 1, int? size = 10, string? filter = null, string? sort = null, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>groupId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd><p>The unique identifier of the group.</p>
+</dd>
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd><p>The page number to retrieve.</p>
+</dd>
+    <dt><code>size</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd><p>The number of users to return per page.</p>
+</dd>
+    <dt><code>filter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Optional Lucene-style filter expression used to search by attributes.</p>
+</dd>
+    <dt><code>sort</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Sort expression in the format <code>field:direction</code>, where direction is <code>1</code> for ascending or <code>-1</code> for descending. Supported fields include - <code>failure_count</code>, <code>last_sign_in_attempt</code>, <code>sign_in_attempts_count</code>, <code>last_sign_in_success</code>, <code>sign_in_success_count</code>, <code>last_activity</code>, <code>block_until</code>, <code>creation_time</code>, <code>last_updated</code>.</p>
+</dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="MonoCloud.Management.Core.Base.MonoCloudResponse-2.html">MonoCloudResponse</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="MonoCloud.Management.Models.UserSummary.html">UserSummary</a>&gt;, <a class="xref" href="MonoCloud.Management.Core.Helpers.PageModel.html">PageModel</a>&gt;&gt;</dt>
+    <dd><p>List&lt;UserSummary&gt;</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="MonoCloud_Management_Clients_UsersClient_GetAllGroupAssignedUsersAsync_System_Guid_System_Nullable_System_Int32__System_Nullable_System_Int32__System_String_System_String_System_Threading_CancellationToken__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Retrieves a paginated list of users assigned to the specified group. Optional query parameters allow searching, filtering, and sorting the results.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MonoCloud.Management.Core.Exception.MonoCloudException.html">MonoCloudException</a></dt>
+    <dd><p>A server side error occurred.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="MonoCloud_Management_Clients_UsersClient_GetAllReferenceTokensAsync_" data-uid="MonoCloud.Management.Clients.UsersClient.GetAllReferenceTokensAsync*"></a>
+
+  <h3 id="MonoCloud_Management_Clients_UsersClient_GetAllReferenceTokensAsync_System_String_System_Nullable_System_Int32__System_Nullable_System_Int32__System_String_System_String_System_String_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Clients.UsersClient.GetAllReferenceTokensAsync(System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.String,System.String,System.String,System.Threading.CancellationToken)">
+  GetAllReferenceTokensAsync(string, int?, int?, string?, string?, string?, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/management/src/Clients/UsersApi.cs/#L2008"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>List reference tokens</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;MonoCloudResponse&lt;List&lt;ReferenceToken&gt;, PageModel&gt;&gt; GetAllReferenceTokensAsync(string userId, int? page = 1, int? size = 10, string? clientId = null, string? sessionId = null, string? sort = null, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The unique identifier of the user.</p>
+</dd>
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd><p>The page number to retrieve.</p>
+</dd>
+    <dt><code>size</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd><p>The number of grants to return per page.</p>
+</dd>
+    <dt><code>clientId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Filters results to grants issued to the specified client.</p>
+</dd>
+    <dt><code>sessionId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Filters results to grants issued within the specified session.</p>
+</dd>
+    <dt><code>sort</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Sort expression in the format <code>field:direction</code>, where direction is <code>1</code> for ascending or <code>-1</code> for descending. Supported fields include - <code>creation_time</code>.</p>
+</dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="MonoCloud.Management.Core.Base.MonoCloudResponse-2.html">MonoCloudResponse</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="MonoCloud.Management.Models.ReferenceToken.html">ReferenceToken</a>&gt;, <a class="xref" href="MonoCloud.Management.Core.Helpers.PageModel.html">PageModel</a>&gt;&gt;</dt>
+    <dd><p>List&lt;ReferenceToken&gt;</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="MonoCloud_Management_Clients_UsersClient_GetAllReferenceTokensAsync_System_String_System_Nullable_System_Int32__System_Nullable_System_Int32__System_String_System_String_System_String_System_Threading_CancellationToken__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Retrieves a paginated list of reference tokens issued for the specified user. Reference tokens are opaque access tokens that require introspection for validation. Optional query parameters allow searching, filtering, and sorting the results.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MonoCloud.Management.Core.Exception.MonoCloudException.html">MonoCloudException</a></dt>
+    <dd><p>A server side error occurred.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="MonoCloud_Management_Clients_UsersClient_GetAllRefreshTokensAsync_" data-uid="MonoCloud.Management.Clients.UsersClient.GetAllRefreshTokensAsync*"></a>
+
+  <h3 id="MonoCloud_Management_Clients_UsersClient_GetAllRefreshTokensAsync_System_String_System_Nullable_System_Int32__System_Nullable_System_Int32__System_String_System_String_System_String_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Clients.UsersClient.GetAllRefreshTokensAsync(System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.String,System.String,System.String,System.Threading.CancellationToken)">
+  GetAllRefreshTokensAsync(string, int?, int?, string?, string?, string?, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/management/src/Clients/UsersApi.cs/#L2076"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>List refresh tokens</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;MonoCloudResponse&lt;List&lt;RefreshToken&gt;, PageModel&gt;&gt; GetAllRefreshTokensAsync(string userId, int? page = 1, int? size = 10, string? clientId = null, string? sessionId = null, string? sort = null, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The unique identifier of the user.</p>
+</dd>
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd><p>The page number to retrieve.</p>
+</dd>
+    <dt><code>size</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd><p>The number of grants to return per page.</p>
+</dd>
+    <dt><code>clientId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Filters results to grants issued to the specified client.</p>
+</dd>
+    <dt><code>sessionId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Filters results to grants issued within the specified session.</p>
+</dd>
+    <dt><code>sort</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Sort expression in the format <code>field:direction</code>, where direction is <code>1</code> for ascending or <code>-1</code> for descending. Supported fields include - <code>creation_time</code>.</p>
+</dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="MonoCloud.Management.Core.Base.MonoCloudResponse-2.html">MonoCloudResponse</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="MonoCloud.Management.Models.RefreshToken.html">RefreshToken</a>&gt;, <a class="xref" href="MonoCloud.Management.Core.Helpers.PageModel.html">PageModel</a>&gt;&gt;</dt>
+    <dd><p>List&lt;RefreshToken&gt;</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="MonoCloud_Management_Clients_UsersClient_GetAllRefreshTokensAsync_System_String_System_Nullable_System_Int32__System_Nullable_System_Int32__System_String_System_String_System_String_System_Threading_CancellationToken__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Retrieves a paginated list of refresh tokens issued for the specified user. Optional query parameters allow searching, filtering, and sorting the results.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MonoCloud.Management.Core.Exception.MonoCloudException.html">MonoCloudException</a></dt>
+    <dd><p>A server side error occurred.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="MonoCloud_Management_Clients_UsersClient_GetAllUserClientGrantsAsync_" data-uid="MonoCloud.Management.Clients.UsersClient.GetAllUserClientGrantsAsync*"></a>
+
+  <h3 id="MonoCloud_Management_Clients_UsersClient_GetAllUserClientGrantsAsync_System_String_System_Nullable_System_Int32__System_Nullable_System_Int32__System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Clients.UsersClient.GetAllUserClientGrantsAsync(System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.Threading.CancellationToken)">
+  GetAllUserClientGrantsAsync(string, int?, int?, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/management/src/Clients/UsersApi.cs/#L1893"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>List client grants</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;MonoCloudResponse&lt;List&lt;UserClientGrants&gt;, PageModel&gt;&gt; GetAllUserClientGrantsAsync(string userId, int? page = 1, int? size = 10, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The unique identifier of the user.</p>
+</dd>
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd><p>The page number to retrieve.</p>
+</dd>
+    <dt><code>size</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd><p>The number of grants to return per page.</p>
+</dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="MonoCloud.Management.Core.Base.MonoCloudResponse-2.html">MonoCloudResponse</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="MonoCloud.Management.Models.UserClientGrants.html">UserClientGrants</a>&gt;, <a class="xref" href="MonoCloud.Management.Core.Helpers.PageModel.html">PageModel</a>&gt;&gt;</dt>
+    <dd><p>List&lt;UserClientGrants&gt;</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="MonoCloud_Management_Clients_UsersClient_GetAllUserClientGrantsAsync_System_String_System_Nullable_System_Int32__System_Nullable_System_Int32__System_Threading_CancellationToken__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Retrieves a paginated list of client-specific grants for the specified user, including consent status and counts of issued refresh tokens, reference tokens, and authorization codes.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MonoCloud.Management.Core.Exception.MonoCloudException.html">MonoCloudException</a></dt>
+    <dd><p>A server side error occurred.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="MonoCloud_Management_Clients_UsersClient_GetAllUserConsentsAsync_" data-uid="MonoCloud.Management.Clients.UsersClient.GetAllUserConsentsAsync*"></a>
+
+  <h3 id="MonoCloud_Management_Clients_UsersClient_GetAllUserConsentsAsync_System_String_System_Nullable_System_Int32__System_Nullable_System_Int32__System_String_System_String_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Clients.UsersClient.GetAllUserConsentsAsync(System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.String,System.String,System.Threading.CancellationToken)">
+  GetAllUserConsentsAsync(string, int?, int?, string?, string?, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/management/src/Clients/UsersApi.cs/#L1945"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>List user consents</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;MonoCloudResponse&lt;List&lt;UserConsent&gt;, PageModel&gt;&gt; GetAllUserConsentsAsync(string userId, int? page = 1, int? size = 10, string? clientId = null, string? sort = null, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The unique identifier of the user.</p>
+</dd>
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd><p>The page number to retrieve.</p>
+</dd>
+    <dt><code>size</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd><p>The number of consent grants to return per page.</p>
+</dd>
+    <dt><code>clientId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Filters results to consent grants issued to the specified client.</p>
+</dd>
+    <dt><code>sort</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Sort expression in the format <code>field:direction</code>, where direction is <code>1</code> for ascending or <code>-1</code> for descending. Supported fields include - <code>creation_time</code>.</p>
+</dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="MonoCloud.Management.Core.Base.MonoCloudResponse-2.html">MonoCloudResponse</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="MonoCloud.Management.Models.UserConsent.html">UserConsent</a>&gt;, <a class="xref" href="MonoCloud.Management.Core.Helpers.PageModel.html">PageModel</a>&gt;&gt;</dt>
+    <dd><p>List&lt;UserConsent&gt;</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="MonoCloud_Management_Clients_UsersClient_GetAllUserConsentsAsync_System_String_System_Nullable_System_Int32__System_Nullable_System_Int32__System_String_System_String_System_Threading_CancellationToken__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Retrieves a paginated list of consents granted by the specified user. Each consent includes the application's approved scopes and associated metadata. Optional query parameters allow searching, filtering, and sorting the results.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MonoCloud.Management.Core.Exception.MonoCloudException.html">MonoCloudException</a></dt>
+    <dd><p>A server side error occurred.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="MonoCloud_Management_Clients_UsersClient_GetAllUserGroupsAsync_" data-uid="MonoCloud.Management.Clients.UsersClient.GetAllUserGroupsAsync*"></a>
+
+  <h3 id="MonoCloud_Management_Clients_UsersClient_GetAllUserGroupsAsync_System_String_System_Nullable_System_Int32__System_Nullable_System_Int32__System_String_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Clients.UsersClient.GetAllUserGroupsAsync(System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.String,System.Threading.CancellationToken)">
+  GetAllUserGroupsAsync(string, int?, int?, string?, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/management/src/Clients/UsersApi.cs/#L1646"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>List user's groups</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;MonoCloudResponse&lt;List&lt;UserGroup&gt;, PageModel&gt;&gt; GetAllUserGroupsAsync(string userId, int? page = 1, int? size = 10, string? sort = null, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The unique identifier of the user.</p>
+</dd>
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd><p>The page number to retrieve.</p>
+</dd>
+    <dt><code>size</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd><p>The number of groups to return per page.</p>
+</dd>
+    <dt><code>sort</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Sort expression in the format <code>field:direction</code>, where direction is <code>1</code> for ascending or <code>-1</code> for descending. Supported fields include - <code>creation_time</code>.</p>
+</dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="MonoCloud.Management.Core.Base.MonoCloudResponse-2.html">MonoCloudResponse</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="MonoCloud.Management.Models.UserGroup.html">UserGroup</a>&gt;, <a class="xref" href="MonoCloud.Management.Core.Helpers.PageModel.html">PageModel</a>&gt;&gt;</dt>
+    <dd><p>List&lt;UserGroup&gt;</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="MonoCloud_Management_Clients_UsersClient_GetAllUserGroupsAsync_System_String_System_Nullable_System_Int32__System_Nullable_System_Int32__System_String_System_Threading_CancellationToken__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Retrieves a paginated list of user groups that the user is assigned to. Optional query parameters allow sorting of the results.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MonoCloud.Management.Core.Exception.MonoCloudException.html">MonoCloudException</a></dt>
+    <dd><p>A server side error occurred.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="MonoCloud_Management_Clients_UsersClient_GetAllUserSessionsAsync_" data-uid="MonoCloud.Management.Clients.UsersClient.GetAllUserSessionsAsync*"></a>
+
+  <h3 id="MonoCloud_Management_Clients_UsersClient_GetAllUserSessionsAsync_System_String_System_Nullable_System_Int32__System_Nullable_System_Int32__System_String_System_String_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Clients.UsersClient.GetAllUserSessionsAsync(System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.String,System.String,System.Threading.CancellationToken)">
+  GetAllUserSessionsAsync(string, int?, int?, string?, string?, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/management/src/Clients/UsersApi.cs/#L1454"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>List user sessions</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;MonoCloudResponse&lt;List&lt;UserSession&gt;, PageModel&gt;&gt; GetAllUserSessionsAsync(string userId, int? page = 1, int? size = 10, string? clientId = null, string? sort = null, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The unique identifier of the user.</p>
+</dd>
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd><p>The page number to retrieve.</p>
+</dd>
+    <dt><code>size</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd><p>The number of user sessions to return per page.</p>
+</dd>
+    <dt><code>clientId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Filters results to user sessions associated with the specified client.</p>
+</dd>
+    <dt><code>sort</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Sort expression in the format <code>field:direction</code>, where direction is <code>1</code> for ascending or <code>-1</code> for descending. Supported fields include - <code>session_id</code>, <code>initiated_at</code>, <code>expires_at</code>, <code>last_updated</code>.</p>
+</dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="MonoCloud.Management.Core.Base.MonoCloudResponse-2.html">MonoCloudResponse</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="MonoCloud.Management.Models.UserSession.html">UserSession</a>&gt;, <a class="xref" href="MonoCloud.Management.Core.Helpers.PageModel.html">PageModel</a>&gt;&gt;</dt>
+    <dd><p>List&lt;UserSession&gt;</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="MonoCloud_Management_Clients_UsersClient_GetAllUserSessionsAsync_System_String_System_Nullable_System_Int32__System_Nullable_System_Int32__System_String_System_String_System_Threading_CancellationToken__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Retrieves a paginated list of all active sessions for the specified user. Optional query parameters allow searching, filtering, and sorting the results.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MonoCloud.Management.Core.Exception.MonoCloudException.html">MonoCloudException</a></dt>
+    <dd><p>A server side error occurred.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="MonoCloud_Management_Clients_UsersClient_GetAllUsersAsync_" data-uid="MonoCloud.Management.Clients.UsersClient.GetAllUsersAsync*"></a>
+
+  <h3 id="MonoCloud_Management_Clients_UsersClient_GetAllUsersAsync_System_Nullable_System_Int32__System_Nullable_System_Int32__System_String_System_String_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Clients.UsersClient.GetAllUsersAsync(System.Nullable{System.Int32},System.Nullable{System.Int32},System.String,System.String,System.Threading.CancellationToken)">
+  GetAllUsersAsync(int?, int?, string?, string?, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/management/src/Clients/UsersApi.cs/#L39"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>List users</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;MonoCloudResponse&lt;List&lt;UserSummary&gt;, PageModel&gt;&gt; GetAllUsersAsync(int? page = 1, int? size = 10, string? filter = null, string? sort = null, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>page</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd><p>The page number to retrieve.</p>
+</dd>
+    <dt><code>size</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</dt>
+    <dd><p>The number of users to return per page.</p>
+</dd>
+    <dt><code>filter</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Optional Lucene-style filter expression used to search by attributes.</p>
+</dd>
+    <dt><code>sort</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>Sort expression in the format <code>field:direction</code>, where direction is <code>1</code> for ascending or <code>-1</code> for descending. Supported fields include - <code>failure_count</code>, <code>last_sign_in_attempt</code>, <code>sign_in_attempts_count</code>, <code>last_sign_in_success</code>, <code>sign_in_success_count</code>, <code>last_activity</code>, <code>block_until</code>, <code>creation_time</code>, <code>last_updated</code>.</p>
+</dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="MonoCloud.Management.Core.Base.MonoCloudResponse-2.html">MonoCloudResponse</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="MonoCloud.Management.Models.UserSummary.html">UserSummary</a>&gt;, <a class="xref" href="MonoCloud.Management.Core.Helpers.PageModel.html">PageModel</a>&gt;&gt;</dt>
+    <dd><p>List&lt;UserSummary&gt;</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="MonoCloud_Management_Clients_UsersClient_GetAllUsersAsync_System_Nullable_System_Int32__System_Nullable_System_Int32__System_String_System_String_System_Threading_CancellationToken__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Retrieves a paginated list of users. Optional query parameters allow searching, filtering, and sorting the results.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MonoCloud.Management.Core.Exception.MonoCloudException.html">MonoCloudException</a></dt>
+    <dd><p>A server side error occurred.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="MonoCloud_Management_Clients_UsersClient_GetPrivateDataAsync_" data-uid="MonoCloud.Management.Clients.UsersClient.GetPrivateDataAsync*"></a>
+
+  <h3 id="MonoCloud_Management_Clients_UsersClient_GetPrivateDataAsync_System_String_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Clients.UsersClient.GetPrivateDataAsync(System.String,System.Threading.CancellationToken)">
+  GetPrivateDataAsync(string, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/management/src/Clients/UsersApi.cs/#L1179"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieve user private data</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;MonoCloudResponse&lt;UserPrivateData&gt;&gt; GetPrivateDataAsync(string userId, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The unique identifier of the user.</p>
+</dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="MonoCloud.Management.Core.Base.MonoCloudResponse-1.html">MonoCloudResponse</a>&lt;<a class="xref" href="MonoCloud.Management.Models.UserPrivateData.html">UserPrivateData</a>&gt;&gt;</dt>
+    <dd><p>UserPrivateData</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="MonoCloud_Management_Clients_UsersClient_GetPrivateDataAsync_System_String_System_Threading_CancellationToken__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Retrieves the private data associated with the specified user.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MonoCloud.Management.Core.Exception.MonoCloudException.html">MonoCloudException</a></dt>
+    <dd><p>A server side error occurred.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="MonoCloud_Management_Clients_UsersClient_GetPublicDataAsync_" data-uid="MonoCloud.Management.Clients.UsersClient.GetPublicDataAsync*"></a>
+
+  <h3 id="MonoCloud_Management_Clients_UsersClient_GetPublicDataAsync_System_String_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Clients.UsersClient.GetPublicDataAsync(System.String,System.Threading.CancellationToken)">
+  GetPublicDataAsync(string, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/management/src/Clients/UsersApi.cs/#L1262"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Retrieve user public data</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;MonoCloudResponse&lt;UserPublicData&gt;&gt; GetPublicDataAsync(string userId, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The unique identifier of the user.</p>
+</dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="MonoCloud.Management.Core.Base.MonoCloudResponse-1.html">MonoCloudResponse</a>&lt;<a class="xref" href="MonoCloud.Management.Models.UserPublicData.html">UserPublicData</a>&gt;&gt;</dt>
+    <dd><p>UserPublicData</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="MonoCloud_Management_Clients_UsersClient_GetPublicDataAsync_System_String_System_Threading_CancellationToken__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Retrieves the public data associated with the specified user.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MonoCloud.Management.Core.Exception.MonoCloudException.html">MonoCloudException</a></dt>
+    <dd><p>A server side error occurred.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="MonoCloud_Management_Clients_UsersClient_PatchClaimsAsync_" data-uid="MonoCloud.Management.Clients.UsersClient.PatchClaimsAsync*"></a>
+
+  <h3 id="MonoCloud_Management_Clients_UsersClient_PatchClaimsAsync_System_String_MonoCloud_Management_Models_UpdateClaimsRequest_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Clients.UsersClient.PatchClaimsAsync(System.String,MonoCloud.Management.Models.UpdateClaimsRequest,System.Threading.CancellationToken)">
+  PatchClaimsAsync(string, UpdateClaimsRequest, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/management/src/Clients/UsersApi.cs/#L1135"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Update user claims</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;MonoCloudResponse&lt;User&gt;&gt; PatchClaimsAsync(string userId, UpdateClaimsRequest updateClaimsRequest, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The unique identifier of the user.</p>
+</dd>
+    <dt><code>updateClaimsRequest</code> <a class="xref" href="MonoCloud.Management.Models.UpdateClaimsRequest.html">UpdateClaimsRequest</a></dt>
+    <dd><p>The request payload used to update user claims.</p>
+</dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="MonoCloud.Management.Core.Base.MonoCloudResponse-1.html">MonoCloudResponse</a>&lt;<a class="xref" href="MonoCloud.Management.Models.User.html">User</a>&gt;&gt;</dt>
+    <dd><p>User</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="MonoCloud_Management_Clients_UsersClient_PatchClaimsAsync_System_String_MonoCloud_Management_Models_UpdateClaimsRequest_System_Threading_CancellationToken__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Applies a partial update to the claim values associated with the specified user. Only the claims provided in the request are modified. Claims can be removed by sending a <code>null</code> value for the corresponding key.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MonoCloud.Management.Core.Exception.MonoCloudException.html">MonoCloudException</a></dt>
+    <dd><p>A server side error occurred.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="MonoCloud_Management_Clients_UsersClient_PatchPrivateDataAsync_" data-uid="MonoCloud.Management.Clients.UsersClient.PatchPrivateDataAsync*"></a>
+
+  <h3 id="MonoCloud_Management_Clients_UsersClient_PatchPrivateDataAsync_System_String_MonoCloud_Management_Models_UpdatePrivateDataRequest_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Clients.UsersClient.PatchPrivateDataAsync(System.String,MonoCloud.Management.Models.UpdatePrivateDataRequest,System.Threading.CancellationToken)">
+  PatchPrivateDataAsync(string, UpdatePrivateDataRequest, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/management/src/Clients/UsersApi.cs/#L1218"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Update user private data</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;MonoCloudResponse&lt;UserPrivateData&gt;&gt; PatchPrivateDataAsync(string userId, UpdatePrivateDataRequest updatePrivateDataRequest, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The unique identifier of the user.</p>
+</dd>
+    <dt><code>updatePrivateDataRequest</code> <a class="xref" href="MonoCloud.Management.Models.UpdatePrivateDataRequest.html">UpdatePrivateDataRequest</a></dt>
+    <dd><p>The request payload used to update a user's private data.</p>
+</dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="MonoCloud.Management.Core.Base.MonoCloudResponse-1.html">MonoCloudResponse</a>&lt;<a class="xref" href="MonoCloud.Management.Models.UserPrivateData.html">UserPrivateData</a>&gt;&gt;</dt>
+    <dd><p>UserPrivateData</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="MonoCloud_Management_Clients_UsersClient_PatchPrivateDataAsync_System_String_MonoCloud_Management_Models_UpdatePrivateDataRequest_System_Threading_CancellationToken__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Applies a partial update to the private data associated with the specified user. Only fields included in the request are updated. Private data fields can be removed by sending a <code>null</code> value for the corresponding key.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MonoCloud.Management.Core.Exception.MonoCloudException.html">MonoCloudException</a></dt>
+    <dd><p>A server side error occurred.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="MonoCloud_Management_Clients_UsersClient_PatchPublicDataAsync_" data-uid="MonoCloud.Management.Clients.UsersClient.PatchPublicDataAsync*"></a>
+
+  <h3 id="MonoCloud_Management_Clients_UsersClient_PatchPublicDataAsync_System_String_MonoCloud_Management_Models_UpdatePublicDataRequest_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Clients.UsersClient.PatchPublicDataAsync(System.String,MonoCloud.Management.Models.UpdatePublicDataRequest,System.Threading.CancellationToken)">
+  PatchPublicDataAsync(string, UpdatePublicDataRequest, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/management/src/Clients/UsersApi.cs/#L1301"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Update user public data</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;MonoCloudResponse&lt;UserPublicData&gt;&gt; PatchPublicDataAsync(string userId, UpdatePublicDataRequest updatePublicDataRequest, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The unique identifier of the user.</p>
+</dd>
+    <dt><code>updatePublicDataRequest</code> <a class="xref" href="MonoCloud.Management.Models.UpdatePublicDataRequest.html">UpdatePublicDataRequest</a></dt>
+    <dd><p>The request payload used to update a user's public data.</p>
+</dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="MonoCloud.Management.Core.Base.MonoCloudResponse-1.html">MonoCloudResponse</a>&lt;<a class="xref" href="MonoCloud.Management.Models.UserPublicData.html">UserPublicData</a>&gt;&gt;</dt>
+    <dd><p>UserPublicData</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="MonoCloud_Management_Clients_UsersClient_PatchPublicDataAsync_System_String_MonoCloud_Management_Models_UpdatePublicDataRequest_System_Threading_CancellationToken__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Applies a partial update to the public data associated with the specified user. Only fields included in the request are updated. Public data fields can be removed by sending a <code>null</code> value for the corresponding key.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MonoCloud.Management.Core.Exception.MonoCloudException.html">MonoCloudException</a></dt>
+    <dd><p>A server side error occurred.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="MonoCloud_Management_Clients_UsersClient_RemoveEmailAsync_" data-uid="MonoCloud.Management.Clients.UsersClient.RemoveEmailAsync*"></a>
+
+  <h3 id="MonoCloud_Management_Clients_UsersClient_RemoveEmailAsync_System_String_System_Guid_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Clients.UsersClient.RemoveEmailAsync(System.String,System.Guid,System.Threading.CancellationToken)">
+  RemoveEmailAsync(string, Guid, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/management/src/Clients/UsersApi.cs/#L442"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Remove an email address</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;MonoCloudResponse&lt;User&gt;&gt; RemoveEmailAsync(string userId, Guid identifierId, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The unique identifier of the user.</p>
+</dd>
+    <dt><code>identifierId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd><p>The unique identifier of the email address.</p>
+</dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="MonoCloud.Management.Core.Base.MonoCloudResponse-1.html">MonoCloudResponse</a>&lt;<a class="xref" href="MonoCloud.Management.Models.User.html">User</a>&gt;&gt;</dt>
+    <dd><p>User</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="MonoCloud_Management_Clients_UsersClient_RemoveEmailAsync_System_String_System_Guid_System_Threading_CancellationToken__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Removes the specified email address from the user’s account. Once removed, it is no longer available for authentication, verification or communication.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MonoCloud.Management.Core.Exception.MonoCloudException.html">MonoCloudException</a></dt>
+    <dd><p>A server side error occurred.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="MonoCloud_Management_Clients_UsersClient_RemovePasskeyAsync_" data-uid="MonoCloud.Management.Clients.UsersClient.RemovePasskeyAsync*"></a>
+
+  <h3 id="MonoCloud_Management_Clients_UsersClient_RemovePasskeyAsync_System_String_System_String_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Clients.UsersClient.RemovePasskeyAsync(System.String,System.String,System.Threading.CancellationToken)">
+  RemovePasskeyAsync(string, string, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/management/src/Clients/UsersApi.cs/#L899"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Remove a passkey</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;MonoCloudResponse&gt; RemovePasskeyAsync(string userId, string passkeyId, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The unique identifier of the user.</p>
+</dd>
+    <dt><code>passkeyId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The unique identifier of the passkey.</p>
+</dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="MonoCloud.Management.Core.Base.MonoCloudResponse.html">MonoCloudResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="MonoCloud_Management_Clients_UsersClient_RemovePasskeyAsync_System_String_System_String_System_Threading_CancellationToken__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Removes a passkey previously registered by the user. Once removed, the user will no longer be able to authenticate using that passkey.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MonoCloud.Management.Core.Exception.MonoCloudException.html">MonoCloudException</a></dt>
+    <dd><p>A server side error occurred.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="MonoCloud_Management_Clients_UsersClient_RemovePasswordAsync_" data-uid="MonoCloud.Management.Clients.UsersClient.RemovePasswordAsync*"></a>
+
+  <h3 id="MonoCloud_Management_Clients_UsersClient_RemovePasswordAsync_System_String_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Clients.UsersClient.RemovePasswordAsync(System.String,System.Threading.CancellationToken)">
+  RemovePasswordAsync(string, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/management/src/Clients/UsersApi.cs/#L983"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Remove the user's password</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;MonoCloudResponse&gt; RemovePasswordAsync(string userId, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The unique identifier of the user.</p>
+</dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="MonoCloud.Management.Core.Base.MonoCloudResponse.html">MonoCloudResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="MonoCloud_Management_Clients_UsersClient_RemovePasswordAsync_System_String_System_Threading_CancellationToken__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Removes the password from the specified user’s account. Once removed, the user will no longer be able to authenticate using a password until a new one is set.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MonoCloud.Management.Core.Exception.MonoCloudException.html">MonoCloudException</a></dt>
+    <dd><p>A server side error occurred.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="MonoCloud_Management_Clients_UsersClient_RemovePasswordResetRequiredAsync_" data-uid="MonoCloud.Management.Clients.UsersClient.RemovePasswordResetRequiredAsync*"></a>
+
+  <h3 id="MonoCloud_Management_Clients_UsersClient_RemovePasswordResetRequiredAsync_System_String_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Clients.UsersClient.RemovePasswordResetRequiredAsync(System.String,System.Threading.CancellationToken)">
+  RemovePasswordResetRequiredAsync(string, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/management/src/Clients/UsersApi.cs/#L1053"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Clear a password reset requirement</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;MonoCloudResponse&lt;User&gt;&gt; RemovePasswordResetRequiredAsync(string userId, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The unique identifier of the user.</p>
+</dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="MonoCloud.Management.Core.Base.MonoCloudResponse-1.html">MonoCloudResponse</a>&lt;<a class="xref" href="MonoCloud.Management.Models.User.html">User</a>&gt;&gt;</dt>
+    <dd><p>User</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="MonoCloud_Management_Clients_UsersClient_RemovePasswordResetRequiredAsync_System_String_System_Threading_CancellationToken__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Clears the enforced password reset requirement for the user's next password-based authentication attempt.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MonoCloud.Management.Core.Exception.MonoCloudException.html">MonoCloudException</a></dt>
+    <dd><p>A server side error occurred.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="MonoCloud_Management_Clients_UsersClient_RemovePhoneAsync_" data-uid="MonoCloud.Management.Clients.UsersClient.RemovePhoneAsync*"></a>
+
+  <h3 id="MonoCloud_Management_Clients_UsersClient_RemovePhoneAsync_System_String_System_Guid_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Clients.UsersClient.RemovePhoneAsync(System.String,System.Guid,System.Threading.CancellationToken)">
+  RemovePhoneAsync(string, Guid, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/management/src/Clients/UsersApi.cs/#L719"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Remove a phone number</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;MonoCloudResponse&lt;User&gt;&gt; RemovePhoneAsync(string userId, Guid identifierId, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The unique identifier of the user.</p>
+</dd>
+    <dt><code>identifierId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd><p>The unique identifier of the phone number.</p>
+</dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="MonoCloud.Management.Core.Base.MonoCloudResponse-1.html">MonoCloudResponse</a>&lt;<a class="xref" href="MonoCloud.Management.Models.User.html">User</a>&gt;&gt;</dt>
+    <dd><p>User</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="MonoCloud_Management_Clients_UsersClient_RemovePhoneAsync_System_String_System_Guid_System_Threading_CancellationToken__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Removes the specified phone number from the user’s account. Once removed, it is no longer available for authentication, verification or communication.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MonoCloud.Management.Core.Exception.MonoCloudException.html">MonoCloudException</a></dt>
+    <dd><p>A server side error occurred.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="MonoCloud_Management_Clients_UsersClient_RemoveUserFromGroupAsync_" data-uid="MonoCloud.Management.Clients.UsersClient.RemoveUserFromGroupAsync*"></a>
+
+  <h3 id="MonoCloud_Management_Clients_UsersClient_RemoveUserFromGroupAsync_System_String_System_Guid_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Clients.UsersClient.RemoveUserFromGroupAsync(System.String,System.Guid,System.Threading.CancellationToken)">
+  RemoveUserFromGroupAsync(string, Guid, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/management/src/Clients/UsersApi.cs/#L1789"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Remove a user from a group</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;MonoCloudResponse&gt; RemoveUserFromGroupAsync(string userId, Guid groupId, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The unique identifier of the user.</p>
+</dd>
+    <dt><code>groupId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd><p>The unique identifier of the group.</p>
+</dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="MonoCloud.Management.Core.Base.MonoCloudResponse.html">MonoCloudResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="MonoCloud_Management_Clients_UsersClient_RemoveUserFromGroupAsync_System_String_System_Guid_System_Threading_CancellationToken__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Removes the specified user from the group. After removal, the user will no longer receive any access, permissions, or roles previously granted through that group.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MonoCloud.Management.Core.Exception.MonoCloudException.html">MonoCloudException</a></dt>
+    <dd><p>A server side error occurred.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="MonoCloud_Management_Clients_UsersClient_RemoveUsernameAsync_" data-uid="MonoCloud.Management.Clients.UsersClient.RemoveUsernameAsync*"></a>
+
+  <h3 id="MonoCloud_Management_Clients_UsersClient_RemoveUsernameAsync_System_String_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Clients.UsersClient.RemoveUsernameAsync(System.String,System.Threading.CancellationToken)">
+  RemoveUsernameAsync(string, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/management/src/Clients/UsersApi.cs/#L359"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Remove a username</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;MonoCloudResponse&lt;User&gt;&gt; RemoveUsernameAsync(string userId, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The unique identifier of the user.</p>
+</dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="MonoCloud.Management.Core.Base.MonoCloudResponse-1.html">MonoCloudResponse</a>&lt;<a class="xref" href="MonoCloud.Management.Models.User.html">User</a>&gt;&gt;</dt>
+    <dd><p>User</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="MonoCloud_Management_Clients_UsersClient_RemoveUsernameAsync_System_String_System_Threading_CancellationToken__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Removes the username from the user's account. Once removed, the user will no longer be able to authenticate using a username.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MonoCloud.Management.Core.Exception.MonoCloudException.html">MonoCloudException</a></dt>
+    <dd><p>A server side error occurred.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="MonoCloud_Management_Clients_UsersClient_ResetPasswordAsync_" data-uid="MonoCloud.Management.Clients.UsersClient.ResetPasswordAsync*"></a>
+
+  <h3 id="MonoCloud_Management_Clients_UsersClient_ResetPasswordAsync_System_String_MonoCloud_Management_Models_ResetPasswordRequest_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Clients.UsersClient.ResetPasswordAsync(System.String,MonoCloud.Management.Models.ResetPasswordRequest,System.Threading.CancellationToken)">
+  ResetPasswordAsync(string, ResetPasswordRequest, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/management/src/Clients/UsersApi.cs/#L1091"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initiate password reset</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;MonoCloudResponse&lt;ResetPasswordResponse&gt;&gt; ResetPasswordAsync(string userId, ResetPasswordRequest resetPasswordRequest, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The unique identifier of the user.</p>
+</dd>
+    <dt><code>resetPasswordRequest</code> <a class="xref" href="MonoCloud.Management.Models.ResetPasswordRequest.html">ResetPasswordRequest</a></dt>
+    <dd><p>The request payload used to generate a password reset link.</p>
+</dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="MonoCloud.Management.Core.Base.MonoCloudResponse-1.html">MonoCloudResponse</a>&lt;<a class="xref" href="MonoCloud.Management.Models.ResetPasswordResponse.html">ResetPasswordResponse</a>&gt;&gt;</dt>
+    <dd><p>ResetPasswordResponse</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="MonoCloud_Management_Clients_UsersClient_ResetPasswordAsync_System_String_MonoCloud_Management_Models_ResetPasswordRequest_System_Threading_CancellationToken__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Generates a secure, time-bound password reset link for the specified user. The link may be delivered directly to the user or returned for custom distribution.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MonoCloud.Management.Core.Exception.MonoCloudException.html">MonoCloudException</a></dt>
+    <dd><p>A server side error occurred.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="MonoCloud_Management_Clients_UsersClient_RevokeAuthorizationCodeAsync_" data-uid="MonoCloud.Management.Clients.UsersClient.RevokeAuthorizationCodeAsync*"></a>
+
+  <h3 id="MonoCloud_Management_Clients_UsersClient_RevokeAuthorizationCodeAsync_System_String_System_String_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Clients.UsersClient.RevokeAuthorizationCodeAsync(System.String,System.String,System.Threading.CancellationToken)">
+  RevokeAuthorizationCodeAsync(string, string, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/management/src/Clients/UsersApi.cs/#L2376"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Revoke an authorization code</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;MonoCloudResponse&gt; RevokeAuthorizationCodeAsync(string userId, string codeId, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The unique identifier of the user.</p>
+</dd>
+    <dt><code>codeId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The unique identifier of the authorization code grant.</p>
+</dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="MonoCloud.Management.Core.Base.MonoCloudResponse.html">MonoCloudResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="MonoCloud_Management_Clients_UsersClient_RevokeAuthorizationCodeAsync_System_String_System_String_System_Threading_CancellationToken__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Revokes an authorization code that has not yet been exchanged for tokens, preventing any further use.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MonoCloud.Management.Core.Exception.MonoCloudException.html">MonoCloudException</a></dt>
+    <dd><p>A server side error occurred.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="MonoCloud_Management_Clients_UsersClient_RevokeReferenceTokenAsync_" data-uid="MonoCloud.Management.Clients.UsersClient.RevokeReferenceTokenAsync*"></a>
+
+  <h3 id="MonoCloud_Management_Clients_UsersClient_RevokeReferenceTokenAsync_System_String_System_String_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Clients.UsersClient.RevokeReferenceTokenAsync(System.String,System.String,System.Threading.CancellationToken)">
+  RevokeReferenceTokenAsync(string, string, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/management/src/Clients/UsersApi.cs/#L2292"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Revoke a reference token</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;MonoCloudResponse&gt; RevokeReferenceTokenAsync(string userId, string tokenId, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The unique identifier of the user.</p>
+</dd>
+    <dt><code>tokenId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The unique identifier of the reference token grant.</p>
+</dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="MonoCloud.Management.Core.Base.MonoCloudResponse.html">MonoCloudResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="MonoCloud_Management_Clients_UsersClient_RevokeReferenceTokenAsync_System_String_System_String_System_Threading_CancellationToken__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Revokes the specified reference token issued to an application, rendering it invalid for future access to protected resources.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MonoCloud.Management.Core.Exception.MonoCloudException.html">MonoCloudException</a></dt>
+    <dd><p>A server side error occurred.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="MonoCloud_Management_Clients_UsersClient_RevokeRefreshTokenAsync_" data-uid="MonoCloud.Management.Clients.UsersClient.RevokeRefreshTokenAsync*"></a>
+
+  <h3 id="MonoCloud_Management_Clients_UsersClient_RevokeRefreshTokenAsync_System_String_System_String_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Clients.UsersClient.RevokeRefreshTokenAsync(System.String,System.String,System.Threading.CancellationToken)">
+  RevokeRefreshTokenAsync(string, string, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/management/src/Clients/UsersApi.cs/#L2334"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Revoke a refresh token</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;MonoCloudResponse&gt; RevokeRefreshTokenAsync(string userId, string tokenId, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The unique identifier of the user.</p>
+</dd>
+    <dt><code>tokenId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The unique identifier of the refresh token grant.</p>
+</dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="MonoCloud.Management.Core.Base.MonoCloudResponse.html">MonoCloudResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="MonoCloud_Management_Clients_UsersClient_RevokeRefreshTokenAsync_System_String_System_String_System_Threading_CancellationToken__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Revokes the specified refresh token, rendering it unusable for obtaining new access tokens.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MonoCloud.Management.Core.Exception.MonoCloudException.html">MonoCloudException</a></dt>
+    <dd><p>A server side error occurred.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="MonoCloud_Management_Clients_UsersClient_RevokeUserClientGrantsAsync_" data-uid="MonoCloud.Management.Clients.UsersClient.RevokeUserClientGrantsAsync*"></a>
+
+  <h3 id="MonoCloud_Management_Clients_UsersClient_RevokeUserClientGrantsAsync_System_String_System_String_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Clients.UsersClient.RevokeUserClientGrantsAsync(System.String,System.String,System.Threading.CancellationToken)">
+  RevokeUserClientGrantsAsync(string, string, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/management/src/Clients/UsersApi.cs/#L2208"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Revoke client grants</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;MonoCloudResponse&gt; RevokeUserClientGrantsAsync(string userId, string clientId, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The unique identifier of the user.</p>
+</dd>
+    <dt><code>clientId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The unique identifier of the client.</p>
+</dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="MonoCloud.Management.Core.Base.MonoCloudResponse.html">MonoCloudResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="MonoCloud_Management_Clients_UsersClient_RevokeUserClientGrantsAsync_System_String_System_String_System_Threading_CancellationToken__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Revokes all grants issued to the user for the specified application, invalidating existing authorizations.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MonoCloud.Management.Core.Exception.MonoCloudException.html">MonoCloudException</a></dt>
+    <dd><p>A server side error occurred.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="MonoCloud_Management_Clients_UsersClient_RevokeUserConsentAsync_" data-uid="MonoCloud.Management.Clients.UsersClient.RevokeUserConsentAsync*"></a>
+
+  <h3 id="MonoCloud_Management_Clients_UsersClient_RevokeUserConsentAsync_System_String_System_String_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Clients.UsersClient.RevokeUserConsentAsync(System.String,System.String,System.Threading.CancellationToken)">
+  RevokeUserConsentAsync(string, string, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/management/src/Clients/UsersApi.cs/#L2250"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Revoke a consent</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;MonoCloudResponse&gt; RevokeUserConsentAsync(string userId, string consentId, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The unique identifier of the user.</p>
+</dd>
+    <dt><code>consentId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The unique identifier of the consent grant.</p>
+</dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="MonoCloud.Management.Core.Base.MonoCloudResponse.html">MonoCloudResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="MonoCloud_Management_Clients_UsersClient_RevokeUserConsentAsync_System_String_System_String_System_Threading_CancellationToken__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Revokes the specified consent, invalidating any previously authorized scopes. If applicable, the application must obtain new consent before acting on behalf of the user again.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MonoCloud.Management.Core.Exception.MonoCloudException.html">MonoCloudException</a></dt>
+    <dd><p>A server side error occurred.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="MonoCloud_Management_Clients_UsersClient_RevokeUserSessionAsync_" data-uid="MonoCloud.Management.Clients.UsersClient.RevokeUserSessionAsync*"></a>
+
+  <h3 id="MonoCloud_Management_Clients_UsersClient_RevokeUserSessionAsync_System_String_System_String_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Clients.UsersClient.RevokeUserSessionAsync(System.String,System.String,System.Threading.CancellationToken)">
+  RevokeUserSessionAsync(string, string, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/management/src/Clients/UsersApi.cs/#L1559"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Revoke a session</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;MonoCloudResponse&gt; RevokeUserSessionAsync(string userId, string sessionId, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The unique identifier of the user.</p>
+</dd>
+    <dt><code>sessionId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The unique identifier of the user session.</p>
+</dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="MonoCloud.Management.Core.Base.MonoCloudResponse.html">MonoCloudResponse</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="MonoCloud_Management_Clients_UsersClient_RevokeUserSessionAsync_System_String_System_String_System_Threading_CancellationToken__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Revokes the specified user session, immediately terminating it and preventing further sign-in activity under that session.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MonoCloud.Management.Core.Exception.MonoCloudException.html">MonoCloudException</a></dt>
+    <dd><p>A server side error occurred.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="MonoCloud_Management_Clients_UsersClient_SetEmailUnverifiedAsync_" data-uid="MonoCloud.Management.Clients.UsersClient.SetEmailUnverifiedAsync*"></a>
+
+  <h3 id="MonoCloud_Management_Clients_UsersClient_SetEmailUnverifiedAsync_System_String_System_Guid_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Clients.UsersClient.SetEmailUnverifiedAsync(System.String,System.Guid,System.Threading.CancellationToken)">
+  SetEmailUnverifiedAsync(string, Guid, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/management/src/Clients/UsersApi.cs/#L577"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Mark an email as unverified</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;MonoCloudResponse&lt;User&gt;&gt; SetEmailUnverifiedAsync(string userId, Guid identifierId, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The unique identifier of the user.</p>
+</dd>
+    <dt><code>identifierId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd><p>The unique identifier of the email address.</p>
+</dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="MonoCloud.Management.Core.Base.MonoCloudResponse-1.html">MonoCloudResponse</a>&lt;<a class="xref" href="MonoCloud.Management.Models.User.html">User</a>&gt;&gt;</dt>
+    <dd><p>User</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="MonoCloud_Management_Clients_UsersClient_SetEmailUnverifiedAsync_System_String_System_Guid_System_Threading_CancellationToken__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Marks the specified email address as unverified, preventing its use for authentication or any other security-sensitive actions until it is verified again.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MonoCloud.Management.Core.Exception.MonoCloudException.html">MonoCloudException</a></dt>
+    <dd><p>A server side error occurred.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="MonoCloud_Management_Clients_UsersClient_SetEmailVerifiedAsync_" data-uid="MonoCloud.Management.Clients.UsersClient.SetEmailVerifiedAsync*"></a>
+
+  <h3 id="MonoCloud_Management_Clients_UsersClient_SetEmailVerifiedAsync_System_String_System_Guid_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Clients.UsersClient.SetEmailVerifiedAsync(System.String,System.Guid,System.Threading.CancellationToken)">
+  SetEmailVerifiedAsync(string, Guid, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/management/src/Clients/UsersApi.cs/#L532"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Mark an email as verified</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;MonoCloudResponse&lt;User&gt;&gt; SetEmailVerifiedAsync(string userId, Guid identifierId, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The unique identifier of the user.</p>
+</dd>
+    <dt><code>identifierId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd><p>The unique identifier of the email address.</p>
+</dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="MonoCloud.Management.Core.Base.MonoCloudResponse-1.html">MonoCloudResponse</a>&lt;<a class="xref" href="MonoCloud.Management.Models.User.html">User</a>&gt;&gt;</dt>
+    <dd><p>User</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="MonoCloud_Management_Clients_UsersClient_SetEmailVerifiedAsync_System_String_System_Guid_System_Threading_CancellationToken__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Marks the specified email address as verified, allowing its use for authentication, sensitive actions, and communication.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MonoCloud.Management.Core.Exception.MonoCloudException.html">MonoCloudException</a></dt>
+    <dd><p>A server side error occurred.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="MonoCloud_Management_Clients_UsersClient_SetPasswordAsync_" data-uid="MonoCloud.Management.Clients.UsersClient.SetPasswordAsync*"></a>
+
+  <h3 id="MonoCloud_Management_Clients_UsersClient_SetPasswordAsync_System_String_MonoCloud_Management_Models_SetPasswordRequest_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Clients.UsersClient.SetPasswordAsync(System.String,MonoCloud.Management.Models.SetPasswordRequest,System.Threading.CancellationToken)">
+  SetPasswordAsync(string, SetPasswordRequest, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/management/src/Clients/UsersApi.cs/#L940"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Set a password</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;MonoCloudResponse&lt;User&gt;&gt; SetPasswordAsync(string userId, SetPasswordRequest setPasswordRequest, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The unique identifier of the user.</p>
+</dd>
+    <dt><code>setPasswordRequest</code> <a class="xref" href="MonoCloud.Management.Models.SetPasswordRequest.html">SetPasswordRequest</a></dt>
+    <dd><p>The request payload used to set the user's password.</p>
+</dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="MonoCloud.Management.Core.Base.MonoCloudResponse-1.html">MonoCloudResponse</a>&lt;<a class="xref" href="MonoCloud.Management.Models.User.html">User</a>&gt;&gt;</dt>
+    <dd><p>User</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="MonoCloud_Management_Clients_UsersClient_SetPasswordAsync_System_String_MonoCloud_Management_Models_SetPasswordRequest_System_Threading_CancellationToken__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Sets or replaces the user's password. Accepts either plaintext input or a pre-computed hash generated with a supported algorithm.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MonoCloud.Management.Core.Exception.MonoCloudException.html">MonoCloudException</a></dt>
+    <dd><p>A server side error occurred.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="MonoCloud_Management_Clients_UsersClient_SetPasswordResetRequiredAsync_" data-uid="MonoCloud.Management.Clients.UsersClient.SetPasswordResetRequiredAsync*"></a>
+
+  <h3 id="MonoCloud_Management_Clients_UsersClient_SetPasswordResetRequiredAsync_System_String_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Clients.UsersClient.SetPasswordResetRequiredAsync(System.String,System.Threading.CancellationToken)">
+  SetPasswordResetRequiredAsync(string, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/management/src/Clients/UsersApi.cs/#L1016"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Require password reset</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;MonoCloudResponse&lt;User&gt;&gt; SetPasswordResetRequiredAsync(string userId, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The unique identifier of the user.</p>
+</dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="MonoCloud.Management.Core.Base.MonoCloudResponse-1.html">MonoCloudResponse</a>&lt;<a class="xref" href="MonoCloud.Management.Models.User.html">User</a>&gt;&gt;</dt>
+    <dd><p>User</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="MonoCloud_Management_Clients_UsersClient_SetPasswordResetRequiredAsync_System_String_System_Threading_CancellationToken__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Enforces a requirement for the user to reset their password at their next password-based sign-in.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MonoCloud.Management.Core.Exception.MonoCloudException.html">MonoCloudException</a></dt>
+    <dd><p>A server side error occurred.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="MonoCloud_Management_Clients_UsersClient_SetPhoneUnverifiedAsync_" data-uid="MonoCloud.Management.Clients.UsersClient.SetPhoneUnverifiedAsync*"></a>
+
+  <h3 id="MonoCloud_Management_Clients_UsersClient_SetPhoneUnverifiedAsync_System_String_System_Guid_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Clients.UsersClient.SetPhoneUnverifiedAsync(System.String,System.Guid,System.Threading.CancellationToken)">
+  SetPhoneUnverifiedAsync(string, Guid, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/management/src/Clients/UsersApi.cs/#L854"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Mark a phone as unverified</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;MonoCloudResponse&lt;User&gt;&gt; SetPhoneUnverifiedAsync(string userId, Guid identifierId, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The unique identifier of the user.</p>
+</dd>
+    <dt><code>identifierId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd><p>The unique identifier of the phone number.</p>
+</dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="MonoCloud.Management.Core.Base.MonoCloudResponse-1.html">MonoCloudResponse</a>&lt;<a class="xref" href="MonoCloud.Management.Models.User.html">User</a>&gt;&gt;</dt>
+    <dd><p>User</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="MonoCloud_Management_Clients_UsersClient_SetPhoneUnverifiedAsync_System_String_System_Guid_System_Threading_CancellationToken__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Marks the specified phone number as unverified, preventing its use for authentication or any other security-sensitive actions until it is verified again.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MonoCloud.Management.Core.Exception.MonoCloudException.html">MonoCloudException</a></dt>
+    <dd><p>A server side error occurred.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="MonoCloud_Management_Clients_UsersClient_SetPhoneVerifiedAsync_" data-uid="MonoCloud.Management.Clients.UsersClient.SetPhoneVerifiedAsync*"></a>
+
+  <h3 id="MonoCloud_Management_Clients_UsersClient_SetPhoneVerifiedAsync_System_String_System_Guid_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Clients.UsersClient.SetPhoneVerifiedAsync(System.String,System.Guid,System.Threading.CancellationToken)">
+  SetPhoneVerifiedAsync(string, Guid, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/management/src/Clients/UsersApi.cs/#L809"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Mark a phone as verified</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;MonoCloudResponse&lt;User&gt;&gt; SetPhoneVerifiedAsync(string userId, Guid identifierId, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The unique identifier of the user.</p>
+</dd>
+    <dt><code>identifierId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd><p>The unique identifier of the phone number.</p>
+</dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="MonoCloud.Management.Core.Base.MonoCloudResponse-1.html">MonoCloudResponse</a>&lt;<a class="xref" href="MonoCloud.Management.Models.User.html">User</a>&gt;&gt;</dt>
+    <dd><p>User</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="MonoCloud_Management_Clients_UsersClient_SetPhoneVerifiedAsync_System_String_System_Guid_System_Threading_CancellationToken__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Marks the specified phone number as verified, allowing its use for authentication and other security-sensitive actions.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MonoCloud.Management.Core.Exception.MonoCloudException.html">MonoCloudException</a></dt>
+    <dd><p>A server side error occurred.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="MonoCloud_Management_Clients_UsersClient_SetPrimaryEmailAsync_" data-uid="MonoCloud.Management.Clients.UsersClient.SetPrimaryEmailAsync*"></a>
+
+  <h3 id="MonoCloud_Management_Clients_UsersClient_SetPrimaryEmailAsync_System_String_System_Guid_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Clients.UsersClient.SetPrimaryEmailAsync(System.String,System.Guid,System.Threading.CancellationToken)">
+  SetPrimaryEmailAsync(string, Guid, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/management/src/Clients/UsersApi.cs/#L487"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Set an email as primary</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;MonoCloudResponse&lt;User&gt;&gt; SetPrimaryEmailAsync(string userId, Guid identifierId, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The unique identifier of the user.</p>
+</dd>
+    <dt><code>identifierId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd><p>The unique identifier of the email address.</p>
+</dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="MonoCloud.Management.Core.Base.MonoCloudResponse-1.html">MonoCloudResponse</a>&lt;<a class="xref" href="MonoCloud.Management.Models.User.html">User</a>&gt;&gt;</dt>
+    <dd><p>User</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="MonoCloud_Management_Clients_UsersClient_SetPrimaryEmailAsync_System_String_System_Guid_System_Threading_CancellationToken__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Marks the specified email address as the user's primary email, making it the default for authentication, recovery, and communication.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MonoCloud.Management.Core.Exception.MonoCloudException.html">MonoCloudException</a></dt>
+    <dd><p>A server side error occurred.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="MonoCloud_Management_Clients_UsersClient_SetPrimaryPhoneAsync_" data-uid="MonoCloud.Management.Clients.UsersClient.SetPrimaryPhoneAsync*"></a>
+
+  <h3 id="MonoCloud_Management_Clients_UsersClient_SetPrimaryPhoneAsync_System_String_System_Guid_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Clients.UsersClient.SetPrimaryPhoneAsync(System.String,System.Guid,System.Threading.CancellationToken)">
+  SetPrimaryPhoneAsync(string, Guid, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/management/src/Clients/UsersApi.cs/#L764"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Set a phone as primary</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;MonoCloudResponse&lt;User&gt;&gt; SetPrimaryPhoneAsync(string userId, Guid identifierId, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The unique identifier of the user.</p>
+</dd>
+    <dt><code>identifierId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd><p>The unique identifier of the phone number.</p>
+</dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="MonoCloud.Management.Core.Base.MonoCloudResponse-1.html">MonoCloudResponse</a>&lt;<a class="xref" href="MonoCloud.Management.Models.User.html">User</a>&gt;&gt;</dt>
+    <dd><p>User</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="MonoCloud_Management_Clients_UsersClient_SetPrimaryPhoneAsync_System_String_System_Guid_System_Threading_CancellationToken__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Marks the specified phone number as the user's primary number, making it the default for authentication and verification.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MonoCloud.Management.Core.Exception.MonoCloudException.html">MonoCloudException</a></dt>
+    <dd><p>A server side error occurred.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="MonoCloud_Management_Clients_UsersClient_UnblockIpAsync_" data-uid="MonoCloud.Management.Clients.UsersClient.UnblockIpAsync*"></a>
+
+  <h3 id="MonoCloud_Management_Clients_UsersClient_UnblockIpAsync_System_String_MonoCloud_Management_Models_UnblockIpRequest_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Clients.UsersClient.UnblockIpAsync(System.String,MonoCloud.Management.Models.UnblockIpRequest,System.Threading.CancellationToken)">
+  UnblockIpAsync(string, UnblockIpRequest, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/management/src/Clients/UsersApi.cs/#L1406"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Reset IP lockout</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;MonoCloudResponse&lt;User&gt;&gt; UnblockIpAsync(string userId, UnblockIpRequest unblockIpRequest, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The unique identifier of the user whose IP address should be unblocked.</p>
+</dd>
+    <dt><code>unblockIpRequest</code> <a class="xref" href="MonoCloud.Management.Models.UnblockIpRequest.html">UnblockIpRequest</a></dt>
+    <dd><p>The request payload used to unblock a previously blocked IP address.</p>
+</dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="MonoCloud.Management.Core.Base.MonoCloudResponse-1.html">MonoCloudResponse</a>&lt;<a class="xref" href="MonoCloud.Management.Models.User.html">User</a>&gt;&gt;</dt>
+    <dd><p>User</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="MonoCloud_Management_Clients_UsersClient_UnblockIpAsync_System_String_MonoCloud_Management_Models_UnblockIpRequest_System_Threading_CancellationToken__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Removes the lockout applied to the specified IP due to excessive failed authentication attempts, allowing sign-in attempts from that IP again. Providing the value <code>all</code> resets lockouts for every IP associated with the user.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MonoCloud.Management.Core.Exception.MonoCloudException.html">MonoCloudException</a></dt>
+    <dd><p>A server side error occurred.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="MonoCloud_Management_Clients_UsersClient_UnblockUserAsync_" data-uid="MonoCloud.Management.Clients.UsersClient.UnblockUserAsync*"></a>
+
+  <h3 id="MonoCloud_Management_Clients_UsersClient_UnblockUserAsync_System_String_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Clients.UsersClient.UnblockUserAsync(System.String,System.Threading.CancellationToken)">
+  UnblockUserAsync(string, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/management/src/Clients/UsersApi.cs/#L278"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Reset user lockout</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;MonoCloudResponse&lt;User&gt;&gt; UnblockUserAsync(string userId, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The unique identifier of the user.</p>
+</dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="MonoCloud.Management.Core.Base.MonoCloudResponse-1.html">MonoCloudResponse</a>&lt;<a class="xref" href="MonoCloud.Management.Models.User.html">User</a>&gt;&gt;</dt>
+    <dd><p>User</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="MonoCloud_Management_Clients_UsersClient_UnblockUserAsync_System_String_System_Threading_CancellationToken__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Resets the lockout triggered by excessive failed sign-in attempts, allowing the user to authenticate again.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MonoCloud.Management.Core.Exception.MonoCloudException.html">MonoCloudException</a></dt>
+    <dd><p>A server side error occurred.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="MonoCloud_Management_Clients_UsersClient_UpdateUsernameAsync_" data-uid="MonoCloud.Management.Clients.UsersClient.UpdateUsernameAsync*"></a>
+
+  <h3 id="MonoCloud_Management_Clients_UsersClient_UpdateUsernameAsync_System_String_MonoCloud_Management_Models_UpdateUsernameRequest_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Clients.UsersClient.UpdateUsernameAsync(System.String,MonoCloud.Management.Models.UpdateUsernameRequest,System.Threading.CancellationToken)">
+  UpdateUsernameAsync(string, UpdateUsernameRequest, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/management/src/Clients/UsersApi.cs/#L316"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Add or update username</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;MonoCloudResponse&lt;User&gt;&gt; UpdateUsernameAsync(string userId, UpdateUsernameRequest updateUsernameRequest, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The unique identifier of the user.</p>
+</dd>
+    <dt><code>updateUsernameRequest</code> <a class="xref" href="MonoCloud.Management.Models.UpdateUsernameRequest.html">UpdateUsernameRequest</a></dt>
+    <dd><p>The request payload used to add or update the username.</p>
+</dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="MonoCloud.Management.Core.Base.MonoCloudResponse-1.html">MonoCloudResponse</a>&lt;<a class="xref" href="MonoCloud.Management.Models.User.html">User</a>&gt;&gt;</dt>
+    <dd><p>User</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="MonoCloud_Management_Clients_UsersClient_UpdateUsernameAsync_System_String_MonoCloud_Management_Models_UpdateUsernameRequest_System_Threading_CancellationToken__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Assigns or updates the username for the user, enabling username-based authentication when applicable.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MonoCloud.Management.Core.Exception.MonoCloudException.html">MonoCloudException</a></dt>
+    <dd><p>A server side error occurred.</p>
+</dd>
+  </dl>
+
+
+
+  <a id="MonoCloud_Management_Clients_UsersClient_VerifyEmailAsync_" data-uid="MonoCloud.Management.Clients.UsersClient.VerifyEmailAsync*"></a>
+
+  <h3 id="MonoCloud_Management_Clients_UsersClient_VerifyEmailAsync_System_String_System_Guid_MonoCloud_Management_Models_VerifyEmailRequest_System_Threading_CancellationToken_" data-uid="MonoCloud.Management.Clients.UsersClient.VerifyEmailAsync(System.String,System.Guid,MonoCloud.Management.Models.VerifyEmailRequest,System.Threading.CancellationToken)">
+  VerifyEmailAsync(string, Guid, VerifyEmailRequest, CancellationToken)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/main/src/management/src/Clients/UsersApi.cs/#L623"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Initiate email verification</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;MonoCloudResponse&lt;VerifyEmailResponse&gt;&gt; VerifyEmailAsync(string userId, Guid identifierId, VerifyEmailRequest verifyEmailRequest, CancellationToken cancellationToken = default)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>userId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></dt>
+    <dd><p>The unique identifier of the user.</p>
+</dd>
+    <dt><code>identifierId</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></dt>
+    <dd><p>The unique identifier of the email address.</p>
+</dd>
+    <dt><code>verifyEmailRequest</code> <a class="xref" href="MonoCloud.Management.Models.VerifyEmailRequest.html">VerifyEmailRequest</a></dt>
+    <dd><p>The request payload used to initiate email verification.</p>
+</dd>
+    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
+    <dd><p>The <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a> used to propagate notifications that the operation should be canceled.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="MonoCloud.Management.Core.Base.MonoCloudResponse-1.html">MonoCloudResponse</a>&lt;<a class="xref" href="MonoCloud.Management.Models.VerifyEmailResponse.html">VerifyEmailResponse</a>&gt;&gt;</dt>
+    <dd><p>VerifyEmailResponse</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+  <h4 class="section" id="MonoCloud_Management_Clients_UsersClient_VerifyEmailAsync_System_String_System_Guid_MonoCloud_Management_Models_VerifyEmailRequest_System_Threading_CancellationToken__remarks">Remarks</h4>
+  <div class="markdown level1 remarks"><p>Generates a signed, time-bound verification link for the specified email address and sends it to the user. Once verified, the email becomes eligible for authentication and secure communication.</p>
+</div>
+
+  <h4 class="section">Exceptions</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MonoCloud.Management.Core.Exception.MonoCloudException.html">MonoCloudException</a></dt>
+    <dd><p>A server side error occurred.</p>
+</dd>
+  </dl>
+
+
+
+
+</article>
+
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
