@@ -1,5 +1,11 @@
 # @monocloud/management-dotnet
 
+## 0.2.1
+
+### Patch Changes
+
+- 7f9bbeb: Combined Admin and Identity SDK
+
 ## 0.2.0
 
 ### Minor Changes
