@@ -8,9 +8,6 @@
 
 This SDK provides a full-featured, typed .NET client for interacting with the **MonoCloud Management APIs**, allowing you to automate tenant administration programmatically.
 
-> [!WARNING]
-> This is a supporting library for [MonoCloud.Management](https://www.nuget.org/packages/MonoCloud.Management).
-
 ## 📘 Documentation
 
 - **Documentation:** [https://www.monocloud.com/docs](https://www.monocloud.com/docs?utm_source=github&utm_medium=management_dotnet)
@@ -24,6 +21,47 @@ This SDK supports applications targeting:
 - **.NET Standard 2.0** (recommended for maximum compatibility)
 - **.NET Framework 4.6.1+**
 - **.NET 6.0+** and later
+
+## 🚀 Getting Started
+
+### Requirements
+
+- A **MonoCloud tenant**
+- A **Management API key** with appropriate permissions
+
+### Installation
+
+```powershell
+Install-Package MonoCloud.Management
+
+# or
+
+dotnet add package MonoCloud.Management
+```
+
+### Usage
+
+The SDK closely mirrors the REST API structure — clients are organized by resource areas (clients, resources, users, groups, etc.).
+
+```csharp
+var managementClient = new MonoCloudManagementClient(new MonoCloudConfig("https://<your-tenant-domain>", "<your-api-key>"));
+```
+
+> [!CAUTION]
+> Do not hardcode your API key. It is recommended to load it from an environment variable or a secure configuration manager like appsettings.json. For modern .NET applications, it is best practice to use Dependency Injection to manage the client lifecycle and configuration securely via the [`AddMonoCloudManagementClient`](https://github.com/monocloud/management-dotnet/blob/main/src/management/src/MonoCloudManagementServiceExtensions.cs) service extension.
+
+#### Example - Get all clients
+
+```csharp
+var result = await managementClient.Clients.GetAllClientsAsync(
+    page: 1,
+    size: 10,
+    filter: "dashboard",
+    sort: "name:1"
+);
+```
+
+Explore further operations at [https://www.monocloud.com/docs](https://www.monocloud.com/docs?utm_source=github&utm_medium=management_dotnet)
 
 ## 🤝 Contributing & Support
 

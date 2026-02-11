@@ -7,7 +7,7 @@
     <AssemblyName>MonoCloud.Management</AssemblyName>
     <Title>MonoCloud Management API .NET Library</Title>
     <Description>This package is the MonoCloud Management API SDK for .NET applications.</Description>
-    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageReadmeFile>README.nuget.md</PackageReadmeFile>
   </PropertyGroup>
 
   <ItemGroup>
@@ -31,7 +31,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="../../../README.md" Pack="true" PackagePath="\" />
+    <None Include="README.nuget.md" Pack="true" PackagePath="\" />
     <None Include="../../../LICENSE" Pack="true" PackagePath="\" />
     <None Include="../../../MonoCloud.png" Pack="true" PackagePath="\" />
   </ItemGroup>
