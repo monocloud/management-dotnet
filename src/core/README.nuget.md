@@ -5,7 +5,9 @@
     </picture>
   </a>
   <div align="right">
-    <img src="https://img.shields.io/nuget/v/MonoCloud.Management" alt="NuGet" />
+    <a href="https://www.nuget.org/packages/MonoCloud.Management" target="_blank">
+      <img src="https://img.shields.io/nuget/v/MonoCloud.Management" alt="NuGet" />
+    </a>
     <a href="https://opensource.org/licenses/MIT">
       <img src="https://img.shields.io/:license-MIT-blue.svg?style=flat" alt="License: MIT" />
     </a>
