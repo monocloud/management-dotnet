@@ -16,7 +16,7 @@ public class AddPhoneRequest
   public bool? IsVerified { get; set; }
 
   /// <summary>
-  /// Allows bypassing blacklist validation for the provided phone number.
+  /// Allows bypassing blocklist validation for the provided phone number.
   /// </summary>
   public bool? SkipRestrictionChecks { get; set; }
 }

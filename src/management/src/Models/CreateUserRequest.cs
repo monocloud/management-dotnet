@@ -86,7 +86,7 @@ public class CreateUserRequest
   public bool? SkipPasswordPolicyChecks { get; set; }
 
   /// <summary>
-  /// Allows bypassing blacklist validation for the provided identifiers.
+  /// Allows bypassing blocklist validation for the provided identifiers.
   /// </summary>
   public bool? SkipIdentifierRestrictionChecks { get; set; }
 

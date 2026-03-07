@@ -28,12 +28,12 @@ public class SignUpOptions
   /// <summary>
   /// Allowlist of identifiers permitted during sign-up.
   /// </summary>
-  public SignUpRestrictionsOptions Whitelist { get; set; }
+  public SignUpRestrictionsOptions Allowlist { get; set; }
 
   /// <summary>
   /// Blocklist of identifiers disallowed during sign-up.
   /// </summary>
-  public SignUpRestrictionsOptions Blacklist { get; set; }
+  public SignUpRestrictionsOptions Blocklist { get; set; }
 }
 
 

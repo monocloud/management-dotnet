@@ -16,7 +16,7 @@ public class AddEmailRequest
   public bool? IsVerified { get; set; }
 
   /// <summary>
-  /// Allows bypassing blacklist validation for the provided email.
+  /// Allows bypassing blocklist validation for the provided email.
   /// </summary>
   public bool? SkipRestrictionChecks { get; set; }
 }

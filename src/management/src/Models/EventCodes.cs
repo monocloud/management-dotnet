@@ -423,7 +423,12 @@ public enum EventCodes
   /// <summary>
   /// Indicates that a refresh token grant was revoked.
   /// </summary>
-  RefreshTokenRevoked
+  RefreshTokenRevoked,
+
+  /// <summary>
+  /// Indicates that a usage threshold was reached.
+  /// </summary>
+  UsageThresholdReached
 }
 
 
