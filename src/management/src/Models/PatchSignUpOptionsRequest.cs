@@ -30,12 +30,12 @@ public class PatchSignUpOptionsRequest
   /// <summary>
   /// Allowlist of identifiers permitted during sign-up.
   /// </summary>
-  public Optional<PatchSignUpRestrictionsOptionsRequest> Whitelist { get; set; }
+  public Optional<PatchSignUpRestrictionsOptionsRequest> Allowlist { get; set; }
 
   /// <summary>
   /// Blocklist of identifiers disallowed during sign-up.
   /// </summary>
-  public Optional<PatchSignUpRestrictionsOptionsRequest> Blacklist { get; set; }
+  public Optional<PatchSignUpRestrictionsOptionsRequest> Blocklist { get; set; }
 }
 
 

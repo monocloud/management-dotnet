@@ -26,6 +26,11 @@ public class ReferenceToken
   public string? SessionId { get; set; }
 
   /// <summary>
+  /// Specifies whether the token is bound to the session.
+  /// </summary>
+  public bool IsSessionBound { get; set; }
+
+  /// <summary>
   /// The scopes granted to this token.
   /// </summary>
   public List<string> Scopes { get; set; }
