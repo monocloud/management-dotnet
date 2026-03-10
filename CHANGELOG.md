@@ -1,5 +1,13 @@
 # @monocloud/management-dotnet
 
+## 0.2.3
+
+### Patch Changes
+
+- e70f7f0: - Refactor terminology: replace 'blacklist' with 'blocklist' and 'whitelist' with 'allowlist'
+  - Added 'UsageThresholdReached' event code
+  - Added IsSessionBound property
+
 ## 0.2.2
 
 ### Patch Changes
