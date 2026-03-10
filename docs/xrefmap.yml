@@ -9457,6 +9457,12 @@ references:
   commentId: F:MonoCloud.Management.Models.EventCodes.TrustStoreUpdated
   fullName: MonoCloud.Management.Models.EventCodes.TrustStoreUpdated
   nameWithType: EventCodes.TrustStoreUpdated
+- uid: MonoCloud.Management.Models.EventCodes.UsageThresholdReached
+  name: UsageThresholdReached
+  href: api/MonoCloud.Management.Models.EventCodes.html#MonoCloud_Management_Models_EventCodes_UsageThresholdReached
+  commentId: F:MonoCloud.Management.Models.EventCodes.UsageThresholdReached
+  fullName: MonoCloud.Management.Models.EventCodes.UsageThresholdReached
+  nameWithType: EventCodes.UsageThresholdReached
 - uid: MonoCloud.Management.Models.EventCodes.UserAccountAllIpBlocksRemoved
   name: UserAccountAllIpBlocksRemoved
   href: api/MonoCloud.Management.Models.EventCodes.html#MonoCloud_Management_Models_EventCodes_UserAccountAllIpBlocksRemoved
@@ -10229,12 +10235,12 @@ references:
   commentId: F:MonoCloud.Management.Models.GrantTypes.Implicit
   fullName: MonoCloud.Management.Models.GrantTypes.Implicit
   nameWithType: GrantTypes.Implicit
-- uid: MonoCloud.Management.Models.GrantTypes.Password
-  name: Password
-  href: api/MonoCloud.Management.Models.GrantTypes.html#MonoCloud_Management_Models_GrantTypes_Password
-  commentId: F:MonoCloud.Management.Models.GrantTypes.Password
-  fullName: MonoCloud.Management.Models.GrantTypes.Password
-  nameWithType: GrantTypes.Password
+- uid: MonoCloud.Management.Models.GrantTypes.ResourceOwnerPassword
+  name: ResourceOwnerPassword
+  href: api/MonoCloud.Management.Models.GrantTypes.html#MonoCloud_Management_Models_GrantTypes_ResourceOwnerPassword
+  commentId: F:MonoCloud.Management.Models.GrantTypes.ResourceOwnerPassword
+  fullName: MonoCloud.Management.Models.GrantTypes.ResourceOwnerPassword
+  nameWithType: GrantTypes.ResourceOwnerPassword
 - uid: MonoCloud.Management.Models.Group
   name: Group
   href: api/MonoCloud.Management.Models.Group.html
@@ -16148,19 +16154,32 @@ references:
   commentId: T:MonoCloud.Management.Models.PatchSignUpOptionsRequest
   fullName: MonoCloud.Management.Models.PatchSignUpOptionsRequest
   nameWithType: PatchSignUpOptionsRequest
-- uid: MonoCloud.Management.Models.PatchSignUpOptionsRequest.Blacklist
-  name: Blacklist
-  href: api/MonoCloud.Management.Models.PatchSignUpOptionsRequest.html#MonoCloud_Management_Models_PatchSignUpOptionsRequest_Blacklist
-  commentId: P:MonoCloud.Management.Models.PatchSignUpOptionsRequest.Blacklist
-  fullName: MonoCloud.Management.Models.PatchSignUpOptionsRequest.Blacklist
-  nameWithType: PatchSignUpOptionsRequest.Blacklist
-- uid: MonoCloud.Management.Models.PatchSignUpOptionsRequest.Blacklist*
-  name: Blacklist
-  href: api/MonoCloud.Management.Models.PatchSignUpOptionsRequest.html#MonoCloud_Management_Models_PatchSignUpOptionsRequest_Blacklist_
-  commentId: Overload:MonoCloud.Management.Models.PatchSignUpOptionsRequest.Blacklist
+- uid: MonoCloud.Management.Models.PatchSignUpOptionsRequest.Allowlist
+  name: Allowlist
+  href: api/MonoCloud.Management.Models.PatchSignUpOptionsRequest.html#MonoCloud_Management_Models_PatchSignUpOptionsRequest_Allowlist
+  commentId: P:MonoCloud.Management.Models.PatchSignUpOptionsRequest.Allowlist
+  fullName: MonoCloud.Management.Models.PatchSignUpOptionsRequest.Allowlist
+  nameWithType: PatchSignUpOptionsRequest.Allowlist
+- uid: MonoCloud.Management.Models.PatchSignUpOptionsRequest.Allowlist*
+  name: Allowlist
+  href: api/MonoCloud.Management.Models.PatchSignUpOptionsRequest.html#MonoCloud_Management_Models_PatchSignUpOptionsRequest_Allowlist_
+  commentId: Overload:MonoCloud.Management.Models.PatchSignUpOptionsRequest.Allowlist
   isSpec: "True"
-  fullName: MonoCloud.Management.Models.PatchSignUpOptionsRequest.Blacklist
-  nameWithType: PatchSignUpOptionsRequest.Blacklist
+  fullName: MonoCloud.Management.Models.PatchSignUpOptionsRequest.Allowlist
+  nameWithType: PatchSignUpOptionsRequest.Allowlist
+- uid: MonoCloud.Management.Models.PatchSignUpOptionsRequest.Blocklist
+  name: Blocklist
+  href: api/MonoCloud.Management.Models.PatchSignUpOptionsRequest.html#MonoCloud_Management_Models_PatchSignUpOptionsRequest_Blocklist
+  commentId: P:MonoCloud.Management.Models.PatchSignUpOptionsRequest.Blocklist
+  fullName: MonoCloud.Management.Models.PatchSignUpOptionsRequest.Blocklist
+  nameWithType: PatchSignUpOptionsRequest.Blocklist
+- uid: MonoCloud.Management.Models.PatchSignUpOptionsRequest.Blocklist*
+  name: Blocklist
+  href: api/MonoCloud.Management.Models.PatchSignUpOptionsRequest.html#MonoCloud_Management_Models_PatchSignUpOptionsRequest_Blocklist_
+  commentId: Overload:MonoCloud.Management.Models.PatchSignUpOptionsRequest.Blocklist
+  isSpec: "True"
+  fullName: MonoCloud.Management.Models.PatchSignUpOptionsRequest.Blocklist
+  nameWithType: PatchSignUpOptionsRequest.Blocklist
 - uid: MonoCloud.Management.Models.PatchSignUpOptionsRequest.PrivacyUrl
   name: PrivacyUrl
   href: api/MonoCloud.Management.Models.PatchSignUpOptionsRequest.html#MonoCloud_Management_Models_PatchSignUpOptionsRequest_PrivacyUrl
@@ -16213,19 +16232,6 @@ references:
   isSpec: "True"
   fullName: MonoCloud.Management.Models.PatchSignUpOptionsRequest.TermsUrl
   nameWithType: PatchSignUpOptionsRequest.TermsUrl
-- uid: MonoCloud.Management.Models.PatchSignUpOptionsRequest.Whitelist
-  name: Whitelist
-  href: api/MonoCloud.Management.Models.PatchSignUpOptionsRequest.html#MonoCloud_Management_Models_PatchSignUpOptionsRequest_Whitelist
-  commentId: P:MonoCloud.Management.Models.PatchSignUpOptionsRequest.Whitelist
-  fullName: MonoCloud.Management.Models.PatchSignUpOptionsRequest.Whitelist
-  nameWithType: PatchSignUpOptionsRequest.Whitelist
-- uid: MonoCloud.Management.Models.PatchSignUpOptionsRequest.Whitelist*
-  name: Whitelist
-  href: api/MonoCloud.Management.Models.PatchSignUpOptionsRequest.html#MonoCloud_Management_Models_PatchSignUpOptionsRequest_Whitelist_
-  commentId: Overload:MonoCloud.Management.Models.PatchSignUpOptionsRequest.Whitelist
-  isSpec: "True"
-  fullName: MonoCloud.Management.Models.PatchSignUpOptionsRequest.Whitelist
-  nameWithType: PatchSignUpOptionsRequest.Whitelist
 - uid: MonoCloud.Management.Models.PatchSignUpRestrictionsOptionsRequest
   name: PatchSignUpRestrictionsOptionsRequest
   href: api/MonoCloud.Management.Models.PatchSignUpRestrictionsOptionsRequest.html
@@ -17200,6 +17206,19 @@ references:
   isSpec: "True"
   fullName: MonoCloud.Management.Models.ReferenceToken.Id
   nameWithType: ReferenceToken.Id
+- uid: MonoCloud.Management.Models.ReferenceToken.IsSessionBound
+  name: IsSessionBound
+  href: api/MonoCloud.Management.Models.ReferenceToken.html#MonoCloud_Management_Models_ReferenceToken_IsSessionBound
+  commentId: P:MonoCloud.Management.Models.ReferenceToken.IsSessionBound
+  fullName: MonoCloud.Management.Models.ReferenceToken.IsSessionBound
+  nameWithType: ReferenceToken.IsSessionBound
+- uid: MonoCloud.Management.Models.ReferenceToken.IsSessionBound*
+  name: IsSessionBound
+  href: api/MonoCloud.Management.Models.ReferenceToken.html#MonoCloud_Management_Models_ReferenceToken_IsSessionBound_
+  commentId: Overload:MonoCloud.Management.Models.ReferenceToken.IsSessionBound
+  isSpec: "True"
+  fullName: MonoCloud.Management.Models.ReferenceToken.IsSessionBound
+  nameWithType: ReferenceToken.IsSessionBound
 - uid: MonoCloud.Management.Models.ReferenceToken.Issuer
   name: Issuer
   href: api/MonoCloud.Management.Models.ReferenceToken.html#MonoCloud_Management_Models_ReferenceToken_Issuer
@@ -17310,6 +17329,19 @@ references:
   isSpec: "True"
   fullName: MonoCloud.Management.Models.RefreshToken.Id
   nameWithType: RefreshToken.Id
+- uid: MonoCloud.Management.Models.RefreshToken.IsSessionBound
+  name: IsSessionBound
+  href: api/MonoCloud.Management.Models.RefreshToken.html#MonoCloud_Management_Models_RefreshToken_IsSessionBound
+  commentId: P:MonoCloud.Management.Models.RefreshToken.IsSessionBound
+  fullName: MonoCloud.Management.Models.RefreshToken.IsSessionBound
+  nameWithType: RefreshToken.IsSessionBound
+- uid: MonoCloud.Management.Models.RefreshToken.IsSessionBound*
+  name: IsSessionBound
+  href: api/MonoCloud.Management.Models.RefreshToken.html#MonoCloud_Management_Models_RefreshToken_IsSessionBound_
+  commentId: Overload:MonoCloud.Management.Models.RefreshToken.IsSessionBound
+  isSpec: "True"
+  fullName: MonoCloud.Management.Models.RefreshToken.IsSessionBound
+  nameWithType: RefreshToken.IsSessionBound
 - uid: MonoCloud.Management.Models.RefreshToken.Issuer
   name: Issuer
   href: api/MonoCloud.Management.Models.RefreshToken.html#MonoCloud_Management_Models_RefreshToken_Issuer
@@ -18325,19 +18357,32 @@ references:
   commentId: T:MonoCloud.Management.Models.SignUpOptions
   fullName: MonoCloud.Management.Models.SignUpOptions
   nameWithType: SignUpOptions
-- uid: MonoCloud.Management.Models.SignUpOptions.Blacklist
-  name: Blacklist
-  href: api/MonoCloud.Management.Models.SignUpOptions.html#MonoCloud_Management_Models_SignUpOptions_Blacklist
-  commentId: P:MonoCloud.Management.Models.SignUpOptions.Blacklist
-  fullName: MonoCloud.Management.Models.SignUpOptions.Blacklist
-  nameWithType: SignUpOptions.Blacklist
-- uid: MonoCloud.Management.Models.SignUpOptions.Blacklist*
-  name: Blacklist
-  href: api/MonoCloud.Management.Models.SignUpOptions.html#MonoCloud_Management_Models_SignUpOptions_Blacklist_
-  commentId: Overload:MonoCloud.Management.Models.SignUpOptions.Blacklist
+- uid: MonoCloud.Management.Models.SignUpOptions.Allowlist
+  name: Allowlist
+  href: api/MonoCloud.Management.Models.SignUpOptions.html#MonoCloud_Management_Models_SignUpOptions_Allowlist
+  commentId: P:MonoCloud.Management.Models.SignUpOptions.Allowlist
+  fullName: MonoCloud.Management.Models.SignUpOptions.Allowlist
+  nameWithType: SignUpOptions.Allowlist
+- uid: MonoCloud.Management.Models.SignUpOptions.Allowlist*
+  name: Allowlist
+  href: api/MonoCloud.Management.Models.SignUpOptions.html#MonoCloud_Management_Models_SignUpOptions_Allowlist_
+  commentId: Overload:MonoCloud.Management.Models.SignUpOptions.Allowlist
   isSpec: "True"
-  fullName: MonoCloud.Management.Models.SignUpOptions.Blacklist
-  nameWithType: SignUpOptions.Blacklist
+  fullName: MonoCloud.Management.Models.SignUpOptions.Allowlist
+  nameWithType: SignUpOptions.Allowlist
+- uid: MonoCloud.Management.Models.SignUpOptions.Blocklist
+  name: Blocklist
+  href: api/MonoCloud.Management.Models.SignUpOptions.html#MonoCloud_Management_Models_SignUpOptions_Blocklist
+  commentId: P:MonoCloud.Management.Models.SignUpOptions.Blocklist
+  fullName: MonoCloud.Management.Models.SignUpOptions.Blocklist
+  nameWithType: SignUpOptions.Blocklist
+- uid: MonoCloud.Management.Models.SignUpOptions.Blocklist*
+  name: Blocklist
+  href: api/MonoCloud.Management.Models.SignUpOptions.html#MonoCloud_Management_Models_SignUpOptions_Blocklist_
+  commentId: Overload:MonoCloud.Management.Models.SignUpOptions.Blocklist
+  isSpec: "True"
+  fullName: MonoCloud.Management.Models.SignUpOptions.Blocklist
+  nameWithType: SignUpOptions.Blocklist
 - uid: MonoCloud.Management.Models.SignUpOptions.PrivacyUrl
   name: PrivacyUrl
   href: api/MonoCloud.Management.Models.SignUpOptions.html#MonoCloud_Management_Models_SignUpOptions_PrivacyUrl
@@ -18390,19 +18435,6 @@ references:
   isSpec: "True"
   fullName: MonoCloud.Management.Models.SignUpOptions.TermsUrl
   nameWithType: SignUpOptions.TermsUrl
-- uid: MonoCloud.Management.Models.SignUpOptions.Whitelist
-  name: Whitelist
-  href: api/MonoCloud.Management.Models.SignUpOptions.html#MonoCloud_Management_Models_SignUpOptions_Whitelist
-  commentId: P:MonoCloud.Management.Models.SignUpOptions.Whitelist
-  fullName: MonoCloud.Management.Models.SignUpOptions.Whitelist
-  nameWithType: SignUpOptions.Whitelist
-- uid: MonoCloud.Management.Models.SignUpOptions.Whitelist*
-  name: Whitelist
-  href: api/MonoCloud.Management.Models.SignUpOptions.html#MonoCloud_Management_Models_SignUpOptions_Whitelist_
-  commentId: Overload:MonoCloud.Management.Models.SignUpOptions.Whitelist
-  isSpec: "True"
-  fullName: MonoCloud.Management.Models.SignUpOptions.Whitelist
-  nameWithType: SignUpOptions.Whitelist
 - uid: MonoCloud.Management.Models.SignUpRestrictionsOptions
   name: SignUpRestrictionsOptions
   href: api/MonoCloud.Management.Models.SignUpRestrictionsOptions.html
