@@ -1,5 +1,11 @@
 # @monocloud/management-dotnet
 
+## 0.2.4
+
+### Patch Changes
+
+- beb783b: Add change password endpoint
+
 ## 0.2.3
 
 ### Patch Changes
