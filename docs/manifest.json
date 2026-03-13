@@ -1026,6 +1026,20 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/MonoCloud.Management.Models.ChangePasswordRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MonoCloud.Management.Models.ChangePasswordRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Models.ChangePasswordRequest",
+      "Summary": "<p sourcefile=\"api/MonoCloud.Management.Models.ChangePasswordRequest.yml\" sourcestartlinenumber=\"1\">Change Password Request: Used to change a user's password, with support for plaintext or pre-hashed values.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/MonoCloud.Management.Models.ClaimResource.yml",
       "output": {
         ".html": {

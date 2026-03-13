@@ -1122,6 +1122,50 @@ public class UsersClient : MonoCloudClientBase
   }
 
   /// <summary>
+  /// Change password
+  /// </summary>
+  /// <remarks>
+  /// Replaces the user's existing password after validating the current password. Accepts either plaintext input or a pre-computed hash generated with a supported algorithm for the new password.
+  /// </remarks>>
+  /// <param name="userId">The unique identifier of the user.</param>
+  /// <param name="changePasswordRequest">The request payload used to change the user&#39;s password.</param>
+  /// <param name="cancellationToken">The <see cref="CancellationToken"/> used to propagate notifications that the operation should be canceled.</param>
+  /// <returns>User</returns>
+  /// <exception cref="MonoCloudException">A server side error occurred.</exception>
+  public Task<MonoCloudResponse<User>> ChangePasswordAsync(string userId, ChangePasswordRequest changePasswordRequest, CancellationToken cancellationToken = default)
+  {
+    if (userId == null)
+    {
+      throw new ArgumentNullException(nameof(userId));
+    }
+
+    if (changePasswordRequest == null)
+    {
+      throw new ArgumentNullException(nameof(changePasswordRequest));
+    }
+
+    var encodedUserId = HttpUtility.UrlEncode(userId);
+
+    var urlBuilder = new StringBuilder();
+    urlBuilder.Append($"users/{encodedUserId}/password/change?");
+
+    urlBuilder.Length--;
+
+    var request = new HttpRequestMessage
+    {
+      Method = new HttpMethod("PUT"),
+      RequestUri = new Uri(urlBuilder.ToString(), UriKind.RelativeOrAbsolute),
+      Content = new StringContent(Serialize(changePasswordRequest), Encoding.UTF8, "application/json"),
+      Headers =
+      {
+        { "Accept", "application/json" }
+      }
+    };
+
+    return ProcessRequestAsync<User>(request, cancellationToken);
+  }
+
+  /// <summary>
   /// Update user claims
   /// </summary>
   /// <remarks>

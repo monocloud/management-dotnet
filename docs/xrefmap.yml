@@ -1613,6 +1613,22 @@ references:
   isSpec: "True"
   fullName: MonoCloud.Management.Clients.UsersClient.AssignUserToGroupAsync
   nameWithType: UsersClient.AssignUserToGroupAsync
+- uid: MonoCloud.Management.Clients.UsersClient.ChangePasswordAsync(System.String,MonoCloud.Management.Models.ChangePasswordRequest,System.Threading.CancellationToken)
+  name: ChangePasswordAsync(string, ChangePasswordRequest, CancellationToken)
+  href: api/MonoCloud.Management.Clients.UsersClient.html#MonoCloud_Management_Clients_UsersClient_ChangePasswordAsync_System_String_MonoCloud_Management_Models_ChangePasswordRequest_System_Threading_CancellationToken_
+  commentId: M:MonoCloud.Management.Clients.UsersClient.ChangePasswordAsync(System.String,MonoCloud.Management.Models.ChangePasswordRequest,System.Threading.CancellationToken)
+  name.vb: ChangePasswordAsync(String, ChangePasswordRequest, CancellationToken)
+  fullName: MonoCloud.Management.Clients.UsersClient.ChangePasswordAsync(string, MonoCloud.Management.Models.ChangePasswordRequest, System.Threading.CancellationToken)
+  fullName.vb: MonoCloud.Management.Clients.UsersClient.ChangePasswordAsync(String, MonoCloud.Management.Models.ChangePasswordRequest, System.Threading.CancellationToken)
+  nameWithType: UsersClient.ChangePasswordAsync(string, ChangePasswordRequest, CancellationToken)
+  nameWithType.vb: UsersClient.ChangePasswordAsync(String, ChangePasswordRequest, CancellationToken)
+- uid: MonoCloud.Management.Clients.UsersClient.ChangePasswordAsync*
+  name: ChangePasswordAsync
+  href: api/MonoCloud.Management.Clients.UsersClient.html#MonoCloud_Management_Clients_UsersClient_ChangePasswordAsync_
+  commentId: Overload:MonoCloud.Management.Clients.UsersClient.ChangePasswordAsync
+  isSpec: "True"
+  fullName: MonoCloud.Management.Clients.UsersClient.ChangePasswordAsync
+  nameWithType: UsersClient.ChangePasswordAsync
 - uid: MonoCloud.Management.Clients.UsersClient.CreateUserAsync(MonoCloud.Management.Models.CreateUserRequest,System.Threading.CancellationToken)
   name: CreateUserAsync(CreateUserRequest, CancellationToken)
   href: api/MonoCloud.Management.Clients.UsersClient.html#MonoCloud_Management_Clients_UsersClient_CreateUserAsync_MonoCloud_Management_Models_CreateUserRequest_System_Threading_CancellationToken_
@@ -5694,6 +5710,77 @@ references:
   isSpec: "True"
   fullName: MonoCloud.Management.Models.CertificateRevocation.Value
   nameWithType: CertificateRevocation.Value
+- uid: MonoCloud.Management.Models.ChangePasswordRequest
+  name: ChangePasswordRequest
+  href: api/MonoCloud.Management.Models.ChangePasswordRequest.html
+  commentId: T:MonoCloud.Management.Models.ChangePasswordRequest
+  fullName: MonoCloud.Management.Models.ChangePasswordRequest
+  nameWithType: ChangePasswordRequest
+- uid: MonoCloud.Management.Models.ChangePasswordRequest.NewPassword
+  name: NewPassword
+  href: api/MonoCloud.Management.Models.ChangePasswordRequest.html#MonoCloud_Management_Models_ChangePasswordRequest_NewPassword
+  commentId: P:MonoCloud.Management.Models.ChangePasswordRequest.NewPassword
+  fullName: MonoCloud.Management.Models.ChangePasswordRequest.NewPassword
+  nameWithType: ChangePasswordRequest.NewPassword
+- uid: MonoCloud.Management.Models.ChangePasswordRequest.NewPassword*
+  name: NewPassword
+  href: api/MonoCloud.Management.Models.ChangePasswordRequest.html#MonoCloud_Management_Models_ChangePasswordRequest_NewPassword_
+  commentId: Overload:MonoCloud.Management.Models.ChangePasswordRequest.NewPassword
+  isSpec: "True"
+  fullName: MonoCloud.Management.Models.ChangePasswordRequest.NewPassword
+  nameWithType: ChangePasswordRequest.NewPassword
+- uid: MonoCloud.Management.Models.ChangePasswordRequest.NewPasswordHash
+  name: NewPasswordHash
+  href: api/MonoCloud.Management.Models.ChangePasswordRequest.html#MonoCloud_Management_Models_ChangePasswordRequest_NewPasswordHash
+  commentId: P:MonoCloud.Management.Models.ChangePasswordRequest.NewPasswordHash
+  fullName: MonoCloud.Management.Models.ChangePasswordRequest.NewPasswordHash
+  nameWithType: ChangePasswordRequest.NewPasswordHash
+- uid: MonoCloud.Management.Models.ChangePasswordRequest.NewPasswordHash*
+  name: NewPasswordHash
+  href: api/MonoCloud.Management.Models.ChangePasswordRequest.html#MonoCloud_Management_Models_ChangePasswordRequest_NewPasswordHash_
+  commentId: Overload:MonoCloud.Management.Models.ChangePasswordRequest.NewPasswordHash
+  isSpec: "True"
+  fullName: MonoCloud.Management.Models.ChangePasswordRequest.NewPasswordHash
+  nameWithType: ChangePasswordRequest.NewPasswordHash
+- uid: MonoCloud.Management.Models.ChangePasswordRequest.NewPasswordHashAlgorithm
+  name: NewPasswordHashAlgorithm
+  href: api/MonoCloud.Management.Models.ChangePasswordRequest.html#MonoCloud_Management_Models_ChangePasswordRequest_NewPasswordHashAlgorithm
+  commentId: P:MonoCloud.Management.Models.ChangePasswordRequest.NewPasswordHashAlgorithm
+  fullName: MonoCloud.Management.Models.ChangePasswordRequest.NewPasswordHashAlgorithm
+  nameWithType: ChangePasswordRequest.NewPasswordHashAlgorithm
+- uid: MonoCloud.Management.Models.ChangePasswordRequest.NewPasswordHashAlgorithm*
+  name: NewPasswordHashAlgorithm
+  href: api/MonoCloud.Management.Models.ChangePasswordRequest.html#MonoCloud_Management_Models_ChangePasswordRequest_NewPasswordHashAlgorithm_
+  commentId: Overload:MonoCloud.Management.Models.ChangePasswordRequest.NewPasswordHashAlgorithm
+  isSpec: "True"
+  fullName: MonoCloud.Management.Models.ChangePasswordRequest.NewPasswordHashAlgorithm
+  nameWithType: ChangePasswordRequest.NewPasswordHashAlgorithm
+- uid: MonoCloud.Management.Models.ChangePasswordRequest.OldPassword
+  name: OldPassword
+  href: api/MonoCloud.Management.Models.ChangePasswordRequest.html#MonoCloud_Management_Models_ChangePasswordRequest_OldPassword
+  commentId: P:MonoCloud.Management.Models.ChangePasswordRequest.OldPassword
+  fullName: MonoCloud.Management.Models.ChangePasswordRequest.OldPassword
+  nameWithType: ChangePasswordRequest.OldPassword
+- uid: MonoCloud.Management.Models.ChangePasswordRequest.OldPassword*
+  name: OldPassword
+  href: api/MonoCloud.Management.Models.ChangePasswordRequest.html#MonoCloud_Management_Models_ChangePasswordRequest_OldPassword_
+  commentId: Overload:MonoCloud.Management.Models.ChangePasswordRequest.OldPassword
+  isSpec: "True"
+  fullName: MonoCloud.Management.Models.ChangePasswordRequest.OldPassword
+  nameWithType: ChangePasswordRequest.OldPassword
+- uid: MonoCloud.Management.Models.ChangePasswordRequest.RevokeSessions
+  name: RevokeSessions
+  href: api/MonoCloud.Management.Models.ChangePasswordRequest.html#MonoCloud_Management_Models_ChangePasswordRequest_RevokeSessions
+  commentId: P:MonoCloud.Management.Models.ChangePasswordRequest.RevokeSessions
+  fullName: MonoCloud.Management.Models.ChangePasswordRequest.RevokeSessions
+  nameWithType: ChangePasswordRequest.RevokeSessions
+- uid: MonoCloud.Management.Models.ChangePasswordRequest.RevokeSessions*
+  name: RevokeSessions
+  href: api/MonoCloud.Management.Models.ChangePasswordRequest.html#MonoCloud_Management_Models_ChangePasswordRequest_RevokeSessions_
+  commentId: Overload:MonoCloud.Management.Models.ChangePasswordRequest.RevokeSessions
+  isSpec: "True"
+  fullName: MonoCloud.Management.Models.ChangePasswordRequest.RevokeSessions
+  nameWithType: ChangePasswordRequest.RevokeSessions
 - uid: MonoCloud.Management.Models.ClaimResource
   name: ClaimResource
   href: api/MonoCloud.Management.Models.ClaimResource.html

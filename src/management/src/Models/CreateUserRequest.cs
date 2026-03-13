@@ -38,6 +38,7 @@ public class CreateUserRequest
   /// <summary>
   /// A pre-hashed password value. Useful during migrations to avoid forcing a password reset.
   /// </summary>
+  /// <warning>When provided, password validation and password policy requirements are not enforced. The hash is stored as-is.</warning>
   public string? PasswordHash { get; set; }
 
   /// <summary>
