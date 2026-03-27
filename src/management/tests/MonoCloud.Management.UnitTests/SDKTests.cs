@@ -47,9 +47,9 @@ public class SDKTests
   [Fact]
   public async Task Create_should_send_correct_list()
   {
-    SetMockResponse(new Client());
+    SetMockResponse(new Application());
 
-    await _managementClient.Clients.CreateClientAsync(new CreateClientRequest
+    await _managementClient.Clients.CreateApplicationAsync(new CreateApplicationRequest()
     {
       AllowedIdentityScopes = ["openid"]
     });
@@ -81,9 +81,9 @@ public class SDKTests
   [Fact]
   public async Task Patch_should_only_send_set_fields()
   {
-    SetMockResponse(new Client());
+    SetMockResponse(new Application());
 
-    await _managementClient.Clients.PatchClientAsync("1234", new PatchClientRequest
+    await _managementClient.Clients.PatchApplicationAsync("1234", new PatchApplicationRequest()
     {
       ClientName = "client"
     });

@@ -1,9 +1,9 @@
 namespace MonoCloud.Management.Models;
 
 /// <summary>
-/// Client: Represents an OAuth 2.0 / OIDC client application configuration.
+/// Application: Represents an OAuth 2.0 / OIDC client application configuration.
 /// </summary>
-public class Client
+public class Application
 {
   /// <summary>
   /// The unique identifier of the client.

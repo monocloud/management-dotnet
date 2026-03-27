@@ -9,13 +9,11 @@ public class PatchPasskeyAuthenticatorOptionsRequest
   /// <summary>
   /// Specifies whether users can sign in using passkeys.
   /// </summary>
-  /// <note>Pro plan subscription required to use Passkeys.</note>
   public Optional<bool> EnableSignIn { get; set; }
 
   /// <summary>
   /// Specifies whether new users can sign up using passkeys.
   /// </summary>
-  /// <note>Pro plan subscription required to use Passkeys.</note>
   public Optional<bool> EnableSignUp { get; set; }
 
   /// <summary>

@@ -1,15 +1,10 @@
 namespace MonoCloud.Management.Models;
 
 /// <summary>
-/// Client Group Response: Represents the association between a client and a group.
+/// Application Group Response: Represents the association between an application and a group.
 /// </summary>
-public class ClientGroup
+public class ApplicationGroup
 {
-  /// <summary>
-  /// The unique identifier of the client.
-  /// </summary>
-  public string ClientId { get; set; }
-
   /// <summary>
   /// The unique identifier of the group.
   /// </summary>

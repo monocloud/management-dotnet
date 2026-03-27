@@ -28,11 +28,13 @@ public class CreateApiResourceRequest
   /// <summary>
   /// Specifies whether access tokens issued for this resource must be exclusive and not shared with other API resources.
   /// </summary>
+  /// <note>ScaleX subscription required to use resource isolation.</note>
   public bool? RequireExclusiveToken { get; set; }
 
   /// <summary>
   /// Specifies whether access tokens issued for this resource may include identity scopes, allowing them to be used with identity-related endpoints such as &#x60;UserInfo&#x60;.
   /// </summary>
+  /// <note>ScaleX subscription required to use resource isolation.</note>
   public bool? EnableIdentityAccess { get; set; }
 
   /// <summary>

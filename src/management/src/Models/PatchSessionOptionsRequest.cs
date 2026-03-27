@@ -14,7 +14,7 @@ public class PatchSessionOptionsRequest
   /// <summary>
   /// Determines whether the session expiration is extended on activity (sliding) or expires at a fixed time (absolute).
   /// </summary>
-  public Optional<ExpirationTypes> ExpirationType { get; set; }
+  public Optional<SessionExpirationTypes> ExpirationType { get; set; }
 
   /// <summary>
   /// The session lifetime applied when using sliding expiration (in minutes). Each qualifying user interaction renews the session up to the absolute limit.

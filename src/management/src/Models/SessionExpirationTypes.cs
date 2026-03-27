@@ -3,7 +3,7 @@ namespace MonoCloud.Management.Models;
 /// <summary>
 /// The expiration type.
 /// </summary>
-public enum ExpirationTypes
+public enum SessionExpirationTypes
 {
   /// <summary>
   /// Sessions use a sliding expiration model. Each successful interaction with the authorization server extends the session lifetime (up to the configured absolute session lifetime).

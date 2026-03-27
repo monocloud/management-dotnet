@@ -8,13 +8,11 @@ public class PasskeyAuthenticatorOptions
   /// <summary>
   /// Specifies whether users can sign in using passkeys.
   /// </summary>
-  /// <note>Pro plan subscription required to use Passkeys.</note>
   public bool EnableSignIn { get; set; }
 
   /// <summary>
   /// Specifies whether new users can sign up using passkeys.
   /// </summary>
-  /// <note>Pro plan subscription required to use Passkeys.</note>
   public bool EnableSignUp { get; set; }
 
   /// <summary>
