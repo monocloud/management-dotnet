@@ -16,7 +16,7 @@
       
       
       
-      <meta name="docfx:docurl" content="https://github.com/monocloud/management-dotnet/new/feat/change-password/apiSpec/new?filename=MonoCloud_Management_Models_UpdateClaimsRequest.md&amp;value=---%0Auid%3A%20MonoCloud.Management.Models.UpdateClaimsRequest%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="docfx:docurl" content="https://github.com/monocloud/management-dotnet/new/feat/client-api-update/apiSpec/new?filename=MonoCloud_Management_Models_UpdateClaimsRequest.md&amp;value=---%0Auid%3A%20MonoCloud.Management.Models.UpdateClaimsRequest%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -85,7 +85,7 @@
 
 
   <h1 id="MonoCloud_Management_Models_UpdateClaimsRequest" data-uid="MonoCloud.Management.Models.UpdateClaimsRequest" class="text-break">
-Class UpdateClaimsRequest  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/feat/change-password/src/management/src/Models/UpdateClaimsRequest.cs/#L6"><i class="bi bi-code-slash"></i></a>
+Class UpdateClaimsRequest  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/feat/client-api-update/src/management/src/Models/UpdateClaimsRequest.cs/#L6"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -150,11 +150,75 @@ public class UpdateClaimsRequest</code></pre>
 </h2>
 
 
+  <a id="MonoCloud_Management_Models_UpdateClaimsRequest_Address_" data-uid="MonoCloud.Management.Models.UpdateClaimsRequest.Address*"></a>
+
+  <h3 id="MonoCloud_Management_Models_UpdateClaimsRequest_Address" data-uid="MonoCloud.Management.Models.UpdateClaimsRequest.Address">
+  Address
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/feat/client-api-update/src/management/src/Models/UpdateClaimsRequest.cs/#L77"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Physical or residential address associated with the user.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Optional&lt;HttpUserAddressRequest?&gt; Address { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MonoCloud.Management.Core.Helpers.Optional-1.html">Optional</a>&lt;<a class="xref" href="MonoCloud.Management.Models.HttpUserAddressRequest.html">HttpUserAddressRequest</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="MonoCloud_Management_Models_UpdateClaimsRequest_Birthdate_" data-uid="MonoCloud.Management.Models.UpdateClaimsRequest.Birthdate*"></a>
+
+  <h3 id="MonoCloud_Management_Models_UpdateClaimsRequest_Birthdate" data-uid="MonoCloud.Management.Models.UpdateClaimsRequest.Birthdate">
+  Birthdate
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/feat/client-api-update/src/management/src/Models/UpdateClaimsRequest.cs/#L52"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>User's birth date in ISO 8601 format (YYYY-MM-DD).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Optional&lt;string?&gt; Birthdate { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MonoCloud.Management.Core.Helpers.Optional-1.html">Optional</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="MonoCloud_Management_Models_UpdateClaimsRequest_FamilyName_" data-uid="MonoCloud.Management.Models.UpdateClaimsRequest.FamilyName*"></a>
 
   <h3 id="MonoCloud_Management_Models_UpdateClaimsRequest_FamilyName" data-uid="MonoCloud.Management.Models.UpdateClaimsRequest.FamilyName">
   FamilyName
-  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/feat/change-password/src/management/src/Models/UpdateClaimsRequest.cs/#L27"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/feat/client-api-update/src/management/src/Models/UpdateClaimsRequest.cs/#L27"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Family (last) name of the user.</p>
@@ -182,11 +246,43 @@ public class UpdateClaimsRequest</code></pre>
 
 
 
+  <a id="MonoCloud_Management_Models_UpdateClaimsRequest_Gender_" data-uid="MonoCloud.Management.Models.UpdateClaimsRequest.Gender*"></a>
+
+  <h3 id="MonoCloud_Management_Models_UpdateClaimsRequest_Gender" data-uid="MonoCloud.Management.Models.UpdateClaimsRequest.Gender">
+  Gender
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/feat/client-api-update/src/management/src/Models/UpdateClaimsRequest.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>User's gender.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Optional&lt;string?&gt; Gender { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MonoCloud.Management.Core.Helpers.Optional-1.html">Optional</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="MonoCloud_Management_Models_UpdateClaimsRequest_GivenName_" data-uid="MonoCloud.Management.Models.UpdateClaimsRequest.GivenName*"></a>
 
   <h3 id="MonoCloud_Management_Models_UpdateClaimsRequest_GivenName" data-uid="MonoCloud.Management.Models.UpdateClaimsRequest.GivenName">
   GivenName
-  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/feat/change-password/src/management/src/Models/UpdateClaimsRequest.cs/#L17"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/feat/client-api-update/src/management/src/Models/UpdateClaimsRequest.cs/#L17"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Given (first) name of the user.</p>
@@ -214,11 +310,43 @@ public class UpdateClaimsRequest</code></pre>
 
 
 
+  <a id="MonoCloud_Management_Models_UpdateClaimsRequest_Locale_" data-uid="MonoCloud.Management.Models.UpdateClaimsRequest.Locale*"></a>
+
+  <h3 id="MonoCloud_Management_Models_UpdateClaimsRequest_Locale" data-uid="MonoCloud.Management.Models.UpdateClaimsRequest.Locale">
+  Locale
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/feat/client-api-update/src/management/src/Models/UpdateClaimsRequest.cs/#L72"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Preferred locale of the user expressed using a BCP 47 language tag.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Optional&lt;string?&gt; Locale { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MonoCloud.Management.Core.Helpers.Optional-1.html">Optional</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
   <a id="MonoCloud_Management_Models_UpdateClaimsRequest_MiddleName_" data-uid="MonoCloud.Management.Models.UpdateClaimsRequest.MiddleName*"></a>
 
   <h3 id="MonoCloud_Management_Models_UpdateClaimsRequest_MiddleName" data-uid="MonoCloud.Management.Models.UpdateClaimsRequest.MiddleName">
   MiddleName
-  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/feat/change-password/src/management/src/Models/UpdateClaimsRequest.cs/#L22"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/feat/client-api-update/src/management/src/Models/UpdateClaimsRequest.cs/#L22"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Middle name or initial of the user.</p>
@@ -250,7 +378,7 @@ public class UpdateClaimsRequest</code></pre>
 
   <h3 id="MonoCloud_Management_Models_UpdateClaimsRequest_Name" data-uid="MonoCloud.Management.Models.UpdateClaimsRequest.Name">
   Name
-  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/feat/change-password/src/management/src/Models/UpdateClaimsRequest.cs/#L12"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/feat/client-api-update/src/management/src/Models/UpdateClaimsRequest.cs/#L12"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Full name of the user.</p>
@@ -282,7 +410,7 @@ public class UpdateClaimsRequest</code></pre>
 
   <h3 id="MonoCloud_Management_Models_UpdateClaimsRequest_Nickname" data-uid="MonoCloud.Management.Models.UpdateClaimsRequest.Nickname">
   Nickname
-  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/feat/change-password/src/management/src/Models/UpdateClaimsRequest.cs/#L32"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/feat/client-api-update/src/management/src/Models/UpdateClaimsRequest.cs/#L32"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>Preferred nickname for the user.</p>
@@ -314,7 +442,7 @@ public class UpdateClaimsRequest</code></pre>
 
   <h3 id="MonoCloud_Management_Models_UpdateClaimsRequest_Picture" data-uid="MonoCloud.Management.Models.UpdateClaimsRequest.Picture">
   Picture
-  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/feat/change-password/src/management/src/Models/UpdateClaimsRequest.cs/#L37"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/feat/client-api-update/src/management/src/Models/UpdateClaimsRequest.cs/#L37"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>URL of the user's profile image.</p>
@@ -323,6 +451,166 @@ public class UpdateClaimsRequest</code></pre>
 
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public Optional&lt;string?&gt; Picture { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MonoCloud.Management.Core.Helpers.Optional-1.html">Optional</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="MonoCloud_Management_Models_UpdateClaimsRequest_PreferredUsername_" data-uid="MonoCloud.Management.Models.UpdateClaimsRequest.PreferredUsername*"></a>
+
+  <h3 id="MonoCloud_Management_Models_UpdateClaimsRequest_PreferredUsername" data-uid="MonoCloud.Management.Models.UpdateClaimsRequest.PreferredUsername">
+  PreferredUsername
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/feat/client-api-update/src/management/src/Models/UpdateClaimsRequest.cs/#L42"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Preferred username for the user which may be display purposes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Optional&lt;string?&gt; PreferredUsername { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MonoCloud.Management.Core.Helpers.Optional-1.html">Optional</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="MonoCloud_Management_Models_UpdateClaimsRequest_Profile_" data-uid="MonoCloud.Management.Models.UpdateClaimsRequest.Profile*"></a>
+
+  <h3 id="MonoCloud_Management_Models_UpdateClaimsRequest_Profile" data-uid="MonoCloud.Management.Models.UpdateClaimsRequest.Profile">
+  Profile
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/feat/client-api-update/src/management/src/Models/UpdateClaimsRequest.cs/#L47"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>URL of the user's profile page.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Optional&lt;string?&gt; Profile { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MonoCloud.Management.Core.Helpers.Optional-1.html">Optional</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="MonoCloud_Management_Models_UpdateClaimsRequest_SkipConformanceChecks_" data-uid="MonoCloud.Management.Models.UpdateClaimsRequest.SkipConformanceChecks*"></a>
+
+  <h3 id="MonoCloud_Management_Models_UpdateClaimsRequest_SkipConformanceChecks" data-uid="MonoCloud.Management.Models.UpdateClaimsRequest.SkipConformanceChecks">
+  SkipConformanceChecks
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/feat/client-api-update/src/management/src/Models/UpdateClaimsRequest.cs/#L82"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Allows bypassing profile conformance checks enforced by sign-up policies.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Optional&lt;bool&gt; SkipConformanceChecks { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MonoCloud.Management.Core.Helpers.Optional-1.html">Optional</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="MonoCloud_Management_Models_UpdateClaimsRequest_Website_" data-uid="MonoCloud.Management.Models.UpdateClaimsRequest.Website*"></a>
+
+  <h3 id="MonoCloud_Management_Models_UpdateClaimsRequest_Website" data-uid="MonoCloud.Management.Models.UpdateClaimsRequest.Website">
+  Website
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/feat/client-api-update/src/management/src/Models/UpdateClaimsRequest.cs/#L57"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>URL of the user's personal or professional website.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Optional&lt;string?&gt; Website { get; set; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="MonoCloud.Management.Core.Helpers.Optional-1.html">Optional</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+  <a id="MonoCloud_Management_Models_UpdateClaimsRequest_Zoneinfo_" data-uid="MonoCloud.Management.Models.UpdateClaimsRequest.Zoneinfo*"></a>
+
+  <h3 id="MonoCloud_Management_Models_UpdateClaimsRequest_Zoneinfo" data-uid="MonoCloud.Management.Models.UpdateClaimsRequest.Zoneinfo">
+  Zoneinfo
+  <a class="header-action link-secondary" title="View source" href="https://github.com/monocloud/management-dotnet/blob/feat/client-api-update/src/management/src/Models/UpdateClaimsRequest.cs/#L67"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Time zone associated with the user's location expressed using a IANA time zone name.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Optional&lt;string?&gt; Zoneinfo { get; set; }</code></pre>
   </div>
 
 
