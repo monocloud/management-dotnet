@@ -1,5 +1,11 @@
 # @monocloud/management-dotnet
 
+## 0.2.5
+
+### Patch Changes
+
+- 398ffd8: Refactored clients API
+
 ## 0.2.4
 
 ### Patch Changes
