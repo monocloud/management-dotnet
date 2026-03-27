@@ -1,10 +1,10 @@
 namespace MonoCloud.Management.Models;
 
 /// <summary>
-/// Patch Client Request: Used to update one or more properties of an existing client.
+/// Patch Application Request: Used to update one or more properties of an existing client.
 /// </summary>
-[JsonConverter(typeof(PatchConverter<PatchClientRequest>))]
-public class PatchClientRequest
+[JsonConverter(typeof(PatchConverter<PatchApplicationRequest>))]
+public class PatchApplicationRequest
 {
   /// <summary>
   /// Indicates whether the client is enabled.

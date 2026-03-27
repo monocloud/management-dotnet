@@ -1,9 +1,9 @@
 namespace MonoCloud.Management.Models;
 
 /// <summary>
-/// Create Client Request: Creates an OpenID Connect or OAuth 2.0 client configuration.
+/// Create Application Request: Creates an OpenID Connect or OAuth 2.0 client configuration.
 /// </summary>
-public class CreateClientRequest
+public class CreateApplicationRequest
 {
   /// <summary>
   /// Indicates whether the client is enabled.
@@ -275,7 +275,7 @@ public class CreateClientRequest
   public int? DeviceCodeLifetime { get; set; }
 
   /// <summary>
-  /// Automatically generates a secure client secret when the client is created.
+  /// Automatically generates a secure application secret when the application is created.
   /// </summary>
   public bool? AutoGenerateSecret { get; set; }
 }

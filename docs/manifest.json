@@ -900,6 +900,34 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/MonoCloud.Management.Models.Application.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MonoCloud.Management.Models.Application.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Models.Application",
+      "Summary": "<p sourcefile=\"api/MonoCloud.Management.Models.Application.yml\" sourcestartlinenumber=\"1\">Application: Represents an OAuth 2.0 / OIDC client application configuration.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MonoCloud.Management.Models.ApplicationGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MonoCloud.Management.Models.ApplicationGroup.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Models.ApplicationGroup",
+      "Summary": "<p sourcefile=\"api/MonoCloud.Management.Models.ApplicationGroup.yml\" sourcestartlinenumber=\"1\">Application Group Response: Represents the association between an application and a group.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/MonoCloud.Management.Models.ApplicationTypes.yml",
       "output": {
         ".html": {
@@ -1191,6 +1219,20 @@
       "IsMRef": true,
       "Title": "MonoCloud.Management.Models.CreateApiScopeRequest",
       "Summary": "<p sourcefile=\"api/MonoCloud.Management.Models.CreateApiScopeRequest.yml\" sourcestartlinenumber=\"1\">Create API Scope Request: Creates a permission scope for an API resource.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MonoCloud.Management.Models.CreateApplicationRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MonoCloud.Management.Models.CreateApplicationRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Models.CreateApplicationRequest",
+      "Summary": "<p sourcefile=\"api/MonoCloud.Management.Models.CreateApplicationRequest.yml\" sourcestartlinenumber=\"1\">Create Application Request: Creates an OpenID Connect or OAuth 2.0 client configuration.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1625,6 +1667,20 @@
       "IsMRef": true,
       "Title": "MonoCloud.Management.Models.GroupTypes",
       "Summary": "<p sourcefile=\"api/MonoCloud.Management.Models.GroupTypes.yml\" sourcestartlinenumber=\"1\">The group type.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MonoCloud.Management.Models.HttpUserAddressRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MonoCloud.Management.Models.HttpUserAddressRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Models.HttpUserAddressRequest",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -2087,6 +2143,20 @@
       "IsMRef": true,
       "Title": "MonoCloud.Management.Models.PatchAppleAuthenticatorOptionsRequest",
       "Summary": "<p sourcefile=\"api/MonoCloud.Management.Models.PatchAppleAuthenticatorOptionsRequest.yml\" sourcestartlinenumber=\"1\">Patch Apple Authenticator Options Request: Used to partially update Sign in with Apple configuration and behavior.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MonoCloud.Management.Models.PatchApplicationRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MonoCloud.Management.Models.PatchApplicationRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Models.PatchApplicationRequest",
+      "Summary": "<p sourcefile=\"api/MonoCloud.Management.Models.PatchApplicationRequest.yml\" sourcestartlinenumber=\"1\">Patch Application Request: Used to update one or more properties of an existing client.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -3067,6 +3137,20 @@
       "IsMRef": true,
       "Title": "MonoCloud.Management.Models.SecretTypes",
       "Summary": "<p sourcefile=\"api/MonoCloud.Management.Models.SecretTypes.yml\" sourcestartlinenumber=\"1\">The secret type.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MonoCloud.Management.Models.SessionExpirationTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MonoCloud.Management.Models.SessionExpirationTypes.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MonoCloud.Management.Models.SessionExpirationTypes",
+      "Summary": "<p sourcefile=\"api/MonoCloud.Management.Models.SessionExpirationTypes.yml\" sourcestartlinenumber=\"1\">The expiration type.</p>\n"
     },
     {
       "type": "ManagedReference",

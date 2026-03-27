@@ -13,7 +13,7 @@ public class SessionOptions
   /// <summary>
   /// Determines whether the session expiration is extended on activity (sliding) or expires at a fixed time (absolute).
   /// </summary>
-  public ExpirationTypes ExpirationType { get; set; }
+  public SessionExpirationTypes ExpirationType { get; set; }
 
   /// <summary>
   /// The session lifetime applied when using sliding expiration (in minutes). Each qualifying user interaction renews the session up to the absolute limit.
